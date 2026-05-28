@@ -1,0 +1,232 @@
+[LIVE]
+rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1779815716~hmac=0b20d55768a80abc2cb4357c6b4d78249240c3a9c012413d744f859eeaf7a0c2 | https://www.rctiplus.com/
+mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1779815764~hmac=33c3e9754b0cf7595910a733829418d236d8706df1def66c2d4c984d37ea7c0d | https://www.rctiplus.com/
+gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1779815901~hmac=e5f3720b0a6a6a7e773916f675ffbf77c6d8788308fd1f14d38c8a93d3dc0a7c | https://www.rctiplus.com/
+inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1779815970~hmac=48c3c5906ef32fa6e359d344e6cfe673615a9ecbcd65f51fee6f726b5ea9c5ab | https://www.rctiplus.com/
+trans7 | Trans 7 | https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/Trans7-Landscape-qv7ajymhde067cu25w8jn75iul15nlwfn46jbtyham.jpg | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+transtv | Trans TV | https://thumbor.prod.vidiocdn.com/rw3YANrLDodOrAxrxUPomDVHjjI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/733/trans-tv-3836a5.jpg | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+sctv | SCTV | https://thumbor.prod.vidiocdn.com/Xr8AAOVjClvDNr9P3fkGaB9Zn20=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/204/sctv-5ef966.jpg | LIVE | 
+indosiar | Indosiar | https://thumbor.prod.vidiocdn.com/gxy8QH6sCBLPn-U8t43dA0neRkE=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/205/indosiar-d9a3d0.jpg | LIVE | 
+moji | Moji | https://thumbor.prod.vidiocdn.com/k-sY_yuIcw_2WlMiaRGVZf_ctXI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg | LIVE | 
+mentaritv | Mentari TV | https://thumbor.prod.vidiocdn.com/ptdO45dn29cHF_rlraD3h583EuQ=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/8237/mentari-tv-01d2b0.jpg | LIVE | 
+antv | ANTV | https://thumbor.prod.vidiocdn.com/37vsjyydfCTeW-MKqdZ0NmKuqDg=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-de8530.jpg | LIVE | 
+rtv | RTV | https://thumbor.prod.vidiocdn.com/IReT-5y6B0A3t-dMZBdvamR74ww=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/1561/rtv-48c719.jpg | LIVE | 
+mdtv | MDTV | https://thumbor.prod.vidiocdn.com/po6DDg81oPro90ij_7UVOqiMZ98=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/875/mdtv-ff5756.jpg | LIVE | 
+kompastv | Kompas TV | https://thumbor.prod.vidiocdn.com/hEIoJ7adV7Pjb8EgAO5Kkrvni8s=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/874/kompas-tv-98863c.jpg | LIVE | https://www.youtube.com/live/DOOrIxw5xOw
+metrotv | Metro TV | https://thumbor.prod.vidiocdn.com/GRiO5cAOau_WcE1lzhFq51j1eAY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/777/metro-tv-2eba56.jpg | LIVE | https://www.youtube.com/live/AUE5iHINUIw
+tvone | TVOne | https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/tvone-e53f94-quyksxy2vpz49pha527n4ygqteqpz8gj1yopbb70ge.jpeg | LIVE | https://www.youtube.com/live/yNKvkPJl-tg
+tvrisport | TVRI Sport | https://thumbor.prod.vidiocdn.com/q2tpT2-AjDqonv5M-q5SxihUuDw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6441/tvri-tv-stream-f6cbb3.jpg | LIVE | https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+tvri | TVRI Nasional | https://thumbor.prod.vidiocdn.com/q2tpT2-AjDqonv5M-q5SxihUuDw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6441/tvri-tv-stream-f6cbb3.jpg | LIVE | https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+cnn | CNN Indonesia | https://sinpo.id/storage/2024/08/karyawan-cnn-indonesia-resmi-dirikan-spci-30082024-085023.jpg | LIVE | https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+cnbc | CNBC Indonesia | https://www.transtv.co.id/layout/new/src/images/logo/01-cnbc.png | LIVE | https://live.cnbcindonesia.com/livecnbc/smil:cnbcindonesia.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+aljazeera | Al Jazeera | https://thumbor.prod.vidiocdn.com/nNXh7qb2ZgetCPk7CN7hyyoKqLo=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6410/aljazeera-f65dea.jpg | LIVE | https://www.youtube.com/live/gCNeDWCI0vo
+awani | Astro Awani | https://upload.wikimedia.org/wikipedia/commons/2/21/Astro_Awani_%282025%29.png | LIVE | https://www.youtube.com/live/mkVyNaGee8A
+garudatv | Garuda TV | https://thumbor.prod.vidiocdn.com/5HMNjpeS6Q0Y2Ao9oSDAaW3IHaY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18162/garuda-tv-b27da3.jpg | LIVE | https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
+magnatv | Magna TV | https://thumbor.prod.vidiocdn.com/js-wGeyru_2IwlapPABOq8fi2sA=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7230/magna-tv-8f461a.jpg | LIVE | https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
+nusantaratv | Nusantara TV | https://thumbor.prod.vidiocdn.com/I0RnDq0LuQmzX-3UNATgRJ4ftxQ=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7432/nusantara-tv-b373d0.jpg | LIVE | https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+daaitv | DAAI TV | https://thumbor.prod.vidiocdn.com/QZT3Rz43nCZH_USTXiwmuK3rcZw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6482/daai-tv-83240c.jpg | LIVE | https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+mekkah | Mekkah TV | https://thumbor.prod.vidiocdn.com/uyQ4DSnHtTWmJQD9OTs5liQDeBs=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6852/al-quran-al-kareem-tv-62095c.jpg | LIVE | https://www.youtube.com/live/m9-Umj3aL1I
+madinah | Madinah TV | https://i.ytimg.com/vi/W5DENYqHgf0/maxresdefault.jpg | LIVE | https://win.holol.com/live/sunnah/chunklist_w1511531636.m3u8
+rodjatv | Rodja TV | https://images.maxstream.tv/sites/default/files/entry/0_9km1pl2v/landscape_carousel_hdpi.webp | LIVE | https://rodjatv.com/rodjatv/live.m3u8
+mqtv | MQTV | https://images.maxstream.tv/sites/default/files/entry/0_voqn75wc/landscape_carousel_hdpi.webp | LIVE | https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
+cna | CNA | https://thumbor.prod.vidiocdn.com/nBRneLipjed0tzgVoHIft83fOYk=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6411/news-asia-31d4e8.jpg | LIVE | https://www.youtube.com/live/XWq5kBlakcQ
+arirang | Arirang | https://thumbor.prod.vidiocdn.com/nkgtwd5f9lgiHwuLSBTFfZ2Usj4=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6784/arirang-12980d.jpg | LIVE | https://amdlive-ch04-ctnd-com.akamaized.net/arirang_4ch/smil:arirang_4ch.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+spotv | SPOTV | https://thumbor.prod.vidiocdn.com/1cUTXlCSzstGfFXuRkOqCajuaV8=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17139/spotv-c18c69.jpg | LIVE | 
+spotv2 | SPOTV2 | https://thumbor.prod.vidiocdn.com/DDucwJyoKvfCLglPujyq3EPGcjc=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17140/spotv-2-c8e8ac.jpg | LIVE | 
+bein | Bein Sport 1 | https://thumbor.prod.vidiocdn.com/dBMf_WAWW0JVeB5hVsaXQbYSxv4=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg | LIVE | 
+larva | Larva | https://i.ytimg.com/vi/TAPKoHMbaO4/maxresdefault.jpg | LIVE | https://www.youtube.com/live/dK5ZCBzUf7Y
+breakbeat | Breakbeat | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHj2FKAQfwU_dQq8icf0q2Thh2LwW1Sir9Q-hEA9VX_9LxkF1h_5hGBbQ&s=10 | LIVE | https://www.youtube.com/live/58tvRl9DP0k
+
+[FILM]
+sin-trade | The Sin Trade | http://139.59.124.98/wp-content/uploads/2026/05/8tR18t50eaZU4UI3rPJuZknroJ41.jpg | HD FILM | https://edge1-frankfurt-sprintcdn.owphbf24.com/hls2/01/11095/8zck82sax7a3_x/master.m3u8?t=2MjqlaU7Ajj8xEMCCdiiD8RGGw6YJ7iygXv_vsBKhqI&s=1779818662&e=10800&f=55478506&srv=1055&asn=&sp=5500&p=0
+red-line | The Red Line | http://139.59.124.98/wp-content/uploads/2026/05/q3ROA6OqVA9rWSsC2DzdkPQvxWW1-170x255.jpg | HD FILM | https://edge1-vienna-sprintcdn.owphbf24.com/hls2/01/11095/ymvh2k1ojzye_x/master.m3u8?t=3a1Lah3k2eYnvAFsWooOKwR_d8VvPRe3JKYLEkaqIlc&s=1779818480&e=10800&f=55478468&srv=1050&asn=&sp=5500&p=0
+narik | Narik Sukmo | https://aadtoday.com/assets/berita/original/94232992931-screenshot_2025-07-09-20-29-55-471_com.jpg | HD FILM | https://bun.p2pplay.pro/hls/pbyQCxRBZ03Ly8l8jRi4Bg/is9/b6iux89s/t6tuxe/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+mummy | Mummy Resurgance | https://images.sr.roku.com/idType/roku/context/global/id/fa080276a51d568f9bda73a535b9af35/images/gracenote/assets/p19447604_v_v12_ab.jpg/magic/396x0/filters:quality(70) | HD FILM | https://gdriveplayer.to/embed2.php?link=W8MFl2g%252F9IrdY3C4ZJ6%252BLQzQbIpIHbQ%252B485oj12loZ%252FNkOb08RQTCNBIELNVY5rGbdp7QE53qdUlGbc1hsxEuaZ5Rvx3dSZxRnAwYGrC%252BeF40WeK%252FJd3%252BFeyweybVh82ZC7Y6sVJdMt0UMnWkzkDJOhGTg6hSw01UXJwo50ROL4%252B%252BEEzGyNdKWEcoe%252FB9FQEBzvOjZteW1R1YuwpnBTBhynfQBC2u5WPL4LmxhMDDg6rS5jjXP3A4jriv6Y3TZK0g%253D
+subuh | Cinta Subuh | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/05/yvVu4yjMQ0GIcblYUonT678bDQW.jpg | HD FILM | https://bun.p2pplay.pro/hls/Mi7h-BMM6o4httuOmdFvOQ/x68/r8c1nhnn/mrrmw6/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+bujang | Jodoh 3 Bujang | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2025/08/qbNftqwPN5i0ZZK1hgyeqjvJ8g0.jpg | HD FILM | https://bun.p2pplay.pro/hls/nluyOrUWL1bzlGEm0QqeYw/x68/fmg9yocq/mdbxka/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+transformers5 | Transformers : The Last Knight | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/02/s5HQf2Gb3lIO2cRcFwNL9sn1o1o.jpg | HD FILM | https://ewa.playerp2p.live/hls/F2usuAA5Xr0hr-uDUgc0-g/luy/v1feaent/69onp5/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+transformers4 | Transformers : Age Of Extinction | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/02/jyzrfx2WaeY60kYZpPYepSjGz4S.jpg | HD FILM | https://ewa.playerp2p.live/hls/11118rjca0-H_fjcAnf5xA/5w3/1xmlfe6p/nakn3b/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+transformers3 | Transformers : Dark Of The Moon | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/02/28YlCLrFhONteYSs9hKjD1Km0Cj.jpg | HD FILM | https://ewa.playerp2p.live/hls/QmKz0GzGSBNwLPgUw-goVw/qu/zbxp18sj/gkfgje/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+transformers2 | Transformers : Revenge Of The Fallen | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/01/pLBb0whOzVDtJvyD4DPeQyQNOqp.jpg | HD FILM | https://ewa.playerp2p.live/hls/Ut1vKPokRo2YFHJKLoSNOw/x6b/krnvuhuto/blveze/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+transformers1 | Transformers One | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2025/11/iRCgqpdVE4wyLQvGYU3ZP7pAtUc.jpg | HD FILM | https://playdulu.xyz/embed/tHQiH7pb1Hgb74u
+transformers | Transformers | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/01/4N4sipl8T72tNE4earcctQa2Kw2.jpg | HD FILM | https://ewa.playerp2p.live/hls/sJD5n4d5pk8ZlByi5zdqGg/xq/b6iuxv95/m91m6j/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+avatar | Avatar : Fire And Ash | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg | HD FILM | https://ewa.playerp2p.live/hls/TvTNmeBEYYsIg9MZ5kMZsQ/tab/ipljeq8a/oapop9/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+rise | Rise Of The Conqueror | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg | HD FILM | https://ewa.playerp2p.live/hls/YFX7UQ3jpHqBHCl4slz62Q/3vi/unjaocjn/md1crh/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+master | Master Of The Universe | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/05/nm2ianYVp7OXElUZVeeAbNTqBLr.jpg | HD FILM | https://ewa.playerp2p.live/hls/0v9gtK1fVGpk5Tv1-09VuA/9a/h9k8sigm/hcheo3/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+combat | Immortal Combat | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/05/mhRAgvQ04DTE4zQN3OSyc9Lonj3.jpg | HD FILM | https://ewa.playerp2p.live/hls/Bz7kQIuc5tmMXvPsLiXMcA/ty/ipljeb8y/xdpbft/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+sukma | Sukma | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/03/qL2mNWO116SSL9x40szobFsXlsS.jpg | HD FILM | https://bun.p2pplay.pro/hls/k4pUPZpT2eqwH-jYH1RhQg/8q/b6iuxv95/idfux5/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+labinak | Labinak : Mereka Ada Disini | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/03/xIEDbEwWAeV7OpeYlJKmR1aPtwk.jpg | HD FILM | https://bun.p2pplay.pro/hls/F83PeMtKlUZUeV7g2bio5g/6hf/1xmlfn69/pqzsgt/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+sosok | Sosok Ketiga : Lintrik | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/03/oVCHHviQsspqEu4FyT4nFbtvWNH.jpg | HD FILM | https://bun.p2pplay.pro/hls/JUT6S4UjKC4dRXyZ8e5EdQ/sc/yg6kbbwm/l33ysh/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+verdict | The Verdict | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/03/l2d2mFW6tFwdqtoI4iEOjT5ffAz.jpg | HD FILM | https://bun.p2pplay.pro/hls/tlScZ8W4Z6P95BMKbpS_JQ/s93/afyhwv5e/uvxwtk/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+cursed | Cursed | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/6bVtZLZ7Yd7OSbgcOjgWCYJonOL.jpg | HD FILM | https://bun.p2pplay.pro/hls/LSqXPsiCRGEUod3MCplqxw/hl1/fmg9y9ce/lqcfaz/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+dopamin | Dopamin | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/aQfK1AuKEYnOsGnnBujk42y5aGg.jpg | HD FILM | https://bun.p2pplay.pro/hls/HOox2UElaK56CdOVRjbi2g/s93/1xmlfz6s/6rbqkn/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+suzzanna | Suzzanna : Buried Alive | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/6I7oy8S9gwSGMuXdY6YJMcWV6o.jpg | HD FILM | https://bun.p2pplay.pro/hls/DdaDT9Wg50muHHh2a_XhPw/s93/r8c1npnq/oaoxfj/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+sijjin | Kitab Sijjin & Illiyin | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/5c8iXGH5Vol8HfpdwXK5ptHKQ6R.jpg | HD FILM | https://bun.p2pplay.pro/hls/kXUeNzc7oPuZ6xLCwEmYBA/miy/xieomesg/vx3hq1/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+gelap | Gelap Mata | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/eQ60ycEbtCGQLKTkaIdhRwMmX2f.jpg | HD FILM | https://bun.p2pplay.pro/hls/PerVp3BtnV-rAF8bjYYKkQ/mik/ghsr6sxo/3g6voa/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+malin | Legenda Kelam Malin Kundang | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/5qX69jou3zFKjdyp4b4tAK0jGfD.jpg | HD FILM | https://bun.p2pplay.pro/hls/ccQP7DwYFAfTxTdRGq_NvQ/mik/ghsr6sxo/vehzuo/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+getih | Getih Ireng | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/02/6cWdQ45GYA5vvCJLf5FfrEdz8kV.jpg | HD FILM | https://bun.p2pplay.pro/hls/W63SpHftFNYVIJRk1dMvsg/hz/b6iuxu9x/nfxmnw/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+panggonan | Panggonan Wingit | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/snwC0b4ElKRFMGRSZ28EjSQErjB.jpg | HD FILM | https://bun.p2pplay.pro/hls/N2Q6ZxjzhFpW-Q1mfH_itA/djx/krnvuxuq/6n5fnm/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+kaa | Kaa : The Forest | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/awOmezCjTcdyjesrzowHIRYUUbE.jpg | HD FILM | https://ewa.playerp2p.live/hls/wgFS462JusrPjSWSzOoOJw/ox/mehdg3pz/3gqf1q/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+pengantin | Pengantin Iblis | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/05/rRkM4hAoT9wMPsYeHj2SdgJ3lmz.jpg | HD FILM | https://bun.p2pplay.pro/hls/ez-bW8irHk7EH-cp-95Sbw/hz/dq8zrle8/tijeab/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+sorop | Sorop | https://asescan.org/wp-content/uploads/2026/05/pgyMNf595daUBwpryg7XW1kzRJF.jpg | HD FILM | https://bun.p2pplay.pro/hls/5bkqlO42pv3_BoDHcYpiow/gee/xieomdsh/s3b8j1/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+calonarang | Kutukan Calon Arang | https://asescan.org/wp-content/uploads/2026/05/edt91KtRMAkPzxEHMIGw8uct2NJ.jpg | HD FILM | https://bun.p2pplay.pro/hls/hWRgeBuewCm22Lh51Ny6vw/sc/xieomdsh/xdvud9/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+vina | Vina : Sebelum 7 Hari | https://asescan.org/wp-content/uploads/2026/05/qWedkukryS8hAXHjP2SRCsVuYjf-170x255.jpg | HD FILM | https://bun.p2pplay.pro/hls/BnbLFRpZq3vstJc2jIzOTw/bgm/puo3lvkf/jbiv9y/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+gowok | Gowok : Kamasutra Jawa | https://asescan.org/wp-content/uploads/2026/05/dfsyhvGdOMs5FbA3mgEwSgaqC4a.jpg | HD FILM | https://bun.p2pplay.pro/hls/ZuvLaMzPnAOVdCoWS8SEkw/js/r8c1nhnn/hcchad/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+dukun | Pembantaian Dukun Santet | https://asescan.org/wp-content/uploads/2026/02/x1mSlLW4pkfPGcya9xXYGLFhrXZ.jpg | HD FILM | https://bun.p2pplay.pro/hls/WixVNhITjm6P1FxKhcnCzA/pq/r8c1nhnn/tiit9q/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+timur | Timur | https://asescan.org/wp-content/uploads/2026/04/eD2pLCLMvbw06ITaHipGAYU0MiI.jpg | HD FILM | https://bun.p2pplay.pro/hls/MjBa8LwNJEMCPYz7pH5RNA/gee/mehdgqps/s336oy/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+janur | Janur Ireng | https://asescan.org/wp-content/uploads/2026/05/smTzeVew31Fg6rOqJ4OjZTcU0BW.jpg | HD FILM | https://bun.p2pplay.pro/hls/9wMmbooTP1Z5ZOSnVFbmMw/luy/mehdgqps/ozzlck/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+penjagal | Penjagal Iblis : Dosa Turunan | https://asescan.org/wp-content/uploads/2026/05/wPxNdqsJ0JKhd3thBjJgFmbNc3M.jpg | HD FILM | https://bun.p2pplay.pro/hls/47RpCbaz9efsblMvtNGVBQ/mik/yg6kbmw6/scsf9c/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+rego | Rego Nyowo | https://asescan.org/wp-content/uploads/2026/05/mtvI3JDkxBm8dAIgTLs3ZAy9Wdk.jpg | HD FILM | https://bun.p2pplay.pro/hls/UcXclHUcNJTBcaTfoIPgLg/vz1/b6iux89s/kvl9xy/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+ozora | Ozora : Penganiayaan Brutal Penguasa Jaksel | https://asescan.org/wp-content/uploads/2026/01/7y7PEbQ3mGr8utlx18xcBq3nj9H.jpg | HD FILM | https://bun.p2pplay.pro/hls/3pW1eHd29YtYphCM3PpiYQ/n8l/1xmlfz6h/ijvyjd/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+mayit | Kampung Jabang Mayit : Ritual Maut | https://asescan.org/wp-content/uploads/2026/04/jddxljzvg8UNob8364Kzf629sBA.jpg | HD FILM | https://bun.p2pplay.pro/hls/xWW3Cmv16QpYr8P6L18Xvw/5c/fmg9yocq/t6c3mz/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+
+[SEMI]
+crush | Crush Kong Curly | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2025/09/Crush-Kong-Curly-2021a-170x255.jpg | 18+ | https://edo.p2pstream.vip/hls/ORKXYobuH_jXZZtH3kbr5A/3vi/zbxp1xs3/huyh5n/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+wife | My Wife's Mom | https://asescan.org/wp-content/uploads/2026/05/my-wifes-mom-2019-ca38-170x255.jpg | 18+ | https://editdulu.xyz/embed/gMr1yoLDLOK3LjU
+wife2 | My Wife's Mom 2 | https://asescan.org/wp-content/uploads/2026/05/my-wifes-mom-2-2020-efcd-170x255.jpg | 18+ | https://editdulu.xyz/embed/3KuYdZu37ye9x1K
+wife3 | My Wife's Mom 3 | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/05/my-wifes-mom-3-2026-5580-170x255.jpg | 18+ | https://playdulu.xyz/embed/UlhdidT3jc6LwKs
+home | Home Shopping Host | https://asescan.org/wp-content/uploads/2026/05/home-shopping-host-2025-0e7e-170x255.jpg | 18+ | https://editdulu.xyz/embed/TJw2SfFUnovs1mk
+flight | Flight To Paradise | https://asescan.org/wp-content/uploads/2026/05/flight-to-paradise-2025-0eee-1-170x255.jpg | 18+ | https://playdulu.xyz/embed/ygLezEQsRhsP9J7
+halina | Halina Ni Aliya | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/halina-ni-aliya-2026-cda0-170x255.jpg | 18+ | https://playdulu.xyz/embed/i0LmIaHZiRKTWSS
+bosomy | Bosomy Younger Sister | https://asescan.org/wp-content/uploads/2026/04/bosomy-younger-sister-b44e-170x255.jpg | 18+ | https://playdulu.xyz/embed/BByVDvysl5aLYLm
+stepdaddy | Stepdaddy | https://asescan.org/wp-content/uploads/2026/04/stepdaddy-d57f-170x255.jpg | 18+ | https://playdulu.xyz/embed/mB08wlWEC445D3x
+ligo | Ligo | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/Ligo-2026-170x255.jpg | 18+ | https://editdulu.xyz/embed/GpzB1rbM9GB3m5c
+scissors | Scissors | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/05/scissors-2026-b61f-170x255.jpg | 18+ | https://playdulu.xyz/embed/ttpHo6FSpP5dpkx
+sawsawan | Sawsawan | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/sawsawan-2026-0c4c-170x255.jpg | 18+ | https://editdulu.xyz/embed/amPIShmzwjZdAg3
+maid| Maid's Obsession | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/maids-obsession-7f08-170x255.jpg | 18+ | https://playdulu.xyz/embed/VUMYtpF6gcNGTJp
+warat | Warat | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/Warat-2026-170x255.jpg | 18+ | https://editdulu.xyz/embed/eE7zeranap9I5SA
+
+[SERIES]
+got | Game Of Thrones |  | SERIES
+s1e1 | https://www.googleapis.com/drive/v3/files/1kGaOnkcCqNCooyXfFRHp6_PgUICa5AMy?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e2 | https://www.googleapis.com/drive/v3/files/1cE2awKTSqtWUN7VIFxne625zoZp_QTBC?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e3 | https://www.googleapis.com/drive/v3/files/1s09dxgy_6f4O-tiAab22JFIa8z4KYN82?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e4 | https://www.googleapis.com/drive/v3/files/1ET3HpQrAhr7_8NTeS6erlh1EvC3nVIbH?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e5 | https://www.googleapis.com/drive/v3/files/1bFukTS6LBvpMzQjV643lnI65Kj5QmFo-?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e6 | https://www.googleapis.com/drive/v3/files/1AqFjyIq2_2YDR4eDvotL9iKtDicdXscq?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e7 | https://www.googleapis.com/drive/v3/files/1u1B_gwFJyPGEjhMkMAII0O78K4lhEyQJ?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e8 | https://www.googleapis.com/drive/v3/files/1soSqoW5NbfrU0Nzcm6iHWLWmENH8w9y4?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e9 | https://www.googleapis.com/drive/v3/files/1wLDgRNFcKY1RS9CAiTun8fmH8Laxgpm0?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e10 | https://www.googleapis.com/drive/v3/files/1Ha6uxSDCxze3zVEq3sMN1WaHon67up0-?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+
+bod | Boyfriend On Demand |  | SERIES
+Trailer | https://youtu.be/54zE7jBAyho
+1 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
+2 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
+3 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
+4 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
+5 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
+6 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
+7 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%207%20(2026)-1080p.mp4
+8 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%208%20(2026)-1080p.mp4
+9 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
+10 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
+
+solyanim | Sol Yanim |  | SERIES
+1 | https://youtu.be/KVour-3NQbg
+2 | https://youtu.be/701iG1NWafI
+3 | https://youtu.be/TcbxnnIlcHQ
+4 | https://youtu.be/ml69FVIAduA
+5 | https://youtu.be/V6-0iSKL854
+6 | https://youtu.be/BTxheQ9Lq7E
+7 | https://youtu.be/UUFXQRQs7_o
+8 | https://youtu.be/5I2yDYKxahs
+9 | https://youtu.be/CAfmJOFZ8Qk
+10 | https://youtu.be/r1J2x0naRQI
+11 | https://youtu.be/-k2bIn6vN8E
+12 | https://youtu.be/012xUpOzcGc
+
+bof | Battle Of Fates |  | SERIES
+Trailer | https://youtu.be/tsdJzmRFcJE
+1 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
+2 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
+3 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
+4 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
+5 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
+6 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
+7 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%207%20(2026)-1080p.mp4
+8 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%208%20(2026)-1080p.mp4
+9 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
+10 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
+
+bake | Bake Your Dream |  | SERIES
+Trailer | https://youtu.be/Zn232BJzXeE
+1 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
+2 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
+3 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
+4 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
+5 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
+6 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
+7 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%207%20(2026)-1080p.mp4
+8 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%208%20(2026)-1080p.mp4
+9 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
+10 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
+
+knight | A Knight Of The Seven Kingdom |  | SERIES
+Trailer | https://youtu.be/sItUCKJQLTU
+1 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
+2 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
+3 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
+4 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
+5 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
+6 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
+
+[ANIME]
+onepiece | One Piece |  | ANIME
+1 | https://s1.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGNXBSenhXNVIrM0ZmdElYVlpzMnlEZWV4VmFRb1hKZU1oZ29UOEpYNEozRWZES0hLUUNYZXFPTDgxOHpLSGZTR3pvZkNTUXp3bFVBWmNaVnJSOHFxRWIzS28wVWRiSVNPcU9JanlwS3Zudmh5b1NTL09VaEREL01ySU0vZDg5TjlTNUVXQnhkSnJ6Z0FiMEJBaExRUVZQQTRPMnBmZU9iSks2RVRYZU9abnM2VzdKd0pSaXdrcDJ4dVVHQ1d5cTlQVFE3bnpyMXBOdnc3S2MzN0hIWjcrdXNJdWppQmNITlhEUTZ5bUFRNlZPMS9zejFVTnNOa3lzYzZONThGUUl4dWNQUTExbHg3S1pQODdzUmxVRnhqbkpCSGxQR3BURC9sSmVZTWZVRnN3a2pnanJIelVTajVobFRjNEROSERxMDExdnYwcGpyZmkrMmRLRHI2dQ&autoplay=true
+2 | https://s2.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGN29WdlZhWU51d2p2bVMxbGFoa21UQWJsQVFnUXVBdHhLaHBYTUhIOEFuVHpWWDBxYVozcXRKZTBOMWhlUGJENkE5OExqZmdFbkd3SnVUSFBTek5pNEswYTk4R1JmVXdXcU9yZkdnYVArclMrUExUekdlRy9KMmF2VUZwZGZuY2x3MG11QS92QlI0UThIMUNjYkt4c1pPd2dEcmUvNE9zcFN6UWZxUzc0aTA0T1lkRE43aXdrcDJ4dVVHQ1d5cTlQVFE3bnpyMXBOdnc3S2MzN0hIWjcrdXNJdGppQmNITlhEUTZ5bUFRaWZPMHIweDE4TnNOa3lzYzZONThGUUl4dWNQUTExbHg3S1pQODdzUmxVRnhqbkpCSGxQR3BURC9sSmVZTWZVRnN3a2pnanJIelVTajVobFRjNEROSERxMDExdnYwcGpyZmkrMlJLRHI2dQ&autoplay=true
+3 | https://s1.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGNmhFTHZlNnBXd0ZtcEkyaER2bVM2REw5K1ZqQWVJZE0yaTlyTkdWNE9zMHIzYXhPOFRCeU9YS1FDeDBXeVcyQ3l1STNCWUJ4V1dCbEVlSDZvK0xLRUdFNlM1SEY5RkdXNkU1TGN1SzNtdUNPUExHN2JPaFRFemRtOWNKWlMxS1JTdUZhZHlQOEg5V2tyL0dveWV4NVFMeU01d3NQTUtvOUN5RXZEYjhVNWt1dWRkd05uaXdrcDJ4dVVHQ1d5cTlQVFE3bnpyMXBOdnc3S2MzN0hIWjcrdXNJc2ppQmNITlhEUTZ5bUFRNlZPMS9zejFVTnNOa3lzYzZONThGUUl4dWNQUTExbHg3S1pQODdzUmxVRnhqbkpCSGxQR3BURC9sSmVZTWZVRnN3a2pnanJIelVTajVobFRjNEROSERxMDExdnYwcGpyZmkrMlZLRHI2dQ&autoplay=true
+4 | https://s2.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGNXEzWDlPWjEvL1R2elAxVlpqbStsRHU1YlVEaEpXUDRvc05mNlJ6cFMzVjdBZmt6QlZocnVCcGdCL0F5VU9odWg5dWZVWmlFOWV6QkdSVHoyOGJtcE5YMmw3V1phVWhTZ1ZZL1JsNnZab1FHR2VoM2dhelhXNE9TTk1lbHo2cTU3N0hHZDd0MUh0R001NFM0VkNTVW9BQXNSOWRPdEQ4NTF5VEx3S013c3ZZLzVJaGxGaXdrcDJ4dVVHQ1d5cTlQVFE3bnpyMXBOdnc3S2MzN0hIWjcrdXNJcmppQmNITlhEUTZ5bUFRaWZPMHIweDE4TnNOa3lzYzZONThGUUl4dWNQUTExbHg3S1pQODdzUmxVRnhqbkpCSGxQR3BURC9sSmVZTWZVRnN3a2pnanJIelVTajVobFRjNEROSERxMDExdnYwcGpyZmkrMkpLRHI2dQ&autoplay=true
+5 | https://s1.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGN3RVRGRQNnBsMG1hVEltaEUrV1NtT1pSL1NSNG9XODBIb1pQRUlYZ0tvU3pFZjIrcWNBU3lJNE1PNVJYK2NSNlcrZExxVjFGSlRSdERmbnpLMDRtQktnbWsxSFVVTVMyUEZvS0xpcG5BdXdpcVhuUDdPZ24zNkt5VUtQUUY0YTVwdkhDVDl0cEo3aUFIaUN3Wk8yRUxiU294ME5Hb0VvcFE1VEhPUzhJdXBJaTdkeVZWeGdjbmpRYUpBQ3oxczh1K1lySzIzMk5CdVFpUEZrdmVCNEwxdTRjL21TNVNUYzNCUk9DK0dVS2VLazNteWtSWHZ0ZHpzOEdNNXNaYUlSYlNKUlUvaXg3T1o3WmR3bW9uUzFybE9WSGtQWEJJRHZaR2ZvY1hYRlo2M2pVdHVYdjdPWDVnbm45bEZkM0ZyUVU5cStRemtyempzM3NqZmJQeGhBPT0&autoplay=true
+6 | https://s2.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGN2tFYUtKWUJWeGtTM0MzRmc1SFNGRG8xZGF6NHFHdDBxaHEzVkcxMFUyUkxIYjIyRFlYMkRLSk1oOFIrUlhEaTN5c0RYZUFjdWFDNXRmbHo5N29XalAxYTl3bDVZUGlXUkc1V0hwcitid3p1SGZDZnFaUkRRLzYrTk9QQnh4YVZLdld5WWtleDhyelFsL2dneUhpUUZZRFUwMHMzdGFyaEh1a0dwTE80RTA0eWlKZ1ZqaXdrcDJ4dVVHQ1d5cTlQVFE3bnpyMXBOdnc3S2MzN0hIWjcrdXNJcGppQmNITlhEUTZ5bUFRaWZPMHIweDE4TnNOa3lzYzZONThGUUl4dWNQUTExbHg3S1pQODdzUmxVRnhqbkpCSGxQR3BURC9sSmVZTWZVRnN3a2pnanJIelVTajVobFRjNEROSERxMDExdnYwcGpyZmkrMkJLRHI2dQ&autoplay=true
+7 | https://s2.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGNXNGL3FVcHA4NTBxQkkzVUdwbDJSTUxNT2JnUXhXczhGaDVENE5tOENnQnJuTDB6UGJRcUtKTEU2ekRDY1J4Nnk4dnVSQUQ4allDeERWSFBuOUpPWktWU0Jrbk54RjJXQ0ZhdlJrTEQ2bkFxMlJHM2VQMkxyK2V1TUROaDV3dTh2MTB2ei8rcFoxUjBSd1JNVEd4Z3JFd1lMMnV1MFpaTjF1UkRTS09VTGo1YW5jaUFRaFFkL3hnYU1FV0txczc3eVNQeURsbFpMdVV1dlJtZmRBWlgvLzlVOWdDNE5CTmZFRDdTK1N3K0VQRTNoMUE4RHZwZ3d2cytNNE10U0xsV0VKVWRwbHhySkxabEl3bW9JVlJyNlpCRGtKbkZTQVBaT2ZZc1RYUkY4bnpZMnExT25DajlxM1dvaEFOZkY0d1ZncCtjMWhiYXE0UW81QStFPQ&autoplay=true
+8 | https://s2.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGNzNtVE1PNmhPZ0hDZkFrQUZqa3llUGVOZWJoa09PT2tldmRMa0VFQXVrRGZyVjNYQUFYeWRXcGc2MWpLUlVUeWJwZnpMV1M4OGZBSk9XV3Y4NzVxNGIxcVQvSHdPRlRQeENaREhqNC80bUNXSWVpMzRmU1BINjlyWEM1WnAvdTlkL0h1SjNPRldxQ01jeVRFR0htY2ZIU2tKcmRDdExMWmc1RFQxZjdzZmhhK0FlZ3g4OFFjbmpRYUpBQ3oxczh1K1lySzIzMk5CdVFpUEZrdmVCNEwxdTRjL2xDNVNUYzNCUk9DK0dVS1lJRTN6MGt4ZHZ0ZHpzOEdNNXNaYUlSYlNKUlUvaXg3T1o3WmR3bW9uUzFybE9WSGtQWEJJRHZaR2ZvY1hYRlo2M2pVdHVYdjdPWDVnbm45bEZkM0ZyUVU5cStRemtyempzM3N1ZmJQeGhBPT0&autoplay=true
+9 | https://s1.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGN3JXbitXSzVCeEU3dlAwTjZyZ3pHUDVKWEZTVXpJUDAyMDdIUkVIVWYzd2JwZFV5d1Z4MzNFSWsxOHk2bVppdUd3dVB2QkFNMlFEbGRRR0RHOHFhNkNsYWZ4MFZhSGkrTklMekdqb1g4eWhtaFdEYnFid25IOEsrREtwZDZ5dU5yeVF1ejhjcFl3d01nekNZY0RSc1RJSHNScFAvVEw4MWU1UkhBVE0wOHZwK1lVQ1ZRbWdjbmpRYUpBQ3oxczh1K1lySzIzMk5CdVFpUEZrdmVCNEwxdTRjL2xTNVNUYzNCUk9DK0dVS2VLazNteWtSWHZ0ZHpzOEdNNXNaYUlSYlNKUlUvaXg3T1o3WmR3bW9uUzFybE9WSGtQWEJJRHZaR2ZvY1hYRlo2M2pVdHVYdjdPWDVnbm45bEZkM0ZyUVU5cStRemtyempzM3N2ZmJQeGhBPT0&autoplay=true
+10 | https://s1.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGNnFWallTNVF6NDI2V0swNVhnRkdBTXFvQVZ5TkpHOVpIa0luK0gzSUloVG5sVGtXcGZYYWNQNFlUNnh2NVR4WEd6ZWJvZVFvWGVCRTZjekhXNmJpU013bWRrSDlMQTJhdUJ1UHprSnZNbnhtcVZEcmlXR3ZxM01XTEVKbC82c1J4dmt6eDFwMVh6QkljMHhVU1BXVUtGeDQrOE9YL001RnArU0htZTc0ZHJiZWlQajU5blFjbmpRYUpBQ3oxczh1K1lySzIzMk5CdVFpUEZrdmVCNEwxdTRjL25UeGNRNXpaUnVmeUFWclNJVnowd0VGRzVObDk4c09ENThkZEt4VGZhdzBud1FMT1k3VVVwQmxVT0Fhbk8weWtQSEZTRmZkSmNZQVRWRnAzbEhrZ3QyNzhGZzBnbjNRdFNNVEpxd04xNC9FcWlLRG9zak03RUt5UDFvTnk&autoplay=true
+11 | https://s2.kotakanimeid.link/video-embed/?vid=TndsUytJanpnRnYrQk0xRnEwR1VzSnI1bHpwMW5GQ1lQcFBMQk5HM3lDTzZOQmxMR3FPeU9WL3NmVFdTS0RMNGFCZWxvMmtzL0VGNWpuK1BQWk5mOEV5YUxWaGtnbkMwSkpoY1RnQXBKdGdSc0lIV08zTXdwMEhaU2hlSmFpRy9HWThaMHpTaVRHZUdwdnJ0WHdRcVRDQjlXa0xSeElTUEJteTB6RVZTS1FHV001N1JtbzdKdlFIblcyaXpXeDdhMEtxSEM5WlZ5OXBTMTNPRHhQQjdyaDBsemlZQVBHZFBLaVUyNGVmS0g3Smd4QWJsZnRzeXVKcXRJVE5kaXdrcDJ4dVVHQ1d5cTlQVFE3bnpyMXBOdnc3S2MzN0hIWjcrdXNJdW5TNVNUYzNCUk9DK0dVS1lJRTN6MGt4ZHZ0ZHpzOEdNNXNaYUlSYlNKUlUvaXg3T1o3WmR3bW9uUzFybE9WSGtQWEJJRHZaR2ZvY1hYRlo2M2pVdHVYdjdPWDVnbm45bEZkM0ZyUVU5cStRemtyempzM3NuRU1EODI5dz0&autoplay=true
+
+bleach | Bleach |  | ANIME
+1 | https://mp4upload.com/embed-qd9a2xt9c7ad.html
+2 | https://mp4upload.com/embed-5p41x2gpsxt9.html
+3 | https://mp4upload.com/embed-hcvyldtui6yu.html
+4 | https://mp4upload.com/embed-rps7n706aylr.html
+5 | https://mp4upload.com/embed-c2xq56fo7drm.html
+6 | https://mp4upload.com/embed-m4m9m4ovkqjo.html
+7 | https://mp4upload.com/embed-5hfhsbwsnmv1.html
+8 | https://mp4upload.com/embed-yf8eutzt1gvl.html
+9 | https://mp4upload.com/embed-xyf9578isdte.html
+10 | https://mp4upload.com/embed-l9bg36orolq2.html
+
+naruto | Naruto Shippuden |  | ANIME
+1 | https://mp4upload.com/embed-anusv63omtdi.html
+2 | https://mp4upload.com/embed-c4allrv13exf.html
+3 | https://mp4upload.com/embed-di6miwf4u0d7.html
+
+clover | Black Clover |  | ANIME
+1 | https://mp4upload.com/embed-f0tl9sfgwdko.html
+2 | https://mp4upload.com/embed-3yjdnscvi0jn.html
+3 | https://mp4upload.com/embed-8rhmhhbbzr14.html
+4 | https://mp4upload.com/embed-yixj1fn61h5a.html
+5 | https://mp4upload.com/embed-qetpb5k6yre5.html
+6 | https://mp4upload.com/embed-mki7fbajadji.html
+7 | https://mp4upload.com/embed-84oe4uik8hwy.html
+8 | https://mp4upload.com/embed-2bg8qqgh528q.html
+9 | https://mp4upload.com/embed-wt6rqttn53ji.html
+10 | https://mp4upload.com/embed-o9xwmfhwzcct.html
+
+dxd | High School DxD |  | ANIME
+1 | https://mp4upload.com/embed-7d24mdrudrwo.html
+2 | https://mp4upload.com/embed-i58dewkv8dgn.html
+3 | https://mp4upload.com/embed-e13rwf8qqrck.html
+4 | https://mp4upload.com/embed-h58ezxrdwm0c.html
+5 | https://mp4upload.com/embed-5gp88qy1457s.html
+6 | https://mp4upload.com/embed-7n4ez41fvfs7.html
+7 | https://mp4upload.com/embed-f6et6hi4r4vr.html
+8 | https://mp4upload.com/embed-oke4jg1gxi8d.html
+9 | https://mp4upload.com/embed-o7gx4upbhlcn.html
+10 | https://mp4upload.com/embed-6f7if24esy6e.html
+11 | https://mp4upload.com/embed-6urfiyusrkkj.html
+12 | https://mp4upload.com/embed-dk1zvl817zx1.html
+13 | https://mp4upload.com/embed-h9hh8jtoqrd7.html
+14 | https://mp4upload.com/embed-7b51jwe5h4kl.html
+

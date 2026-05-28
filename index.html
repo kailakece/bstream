@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BStream | Premium Streaming Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght=900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="visual.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo"><i class="fa-solid fa-play"></i>B<span>Stream</span></div>
+        </div>
+        
+        <div class="search-container">
+            <div class="search-input-wrapper">
+                <input type="text" placeholder="Cari saluran..." oninput="filterVideos(this.value)">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="header-actions">
+            <nav class="top-nav">
+                <div class="nav-item active" onclick="switchCategory('live', this)">LIVE TV</div>
+                <div class="nav-item" onclick="switchCategory('film', this)">FILM</div>
+                <div class="nav-item" onclick="switchCategory('semi', this)">SEMI</div>
+                <div class="nav-item" onclick="switchCategory('series', this)">SERIES</div>
+                <div class="nav-item" onclick="switchCategory('anime', this)">ANIME</div>
+            </nav>
+            <button class="icon-btn search-btn-mobile" onclick="toggleMobileSearch(true)"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="icon-btn gift-btn" onclick="toggleQrisPopup(true)"><i class="fa-solid fa-gift"></i></button>
+        </div>
+    </header>
+
+    <div class="mobile-search-overlay" id="mobileSearchOverlay">
+        <button class="icon-btn" onclick="toggleMobileSearch(false)"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="mobile-search-wrapper">
+            <input type="text" id="mobileSearchInput" placeholder="Ketik kata kunci pencarian..." oninput="filterVideos(this.value)">
+            <button class="mobile-search-clear" onclick="clearMobileSearch()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+
+    <div class="qris-popup-overlay" id="qrisPopup" onclick="toggleQrisPopup(false)">
+        <div class="qris-card" onclick="event.stopPropagation()">
+            <div class="qris-qr-frame">
+                <img src="qris.webp" alt="QRIS Code">
+            </div>
+        </div>
+    </div>
+
+    <div class="app-layout" id="main-app-layout">
+        <div class="player-section" id="player-container">
+            <button class="close-pip-btn" onclick="stopVideoTotal(event)"><i class="fa-solid fa-xmark"></i></button>
+            <iframe id="stream-frame" allowfullscreen webkitallowfullscreen mozallowfullscreen allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+
+        <div class="content-section">
+            <div class="episode-box" id="episode-wrapper">
+                <div class="episode-title" id="episode-group-title">Daftar Playlist</div>
+            </div>
+            <div class="video-grid" id="video-display-container"></div>
+        </div>
+    </div>
+
+    <div class="bottom-nav">
+        <div class="bottom-nav-item active" onclick="switchCategory('live', this)"><i class="fa-solid fa-satellite-dish"></i><span>LIVE TV</span></div>
+        <div class="bottom-nav-item" onclick="switchCategory('film', this)"><i class="fa-solid fa-clapperboard"></i><span>FILM</span></div>
+        <div class="bottom-nav-item" onclick="switchCategory('semi', this)"><i class="fa-solid fa-heart"></i><span>SEMI</span></div>
+        <div class="bottom-nav-item" onclick="switchCategory('series', this)"><i class="fa-solid fa-tv"></i><span>SERIES</span></div>
+        <div class="bottom-nav-item" onclick="switchCategory('anime', this)"><i class="fa-solid fa-cat"></i><span>ANIME</span></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

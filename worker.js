@@ -1,4 +1,4 @@
-const GITHUB_PLAYLIST_URL = "https://username.github.io/repo-name/playlist.txt"; // <-- UBAH KE URL RAW PLAYLIST.TXT ANDA
+const GITHUB_PLAYLIST_URL = "https://raw.githubusercontent.com/kailakece/bstream/refs/heads/main/playlist.txt";
 
 const FALLBACK_LINKS = [
   "https://donasi.showcdnx.com/stopjudi/2.mp4",

@@ -1,2 +1,2 @@
-# bstream
-BStream | Premium Streaming Experience
+# BStream
+Premium Streaming Experience

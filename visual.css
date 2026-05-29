@@ -176,7 +176,7 @@ nav.top-nav { display: flex; gap: 5px; }
     .player-section.pip-mode {
         display: block !important;
         position: fixed !important;
-        width: calc(50% - 18px) !important;
+        width: calc(65% - 18px) !important;
         aspect-ratio: 16 / 9 !important;
         height: auto !important;
         bottom: 64px !important;

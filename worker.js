@@ -378,4 +378,3 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
   </body>
   </html>`;
 }
-}

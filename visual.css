@@ -173,6 +173,18 @@ nav.top-nav { display: flex; gap: 5px; }
     .search-btn-mobile { display: flex; }
     .content-section { padding: 12px; }
 
+    .mobile-search-overlay { 
+        height: 45px; 
+    }
+    .mobile-search-wrapper input {
+        padding: 6px 40px 6px 15px; 
+        font-size: 13px;
+    }
+    .mobile-search-clear {
+        width: 28px;
+        height: 28px;
+    }
+
     .player-section.pip-mode {
         display: block !important;
         position: fixed !important;

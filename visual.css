@@ -43,7 +43,7 @@ nav.top-nav { display: flex; gap: 5px; }
 
 .search-container { display: none; position: relative; }
 .search-input-wrapper { position: relative; width: 100%; }
-.search-input-wrapper input { width: 100%; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); padding: 8px 35px 8px 12px; border-radius: 20px; color: #fff; font-size: 13px; outline: none; transition: var(--transition); }
+.search-input-wrapper input { width: 100%; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); padding: 6px 35px 6px 12px; border-radius: 20px; color: #fff; font-size: 13px; outline: none; transition: var(--transition); height: 29px; }
 .search-input-wrapper input:focus { border-color: var(--brand-color); background: rgba(255,255,255,0.1); }
 .search-input-wrapper i { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 13px; pointer-events: none; }
 
@@ -172,7 +172,7 @@ nav.top-nav { display: flex; gap: 5px; }
     .search-btn-desktop { display: none; }
     .search-btn-mobile { display: flex; }
     .content-section { padding: 12px; }
-
+    
     .mobile-search-overlay { 
         height: 45px; 
     }
@@ -214,7 +214,7 @@ nav.top-nav { display: flex; gap: 5px; }
     nav.top-nav { display: flex; gap: 3px; } 
     .search-btn-mobile { display: none; }
     header { display: flex; align-items: center; justify-content: space-between; }
-    .search-container { display: block; flex-grow: 1; margin: 0 20px; } 
+    .search-container { display: block; flex-grow: 1; margin: 0 20px; max-width: 300px; } 
     .header-actions { gap: 10px; } 
     .player-section.pip-mode { bottom: 20px; right: 20px; width: 340px; height: 190px; }
 }

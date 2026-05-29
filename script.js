@@ -334,6 +334,27 @@ function handleOrientationChange() {
     renderVideos(currentActiveCategory);
 }
 
+function backToHome() {
+    stopVideoTotalWithoutResetGrid();
+    
+    const topNavLive = Array.from(document.querySelectorAll(".nav-item")).find(el => el.innerText.toLowerCase().includes("live"));
+    const bottomNavLive = Array.from(document.querySelectorAll(".bottom-nav-item")).find(el => el.querySelector('span')?.innerText.toLowerCase().includes("live") || el.innerText.toLowerCase().includes("live"));
+    
+    const targetElement = topNavLive || bottomNavLive || null;
+    switchCategory("live", targetElement);
+    
+    if (typeof clearMobileSearch === "function") {
+        clearMobileSearch();
+    }
+    const desktopSearch = document.querySelector(".search-input-wrapper input");
+    if (desktopSearch) {
+        desktopSearch.value = "";
+    }
+    currentSearchQuery = "";
+    
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 function stopVideoTotal(event) {
     if (event) event.stopPropagation();
     stopVideoTotalWithoutResetGrid();

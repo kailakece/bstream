@@ -27,9 +27,6 @@ export default {
     const urlObj = new URL(request.url);
     const isProxyMode = urlObj.searchParams.get("proxy") === "true";
 
-    // ===========================================
-    // PROXY STREAMING (.m3u8 / .ts / .mp4 murni)
-    // ===========================================
     if (isProxyMode) {
       const targetUrl = urlObj.searchParams.get("url");
       if (!targetUrl) return new Response("Parameter URL diperlukan.", { status: 400 });
@@ -92,9 +89,6 @@ export default {
       }
     }
 
-    // =======================================================
-    // WEB PLAYER INTERNAL (MENGURAI DATA PLAYLIST.TXT VERTIKAL)
-    // =======================================================
     let videoId = urlObj.searchParams.get("v");
     if (!videoId) {
       const pathParts = urlObj.pathname.split("/");
@@ -109,7 +103,6 @@ export default {
       const typeParam = (urlObj.searchParams.get("type") || "live").toLowerCase();
       const requestedEps = (urlObj.searchParams.get("eps") || "1").toLowerCase();
       
-      // Ambil file playlist database dari GitHub Pages
       const githubResponse = await fetch(GITHUB_PLAYLIST_URL);
       if (!githubResponse.ok) throw new Error("Gagal mengambil database teks.");
       
@@ -126,7 +119,6 @@ export default {
         line = line.trim();
         if (!line) continue;
 
-        // Cek Perpindahan Tag Kategori
         if (line.startsWith('[') && line.endsWith(']')) {
           currentCategory = line.slice(1, -1).toLowerCase();
           parentFound = false; 
@@ -137,7 +129,6 @@ export default {
 
         const parts = line.split('|').map(p => p.trim());
 
-        // Penguraian Kategori Tunggal (LIVE, FILM, SEMI)
         if (typeParam === "live" || typeParam === "film" || typeParam === "semi") {
           if (parts[0] === videoId) {
             targetUrl = parts[4] || "";
@@ -146,7 +137,6 @@ export default {
             break; 
           }
         } 
-        // Penguraian Kategori Bertingkat Kebawah (SERIES, ANIME)
         else {
           if (parts.length >= 4 && parts[0] === videoId) {
             parentFound = true;
@@ -154,12 +144,10 @@ export default {
           }
 
           if (parentFound) {
-            // Jika menabrak judul film lain sebelum episode ditemukan, stop scan
             if (parts.length >= 4 && parts[0] !== videoId) {
                 break;
             }
 
-            // Cari kecocokan nomor episode
             if (parts[0].toLowerCase() === requestedEps) {
               targetUrl = parts[1] || "";
               referer = parts[2] || "";
@@ -213,8 +201,7 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
   const ytId = getYouTubeId(targetUrl);
 
   if (ytId) {
-    return `
-    <!DOCTYPE html>
+    return `<!DOCTYPE html>
     <html lang="id">
     <head>
         <meta charset="UTF-8">
@@ -228,16 +215,56 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
             var tag = document.createElement('script'); tag.src = "https://www.youtube.com/iframe_api";
             var firstScriptTag = document.getElementsByTagName('script')[0]; firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
             var player;
+
             function onYouTubeIframeAPIReady() {
                 player = new YT.Player('yt-player', {
                     videoId: '${ytId}',
-                    playerVars: { 'autoplay': 1, 'mute': 0, 'controls': 1, 'rel': 0, 'showinfo': 0, 'ecver': 2 },
+                    playerVars: { 
+                        'autoplay': 1, 
+                        'mute': 1, 
+                        'controls': 1, 
+                        'rel': 0, 
+                        'showinfo': 0, 
+                        'ecver': 2, 
+                        'playsinline': 1 
+                    },
                     events: { 
-                        'onReady': function(e) { e.target.playVideo(); setTimeout(() => { if (player.getPlayerState() !== 1) { player.mute(); player.playVideo(); } }, 1000); },
+                        'onReady': function(e) { 
+                            e.target.playVideo();
+                            setTimeout(function() {
+                                try {
+                                    player.unMute();
+                                    player.setVolume(100);
+                                } catch(err) {}
+                            }, 100);
+                        },
+                        'onStateChange': function(e) {
+                            if (e.data === 1) {
+                                try {
+                                    player.unMute();
+                                    player.setVolume(100);
+                                } catch(err) {}
+                            }
+                        },
                         'onError': function(e) { window.location.href = window.location.origin + window.location.pathname + "?proxy=true&url=" + encodeURIComponent(${fallbackArrayJson}[0]); }
                     }
                 });
             }
+
+            function forceUnmute() {
+                if (player && typeof player.unMute === 'function') {
+                    try { player.unMute(); player.setVolume(100); player.playVideo(); } catch(e) {}
+                }
+            }
+            window.addEventListener('click', forceUnmute, { once: true });
+            window.addEventListener('touchstart', forceUnmute, { once: true });
+            document.addEventListener('pointerdown', forceUnmute, { once: true });
+
+            document.addEventListener("fullscreenchange", function() {
+                if (document.fullscreenElement && screen.orientation && screen.orientation.lock) {
+                    screen.orientation.lock('landscape').catch(e => {});
+                }
+            });
             document.addEventListener('contextmenu', e => e.preventDefault());
         </script>
     </body>
@@ -248,16 +275,30 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
   const isVideoFile = lowUrl.includes(".m3u8") || lowUrl.includes(".mp4") || lowUrl.includes(".mpd") || lowUrl.includes(".webm") || lowUrl.includes("googleapis") || lowUrl.includes("drive.google") || lowUrl.includes("mime=video");
 
   if (lowUrl.includes(".html") || lowUrl.includes(".php") || lowUrl.includes("embed") || !isVideoFile) {
-    return `
-    <!DOCTYPE html>
+    let modifiedTargetUrl = targetUrl;
+    try {
+      let embedUrl = new URL(targetUrl);
+      embedUrl.searchParams.set("autoplay", "1");
+      embedUrl.searchParams.set("mute", "0");
+      modifiedTargetUrl = embedUrl.toString();
+    } catch(e) {}
+
+    return `<!DOCTYPE html>
     <html lang="id">
     <head>
         <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>External Embed Player</title>
         <style>html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; } iframe { width: 100%; height: 100%; border: none; }</style>
     </head>
     <body>
-        <iframe src="${targetUrl}" allowfullscreen webkitallowfullscreen mozallowfullscreen allow="autoplay; encrypted-media; fullscreen; picture-in-picture" sandbox="allow-scripts allow-same-origin allow-forms allow-presentation allow-pointer-lock"></iframe>
-        <script>document.addEventListener('contextmenu', e => e.preventDefault());</script>
+        <iframe id="embed-frame" src="${modifiedTargetUrl}" allowfullscreen webkitallowfullscreen mozallowfullscreen allow="autoplay *; encrypted-media *; fullscreen *; picture-in-picture *" sandbox="allow-scripts allow-same-origin allow-forms allow-presentation allow-pointer-lock"></iframe>
+        <script>
+            document.addEventListener("fullscreenchange", function() {
+                if (document.fullscreenElement && screen.orientation && screen.orientation.lock) {
+                    screen.orientation.lock('landscape').catch(e => {});
+                }
+            });
+            document.addEventListener('contextmenu', e => e.preventDefault());
+        </script>
     </body>
     </html>`;
   }
@@ -267,36 +308,52 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
 
   if (playerType !== "hls") finalStreamUrl = targetUrl;
 
-  return `
-  <!DOCTYPE html>
+  let hlsScript = playerType === 'hls' ? '<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.7/dist/hls.min.js"></script>' : '';
+  let dashScript = playerType === 'dash' ? '<script src="https://cdn.jsdelivr.net/npm/dashjs@4.7.4/dist/dash.all.min.js"></script>' : '';
+
+  return `<!DOCTYPE html>
   <html lang="id">
   <head>
       <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Core Player</title>
-      ${playerType === 'hls' ? '<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.7/dist/hls.min.js"></script>' : ''}
-      ${playerType === 'dash' ? '<script src="https://cdn.jsdelivr.net/npm/dashjs@4.7.4/dist/dash.all.min.js"></script>' : ''}
-      <style>html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; } video { width: 100%; height: 100%; object-fit: contain; background: #000; }</style>
+      ${hlsScript}
+      ${dashScript}
+      <style>
+          html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; } 
+          video { width: 100%; height: 100%; object-fit: contain; background: #000; display: block; }
+      </style>
   </head>
   <body>
-      <video id="video-player" controls playsinline autoplay></video>
+      <video id="video-player" controls playsinline></video>
       <script>
           const video = document.getElementById('video-player');
           let attemptCount = 0;
           function handleVideoError() {
               attemptCount++; if (attemptCount > 3) return;
               const fallbacks = ${fallbackArrayJson};
-              setTimeout(() => { video.src = fallbacks[Math.floor(Math.random() * fallbacks.length)]; video.load(); video.play().catch(e => { video.muted = true; video.play(); }); }, 1000);
+              setTimeout(() => { video.src = fallbacks[Math.floor(Math.random() * fallbacks.length)]; video.load(); triggerUnmutedAutoplay(); }, 1000);
+          }
+          function triggerUnmutedAutoplay() {
+              video.muted = false;
+              let playPromise = video.play();
+              if (playPromise !== undefined) {
+                  playPromise.catch(error => { video.muted = true; video.play(); });
+              }
           }
           video.addEventListener('error', handleVideoError);
-          if ("${playerType}" === "hls" && Hls.isSupported()) {
+          if ("${playerType}" === "hls" && typeof Hls !== 'undefined' && Hls.isSupported()) {
               const hls = new Hls({ maxMaxBufferLength: 30 }); hls.loadSource("${finalStreamUrl}"); hls.attachMedia(video);
+              hls.on(Hls.Events.MANIFEST_PARSED, function() { triggerUnmutedAutoplay(); });
               hls.on(Hls.Events.ERROR, function(e, d) { if (d.fatal) handleVideoError(); });
-          } else if ("${playerType}" === "dash") {
-              dashjs.MediaPlayer().create().initialize(video, "${finalStreamUrl}", true);
+          } else if ("${playerType}" === "dash" && typeof dashjs !== 'undefined') {
+              const dashPlayer = dashjs.MediaPlayer().create();
+              dashPlayer.initialize(video, "${finalStreamUrl}", false);
+              dashPlayer.on(dashjs.MediaPlayer.events.CAN_PLAY, function() { triggerUnmutedAutoplay(); });
           } else {
               video.src = "${finalStreamUrl}"; video.load();
+              video.addEventListener('canplay', function() { triggerUnmutedAutoplay(); });
           }
-          video.play().catch(e => { video.muted = true; video.play(); });
-          video.addEventListener('webkitbeginfullscreen', function() { if (screen.orientation && screen.orientation.lock) screen.orientation.lock('landscape').catch(e => {}); });
+          video.addEventListener('webkitbeginfullscreen', function() { if (screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
+          document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
           document.addEventListener('contextmenu', e => e.preventDefault());
       </script>
   </body>

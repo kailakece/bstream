@@ -254,3 +254,70 @@ nav.top-nav { display: flex; gap: 5px; }
     .app-layout:not(.playing) .video-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
     .app-layout.playing.import-pip-grid .video-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important; gap: 16px; }
 }
+
+.pip-info-box {
+    display: none; 
+    background-color: var(--bg-secondary);
+    padding: 10px 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pip-info-title {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--text-main);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.pip-info-meta {
+    font-size: 11px;
+    color: var(--brand-color);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-align: left;
+}
+
+@media (orientation: landscape) or (min-width: 1024px) {
+    .app-layout.playing .player-section.pip-mode { 
+        position: fixed !important; 
+        top: 65px !important; 
+        right: 20px !important; 
+        bottom: auto !important;
+        left: auto !important;
+        
+        width: calc(40% - 20px) !important; 
+        height: auto !important; 
+        aspect-ratio: unset !important; 
+        
+        background-color: var(--bg-secondary) !important; 
+        border: 1px solid rgba(255, 255, 255, 0.1) !important; 
+        border-radius: var(--card-radius) !important; 
+        box-shadow: 0 10px 30px rgba(0,0,0,0.8) !important; 
+        flex: none !important; 
+        z-index: 9999 !important; 
+        display: flex !important;
+        flex-direction: column !important;
+        overflow: hidden !important;
+    }
+
+    .app-layout.playing .player-section.pip-mode iframe {
+        width: 100% !important;
+        aspect-ratio: 16 / 9 !important;
+        height: auto !important;
+        display: block !important;
+    }
+
+    .app-layout.playing .player-section.pip-mode .pip-info-box {
+        display: block !important;
+    }
+}

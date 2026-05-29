@@ -5,7 +5,6 @@ let databaseVideo = {};
 let currentActiveCategory = "live";
 let activeVideoId = null, activeVideoCategory = null; 
 let isPlayerActiveOnScreen = false; 
-let pipWindow = null; 
 let currentSearchQuery = "";
 
 function getRandomRating() {
@@ -151,9 +150,9 @@ function renderVideos(category) {
             </div>`;
 
         card.onclick = () => {
-            closeNativePip();
             const pc = document.getElementById("player-container");
             pc.classList.remove("pip-mode");
+            removeMobileDragHandle();
             if (category === "series" || category === "anime") {
                 buildEpisodeList(item, category, item.total_episodes);
                 playVideo(item.id_kv, category, item.total_episodes[0]);
@@ -199,6 +198,29 @@ function buildEpisodeList(item, category, parsedEpisodes) {
     wrapper.appendChild(containerList);
 }
 
+function updatePipMetadata(idKv, category) {
+    const playerContainer = document.getElementById("player-container");
+    if (!playerContainer) return;
+
+    const oldInfo = document.getElementById("pip-metadata-box");
+    if (oldInfo) oldInfo.remove();
+
+    if (!databaseVideo[category]) return;
+    const currentVideo = databaseVideo[category].find(item => item.id_kv === idKv);
+    if (!currentVideo) return;
+
+    const infoBox = document.createElement("div");
+    infoBox.id = "pip-metadata-box";
+    infoBox.className = "pip-info-box";
+    infoBox.innerHTML = `
+        <div class="pip-info-title">${currentVideo.title}</div>
+        <div class="pip-info-meta">
+            <i class="fa-solid fa-circle-play"></i> Sedang diputar
+        </div>
+    `;
+    playerContainer.appendChild(infoBox);
+}
+
 function playVideo(idKv, category, eps = null) {
     activeVideoId = idKv; activeVideoCategory = category; isPlayerActiveOnScreen = true; 
 
@@ -212,67 +234,40 @@ function playVideo(idKv, category, eps = null) {
 
     iframe.src = finalUrl;
     
-    if (pipWindow) {
-        pipWindow.document.body.appendChild(iframe);
-    } else {
-        playerContainer.classList.remove("pip-mode"); 
-        playerContainer.style.display = "block";
-        layout.className = "app-layout playing";
-    }
+    playerContainer.classList.remove("pip-mode"); 
+    removeMobileDragHandle();
+    
+    const oldInfo = document.getElementById("pip-metadata-box");
+    if (oldInfo) oldInfo.remove();
+
+    playerContainer.style.display = "block";
+    layout.className = "app-layout playing";
 
     renderVideos(currentActiveCategory);
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-async function enterNativePip() {
-    const iframe = document.getElementById("stream-frame");
-    if (!iframe || iframe.src === "about:blank") return;
-
-    try {
-        if ('documentPictureInPicture' in window) {
-            if (pipWindow) pipWindow.close();
-
-            pipWindow = await window.documentPictureInPicture.requestWindow({ width: 340, height: 190 });
-
-            const pipStyle = pipWindow.document.createElement('style');
-            pipStyle.textContent = `
-                body { margin: 0; background: #000; overflow: hidden; }
-                iframe { width: 100vw; height: 100vh; border: none; }
-            `;
-            pipWindow.document.head.appendChild(pipStyle);
-            pipWindow.document.body.appendChild(iframe);
-
-            pipWindow.addEventListener("pagehide", () => {
-                const playerContainer = document.getElementById("player-container");
-                playerContainer.appendChild(iframe);
-                pipWindow = null;
-                
-                if (currentActiveCategory === activeVideoCategory) {
-                    playerContainer.classList.remove("pip-mode");
-                } else {
-                    playerContainer.classList.add("pip-mode");
-                    makeElementDraggable(playerContainer);
-                }
-                renderVideos(currentActiveCategory);
-            });
-        } else {
-            const playerContainer = document.getElementById("player-container");
-            playerContainer.classList.add("pip-mode");
-            makeElementDraggable(playerContainer);
-        }
-    } catch (error) {
-        console.error("Fallback ke PiP CSS internal:", error);
-        const playerContainer = document.getElementById("player-container");
-        playerContainer.classList.add("pip-mode");
-        makeElementDraggable(playerContainer);
-    }
+function injectMobileDragHandle(parent) {
+    removeMobileDragHandle();
+    
+    const handle = document.createElement("div");
+    handle.id = "mobile-pip-drag-handle";
+    
+    handle.style.position = "absolute";
+    handle.style.top = "40px"; 
+    handle.style.left = "0";
+    handle.style.width = "100%";
+    handle.style.height = "calc(100% - 40px)"; 
+    handle.style.zIndex = "5"; 
+    handle.style.background = "rgba(0, 0, 0, 0.01)"; 
+    handle.style.cursor = "move";
+    
+    parent.appendChild(handle);
 }
 
-function closeNativePip() {
-    if (pipWindow) {
-        pipWindow.close();
-        pipWindow = null;
-    }
+function removeMobileDragHandle() {
+    const existingHandle = document.getElementById("mobile-pip-drag-handle");
+    if (existingHandle) existingHandle.remove();
 }
 
 function switchCategory(category, element) {
@@ -289,11 +284,23 @@ function switchCategory(category, element) {
         if (category !== activeVideoCategory) {
             document.getElementById("episode-wrapper").style.display = "none"; 
             resetDraggablePosition(playerContainer);
-            enterNativePip();
+            playerContainer.classList.add("pip-mode");
+            
+            updatePipMetadata(activeVideoId, activeVideoCategory);
+
+            const isPortrait = window.innerHeight > window.innerWidth;
+            if (isPortrait) {
+                injectMobileDragHandle(playerContainer);
+                makeElementDraggable(playerContainer);
+            }
         } else {
-            closeNativePip();
             playerContainer.classList.remove("pip-mode"); 
+            removeMobileDragHandle();
             resetDraggablePosition(playerContainer);
+            
+            const oldInfo = document.getElementById("pip-metadata-box");
+            if (oldInfo) oldInfo.remove();
+
             if (category === "series" || category === "anime") {
                 const targetItem = databaseVideo[category].find(item => item.id_kv === activeVideoId);
                 if(targetItem) buildEpisodeList(targetItem, category, targetItem.total_episodes);
@@ -303,9 +310,32 @@ function switchCategory(category, element) {
     renderVideos(category);
 }
 
+function handleOrientationChange() {
+    if (!isPlayerActiveOnScreen) return;
+
+    const playerContainer = document.getElementById("player-container");
+    const shouldBeInPip = currentActiveCategory !== activeVideoCategory;
+
+    if (shouldBeInPip) {
+        const isPortrait = window.innerHeight > window.innerWidth;
+        updatePipMetadata(activeVideoId, activeVideoCategory);
+
+        if (!isPortrait) {
+            removeMobileDragHandle();
+            resetDraggablePosition(playerContainer);
+            playerContainer.classList.add("pip-mode"); 
+        } else {
+            resetDraggablePosition(playerContainer);
+            playerContainer.classList.add("pip-mode");
+            injectMobileDragHandle(playerContainer);
+            makeElementDraggable(playerContainer);
+        }
+    }
+    renderVideos(currentActiveCategory);
+}
+
 function stopVideoTotal(event) {
     if (event) event.stopPropagation();
-    closeNativePip();
     stopVideoTotalWithoutResetGrid();
     renderVideos(currentActiveCategory);
 }
@@ -315,12 +345,16 @@ function stopVideoTotalWithoutResetGrid() {
     document.getElementById("episode-wrapper").style.display = "none";
     const playerContainer = document.getElementById("player-container");
     playerContainer.classList.remove("pip-mode");
+    removeMobileDragHandle();
     resetDraggablePosition(playerContainer);
+    
+    const oldInfo = document.getElementById("pip-metadata-box");
+    if (oldInfo) oldInfo.remove();
+
     playerContainer.style.display = "none";
     
     const iframe = document.getElementById("stream-frame");
     if (iframe) {
-        playerContainer.appendChild(iframe);
         iframe.src = "about:blank";
     }
     
@@ -328,20 +362,22 @@ function stopVideoTotalWithoutResetGrid() {
 }
 
 function makeElementDraggable(elmnt) {
-    let currentX, currentY, initialX, initialY;
+    let currentX = 0, currentY = 0, initialX = 0, initialY = 0;
     let xOffset = 0, yOffset = 0;
     let isDragging = false;
 
     elmnt.style.touchAction = "none";
 
-    elmnt.removeEventListener('touchstart', dragStart);
-    elmnt.removeEventListener('mousedown', dragStart);
+    const dragTarget = document.getElementById("mobile-pip-drag-handle") || elmnt;
+
+    dragTarget.removeEventListener('touchstart', dragStart);
+    dragTarget.removeEventListener('mousedown', dragStart);
     
-    elmnt.addEventListener('touchstart', dragStart, { passive: false });
-    elmnt.addEventListener('mousedown', dragStart);
+    dragTarget.addEventListener('touchstart', dragStart, { passive: false });
+    dragTarget.addEventListener('mousedown', dragStart);
 
     function dragStart(e) {
-        if (e.target.closest('.close-btn') || e.target.closest('.stop-btn')) return;
+        if (window.innerWidth > window.innerHeight) return;
 
         isDragging = true;
 
@@ -398,4 +434,5 @@ function resetDraggablePosition(elmnt) {
 window.onload = () => {
     loadDatabaseFromKV();
     document.addEventListener('contextmenu', e => e.preventDefault());
+    window.addEventListener('resize', handleOrientationChange);
 };

@@ -153,6 +153,7 @@ function renderVideos(category) {
         card.onclick = () => {
             closeNativePip();
             document.getElementById("player-container").classList.remove("pip-mode");
+            removePipOverlay();
             if (category === "series" || category === "anime") {
                 buildEpisodeList(item, category, item.total_episodes);
                 playVideo(item.id_kv, category, item.total_episodes[0]);
@@ -215,12 +216,33 @@ function playVideo(idKv, category, eps = null) {
         pipWindow.document.body.appendChild(iframe);
     } else {
         playerContainer.classList.remove("pip-mode"); 
+        removePipOverlay();
         playerContainer.style.display = "block";
         layout.className = "app-layout playing";
     }
 
     renderVideos(currentActiveCategory);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function createPipOverlay(parent) {
+    removePipOverlay();
+    const overlay = document.createElement("div");
+    overlay.id = "pip-touch-overlay";
+    overlay.style.position = "absolute";
+    overlay.style.top = "0";
+    overlay.style.left = "0";
+    overlay.style.width = "100%";
+    overlay.style.height = "100%";
+    overlay.style.zIndex = "10";
+    overlay.style.background = "transparent";
+    overlay.style.cursor = "move";
+    parent.appendChild(overlay);
+}
+
+function removePipOverlay() {
+    const existingOverlay = document.getElementById("pip-touch-overlay");
+    if (existingOverlay) existingOverlay.remove();
 }
 
 async function enterNativePip() {
@@ -248,19 +270,25 @@ async function enterNativePip() {
                 
                 if (currentActiveCategory === activeVideoCategory) {
                     playerContainer.classList.remove("pip-mode");
+                    removePipOverlay();
                 } else {
                     playerContainer.classList.add("pip-mode");
+                    createPipOverlay(playerContainer);
                 }
                 renderVideos(currentActiveCategory);
             });
         } else {
-            document.getElementById("player-container").classList.add("pip-mode");
-            makeElementDraggable(document.getElementById("player-container"));
+            const playerContainer = document.getElementById("player-container");
+            playerContainer.classList.add("pip-mode");
+            createPipOverlay(playerContainer);
+            makeElementDraggable(playerContainer);
         }
     } catch (error) {
         console.error("Fallback ke PiP CSS internal:", error);
-        document.getElementById("player-container").classList.add("pip-mode");
-        makeElementDraggable(document.getElementById("player-container"));
+        const playerContainer = document.getElementById("player-container");
+        playerContainer.classList.add("pip-mode");
+        createPipOverlay(playerContainer);
+        makeElementDraggable(playerContainer);
     }
 }
 
@@ -289,6 +317,7 @@ function switchCategory(category, element) {
         } else {
             closeNativePip();
             playerContainer.classList.remove("pip-mode"); 
+            removePipOverlay();
             resetDraggablePosition(playerContainer);
             if (category === "series" || category === "anime") {
                 const targetItem = databaseVideo[category].find(item => item.id_kv === activeVideoId);
@@ -311,6 +340,7 @@ function stopVideoTotalWithoutResetGrid() {
     document.getElementById("episode-wrapper").style.display = "none";
     const playerContainer = document.getElementById("player-container");
     playerContainer.classList.remove("pip-mode");
+    removePipOverlay();
     resetDraggablePosition(playerContainer);
     playerContainer.style.display = "none";
     

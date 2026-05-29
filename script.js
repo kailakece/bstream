@@ -154,8 +154,6 @@ function renderVideos(category) {
             closeNativePip();
             const pc = document.getElementById("player-container");
             pc.classList.remove("pip-mode");
-            const iframe = document.getElementById("stream-frame");
-            if (iframe) iframe.style.pointerEvents = "auto";
             if (category === "series" || category === "anime") {
                 buildEpisodeList(item, category, item.total_episodes);
                 playVideo(item.id_kv, category, item.total_episodes[0]);
@@ -213,7 +211,6 @@ function playVideo(idKv, category, eps = null) {
     if (eps) finalUrl += `&eps=${eps}`;
 
     iframe.src = finalUrl;
-    if (iframe) iframe.style.pointerEvents = "auto";
     
     if (pipWindow) {
         pipWindow.document.body.appendChild(iframe);
@@ -252,10 +249,8 @@ async function enterNativePip() {
                 
                 if (currentActiveCategory === activeVideoCategory) {
                     playerContainer.classList.remove("pip-mode");
-                    if (iframe) iframe.style.pointerEvents = "auto";
                 } else {
                     playerContainer.classList.add("pip-mode");
-                    if (iframe) iframe.style.pointerEvents = "none";
                     makeElementDraggable(playerContainer);
                 }
                 renderVideos(currentActiveCategory);
@@ -263,14 +258,12 @@ async function enterNativePip() {
         } else {
             const playerContainer = document.getElementById("player-container");
             playerContainer.classList.add("pip-mode");
-            if (iframe) iframe.style.pointerEvents = "none";
             makeElementDraggable(playerContainer);
         }
     } catch (error) {
         console.error("Fallback ke PiP CSS internal:", error);
         const playerContainer = document.getElementById("player-container");
         playerContainer.classList.add("pip-mode");
-        if (iframe) iframe.style.pointerEvents = "none";
         makeElementDraggable(playerContainer);
     }
 }
@@ -300,8 +293,6 @@ function switchCategory(category, element) {
         } else {
             closeNativePip();
             playerContainer.classList.remove("pip-mode"); 
-            const iframe = document.getElementById("stream-frame");
-            if (iframe) iframe.style.pointerEvents = "auto";
             resetDraggablePosition(playerContainer);
             if (category === "series" || category === "anime") {
                 const targetItem = databaseVideo[category].find(item => item.id_kv === activeVideoId);
@@ -331,67 +322,60 @@ function stopVideoTotalWithoutResetGrid() {
     if (iframe) {
         playerContainer.appendChild(iframe);
         iframe.src = "about:blank";
-        iframe.style.pointerEvents = "auto";
     }
     
     document.getElementById("main-app-layout").classList.remove("playing");
 }
 
 function makeElementDraggable(elmnt) {
-    let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-    
+    let startX = 0, startY = 0;
+    let initialTop = 0, initialLeft = 0;
+    let isDragging = false;
+
     elmnt.style.touchAction = "none";
 
-    elmnt.removeEventListener('mousedown', dragMouseDown);
-    elmnt.removeEventListener('touchstart', dragMouseDown);
+    elmnt.removeEventListener('mousedown', dragStart);
+    elmnt.removeEventListener('touchstart', dragStart);
     
-    elmnt.addEventListener('mousedown', dragMouseDown);
-    elmnt.addEventListener('touchstart', dragMouseDown, { passive: false });
+    elmnt.addEventListener('mousedown', dragStart);
+    elmnt.addEventListener('touchstart', dragStart, { passive: false });
 
-    function dragMouseDown(e) {
-        e = e || window.event;
-        
+    function dragStart(e) {
         if (e.target.closest('.close-btn') || e.target.closest('.stop-btn')) return;
 
-        let touch = e.type === 'touchstart' ? (e.targetTouches[0] || e.touches[0]) : e;
-        if (!touch) return;
+        isDragging = true;
+        const pageX = e.type === 'touchstart' ? e.touches[0].pageX : e.pageX;
+        const pageY = e.type === 'touchstart' ? e.touches[0].pageY : e.pageY;
 
-        if (e.type === 'touchstart' && e.cancelable) {
-            e.preventDefault();
-        }
+        startX = pageX;
+        startY = pageY;
 
-        pos3 = touch.clientX;
-        pos4 = touch.clientY;
+        initialLeft = elmnt.offsetLeft;
+        initialTop = elmnt.offsetTop;
 
         if (e.type === 'touchstart') {
-            document.addEventListener('touchend', closeDragElement, { passive: false });
-            document.addEventListener('touchmove', elementDrag, { passive: false });
+            document.addEventListener('touchmove', dragMove, { passive: false });
+            document.addEventListener('touchend', dragEnd, { passive: false });
         } else {
-            document.preventDefault ? document.preventDefault() : (e.returnValue = false);
-            document.addEventListener('mouseup', closeDragElement);
-            document.addEventListener('mousemove', elementDrag);
+            e.preventDefault();
+            document.addEventListener('mousemove', dragMove);
+            document.addEventListener('mouseup', dragEnd);
         }
     }
 
-    function elementDrag(e) {
-        e = e || window.event;
-
+    function dragMove(e) {
+        if (!isDragging) return;
         if (e.cancelable) e.preventDefault();
 
-        let touch = e.type === 'touchmove' ? (e.targetTouches[0] || e.touches[0]) : e;
-        if (!touch) return;
+        const pageX = e.type === 'touchmove' ? e.touches[0].pageX : e.pageX;
+        const pageY = e.type === 'touchmove' ? e.touches[0].pageY : e.pageY;
 
-        const clientX = touch.clientX;
-        const clientY = touch.clientY;
+        const deltaX = pageX - startX;
+        const deltaY = pageY - startY;
 
-        pos1 = pos3 - clientX;
-        pos2 = pos4 - clientY;
-        pos3 = clientX;
-        pos4 = clientY;
-        
-        let targetTop = elmnt.offsetTop - pos2;
-        let targetLeft = elmnt.offsetLeft - pos1;
-        
+        let targetLeft = initialLeft + deltaX;
+        let targetTop = initialTop + deltaY;
+
         const maxTop = window.innerHeight - elmnt.clientHeight;
         const maxLeft = window.innerWidth - elmnt.clientWidth;
 
@@ -406,11 +390,12 @@ function makeElementDraggable(elmnt) {
         elmnt.style.right = "auto";
     }
 
-    function closeDragElement() {
-        document.removeEventListener('mouseup', closeDragElement);
-        document.removeEventListener('mousemove', elementDrag);
-        document.removeEventListener('touchend', closeDragElement);
-        document.removeEventListener('touchmove', elementDrag);
+    function dragEnd() {
+        isDragging = false;
+        document.removeEventListener('mousemove', dragMove);
+        document.removeEventListener('mouseup', dragEnd);
+        document.removeEventListener('touchmove', dragMove);
+        document.removeEventListener('touchend', dragEnd);
     }
 }
 

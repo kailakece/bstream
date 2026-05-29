@@ -326,12 +326,25 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
       <video id="video-player" controls playsinline></video>
       <script>
           const video = document.getElementById('video-player');
-          let attemptCount = 0;
-          function handleVideoError() {
-              attemptCount++; if (attemptCount > 3) return;
-              const fallbacks = ${fallbackArrayJson};
-              setTimeout(() => { video.src = fallbacks[Math.floor(Math.random() * fallbacks.length)]; video.load(); triggerUnmutedAutoplay(); }, 1000);
+          const fallbacks = ${fallbackArrayJson};
+          let isFallbackMode = false;
+
+          function playRandomFallback() {
+              isFallbackMode = true;
+              const randomUrl = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+              video.src = randomUrl;
+              video.load();
+              triggerUnmutedAutoplay();
           }
+
+          function handleVideoError() {
+              if (isFallbackMode) {
+                  playRandomFallback();
+              } else {
+                  playRandomFallback();
+              }
+          }
+
           function triggerUnmutedAutoplay() {
               video.muted = false;
               let playPromise = video.play();
@@ -339,7 +352,13 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
                   playPromise.catch(error => { video.muted = true; video.play(); });
               }
           }
+
           video.addEventListener('error', handleVideoError);
+
+          video.addEventListener('ended', function() {
+              playRandomFallback();
+          });
+
           if ("${playerType}" === "hls" && typeof Hls !== 'undefined' && Hls.isSupported()) {
               const hls = new Hls({ maxMaxBufferLength: 30 }); hls.loadSource("${finalStreamUrl}"); hls.attachMedia(video);
               hls.on(Hls.Events.MANIFEST_PARSED, function() { triggerUnmutedAutoplay(); });
@@ -358,4 +377,5 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
       </script>
   </body>
   </html>`;
+}
 }

@@ -328,35 +328,33 @@ function stopVideoTotalWithoutResetGrid() {
 }
 
 function makeElementDraggable(elmnt) {
-    let startX = 0, startY = 0;
-    let initialTop = 0, initialLeft = 0;
+    let currentX, currentY, initialX, initialY;
+    let xOffset = 0, yOffset = 0;
     let isDragging = false;
 
     elmnt.style.touchAction = "none";
 
-    elmnt.removeEventListener('mousedown', dragStart);
     elmnt.removeEventListener('touchstart', dragStart);
+    elmnt.removeEventListener('mousedown', dragStart);
     
-    elmnt.addEventListener('mousedown', dragStart);
     elmnt.addEventListener('touchstart', dragStart, { passive: false });
+    elmnt.addEventListener('mousedown', dragStart);
 
     function dragStart(e) {
         if (e.target.closest('.close-btn') || e.target.closest('.stop-btn')) return;
 
         isDragging = true;
-        const pageX = e.type === 'touchstart' ? e.touches[0].pageX : e.pageX;
-        const pageY = e.type === 'touchstart' ? e.touches[0].pageY : e.pageY;
-
-        startX = pageX;
-        startY = pageY;
-
-        initialLeft = elmnt.offsetLeft;
-        initialTop = elmnt.offsetTop;
 
         if (e.type === 'touchstart') {
+            initialX = e.touches[0].clientX - xOffset;
+            initialY = e.touches[0].clientY - yOffset;
+            
             document.addEventListener('touchmove', dragMove, { passive: false });
             document.addEventListener('touchend', dragEnd, { passive: false });
         } else {
+            initialX = e.clientX - xOffset;
+            initialY = e.clientY - yOffset;
+            
             e.preventDefault();
             document.addEventListener('mousemove', dragMove);
             document.addEventListener('mouseup', dragEnd);
@@ -367,27 +365,18 @@ function makeElementDraggable(elmnt) {
         if (!isDragging) return;
         if (e.cancelable) e.preventDefault();
 
-        const pageX = e.type === 'touchmove' ? e.touches[0].pageX : e.pageX;
-        const pageY = e.type === 'touchmove' ? e.touches[0].pageY : e.pageY;
+        if (e.type === 'touchmove') {
+            currentX = e.touches[0].clientX - initialX;
+            currentY = e.touches[0].clientY - initialY;
+        } else {
+            currentX = e.clientX - initialX;
+            currentY = e.clientY - initialY;
+        }
 
-        const deltaX = pageX - startX;
-        const deltaY = pageY - startY;
+        xOffset = currentX;
+        yOffset = currentY;
 
-        let targetLeft = initialLeft + deltaX;
-        let targetTop = initialTop + deltaY;
-
-        const maxTop = window.innerHeight - elmnt.clientHeight;
-        const maxLeft = window.innerWidth - elmnt.clientWidth;
-
-        if (targetTop < 0) targetTop = 0;
-        if (targetLeft < 0) targetLeft = 0;
-        if (targetTop > maxTop) targetTop = maxTop;
-        if (targetLeft > maxLeft) targetLeft = maxLeft;
-
-        elmnt.style.top = targetTop + "px";
-        elmnt.style.left = targetLeft + "px";
-        elmnt.style.bottom = "auto";
-        elmnt.style.right = "auto";
+        elmnt.style.transform = `translate3d(${currentX}px, ${currentY}px, 0)`;
     }
 
     function dragEnd() {
@@ -401,6 +390,7 @@ function makeElementDraggable(elmnt) {
 
 function resetDraggablePosition(elmnt) {
     elmnt.style.touchAction = "";
+    elmnt.style.transform = "";
     elmnt.style.top = ""; elmnt.style.left = "";
     elmnt.style.bottom = ""; elmnt.style.right = "";
 }

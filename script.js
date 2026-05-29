@@ -152,8 +152,10 @@ function renderVideos(category) {
 
         card.onclick = () => {
             closeNativePip();
-            document.getElementById("player-container").classList.remove("pip-mode");
-            removePipOverlay();
+            const pc = document.getElementById("player-container");
+            pc.classList.remove("pip-mode");
+            const iframe = document.getElementById("stream-frame");
+            if (iframe) iframe.style.pointerEvents = "auto";
             if (category === "series" || category === "anime") {
                 buildEpisodeList(item, category, item.total_episodes);
                 playVideo(item.id_kv, category, item.total_episodes[0]);
@@ -211,38 +213,18 @@ function playVideo(idKv, category, eps = null) {
     if (eps) finalUrl += `&eps=${eps}`;
 
     iframe.src = finalUrl;
+    if (iframe) iframe.style.pointerEvents = "auto";
     
     if (pipWindow) {
         pipWindow.document.body.appendChild(iframe);
     } else {
         playerContainer.classList.remove("pip-mode"); 
-        removePipOverlay();
         playerContainer.style.display = "block";
         layout.className = "app-layout playing";
     }
 
     renderVideos(currentActiveCategory);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-function createPipOverlay(parent) {
-    removePipOverlay();
-    const overlay = document.createElement("div");
-    overlay.id = "pip-touch-overlay";
-    overlay.style.position = "absolute";
-    overlay.style.top = "0";
-    overlay.style.left = "0";
-    overlay.style.width = "100%";
-    overlay.style.height = "100%";
-    overlay.style.zIndex = "2147483647";
-    overlay.style.background = "rgba(0,0,0,0.01)";
-    overlay.style.cursor = "move";
-    parent.appendChild(overlay);
-}
-
-function removePipOverlay() {
-    const existingOverlay = document.getElementById("pip-touch-overlay");
-    if (existingOverlay) existingOverlay.remove();
 }
 
 async function enterNativePip() {
@@ -270,10 +252,10 @@ async function enterNativePip() {
                 
                 if (currentActiveCategory === activeVideoCategory) {
                     playerContainer.classList.remove("pip-mode");
-                    removePipOverlay();
+                    if (iframe) iframe.style.pointerEvents = "auto";
                 } else {
                     playerContainer.classList.add("pip-mode");
-                    createPipOverlay(playerContainer);
+                    if (iframe) iframe.style.pointerEvents = "none";
                     makeElementDraggable(playerContainer);
                 }
                 renderVideos(currentActiveCategory);
@@ -281,14 +263,14 @@ async function enterNativePip() {
         } else {
             const playerContainer = document.getElementById("player-container");
             playerContainer.classList.add("pip-mode");
-            createPipOverlay(playerContainer);
+            if (iframe) iframe.style.pointerEvents = "none";
             makeElementDraggable(playerContainer);
         }
     } catch (error) {
         console.error("Fallback ke PiP CSS internal:", error);
         const playerContainer = document.getElementById("player-container");
         playerContainer.classList.add("pip-mode");
-        createPipOverlay(playerContainer);
+        if (iframe) iframe.style.pointerEvents = "none";
         makeElementDraggable(playerContainer);
     }
 }
@@ -318,7 +300,8 @@ function switchCategory(category, element) {
         } else {
             closeNativePip();
             playerContainer.classList.remove("pip-mode"); 
-            removePipOverlay();
+            const iframe = document.getElementById("stream-frame");
+            if (iframe) iframe.style.pointerEvents = "auto";
             resetDraggablePosition(playerContainer);
             if (category === "series" || category === "anime") {
                 const targetItem = databaseVideo[category].find(item => item.id_kv === activeVideoId);
@@ -341,13 +324,15 @@ function stopVideoTotalWithoutResetGrid() {
     document.getElementById("episode-wrapper").style.display = "none";
     const playerContainer = document.getElementById("player-container");
     playerContainer.classList.remove("pip-mode");
-    removePipOverlay();
     resetDraggablePosition(playerContainer);
     playerContainer.style.display = "none";
     
     const iframe = document.getElementById("stream-frame");
-    playerContainer.appendChild(iframe);
-    iframe.src = "about:blank";
+    if (iframe) {
+        playerContainer.appendChild(iframe);
+        iframe.src = "about:blank";
+        iframe.style.pointerEvents = "auto";
+    }
     
     document.getElementById("main-app-layout").classList.remove("playing");
 }
@@ -368,18 +353,21 @@ function makeElementDraggable(elmnt) {
         
         if (e.target.closest('.close-btn') || e.target.closest('.stop-btn')) return;
 
-        const clientX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
-        const clientY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
-        
-        pos3 = clientX;
-        pos4 = clientY;
+        let touch = e.type === 'touchstart' ? (e.targetTouches[0] || e.touches[0]) : e;
+        if (!touch) return;
+
+        if (e.type === 'touchstart' && e.cancelable) {
+            e.preventDefault();
+        }
+
+        pos3 = touch.clientX;
+        pos4 = touch.clientY;
 
         if (e.type === 'touchstart') {
-            if (e.cancelable) e.preventDefault();
             document.addEventListener('touchend', closeDragElement, { passive: false });
             document.addEventListener('touchmove', elementDrag, { passive: false });
         } else {
-            e.preventDefault();
+            document.preventDefault ? document.preventDefault() : (e.returnValue = false);
             document.addEventListener('mouseup', closeDragElement);
             document.addEventListener('mousemove', elementDrag);
         }
@@ -390,10 +378,11 @@ function makeElementDraggable(elmnt) {
 
         if (e.cancelable) e.preventDefault();
 
-        const clientX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
-        const clientY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+        let touch = e.type === 'touchmove' ? (e.targetTouches[0] || e.touches[0]) : e;
+        if (!touch) return;
 
-        if (clientX === undefined || clientY === undefined) return;
+        const clientX = touch.clientX;
+        const clientY = touch.clientY;
 
         pos1 = pos3 - clientX;
         pos2 = pos4 - clientY;

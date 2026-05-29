@@ -1,5 +1,4 @@
 const WORKER_BASE_URL = "https://bstream.kailapirdaaulia.workers.dev/";
-// Silakan isi URL absolut playlist.txt Anda di bawah ini jika ingin langsung dari GitHub Pages
 const TEXT_PLAYLIST_URL = "./playlist.txt"; 
 
 let databaseVideo = {}; 
@@ -13,7 +12,6 @@ function getRandomRating() {
     return (Math.random() * (5.0 - 4.0) + 4.0).toFixed(1);
 }
 
-// Fungsi Parser utama untuk membaca file TXT berjejer vertikal
 function parseTextDatabase(text) {
     const db = { live: [], film: [], semi: [], series: [], anime: [] };
     const lines = text.split('\n');
@@ -24,7 +22,6 @@ function parseTextDatabase(text) {
         line = line.trim();
         if (!line) continue; 
 
-        // Deteksi Tag Kategori [LIVE], [ANIME], dll
         if (line.startsWith('[') && line.endsWith(']')) {
             currentCategory = line.slice(1, -1).toLowerCase();
             currentParentObj = null;
@@ -35,7 +32,6 @@ function parseTextDatabase(text) {
 
         const parts = line.split('|').map(p => p.trim());
 
-        // Masukkan data langsung jika kategori Single (LIVE, FILM, SEMI)
         if (currentCategory === 'live' || currentCategory === 'film' || currentCategory === 'semi') {
             const item = {
                 id_kv: parts[0],
@@ -47,22 +43,19 @@ function parseTextDatabase(text) {
             };
             db[currentCategory].push(item);
         } 
-        // Proses struktural vertikal untuk SERIES & ANIME
         else if (currentCategory === 'series' || currentCategory === 'anime') {
             if (parts.length >= 4) {
-                // Baris ini adalah Judul Induk Baru
                 currentParentObj = {
                     id_kv: parts[0],
                     title: parts[1],
                     image: parts[2],
                     badge: parts[3],
                     rating: getRandomRating(),
-                    total_episodes: [] // Menyimpan daftar nomor episodenya saja
+                    total_episodes: []
                 };
                 db[currentCategory].push(currentParentObj);
             } 
             else if (parts.length >= 2 && currentParentObj) {
-                // Baris ini adalah Episode bawahan dari Judul di atasnya
                 currentParentObj.total_episodes.push(parts[0]);
             }
         }
@@ -330,24 +323,36 @@ function stopVideoTotalWithoutResetGrid() {
 
 function makeElementDraggable(elmnt) {
     let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-    elmnt.onmousedown = dragMouseDown;
-    elmnt.ontouchstart = dragMouseDown;
+    
+    elmnt.addEventListener('mousedown', dragMouseDown);
+    elmnt.addEventListener('touchstart', dragMouseDown, { passive: true });
 
     function dragMouseDown(e) {
         e = e || window.event;
-        if(e.type !== 'touchstart') e.preventDefault();
-        pos3 = e.clientX || (e.touches && e.touches[0].clientX);
-        pos4 = e.clientY || (e.touches && e.touches[0].clientY);
-        document.onmouseup = closeDragElement;
-        document.ontouchend = closeDragElement;
-        document.onmousemove = elementDrag;
-        document.ontouchmove = elementDrag;
+        
+        if (e.target.closest('.close-btn') || e.target.closest('.stop-btn')) return;
+
+        const clientX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+        
+        pos3 = clientX;
+        pos4 = clientY;
+
+        if (e.type === 'touchstart') {
+            document.addEventListener('touchend', closeDragElement);
+            document.addEventListener('touchmove', elementDrag, { passive: true });
+        } else {
+            document.addEventListener('mouseup', closeDragElement);
+            document.addEventListener('mousemove', elementDrag);
+        }
     }
 
     function elementDrag(e) {
         e = e || window.event;
-        let clientX = e.clientX || (e.touches && e.touches[0].clientX);
-        let clientY = e.clientY || (e.touches && e.touches[0].clientY);
+
+        const clientX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+
         pos1 = pos3 - clientX;
         pos2 = pos4 - clientY;
         pos3 = clientX;
@@ -356,10 +361,13 @@ function makeElementDraggable(elmnt) {
         let targetTop = elmnt.offsetTop - pos2;
         let targetLeft = elmnt.offsetLeft - pos1;
         
-        if(targetTop < 0) targetTop = 0;
-        if(targetLeft < 0) targetLeft = 0;
-        if(targetTop + elmnt.clientHeight > window.innerHeight) targetTop = window.innerHeight - elmnt.clientHeight;
-        if(targetLeft + elmnt.clientWidth > window.innerWidth) targetLeft = window.innerWidth - elmnt.clientWidth;
+        const maxTop = window.innerHeight - elmnt.clientHeight;
+        const maxLeft = window.innerWidth - elmnt.clientWidth;
+
+        if (targetTop < 0) targetTop = 0;
+        if (targetLeft < 0) targetLeft = 0;
+        if (targetTop > maxTop) targetTop = maxTop;
+        if (targetLeft > maxLeft) targetLeft = maxLeft;
 
         elmnt.style.top = targetTop + "px";
         elmnt.style.left = targetLeft + "px";
@@ -367,12 +375,11 @@ function makeElementDraggable(elmnt) {
         elmnt.style.right = "auto";
     }
 
-    // Perbaikan fungsionalitas drag agar rilis sentuhan responsif
     function closeDragElement() {
-        document.onmouseup = null;
-        document.onmousemove = null;
-        document.ontouchend = null;
-        document.ontouchmove = null;
+        document.removeEventListener('mouseup', closeDragElement);
+        document.removeEventListener('mousemove', elementDrag);
+        document.removeEventListener('touchend', closeDragElement);
+        document.removeEventListener('touchmove', elementDrag);
     }
 }
 

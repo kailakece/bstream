@@ -325,12 +325,16 @@ function makeElementDraggable(elmnt) {
     let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     
     elmnt.addEventListener('mousedown', dragMouseDown);
-    elmnt.addEventListener('touchstart', dragMouseDown, { passive: true });
+    elmnt.addEventListener('touchstart', dragMouseDown, { passive: false });
 
     function dragMouseDown(e) {
         e = e || window.event;
         
         if (e.target.closest('.close-btn') || e.target.closest('.stop-btn')) return;
+
+        if (e.type === 'touchstart') {
+            e.preventDefault();
+        }
 
         const clientX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
         const clientY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
@@ -340,7 +344,7 @@ function makeElementDraggable(elmnt) {
 
         if (e.type === 'touchstart') {
             document.addEventListener('touchend', closeDragElement);
-            document.addEventListener('touchmove', elementDrag, { passive: true });
+            document.addEventListener('touchmove', elementDrag, { passive: false });
         } else {
             document.addEventListener('mouseup', closeDragElement);
             document.addEventListener('mousemove', elementDrag);
@@ -349,6 +353,8 @@ function makeElementDraggable(elmnt) {
 
     function elementDrag(e) {
         e = e || window.event;
+
+        if (e.cancelable) e.preventDefault();
 
         const clientX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
         const clientY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;

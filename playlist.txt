@@ -1,8 +1,8 @@
 [LIVE]
-rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780061226~hmac=ffd2e58cfeebfd2de455951d1d27c9574a7e59654b81a4840ff280f54ccdfca0 | https://www.rctiplus.com/
-mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780061304~hmac=47b6254d79f2e5499e62d1f9bff269322df706e9051a9cdbc5679f7ff518b2b9 | https://www.rctiplus.com/
-gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780061341~hmac=68f4b354a199ee45e74411241d449306e79447f18910cc73d2151e11cdd197d9 | https://www.rctiplus.com/
-inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780061367~hmac=c7d8e108becfbdaa3aeac701fd1cd58c3b860dabd180f6f2b2ba516e880a31d9 | https://www.rctiplus.com/
+rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780091676~hmac=31570b9eba19bb857125b4ad12423ee290af9d7f45981f304ccc5db899e5f679 | https://www.rctiplus.com/
+mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780091722~hmac=a669bf4ccb46a1b3b5827c3acb93e6dc3735373aece8a7ce8a70848507f52335 | https://www.rctiplus.com/
+gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780091753~hmac=ec5d48e6826d9a38163a5cd8bf7cc705c11c29c00969e3447b8dcc7398dd54c9 | https://www.rctiplus.com/
+inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780091781~hmac=56063fd875386d4c976fd0216bc1d1aee5b60f6a59f0d639097ead43d225608d | https://www.rctiplus.com/
 trans7 | Trans 7 | https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/Trans7-Landscape-qv7ajymhde067cu25w8jn75iul15nlwfn46jbtyham.jpg | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv | Trans TV | https://thumbor.prod.vidiocdn.com/rw3YANrLDodOrAxrxUPomDVHjjI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/733/trans-tv-3836a5.jpg | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv | SCTV | https://thumbor.prod.vidiocdn.com/Xr8AAOVjClvDNr9P3fkGaB9Zn20=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/204/sctv-5ef966.jpg | LIVE | 
@@ -39,6 +39,17 @@ breakbeat | Breakbeat | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH
 muse | Muse Indonesia | https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHbt74pU3vjWbxwNXiXkSMWjgBeUDplL__018u2qyYtrMN32FeNUfoejVl8ljrpeM9YZOx-4kPfwCEk-6MKnm6lGrth4trXp38hO69McAy0jEFYeWanT_Xs6cvth294aJSbyuoEPbkDBfr/s800-rw/durasi-muse.jpg | LIVE | https://www.youtube.com/live/3WfRhhYY00Q 
 
 [FILM]
+dear-imamku | Dear Imamku | https://pict.sindonews.com/dyn/850/pena/news/2021/05/01/701/414948/bertemu-di-film-dear-imamku-dul-dan-tissa-biani-berbagi-kisah-cinta-di-hari-lebaran-2021-edz.jpg | HD FILM | https://youtu.be/aOQbDixQvtQ
+ada-dewa-disisiku | Ada Dewa Disisiku | https://img.okezone.com/content/2020/10/05/598/2288781/ada-dewa-di-sisiku-serial-rcti-rasa-drama-korea-QKcVTtWeF4.jpg | HD FILM | https://youtu.be/jq101F1NXGQ
+ajari-aku-islam | Ajari Aku Islam | https://asset.kompas.com/crops/mxiKoNV_rnBn4O9n0KdaWPpL1zs=/0x176:768x688/1200x800/data/photo/2020/08/20/5f3dd9fe25d1b.jpg | HD FILM | https://youtu.be/gWRAdciRQxI
+4-mantan | 4 Mantan | https://vcover-hz-pic.wetvinfo.com/vcover_hz_pic/0/s9a8alcec1im7ps1730718274741_j_LxBOE-/0 | HD FILM | https://youtu.be/LPGjcAaszgM
+rumput-tetangga | Rumput Tetangga | https://image.idn.media/post/20190323/cover-e0fe320dfbf88af8a3048fd27e6ff2f1-83acec8d3599ea07be9fc727b9af4c7d.jpg | HD FILM | https://youtu.be/pDvD8g1sYBo
+kingkong-vs-giant-serpent | Kingkong vs Giant Serpent : Battle Of Snakes | https://pic1.iqiyipic.com/image/20250912/44/bd/v_174462370_m_601_en_m1_1080_608.jpg | HD FILM | https://youtu.be/Bia2m1Dt6wc
+dimsum-martabak | Dimsum Martabak | https://thumbor.prod.vidiocdn.com/Rqdg2cRFSv_i6qu4Croo2aF39Bs=/1920x1080/filters:quality(70)/vidio-media-production/uploads/image/source/21433/c7e3b6.jpg | HD FILM | https://youtu.be/BDUFYURYN8M
+13-the-haunted | 13 The Haunted | https://vcover-hz-pic.wetvinfo.com/vcover_hz_pic/0/cui4isslddla6cb1730718267863_37Kq6Hk3/0 | HD FILM | https://youtu.be/Q7XPjWHC29o
+kesempatan-keduda | Kesempatan Keduda | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAk0anjG5l9UrDeFNuM8X1I7xwQM7RuwAlOxfdKOywvugajDFGDCLQkMUw&s=10 | HD FILM | https://youtu.be/iR5rvVjRe6E
+sunyi | Sunyi | https://tigapuluhlimaadegan.wordpress.com/wp-content/uploads/2019/04/adaptasi-horor-korea-sunyi-berikan-kehe-62ff21.jpg | HD FILM | https://youtu.be/AgEUWTXCT_E
+kembalinya-anak-iblis | Kembalinya Anak Iblis | https://mmc.tirto.id/image/otf/398x0/2022/06/13/film-kembalinya-anak-iblis_ratio-16x9.jpg | HD FILM | https://youtu.be/CEFbKkWQ8hQ
 roh-fasik | Roh Fasik | https://vcover-hz-pic.wetvinfo.com/vcover_hz_pic/0/8g8vhob9qiyjeov1730718268696_zY2sOUGl/0 | HD FILM | https://youtu.be/KHOmLudd5JQ
 mendadak-kaya | Mendadak Kaya | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpx84cj3Ubq5rjl3zdwiAR0qdE71krje-G1rFOb0SnqA&s=10 | HD FILM | https://youtu.be/OFc4EshM81w
 arwah-tumbal-nyai | Arwah Tumbal Nyai | https://vcover-hz-pic.wetvinfo.com/vcover_hz_pic/0/v0b0m56xdqyc5va1730717684757_Xt2q6lqp/0 | HD FILM | https://youtu.be/905IOY9nQqQ

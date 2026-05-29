@@ -36,6 +36,7 @@ spotv2 | SPOTV2 | https://thumbor.prod.vidiocdn.com/DDucwJyoKvfCLglPujyq3EPGcjc=
 bein | Bein Sport 1 | https://thumbor.prod.vidiocdn.com/dBMf_WAWW0JVeB5hVsaXQbYSxv4=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg | LIVE | 
 larva | Larva | https://i.ytimg.com/vi/TAPKoHMbaO4/maxresdefault.jpg | LIVE | https://www.youtube.com/live/dK5ZCBzUf7Y
 breakbeat | Breakbeat | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHj2FKAQfwU_dQq8icf0q2Thh2LwW1Sir9Q-hEA9VX_9LxkF1h_5hGBbQ&s=10 | LIVE | https://www.youtube.com/live/58tvRl9DP0k
+muse | Muse Indonesia | https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHbt74pU3vjWbxwNXiXkSMWjgBeUDplL__018u2qyYtrMN32FeNUfoejVl8ljrpeM9YZOx-4kPfwCEk-6MKnm6lGrth4trXp38hO69McAy0jEFYeWanT_Xs6cvth294aJSbyuoEPbkDBfr/s800-rw/durasi-muse.jpg | LIVE | https://www.youtube.com/live/3WfRhhYY00Q 
 
 [FILM]
 narik-sukmo | Narik Sukmo | https://aadtoday.com/assets/berita/original/94232992931-screenshot_2025-07-09-20-29-55-471_com.jpg | HD FILM | https://bun.p2pplay.pro/hls/pbyQCxRBZ03Ly8l8jRi4Bg/is9/b6iux89s/t6tuxe/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
@@ -227,4 +228,43 @@ dxd | High School DxD | https://wallpapers.com/images/hd/highschool-dxd-rias-and
 12 | https://mp4upload.com/embed-dk1zvl817zx1.html
 13 | https://mp4upload.com/embed-h9hh8jtoqrd7.html
 14 | https://mp4upload.com/embed-7b51jwe5h4kl.html
+
+onepunchman | One Punch Man | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKJxw14J6_bmJAoBTGj4UFUKv8uhF7AZ-b-WUhWHCYvG7QlVlW3_M83bW&s=10 | ANIME
+1 | https://youtu.be/6C31Vpck0vM
+2 | https://youtu.be/I_rODyobXKI
+3 | https://youtu.be/X9JieyPjYHI
+4 | https://youtu.be/F9pBjWy0zpQ
+5 | https://youtu.be/MA3P5I-pDBs
+6 | https://youtu.be/QWasQ64B9ko
+7 | https://youtu.be/TjgFOxqaqJc
+8 | https://youtu.be/SJXJnKIl4ws
+9 | https://youtu.be/Iv6dB562luo
+10 | https://youtu.be/t81ghv9Qt-4
+11 | https://youtu.be/bs3r2bhRZGs
+12 | https://youtu.be/9niw5XHrtIc
+13 | https://m.youtube.com/watch?v=u8l_R3PkwGk
+14 | https://m.youtube.com/watch?v=b-XmYouXHcA
+15 | https://m.youtube.com/watch?v=2bF0BDVt4Ok
+16 | https://m.youtube.com/watch?v=-jkypkfxD9k
+17 | https://m.youtube.com/watch?v=ikAUU36IuAA
+18 | https://m.youtube.com/watch?v=RJb1Tt5QUUU
+19 | https://m.youtube.com/watch?v=TJqrNSiUspw
+20 | https://m.youtube.com/watch?v=Pm7NoXvr1MM
+21 | https://m.youtube.com/watch?v=GXf0U7dvyj8
+22 | https://m.youtube.com/watch?v=rhi8N7Aoem0
+23 | https://m.youtube.com/watch?v=Tma_38auE34
+24 | https://m.youtube.com/watch?v=3p1uj9f1QDc
+25 | https://m.youtube.com/watch?v=YXMPqxqo7i8
+26 | https://m.youtube.com/watch?v=tpGNYaow2bs
+27 | https://m.youtube.com/watch?v=se0An-5b3mE
+28 | https://m.youtube.com/watch?v=B-CCaJBNexs
+29 | https://m.youtube.com/watch?v=qAnLM9wal0s
+30 | https://m.youtube.com/watch?v=Fm2UUL47k_o
+31 | https://m.youtube.com/watch?v=kgEDdvxNY3I
+32 | https://m.youtube.com/watch?v=5FAV-nLECkI
+33 | https://m.youtube.com/watch?v=uzU0TwAdY70
+34 | https://m.youtube.com/watch?v=fNHFSjZxgdY
+35 | https://m.youtube.com/watch?v=iogtqcyrNuA
+36 | https://m.youtube.com/watch?v=aPm37qy0Z6M
+
 

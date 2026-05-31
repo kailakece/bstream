@@ -17,8 +17,8 @@ metrotv | Metro TV | https://thumbor.prod.vidiocdn.com/GRiO5cAOau_WcE1lzhFq51j1e
 tvone | TVOne | https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/tvone-e53f94-quyksxy2vpz49pha527n4ygqteqpz8gj1yopbb70ge.jpeg | LIVE | https://www.youtube.com/live/yNKvkPJl-tg
 tvri | TVRI Nasional | https://thumbor.prod.vidiocdn.com/q2tpT2-AjDqonv5M-q5SxihUuDw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6441/tvri-tv-stream-f6cbb3.jpg | LIVE | https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 tvrisport | TVRI Sport | https://thumbor.prod.vidiocdn.com/q2tpT2-AjDqonv5M-q5SxihUuDw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6441/tvri-tv-stream-f6cbb3.jpg | LIVE | https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-spotv | SPOTV | https://thumbor.prod.vidiocdn.com/1cUTXlCSzstGfFXuRkOqCajuaV8=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17139/spotv-c18c69.jpg | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd |  |  | clearkey | {"ec7ee27d83764e4b845c48cca31c8eef":"9c0e4191203fccb0fde34ee29999129e"}
-spotv2 | SPOTV2 | https://thumbor.prod.vidiocdn.com/DDucwJyoKvfCLglPujyq3EPGcjc=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17140/spotv-2-c8e8ac.jpg | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd |  |  | clearkey | {"7eea72d6075245a99ee3255603d58853":"6848ef60575579bf4d415db1032153ed"}
+spotv | SPOTV | https://thumbor.prod.vidiocdn.com/1cUTXlCSzstGfFXuRkOqCajuaV8=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17139/spotv-c18c69.jpg | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd |  |  | clearkey | {"ec7ee27d83764e4b845c48cca31c8eef": "9c0e4191203fccb0fde34ee29999129e"}
+spotv2 | SPOTV2 | https://thumbor.prod.vidiocdn.com/DDucwJyoKvfCLglPujyq3EPGcjc=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17140/spotv-2-c8e8ac.jpg | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd |  |  | clearkey | {"7eea72d6075245a99ee3255603d58853": "6848ef60575579bf4d415db1032153ed"}
 bein | Bein Sport 1 | https://thumbor.prod.vidiocdn.com/dBMf_WAWW0JVeB5hVsaXQbYSxv4=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg | LIVE | 
 redbulltv | Redbull TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToSSiAKHBsXDruUSi1BnNORYqaqboS12lZzUF3ya5Hf-_kKrJuvB7t0A8K&s=10 | LIVE | https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8 |  | ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 cnn | CNN Indonesia | https://sinpo.id/storage/2024/08/karyawan-cnn-indonesia-resmi-dirikan-spci-30082024-085023.jpg | LIVE | https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
@@ -201,16 +201,26 @@ Trailer | https://youtu.be/sItUCKJQLTU
 
 [ANIME]
 onepiece | One Piece | https://wallpapercg.com/media/ts_2x/31243.webp | ANIME
-1 | https://a4.mp4upload.com:183/d/xkxvuyl2z3b4quuojgvrgiqqdbjfkgrqv4spupm4b4mbjnm77dbrymo2uazkf64l6qkevq3n/video.mp4 | https://www.mp4upload.com/
-2 | https://a4.mp4upload.com:183/d/xkxv2yl2z3b4quuojgvr4psxkklsmpv2adfrb72hqg5eq5xczs2kgzz6u2kksc3fyeu4zlgw/video.mp4 | https://www.mp4upload.com/
-3 | https://a4.mp4upload.com:183/d/xkxvyyl2z3b4quuojgvu2m22c7l3nq6sdxax4koo4p44cmqq4pmus3cj5bwsv64ti5z2arsp/video.mp4 | https://www.mp4upload.com/
-4 | https://a4.mp4upload.com:183/d/xkxv6yl2z3b4quuojgvqeoyrc2ibwrx75gcciiihbgofibvz3nbse2cp3tcmuoml2xyzkrby/video.mp4 | https://www.mp4upload.com/
-5 | https://a4.mp4upload.com:183/d/xkxucyl2z3b4quuojgvrgnivc5tbodoavf6t4qpuobfmriixemdir4uxaysyt5mpd4uc7gab/video.mp4 | https://www.mp4upload.com/
-6 | https://a4.mp4upload.com:183/d/xkxuayl2z3b4quuojgvuujkdktgg777jat3tou2moxbyeovn6u3wyipts2t7mma5ujpq5uph/video.mp4 | https://www.mp4upload.com/
-7 | https://a4.mp4upload.com:183/d/xkxugyl2z3b4quuojgvqujskjs7y2fcducmzpeaftma6ws75dthsqhnixzr6uxx2gylh4hi3/video.mp4 | https://www.mp4upload.com/
-8 | https://a4.mp4upload.com:183/d/xkxueyl2z3b4quuojgvu4mcbiyyblufrrhdojcdhmjbupxaum53l2ljzqfcm3feabrhb4d2v/video.mp4 | https://www.mp4upload.com/
-9 | https://a4.mp4upload.com:183/d/xkxukyl2z3b4quuojgvrcncscspvqqyksxek4n4argvvbfhngmc2o6sjp7fum6bnknvamkss/video.mp4 | https://www.mp4upload.com/
+1 | https://a4.mp4upload.com:183/d/xkxvuyl2z3b4quuojgvrgiqqdbjfkgrqv4spupm4b4mbjnm77dbrymo2uazkf64l6qkevq3n/video.mp4
+2 | https://a4.mp4upload.com:183/d/xkxv2yl2z3b4quuojgvr4psxkklsmpv2adfrb72hqg5eq5xczs2kgzz6u2kksc3fyeu4zlgw/video.mp4
+3 | https://a4.mp4upload.com:183/d/xkxvyyl2z3b4quuojgvu2m22c7l3nq6sdxax4koo4p44cmqq4pmus3cj5bwsv64ti5z2arsp/video.mp4
+4 | https://a4.mp4upload.com:183/d/xkxv6yl2z3b4quuojgvqeoyrc2ibwrx75gcciiihbgofibvz3nbse2cp3tcmuoml2xyzkrby/video.mp4
+5 | https://a4.mp4upload.com:183/d/xkxucyl2z3b4quuojgvrgnivc5tbodoavf6t4qpuobfmriixemdir4uxaysyt5mpd4uc7gab/video.mp4
+6 | https://a4.mp4upload.com:183/d/xkxuayl2z3b4quuojgvuujkdktgg777jat3tou2moxbyeovn6u3wyipts2t7mma5ujpq5uph/video.mp4
+7 | https://a4.mp4upload.com:183/d/xkxugyl2z3b4quuojgvqujskjs7y2fcducmzpeaftma6ws75dthsqhnixzr6uxx2gylh4hi3/video.mp4
+8 | https://a4.mp4upload.com:183/d/xkxueyl2z3b4quuojgvu4mcbiyyblufrrhdojcdhmjbupxaum53l2ljzqfcm3feabrhb4d2v/video.mp4
+9 | https://a4.mp4upload.com:183/d/xkxukyl2z3b4quuojgvrcncscspvqqyksxek4n4argvvbfhngmc2o6sjp7fum6bnknvamkss/video.mp4
 10 | https://a4.mp4upload.com:183/d/xkxuoyl2z3b4quuojgvrwikucpuh5o256rcuz24iyrrif7fmwcusm7avpbs2iylz3oi2pgdt/video.mp4
+11 | https://a4.mp4upload.com:183/d/xkxumyl2z3b4quuojgvq6ichklaehggdumq7vcy5364x2v4f2gn2h2poil7bexaoltvsx2hc/video.mp4
+12 | https://a4.mp4upload.com:183/d/xkxusyl2z3b4quuojgvu6j2zkxihlzmg4ob5jzerawibfmphcqeb3tk67uysdscz2rtb2p76/video.mp4
+13 | https://a4.mp4upload.com:183/d/xkxuqyl2z3b4quuojgvqapcylndsawy3c2xgt23tihjmrhfyipxplul2y3wih77aen6qdjxt/video.mp4
+14 | https://a4.mp4upload.com:183/d/xkxuwyl2z3b4quuojgvqymyqjx5hviftedqpwll4krywzazpdgpxtkhudoaqvhflndwm4upu/video.mp4
+15 | https://a4.mp4upload.com:183/d/xkxuuyl2z3b4quuojgvrcmcjiokkjw5z2ykwqh5ua2npuha2ms2g6sftznwpxxwlek5g6yjl/video.mp4
+16 | https://a4.mp4upload.com:183/d/xkxu2yl2z3b4quuojgvuyyytkmg57s6fcmiokkbvmecv2yo5ywngkpd73ooywyenzcaiu52t/video.mp4
+17 | https://a4.mp4upload.com:183/d/xkxuyyl2z3b4quuojgvq6ycmckwtglkgcuvxiaoiggp47dbiyhsjup7zoklb2mwlnyobj3dp/video.mp4
+18 | https://a4.mp4upload.com:183/d/xkxu6yl2z3b4quuojgvuwjkli7s4dpegdlw33ymobrdlahm5hy5xtavxq6cvte3q42xduitw/video.mp4
+19 | https://a4.mp4upload.com:183/d/xkxu4yl2z3b4quuojgvrwmkkkl7xge55hm5i55muoocvhyxnvh6uqw5x3j4sjiag5ewscp6x/video.mp4
+20 | https://a2.mp4upload.com:183/d/xwxt4yl2z3b4quuojgvq6kcnisqe25dfzlapsqx4f3cvbzz5ajr3ijbnvwdlncmfd577eh7x/video.mp4
 
 bleach | Bleach | https://dailyanimeart.com/wp-content/uploads/2011/08/bleach___ichigo_wallpaper_by_pencil_dragonslayer.jpg | ANIME
 1 | https://mp4upload.com/embed-qd9a2xt9c7ad.html

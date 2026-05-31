@@ -46,11 +46,17 @@ export default {
       requestHeaders.set("Referer", referer);
       requestHeaders.set("User-Agent", userAgent);
 
+      // Teruskan header Range jika ada (sangat penting untuk streaming MP4 agar bisa di-seek/fast-forward)
+      if (request.headers.has("Range")) {
+        requestHeaders.set("Range", request.headers.get("Range"));
+      }
+
       try {
         const response = await fetch(targetUrl, { method: "GET", headers: requestHeaders });
         const httpCode = response.status;
         const contentType = response.headers.get("Content-Type") || "";
         
+        // Pengecekan khusus untuk HLS (.m3u8) yang membutuhkan rewrite internal chunk url
         if (httpCode === 200 && (targetUrl.includes(".m3u8") || contentType.includes("mpegurl") || contentType.includes("apple"))) {
           let text = await response.text();
           const lines = text.split("\n");
@@ -76,12 +82,20 @@ export default {
           });
         }
 
+        // UNTUK MP4 & FORMAT LAINNYA:
+        // Langsung return body dari asal, namun request ke asalnya sudah membawa Referer dan UA yang kita inject di atas.
+        const responseHeaders = new Headers();
+        responseHeaders.set("Access-Control-Allow-Origin", "*");
+        responseHeaders.set("Content-Type", contentType || "video/mp4");
+        
+        // Teruskan header Content-Range dan Accept-Ranges agar player video lancar saat loading timeline video mp4
+        if (response.headers.has("Content-Range")) responseHeaders.set("Content-Range", response.headers.get("Content-Range"));
+        if (response.headers.has("Accept-Ranges")) responseHeaders.set("Accept-Ranges", response.headers.get("Accept-Ranges"));
+        if (response.headers.has("Content-Length")) responseHeaders.set("Content-Length", response.headers.get("Content-Length"));
+
         return new Response(response.body, {
           status: httpCode,
-          headers: {
-            "Content-Type": contentType || "application/octet-stream",
-            "Access-Control-Allow-Origin": "*",
-          }
+          headers: responseHeaders
         });
 
       } catch (err) {

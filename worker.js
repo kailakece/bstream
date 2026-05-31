@@ -113,6 +113,8 @@ export default {
       let targetUrl = "";
       let referer = "";
       let userAgent = "";
+      let drmType = "";
+      let drmLicense = "";
       let parentFound = false;
 
       for (let line of lines) {
@@ -134,6 +136,8 @@ export default {
             targetUrl = parts[4] || "";
             referer = parts[5] || "";
             userAgent = parts[6] || "";
+            drmType = parts[7] || "";
+            drmLicense = parts[8] || "";
             break; 
           }
         } 
@@ -152,6 +156,8 @@ export default {
               targetUrl = parts[1] || "";
               referer = parts[2] || "";
               userAgent = parts[3] || "";
+              drmType = parts[4] || ""; 
+              drmLicense = parts[5] || "";
               break; 
             }
           }
@@ -162,18 +168,10 @@ export default {
 
       const isRawMode = urlObj.searchParams.get("raw") === "true";
       if (isRawMode) {
-        const lowUrl = targetUrl.toLowerCase();
-        if (lowUrl.includes(".html") || lowUrl.includes(".php") || lowUrl.includes("embed") || lowUrl.includes("googleapis.com") || lowUrl.includes("drive.google") || lowUrl.includes(".mp4")) {
-          return Response.redirect(targetUrl, 302);
-        }
-        if (targetUrl.includes(".m3u8") || !targetUrl.includes(".")) {
-          const proxyStreamUrl = `${urlObj.origin}${urlObj.pathname}?proxy=true&url=${encodeURIComponent(targetUrl)}&referer=${encodeURIComponent(referer)}&ua=${encodeURIComponent(userAgent)}`;
-          return Response.redirect(proxyStreamUrl, 302);
-        }
         return Response.redirect(targetUrl, 302);
       }
 
-      const playerHtml = generatePlayerHtml(targetUrl, referer, userAgent, urlObj);
+      const playerHtml = generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType, drmLicense);
       return new Response(playerHtml, {
         headers: {
           "Content-Type": "text/html; charset=utf-8",
@@ -188,7 +186,7 @@ export default {
   },
 };
 
-function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
+function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "", drmLicense = "") {
   function getYouTubeId(url) {
     if (!url) return null;
     if (url.length === 11 && !url.includes("/") && !url.includes(".")) return url;
@@ -200,13 +198,12 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
   const fallbackArrayJson = JSON.stringify(FALLBACK_LINKS);
   const ytId = getYouTubeId(targetUrl);
 
+  // 1. YOUTUBE
   if (ytId) {
     return `<!DOCTYPE html>
     <html lang="id">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>YT Player</title>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>YT Player</title>
         <style>html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; } #yt-player-container { width: 100%; height: 100%; position: relative; } #yt-player { width: 100%; height: 100%; border: none; position: absolute; top: 0; left: 0; }</style>
     </head>
     <body>
@@ -215,56 +212,21 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
             var tag = document.createElement('script'); tag.src = "https://www.youtube.com/iframe_api";
             var firstScriptTag = document.getElementsByTagName('script')[0]; firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
             var player;
-
             function onYouTubeIframeAPIReady() {
                 player = new YT.Player('yt-player', {
                     videoId: '${ytId}',
-                    playerVars: { 
-                        'autoplay': 1, 
-                        'mute': 1, 
-                        'controls': 1, 
-                        'rel': 0, 
-                        'showinfo': 0, 
-                        'ecver': 2, 
-                        'playsinline': 1 
-                    },
+                    playerVars: { 'autoplay': 1, 'mute': 1, 'controls': 1, 'rel': 0, 'playsinline': 1 },
                     events: { 
-                        'onReady': function(e) { 
-                            e.target.playVideo();
-                            setTimeout(function() {
-                                try {
-                                    player.unMute();
-                                    player.setVolume(100);
-                                } catch(err) {}
-                            }, 100);
-                        },
-                        'onStateChange': function(e) {
-                            if (e.data === 1) {
-                                try {
-                                    player.unMute();
-                                    player.setVolume(100);
-                                } catch(err) {}
-                            }
-                        },
+                        'onReady': function(e) { e.target.playVideo(); setTimeout(function() { try { player.unMute(); player.setVolume(100); } catch(err) {} }, 100); },
+                        'onStateChange': function(e) { if (e.data === 1) { try { player.unMute(); player.setVolume(100); } catch(err) {} } },
                         'onError': function(e) { window.location.href = window.location.origin + window.location.pathname + "?proxy=true&url=" + encodeURIComponent(${fallbackArrayJson}[0]); }
                     }
                 });
             }
-
-            function forceUnmute() {
-                if (player && typeof player.unMute === 'function') {
-                    try { player.unMute(); player.setVolume(100); player.playVideo(); } catch(e) {}
-                }
-            }
+            function forceUnmute() { if (player && typeof player.unMute === 'function') { try { player.unMute(); player.setVolume(100); player.playVideo(); } catch(e) {} } }
             window.addEventListener('click', forceUnmute, { once: true });
             window.addEventListener('touchstart', forceUnmute, { once: true });
-            document.addEventListener('pointerdown', forceUnmute, { once: true });
-
-            document.addEventListener("fullscreenchange", function() {
-                if (document.fullscreenElement && screen.orientation && screen.orientation.lock) {
-                    screen.orientation.lock('landscape').catch(e => {});
-                }
-            });
+            document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
             document.addEventListener('contextmenu', e => e.preventDefault());
         </script>
     </body>
@@ -274,6 +236,7 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
   const lowUrl = targetUrl.toLowerCase();
   const isVideoFile = lowUrl.includes(".m3u8") || lowUrl.includes(".mp4") || lowUrl.includes(".mpd") || lowUrl.includes(".webm") || lowUrl.includes("googleapis") || lowUrl.includes("drive.google") || lowUrl.includes("mime=video");
 
+  // 2. EXTERNAL EMBED / WEB IFRAME
   if (lowUrl.includes(".html") || lowUrl.includes(".php") || lowUrl.includes("embed") || !isVideoFile) {
     let modifiedTargetUrl = targetUrl;
     try {
@@ -290,88 +253,173 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj) {
         <style>html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; } iframe { width: 100%; height: 100%; border: none; }</style>
     </head>
     <body>
-        <iframe id="embed-frame" src="${modifiedTargetUrl}" allowfullscreen webkitallowfullscreen mozallowfullscreen allow="autoplay *; encrypted-media *; fullscreen *; picture-in-picture *" sandbox="allow-scripts allow-same-origin allow-forms allow-presentation allow-pointer-lock"></iframe>
+        <iframe id="embed-frame" src="${modifiedTargetUrl}" allowfullscreen allow="autoplay *; encrypted-media *; fullscreen *;"></iframe>
         <script>
-            document.addEventListener("fullscreenchange", function() {
-                if (document.fullscreenElement && screen.orientation && screen.orientation.lock) {
-                    screen.orientation.lock('landscape').catch(e => {});
-                }
-            });
+            document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
             document.addEventListener('contextmenu', e => e.preventDefault());
         </script>
     </body>
     </html>`;
   }
 
-  let finalStreamUrl = `${urlObj.origin}${urlObj.pathname}?proxy=true&url=${encodeURIComponent(targetUrl)}&referer=${encodeURIComponent(referer)}&ua=${encodeURIComponent(userAgent)}`;
-  let playerType = lowUrl.includes(".m3u8") ? "hls" : (lowUrl.includes(".mpd") ? "dash" : "native");
+  // 3. FORMAT MPD (DASH) ATAU MEMILIKI DRM -> GUNAKAN SHAKA PLAYER
+  if (lowUrl.includes(".mpd") || drmType !== "") {
+    return `<!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DRM Shaka Player</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/controls.css">
+        <style>
+            html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
+            .player-container { width: 100%; height: 100%; background-color: #000; }
+            video { width: 100%; height: 100%; }
+        </style>
+    </head>
+    <body>
+        <div class="player-container" data-shaka-player-container>
+            <video data-shaka-player id="video-player" autoplay crossorigin="anonymous" playsinline></video>
+        </div>
 
-  if (playerType !== "hls") finalStreamUrl = targetUrl;
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mux.js/6.0.1/mux.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.compiled.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.ui.js"></script>
+
+        <script>
+            const video = document.getElementById('video-player');
+            const fallbacks = ${fallbackArrayJson};
+            let player = null;
+
+            async function playFallback() {
+                if (player) {
+                    try {
+                        await player.unload();
+                        await player.destroy();
+                    } catch(e) {}
+                    player = null;
+                }
+                video.removeAttribute('src');
+                video.src = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+                video.load();
+                video.muted = false;
+                video.play().catch(e => { video.muted = true; video.play(); });
+            }
+
+            async function initShaka() {
+                shaka.polyfill.installAll();
+                if (!shaka.Player.isBrowserSupported()) {
+                    playFallback();
+                    return;
+                }
+
+                const container = document.querySelector('[data-shaka-player-container]');
+                player = new shaka.Player(video);
+                new shaka.ui.Overlay(player, container, video);
+
+                player.getNetworkingEngine().registerRequestFilter((type, request) => {
+                    if ("${referer}") request.headers['Referer'] = "${referer}";
+                    if ("${userAgent}") request.headers['User-Agent'] = "${userAgent}";
+                });
+
+                const config = {
+                    drm: { servers: {}, clearKeys: {} },
+                    streaming: {
+                        bufferingGoal: 15,
+                        rebufferingGoal: 3,
+                        bufferBehind: 10,
+                        lowLatencyMode: true
+                    },
+                    abr: {
+                        enabled: true,
+                        defaultBandwidthEstimate: 1036800
+                    },
+                    manifest: { hls: { ignoreManifestProgramDateTime: true } }
+                };
+
+                const type = "${drmType}".toLowerCase();
+                const license = '${drmLicense}';
+
+                if (type && license) {
+                    if (type === 'clearkey') {
+                        config.drm.clearKeys = JSON.parse(license);
+                    } else if (type === 'widevine') {
+                        config.drm.servers['com.widevine.alpha'] = license;
+                    } else if (type === 'playready') {
+                        config.drm.servers['com.microsoft.playready'] = license;
+                    }
+                }
+
+                player.configure(config);
+
+                try {
+                    await player.load("${targetUrl}");
+                    video.muted = false;
+                    video.play().catch(() => { video.muted = true; video.play(); });
+                } catch (error) {
+                    console.error("Shaka Error:", error);
+                    playFallback();
+                }
+            }
+
+            video.addEventListener('ended', playFallback);
+            document.addEventListener('DOMContentLoaded', initShaka);
+            document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
+            document.addEventListener('contextmenu', e => e.preventDefault());
+        </script>
+    </body>
+    </html>`;
+  }
+
+  // 4. FORMAT HLS (.M3U8) ATAU NATIVE MP4 STANDAR (TANPA DRM)
+  let finalStreamUrl = `${urlObj.origin}${urlObj.pathname}?proxy=true&url=${encodeURIComponent(targetUrl)}&referer=${encodeURIComponent(referer)}&ua=${encodeURIComponent(userAgent)}`;
+  let playerType = lowUrl.includes(".m3u8") ? "hls" : "native";
 
   let hlsScript = playerType === 'hls' ? '<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.7/dist/hls.min.js"></script>' : '';
-  let dashScript = playerType === 'dash' ? '<script src="https://cdn.jsdelivr.net/npm/dashjs@4.7.4/dist/dash.all.min.js"></script>' : '';
 
   return `<!DOCTYPE html>
   <html lang="id">
   <head>
       <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Core Player</title>
       ${hlsScript}
-      ${dashScript}
-      <style>
-          html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; } 
-          video { width: 100%; height: 100%; object-fit: contain; background: #000; display: block; }
-      </style>
+      <style>html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; } video { width: 100%; height: 100%; object-fit: contain; display: block; }</style>
   </head>
   <body>
       <video id="video-player" controls playsinline></video>
       <script>
           const video = document.getElementById('video-player');
           const fallbacks = ${fallbackArrayJson};
-          let isFallbackMode = false;
+          let hlsInstance = null;
 
           function playRandomFallback() {
-              isFallbackMode = true;
-              const randomUrl = fallbacks[Math.floor(Math.random() * fallbacks.length)];
-              video.src = randomUrl;
+              if (hlsInstance) {
+                  hlsInstance.destroy();
+                  hlsInstance = null;
+              }
+              video.src = fallbacks[Math.floor(Math.random() * fallbacks.length)];
               video.load();
-              triggerUnmutedAutoplay();
-          }
-
-          function handleVideoError() {
-              if (isFallbackMode) {
-                  playRandomFallback();
-              } else {
-                  playRandomFallback();
-              }
-          }
-
-          function triggerUnmutedAutoplay() {
               video.muted = false;
-              let playPromise = video.play();
-              if (playPromise !== undefined) {
-                  playPromise.catch(error => { video.muted = true; video.play(); });
-              }
+              video.play().catch(e => { video.muted = true; video.play(); });
           }
 
-          video.addEventListener('error', handleVideoError);
-
-          video.addEventListener('ended', function() {
-              playRandomFallback();
-          });
+          video.addEventListener('error', playRandomFallback);
+          video.addEventListener('ended', playRandomFallback);
 
           if ("${playerType}" === "hls" && typeof Hls !== 'undefined' && Hls.isSupported()) {
-              const hls = new Hls({ maxMaxBufferLength: 30 }); hls.loadSource("${finalStreamUrl}"); hls.attachMedia(video);
-              hls.on(Hls.Events.MANIFEST_PARSED, function() { triggerUnmutedAutoplay(); });
-              hls.on(Hls.Events.ERROR, function(e, d) { if (d.fatal) handleVideoError(); });
-          } else if ("${playerType}" === "dash" && typeof dashjs !== 'undefined') {
-              const dashPlayer = dashjs.MediaPlayer().create();
-              dashPlayer.initialize(video, "${finalStreamUrl}", false);
-              dashPlayer.on(dashjs.MediaPlayer.events.CAN_PLAY, function() { triggerUnmutedAutoplay(); });
+              hlsInstance = new Hls({ 
+                  maxMaxBufferLength: 15, 
+                  backBufferLength: 10, 
+                  enableWorker: true, 
+                  lowLatencyMode: true
+              }); 
+              hlsInstance.loadSource("${finalStreamUrl}"); 
+              hlsInstance.attachMedia(video);
+              hlsInstance.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(() => { video.muted = true; video.play(); }); });
+              hlsInstance.on(Hls.Events.ERROR, function(e, d) { if (d.fatal) playRandomFallback(); });
           } else {
               video.src = "${finalStreamUrl}"; video.load();
-              video.addEventListener('canplay', function() { triggerUnmutedAutoplay(); });
+              video.addEventListener('canplay', function() { video.play().catch(() => { video.muted = true; video.play(); }); });
           }
-          video.addEventListener('webkitbeginfullscreen', function() { if (screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
           document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
           document.addEventListener('contextmenu', e => e.preventDefault());
       </script>

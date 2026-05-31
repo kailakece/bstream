@@ -1,8 +1,8 @@
 [LIVE]
-rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780235463~hmac=082ea38ad985b3bfe99739d8c581e0beb1d6a6ef90486f2a945ee807e2f44677 | https://www.rctiplus.com/
-mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780235517~hmac=3b32c7f0662cef939916def11662b1dbb0e2bf6f2581022e44a68c1a89675041 | https://www.rctiplus.com/
-gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780235549~hmac=6e685bb3c5ffc6d8dad06f6a096239e62e3a2a21c86b49be9f13fe9cd7319d13 | https://www.rctiplus.com/
-inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780235581~hmac=8d9ab6303b15db65683183663f25593d507e9a270c2a9c9225af6d3df4ec8280 | https://www.rctiplus.com/
+rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780296774~hmac=b248bb91c2d0ac81ae0f4b5e5cb636f184fa64e10d7945a8ae258d11ed9b2715 | https://www.rctiplus.com/
+mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780296814~hmac=38a2ba24d4fd1168d3ed41e3b05b8154fe8af2f4d608999ca58259f2532a32f5 | https://www.rctiplus.com/
+gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780296847~hmac=eae50d9e46569fda176533cdb1600610e749436a74333037d35e32cad94a38b5 | https://www.rctiplus.com/
+inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780296876~hmac=5233d8eae008f3671ea5b0bf91917fb8f8f253e4165a879483cd10131434aff3 | https://www.rctiplus.com/
 trans7 | Trans 7 | https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/Trans7-Landscape-qv7ajymhde067cu25w8jn75iul15nlwfn46jbtyham.jpg | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv | Trans TV | https://thumbor.prod.vidiocdn.com/rw3YANrLDodOrAxrxUPomDVHjjI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/733/trans-tv-3836a5.jpg | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv | SCTV | https://thumbor.prod.vidiocdn.com/Xr8AAOVjClvDNr9P3fkGaB9Zn20=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/204/sctv-5ef966.jpg | LIVE | 
@@ -201,26 +201,26 @@ Trailer | https://youtu.be/sItUCKJQLTU
 
 [ANIME]
 onepiece | One Piece | https://wallpapercg.com/media/ts_2x/31243.webp | ANIME
-1 | https://a4.mp4upload.com:183/d/xkxvuyl2z3b4quuojgvrgiqqdbjfkgrqv4spupm4b4mbjnm77axzyioodv5lbtq6d5vxjc6s/video.mp4
-2 | https://a4.mp4upload.com:183/d/xkxv2yl2z3b4quuojgvr4psxkklsmpv2adfrb72hqg5eq5xczs2kgzz6u2kksc3fyeu4zlgw/video.mp4
-3 | https://a4.mp4upload.com:183/d/xkxvyyl2z3b4quuojgvu2m22c7l3nq6sdxax4koo4p44cmqq4pmus3cj5bwsv64ti5z2arsp/video.mp4
-4 | https://a4.mp4upload.com:183/d/xkxv6yl2z3b4quuojgvqeoyrc2ibwrx75gcciiihbgofibvz3nbse2cp3tcmuoml2xyzkrby/video.mp4
-5 | https://a4.mp4upload.com:183/d/xkxucyl2z3b4quuojgvrgnivc5tbodoavf6t4qpuobfmriixemdir4uxaysyt5mpd4uc7gab/video.mp4
-6 | https://a4.mp4upload.com:183/d/xkxuayl2z3b4quuojgvuujkdktgg777jat3tou2moxbyeovn6u3wyipts2t7mma5ujpq5uph/video.mp4
-7 | https://a4.mp4upload.com:183/d/xkxugyl2z3b4quuojgvqujskjs7y2fcducmzpeaftma6ws75dthsqhnixzr6uxx2gylh4hi3/video.mp4
-8 | https://a4.mp4upload.com:183/d/xkxueyl2z3b4quuojgvu4mcbiyyblufrrhdojcdhmjbupxaum53l2ljzqfcm3feabrhb4d2v/video.mp4
-9 | https://a4.mp4upload.com:183/d/xkxukyl2z3b4quuojgvrcncscspvqqyksxek4n4argvvbfhngmc2o6sjp7fum6bnknvamkss/video.mp4
-10 | https://a4.mp4upload.com:183/d/xkxuoyl2z3b4quuojgvrwikucpuh5o256rcuz24iyrrif7fmwcusm7avpbs2iylz3oi2pgdt/video.mp4
-11 | https://a4.mp4upload.com:183/d/xkxumyl2z3b4quuojgvq6ichklaehggdumq7vcy5364x2v4f2gn2h2poil7bexaoltvsx2hc/video.mp4
-12 | https://a4.mp4upload.com:183/d/xkxusyl2z3b4quuojgvu6j2zkxihlzmg4ob5jzerawibfmphcqeb3tk67uysdscz2rtb2p76/video.mp4
-13 | https://a4.mp4upload.com:183/d/xkxuqyl2z3b4quuojgvqapcylndsawy3c2xgt23tihjmrhfyipxplul2y3wih77aen6qdjxt/video.mp4
-14 | https://a4.mp4upload.com:183/d/xkxuwyl2z3b4quuojgvqymyqjx5hviftedqpwll4krywzazpdgpxtkhudoaqvhflndwm4upu/video.mp4
-15 | https://a4.mp4upload.com:183/d/xkxuuyl2z3b4quuojgvrcmcjiokkjw5z2ykwqh5ua2npuha2ms2g6sftznwpxxwlek5g6yjl/video.mp4
-16 | https://a4.mp4upload.com:183/d/xkxu2yl2z3b4quuojgvuyyytkmg57s6fcmiokkbvmecv2yo5ywngkpd73ooywyenzcaiu52t/video.mp4
-17 | https://a4.mp4upload.com:183/d/xkxuyyl2z3b4quuojgvq6ycmckwtglkgcuvxiaoiggp47dbiyhsjup7zoklb2mwlnyobj3dp/video.mp4
-18 | https://a4.mp4upload.com:183/d/xkxu6yl2z3b4quuojgvuwjkli7s4dpegdlw33ymobrdlahm5hy5xtavxq6cvte3q42xduitw/video.mp4
-19 | https://a4.mp4upload.com:183/d/xkxu4yl2z3b4quuojgvrwmkkkl7xge55hm5i55muoocvhyxnvh6uqw5x3j4sjiag5ewscp6x/video.mp4
-20 | https://a2.mp4upload.com:183/d/xwxt4yl2z3b4quuojgvq6kcnisqe25dfzlapsqx4f3cvbzz5ajr3ijbnvwdlncmfd577eh7x/video.mp4
+1 | https://www.mp4upload.com/embed-695iym7rxctg.html
+2 | https://www.mp4upload.com/embed-2qx7w3rbn0e4.html
+3 | https://www.mp4upload.com/embed-b55oif6aaip0.html
+4 | https://www.mp4upload.com/embed-2s489q4ufwud.html
+5 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=cUl5bHk1M3JLdDg3Uk9GMXdXMUhVUT09
+6 | https://www.mp4upload.com/embed-4cqyf307dcrd.html
+7 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=cUtuQlQ5eFZOSk9neXJLRkxWZmRsdz09
+8 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=YTJMZHoxdWJnTHl6RVZ0VkJVMmYwZz09
+9 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=LzUzQXdMdHFqOXNZRmw5TTVrbko1dz09
+10 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=TnRibVBoRXpPSFVuZGQ4N1pLaVg1QT09
+11 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=ZmtNWmh4Q0RkOVJBbGc2UVZ4b3kvZz09
+12 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=Um1QNWJsOGMvdVcvR1J5eFhNZDltZz09
+13 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=ZTJneXppUC9aR1NTYnhMVzRBeGhtQT09
+14 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=c1JBSllQMzVCM3lDOGUrQVdjMitzQT09
+15 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=dzNqSFEyVEVkUGtLTDd3enJSeDJQZz09
+16 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=SzRYTkFDZmhOYWZoamdrRUVjdHg0UT09
+17 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=alpZYnE5dzBQamorK1I0U3JRTzFJZz09
+18 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=MlNUNWZDczVlNGpxUGxWSnQwaHpkdz09
+19 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=czhoQTJFTXRmQU5wUDBBLytnMUdDQT09
+20 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=ejc5SFNMOWlEMXhkeXAyQ2JCcmJoQT09
 
 bleach | Bleach | https://dailyanimeart.com/wp-content/uploads/2011/08/bleach___ichigo_wallpaper_by_pencil_dragonslayer.jpg | ANIME
 1 | https://mp4upload.com/embed-qd9a2xt9c7ad.html
@@ -240,16 +240,21 @@ naruto | Naruto Shippuden | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9
 3 | https://mp4upload.com/embed-di6miwf4u0d7.html
 
 clover | Black Clover | https://cdn.wallpapersafari.com/45/20/mGzeYg.jpg | ANIME
-1 | https://www.googleapis.com/drive/v3/files/1GCECLvbXov8odGypo0PcPLEGIGL0K0u6?alt=media&key=AIzaSyD5OLuQGFub9J5XuvDo1AS2bEMQtA1arNQ
-2 | https://www.googleapis.com/drive/v3/files/1zzh38yrBuuFKxfgJLpPEl4j3EqEKSn3J?alt=media&key=AIzaSyD5OLuQGFub9J5XuvDo1AS2bEMQtA1arNQ
-3 | https://www.googleapis.com/drive/v3/files/1CPUaZlMMK1ywDcaSjEv6yehV2JyqYKNO?alt=media&key=AIzaSyD5OLuQGFub9J5XuvDo1AS2bEMQtA1arNQ
-4 | https://www.googleapis.com/drive/v3/files/10aIpAoMkb_9SeogsLhLNcoAhCiN5o1yo?alt=media&key=AIzaSyD5OLuQGFub9J5XuvDo1AS2bEMQtA1arNQ
-5 | https://www.googleapis.com/drive/v3/files/1pMhRfIeVr8O3mgjve6L9lOjrCEn-gBAw?alt=media&key=AIzaSyD5OLuQGFub9J5XuvDo1AS2bEMQtA1arNQ
-6 | https://www.googleapis.com/drive/v3/files/1awdd1SPB_HvGYk3GkTi_9mGuLyEvp5YH?alt=media&key=AIzaSyD5OLuQGFub9J5XuvDo1AS2bEMQtA1arNQ
-7 | https://www.googleapis.com/drive/v3/files/1Aoet_I7aYMlBdb5DMb2e7YLsuaXEn66E?alt=media&key=AIzaSyD5OLuQGFub9J5XuvDo1AS2bEMQtA1arNQ
-8 | https://www.googleapis.com/drive/v3/files/1O0KcTfPpghivvEkt4GPdXDTtHV70vxcY?alt=media&key=AIzaSyD5OLuQGFub9J5XuvDo1AS2bEMQtA1arNQ
-9 | https://www.googleapis.com/drive/v3/files/1qemueIdUGBvOsX9-vRJlin1gySVGyVgq?alt=media&key=AIzaSyD5OLuQGFub9J5XuvDo1AS2bEMQtA1arNQ
+1 | https://mega.nz/embed/#!JVoFjKIb!e26rxnUvkFUYEesweITyicYJAfZnJu6ipwJnqp5ZQyk
+2 | https://mega.nz/embed/#!NZgXSSrK!N8uUEOJfEI-wzij-Fq0pXIAHtHpuPUeixPtUIHe8HLQ
+3 | https://mega.nz/embed/#!ZI5Dja4a!kdCGZjIrtSP4KakRaqM6upuPn_HSXsBcC7Si3Ll0n_U
+4 | https://mega.nz/embed/#!5d4jmYJC!ndKW1bcElywlISbCWnYAip7InCR3HR9NDfCRD93GMgA
+5 | https://mega.nz/embed/#!NFwzzQ5Z!aMcjKicCH-YQh-3VgmqkT2gRpj7GsnjNClVJpC3SFyo
+6 | https://mega.nz/embed/#!0UpXgCTZ!AyAOyudn42IaLwIYtyIJKa2_BjxVXBngZg3LlQ8S4V0
+7 | https://mega.nz/embed/#!sUwHzQzA!6KSO4BOz4ZllrQrhnhXoyumm-zRRspKkKPYlKons9oo
+8 | https://mega.nz/embed/#!UYxBDY6Q!qTN9AEFsGl-E_eBTV2RI4pmE4zhjof9-49bPTpdEmcY
+9 | https://mega.nz/embed/#!hIoH3aZB!7mFcRB5o4wP4NvrRj4zxbovi58657OkN4gE_1H5cH5o
 10 | https://mega.nz/embed/#!Edx3TKYL!6e5ffzGNNUkpSadv__thDbyoEIoQ0dp9ej1mdItQNOg
+11 | https://mega.nz/embed/#!IEwBxCiL!gLt9chGaOXufbJNTF3VpDTEdtaTvXEwv0hn5IU-axJQ
+12 | https://mega.nz/embed/#!MNhTQKSb!AOzF0a8ASrLlduMN_sXV-3D8EdNeKatERWGCMUxt5QI
+13 | https://mega.nz/embed/#!UdhxRCqC!xxFtEmbXb5Xtt87cdAbjQh-Cm4g3zYNgxf7m_dr6NNA
+14 | https://mega.nz/embed/#!xN5xnYZB!Kq-BFIIvqXRRanExguWUnKF1in2JOqVn03U1L_MdU2Q
+15 | https://mega.nz/embed/#!4coByS6D!5VHTVXVT895ULMqJwspC94HwtuMCuwwqxjVXWn81kxI
 
 dxd | High School DxD | https://wallpapers.com/images/hd/highschool-dxd-rias-and-issei-ipsg7e6fgzb3tit4.jpg | ANIME
 1 | https://mp4upload.com/embed-7d24mdrudrwo.html

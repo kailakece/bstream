@@ -1,4 +1,5 @@
 [LIVE]
+shorts | SHORTS | | LIVE | https://youtu.be/QmS5nsWQqrk
 rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780421180~hmac=3295d91e0efbce30b1eb7b1104bb14e49630573f62a1f68e2c875541eeeabc62 | https://www.rctiplus.com/
 mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780421221~hmac=8acf7d8b0ecfd1a4bc6b38422236b0a77f9f4c1c7fa631ca018aa94e6fecf001 | https://www.rctiplus.com/
 gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780421246~hmac=2a14b712bbf15006f9ce8d8cb71e9bef266566fecda0b200c5ab10065957e89d | https://www.rctiplus.com/

@@ -51,18 +51,6 @@ bungotv | Bungo TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Fjo
 rctv | RCTV | https://play-lh.googleusercontent.com/2IbcLcLYOu2NvgYc98F15YcMQQfcUeH98fgpDfuThqihzOQomqy6VHRzlUefIO50rpY | LIVE | https://v10.siar.us/rctv/live/playlist.m3u8
 lingkartv | Lingkar TV | https://lingkar.tv/assets/img/logo-square.png | LIVE | https://lingkartv.my.id/hls/lingkartv.m3u8
 
-[SHORTS]
-shorts1 | Dari Bodyguard Jadi Pahlawan | https://i.ytimg.com/vi_webp/QmS5nsWQqrk/mqdefault.webp | SHORTS | https://youtu.be/QmS5nsWQqrk
-shorts2 | Master Pedang Terlahir Kembali | https://i.ytimg.com/vi_webp/YaN0TJZQ0z8/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=YaN0TJZQ0z8
-shorts3 | Permaisuri Dari Masa Depan | https://i.ytimg.com/vi_webp/Wwq4nC_gLyc/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=Wwq4nC_gLyc
-shorts4 | Identitas Rahasia Terbongkar Penguasa Arena| https://i.ytimg.com/vi_webp/e_aEkOC-AFo/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=e_aEkOC-AFo
-shorts5 | Pacar Selingkuh, Aku Cari Omnya | https://i.ytimg.com/vi_webp/geaOGnNo_14/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=geaOGnNo_14
-shorts6 | Pembalasan Sempurna Sang Mantan | https://i.ytimg.com/vi_webp/x0EuGFgr95Q/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=x0EuGFgr95Q
-shorts7 | Balas Dendam Sang Penjagal | https://i.ytimg.com/vi_webp/JSzrWzcakqY/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=JSzrWzcakqY
-shorts8 | Penjaga Rahasia Sang Putri | https://i.ytimg.com/vi_webp/a_RrL91HzrE/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=a_RrL91HzrE
-shorts9 | Wanita Rendahan Jadi Jendral | https://i.ytimg.com/vi_webp/rabA4faOQ64/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=rabA4faOQ64
-shorts10 | Gadis Muda Berjiwa Penguasa | https://i.ytimg.com/vi_webp/s8zngI1A2Jw/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=s8zngI1A2Jw
-
 [FILM]
 film1 | Dear Imamku | https://pict.sindonews.com/dyn/850/pena/news/2021/05/01/701/414948/bertemu-di-film-dear-imamku-dul-dan-tissa-biani-berbagi-kisah-cinta-di-hari-lebaran-2021-edz.jpg | HD FILM | https://youtu.be/aOQbDixQvtQ
 film2 | Ada Dewa Disisiku | https://img.okezone.com/content/2020/10/05/598/2288781/ada-dewa-di-sisiku-serial-rcti-rasa-drama-korea-QKcVTtWeF4.jpg | HD FILM | https://youtu.be/jq101F1NXGQ

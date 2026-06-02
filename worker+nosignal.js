@@ -1,5 +1,17 @@
 const GITHUB_PLAYLIST_URL = "https://raw.githubusercontent.com/kailakece/bstream/refs/heads/main/playlist.txt";
 
+const FALLBACK_LINKS = [
+  "https://donasi.showcdnx.com/stopjudi/2.mp4",
+  "https://donasi.showcdnx.com/stopjudi/3.mp4",
+  "https://donasi.showcdnx.com/stopjudi/4.mp4",
+  "https://donasi.showcdnx.com/stopjudi/5.mp4"
+];
+
+function getRandomFallbackLink() {
+  const randomIndex = Math.floor(Math.random() * FALLBACK_LINKS.length);
+  return FALLBACK_LINKS[randomIndex];
+}
+
 export default {
   async fetch(request, env, ctx) {
     if (request.method === "OPTIONS") {
@@ -34,6 +46,7 @@ export default {
       requestHeaders.set("Referer", referer);
       requestHeaders.set("User-Agent", userAgent);
 
+      // Teruskan header Range jika ada (sangat penting untuk streaming MP4 agar bisa di-seek/fast-forward)
       if (request.headers.has("Range")) {
         requestHeaders.set("Range", request.headers.get("Range"));
       }
@@ -43,6 +56,7 @@ export default {
         const httpCode = response.status;
         const contentType = response.headers.get("Content-Type") || "";
         
+        // Pengecekan khusus untuk HLS (.m3u8) yang membutuhkan rewrite internal chunk url
         if (httpCode === 200 && (targetUrl.includes(".m3u8") || contentType.includes("mpegurl") || contentType.includes("apple"))) {
           let text = await response.text();
           const lines = text.split("\n");
@@ -68,10 +82,13 @@ export default {
           });
         }
 
+        // UNTUK MP4 & FORMAT LAINNYA:
+        // Langsung return body dari asal, namun request ke asalnya sudah membawa Referer dan UA yang kita inject di atas.
         const responseHeaders = new Headers();
         responseHeaders.set("Access-Control-Allow-Origin", "*");
         responseHeaders.set("Content-Type", contentType || "video/mp4");
         
+        // Teruskan header Content-Range dan Accept-Ranges agar player video lancar saat loading timeline video mp4
         if (response.headers.has("Content-Range")) responseHeaders.set("Content-Range", response.headers.get("Content-Range"));
         if (response.headers.has("Accept-Ranges")) responseHeaders.set("Accept-Ranges", response.headers.get("Accept-Ranges"));
         if (response.headers.has("Content-Length")) responseHeaders.set("Content-Length", response.headers.get("Content-Length"));
@@ -161,9 +178,7 @@ export default {
         }
       }
 
-      if (!targetUrl) {
-        return new Response("Video tidak ditemukan di database.", { status: 404 });
-      }
+      if (!targetUrl) targetUrl = getRandomFallbackLink();
 
       const isRawMode = urlObj.searchParams.get("raw") === "true";
       if (isRawMode) {
@@ -194,6 +209,7 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
     return (match && match[2].length === 11) ? match[2] : null;
   }
 
+  const fallbackArrayJson = JSON.stringify(FALLBACK_LINKS);
   const ytId = getYouTubeId(targetUrl);
 
   // 1. YOUTUBE
@@ -216,7 +232,8 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
                     playerVars: { 'autoplay': 1, 'mute': 1, 'controls': 1, 'rel': 0, 'playsinline': 1 },
                     events: { 
                         'onReady': function(e) { e.target.playVideo(); setTimeout(function() { try { player.unMute(); player.setVolume(100); } catch(err) {} }, 100); },
-                        'onStateChange': function(e) { if (e.data === 1) { try { player.unMute(); player.setVolume(100); } catch(err) {} } }
+                        'onStateChange': function(e) { if (e.data === 1) { try { player.unMute(); player.setVolume(100); } catch(err) {} } },
+                        'onError': function(e) { window.location.href = window.location.origin + window.location.pathname + "?proxy=true&url=" + encodeURIComponent(${fallbackArrayJson}[0]); }
                     }
                 });
             }
@@ -285,12 +302,28 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
 
         <script>
             const video = document.getElementById('video-player');
+            const fallbacks = ${fallbackArrayJson};
             let player = null;
+
+            async function playFallback() {
+                if (player) {
+                    try {
+                        await player.unload();
+                        await player.destroy();
+                    } catch(e) {}
+                    player = null;
+                }
+                video.removeAttribute('src');
+                video.src = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+                video.load();
+                video.muted = false;
+                video.play().catch(e => { video.muted = true; video.play(); });
+            }
 
             async function initShaka() {
                 shaka.polyfill.installAll();
                 if (!shaka.Player.isBrowserSupported()) {
-                    console.error("Browser tidak mendukung Shaka Player");
+                    playFallback();
                     return;
                 }
 
@@ -339,9 +372,11 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
                     video.play().catch(() => { video.muted = true; video.play(); });
                 } catch (error) {
                     console.error("Shaka Error:", error);
+                    playFallback();
                 }
             }
 
+            video.addEventListener('ended', playFallback);
             document.addEventListener('DOMContentLoaded', initShaka);
             document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
             document.addEventListener('contextmenu', e => e.preventDefault());
@@ -367,7 +402,22 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
       <video id="video-player" controls playsinline></video>
       <script>
           const video = document.getElementById('video-player');
+          const fallbacks = ${fallbackArrayJson};
           let hlsInstance = null;
+
+          function playRandomFallback() {
+              if (hlsInstance) {
+                  hlsInstance.destroy();
+                  hlsInstance = null;
+              }
+              video.src = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+              video.load();
+              video.muted = false;
+              video.play().catch(e => { video.muted = true; video.play(); });
+          }
+
+          video.addEventListener('error', playRandomFallback);
+          video.addEventListener('ended', playRandomFallback);
 
           if ("${playerType}" === "hls" && typeof Hls !== 'undefined' && Hls.isSupported()) {
               hlsInstance = new Hls({ 
@@ -379,6 +429,7 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
               hlsInstance.loadSource("${finalStreamUrl}"); 
               hlsInstance.attachMedia(video);
               hlsInstance.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(() => { video.muted = true; video.play(); }); });
+              hlsInstance.on(Hls.Events.ERROR, function(e, d) { if (d.fatal) playRandomFallback(); });
           } else {
               video.src = "${finalStreamUrl}"; video.load();
               video.addEventListener('canplay', function() { video.play().catch(() => { video.muted = true; video.play(); }); });

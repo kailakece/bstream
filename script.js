@@ -12,7 +12,7 @@ function getRandomRating() {
 }
 
 function parseTextDatabase(text) {
-    const db = { live: [], shorts: [], film: [], semi: [], series: [], anime: [] };
+    const db = { live: [], film: [], semi: [], series: [], anime: [] };
     const lines = text.split('\n');
     let currentCategory = null;
     let currentParentObj = null;
@@ -31,7 +31,7 @@ function parseTextDatabase(text) {
 
         const parts = line.split('|').map(p => p.trim());
 
-        if (currentCategory === 'live' || currentCategory === 'shorts' || currentCategory === 'film' || currentCategory === 'semi') {
+        if (currentCategory === 'live' || currentCategory === 'film' || currentCategory === 'semi') {
             const item = {
                 id_kv: parts[0],
                 title: parts[1],
@@ -136,7 +136,6 @@ function renderVideos(category) {
     filteredItems.forEach(item => {
         const card = document.createElement("div");
         card.className = "video-card";
-
         card.innerHTML = `
             <div class="thumb-wrap">
                 <span class="badge-tag">${item.badge}</span>
@@ -237,12 +236,6 @@ function playVideo(idKv, category, eps = null) {
     
     playerContainer.classList.remove("pip-mode"); 
     removeMobileDragHandle();
-    
-    if (category === "shorts") {
-        playerContainer.classList.add("shorts-active");
-    } else {
-        playerContainer.classList.remove("shorts-active");
-    }
     
     const oldInfo = document.getElementById("pip-metadata-box");
     if (oldInfo) oldInfo.remove();
@@ -373,7 +366,6 @@ function stopVideoTotalWithoutResetGrid() {
     document.getElementById("episode-wrapper").style.display = "none";
     const playerContainer = document.getElementById("player-container");
     playerContainer.classList.remove("pip-mode");
-    playerContainer.classList.remove("shorts-active");
     removeMobileDragHandle();
     resetDraggablePosition(playerContainer);
     

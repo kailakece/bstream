@@ -1,8 +1,8 @@
 [LIVE]
-rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780420086~hmac=6b32eaccd0dbcc1638d270cc8df0da215e0f5ac368343da6924de97c4e44a581 | https://www.rctiplus.com/
-mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780420152~hmac=ef8d0b698dbcb1978c4d111cef1ae38baffe5a0464678044df10c9a536300c08 | https://www.rctiplus.com/
-gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780420175~hmac=99cecd7a74b2948c80bd148646b028954f7c6e8617d26c440f15f4dbafc0db4f | https://www.rctiplus.com/
-inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780420235~hmac=8b0b267209502fd40d60d350c07531717fd8927137b9c7f62011ef3ea37eb9ff | https://www.rctiplus.com/
+rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780421180~hmac=3295d91e0efbce30b1eb7b1104bb14e49630573f62a1f68e2c875541eeeabc62 | https://www.rctiplus.com/
+mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780421221~hmac=8acf7d8b0ecfd1a4bc6b38422236b0a77f9f4c1c7fa631ca018aa94e6fecf001 | https://www.rctiplus.com/
+gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780421246~hmac=2a14b712bbf15006f9ce8d8cb71e9bef266566fecda0b200c5ab10065957e89d | https://www.rctiplus.com/
+inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780421277~hmac=2b2dc5749c6147bf77d0c52b8a643035aadabd0855f2b2d2439ec3f2cc275ea1 | https://www.rctiplus.com/
 trans7 | Trans 7 | https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/Trans7-Landscape-qv7ajymhde067cu25w8jn75iul15nlwfn46jbtyham.jpg | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv | Trans TV | https://thumbor.prod.vidiocdn.com/rw3YANrLDodOrAxrxUPomDVHjjI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/733/trans-tv-3836a5.jpg | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv | SCTV | https://thumbor.prod.vidiocdn.com/Xr8AAOVjClvDNr9P3fkGaB9Zn20=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/204/sctv-5ef966.jpg | LIVE | 
@@ -190,7 +190,7 @@ Trailer | https://youtu.be/Zn232BJzXeE
 9 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
 10 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
 
-a-knight-of-the-seven-kingdom | A Knight Of The Seven Kingdom | https://i.ytimg.com/vi/SWHdQtoIpIY/maxresdefault.jpg | SERIES
+a-knight-of-the-seven-kingdom | A Knight Of The Seven Kingdom | https://s4.ezgif.com/tmp/ezgif-40f44731657bc2bb.webp | SERIES
 Trailer | https://youtu.be/sItUCKJQLTU
 1 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
 2 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
@@ -232,7 +232,7 @@ onepiece | One Piece | https://wallpapercg.com/media/ts_2x/31243.webp | ANIME
 29 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=cjY0NWFFMHVpVlNuNThsQVpNaWx2Zz09
 30 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=WHhHWFBFRGxNdHVrQWE2TFNrMXhJdz09
 
-bleach | Bleach | https://dailyanimeart.com/wp-content/uploads/2011/08/bleach___ichigo_wallpaper_by_pencil_dragonslayer.jpg | ANIME
+bleach | Bleach | https://s6.ezgif.com/tmp/ezgif-6e598c1294605758.webp | ANIME
 1 | https://mp4upload.com/embed-qd9a2xt9c7ad.html
 2 | https://mp4upload.com/embed-5p41x2gpsxt9.html
 3 | https://mp4upload.com/embed-hcvyldtui6yu.html
@@ -244,7 +244,7 @@ bleach | Bleach | https://dailyanimeart.com/wp-content/uploads/2011/08/bleach___
 9 | https://mp4upload.com/embed-xyf9578isdte.html
 10 | https://mp4upload.com/embed-l9bg36orolq2.html
 
-bleach-skh | Bleach : Sennen Kessen Hen  | https://i.ytimg.com/vi/6TA9CHLRjQw/maxresdefault.jpg | ANIME
+bleach-skh | Bleach : Sennen Kessen Hen | https://s4.ezgif.com/tmp/ezgif-49c879275fd6b8d1.webp | ANIME
 SKH 1 | https://mega.nz/embed/KYdBAbbI#VX1irztxO66OnpjxHaUzzQxoebHjptZF3144OX19zb4
 SKH 2 | https://mega.nz/embed/eNNQEaYb#MC1QkDcW1xGZf8GkqT69_DvLA160qI_rTv04AOErEJw
 SKH 3 | https://mega.nz/embed/bF8XWbSR#l1dfclflICFTuQpg5LxUbGR3Llp8u1AZhAFe-1IPwdI
@@ -286,12 +286,12 @@ SKH3 12 | https://mega.nz/embed/7F52DbyD#OD2bSl8YpFtPIPrZ7_PSo0pm151i76mOMCRhvUK
 SKH3 13 | https://mega.nz/embed/DAYRgR4b#OxIL2EMOOf6IkkL9J2v6XNEthFncUmafepgtwRxXA-0
 SKH3 14 | https://mega.nz/embed/GRYi1IwR#XyP5eYP_t1AAhm-gytvX-kzbuC7vzox7djl7ScIOIww
 
-naruto | Naruto Shippuden | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyvzJqhKvxUY6A79GPBo4_LLMSAGmLnq4at4n14FUsNA&s=10 | ANIME
+naruto | Naruto Shippuden | https://s5.ezgif.com/tmp/ezgif-51ab073aaccfcb86.webp | ANIME
 1 | https://mp4upload.com/embed-anusv63omtdi.html
 2 | https://mp4upload.com/embed-c4allrv13exf.html
 3 | https://mp4upload.com/embed-di6miwf4u0d7.html
 
-clover | Black Clover | https://cdn.wallpapersafari.com/45/20/mGzeYg.jpg | ANIME
+clover | Black Clover | https://s4.ezgif.com/tmp/ezgif-47490d03433201c7.webp | ANIME
 1 | https://mega.nz/embed/#!JVoFjKIb!e26rxnUvkFUYEesweITyicYJAfZnJu6ipwJnqp5ZQyk
 2 | https://mega.nz/embed/#!NZgXSSrK!N8uUEOJfEI-wzij-Fq0pXIAHtHpuPUeixPtUIHe8HLQ
 3 | https://mega.nz/embed/#!ZI5Dja4a!kdCGZjIrtSP4KakRaqM6upuPn_HSXsBcC7Si3Ll0n_U
@@ -323,7 +323,7 @@ clover | Black Clover | https://cdn.wallpapersafari.com/45/20/mGzeYg.jpg | ANIME
 29 | https://mega.nz/embed/#!wIxxDCpL!Um3iCMEhAJkYKDSVYwlwuPb28-FIKb9709oWirviOpE
 30 | https://mega.nz/embed/#!tM4zhADa!uyRSlr4ow7mI1ZaxX_M6ARohTIrGQ-LjSAxLiE7nNuQ
 
-dxd | High School DxD | https://wallpapers.com/images/hd/highschool-dxd-rias-and-issei-ipsg7e6fgzb3tit4.jpg | ANIME
+dxd | High School DxD | https://s5.ezgif.com/tmp/ezgif-51377bc7765d5e70.webp | ANIME
 1 | https://mega.nz/embed/d8lxRSIb#L0xCoVX_embaa0E4mm7M3LHNVFzrdMkBNExBriLfCfQ
 2 | https://mega.nz/embed/ZgsDxQiY#2oTGB4w-nIVMn0Ma8KSQYv1MBqGXlCCfUz2MNc2n4xo
 3 | https://mega.nz/embed/c89FmASD#pYHWNkpaJxtZUwnbVl6gLqq63QXZ5Gcl3HfAWSfx_Do
@@ -337,7 +337,7 @@ dxd | High School DxD | https://wallpapers.com/images/hd/highschool-dxd-rias-and
 11 | https://mega.nz/embed/pp1jlSpJ#NoL_Y2poIKohWiYxooc4J3dTiperSQzLAeVuMheF6uQ
 12 | https://mega.nz/embed/gxsXyQbZ#YC6FduWgT8WjXH7Pdvlb_eqyGXoyBibS0uqQ3LlX8Xg
 
-onepunchman | One Punch Man | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKJxw14J6_bmJAoBTGj4UFUKv8uhF7AZ-b-WUhWHCYvG7QlVlW3_M83bW&s=10 | ANIME
+onepunchman | One Punch Man | https://s3.ezgif.com/tmp/ezgif-3b116ee6a68f8881.webp | ANIME
 S1 Full | https://m.youtube.com/watch?v=DcIzkzYyD3Y
 S2 Full | https://m.youtube.com/watch?v=lBrcvEmVOwk
 s3e1 | https://m.youtube.com/watch?v=YXMPqxqo7i8

@@ -1,5 +1,4 @@
 [LIVE]
-shorts | SHORTS | | LIVE | https://youtu.be/QmS5nsWQqrk
 rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780421180~hmac=3295d91e0efbce30b1eb7b1104bb14e49630573f62a1f68e2c875541eeeabc62 | https://www.rctiplus.com/
 mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780421221~hmac=8acf7d8b0ecfd1a4bc6b38422236b0a77f9f4c1c7fa631ca018aa94e6fecf001 | https://www.rctiplus.com/
 gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780421246~hmac=2a14b712bbf15006f9ce8d8cb71e9bef266566fecda0b200c5ab10065957e89d | https://www.rctiplus.com/
@@ -51,6 +50,18 @@ dhammatv | Dhamma TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTct
 bungotv | Bungo TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Fjoh5tdC1ESrrAbJ9fDAoIF5xdnsr0EL5hYyNY2nv2s7KX_KTc5wmsV7&s=10 | LIVE | https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 rctv | RCTV | https://play-lh.googleusercontent.com/2IbcLcLYOu2NvgYc98F15YcMQQfcUeH98fgpDfuThqihzOQomqy6VHRzlUefIO50rpY | LIVE | https://v10.siar.us/rctv/live/playlist.m3u8
 lingkartv | Lingkar TV | https://lingkar.tv/assets/img/logo-square.png | LIVE | https://lingkartv.my.id/hls/lingkartv.m3u8
+
+[SHORTS]
+shorts1 | Dari Bodyguard Jadi Pahlawan | https://i.ytimg.com/vi_webp/QmS5nsWQqrk/mqdefault.webp | SHORTS | https://youtu.be/QmS5nsWQqrk
+shorts2 | Master Pedang Terlahir Kembali | https://i.ytimg.com/vi_webp/YaN0TJZQ0z8/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=YaN0TJZQ0z8
+shorts3 | Permaisuri Dari Masa Depan | https://i.ytimg.com/vi_webp/Wwq4nC_gLyc/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=Wwq4nC_gLyc
+shorts4 | Identitas Rahasia Terbongkar Penguasa Arena| https://i.ytimg.com/vi_webp/e_aEkOC-AFo/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=e_aEkOC-AFo
+shorts5 | Pacar Selingkuh, Aku Cari Omnya | https://i.ytimg.com/vi_webp/geaOGnNo_14/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=geaOGnNo_14
+shorts6 | Pembalasan Sempurna Sang Mantan | https://i.ytimg.com/vi_webp/x0EuGFgr95Q/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=x0EuGFgr95Q
+shorts7 | Balas Dendam Sang Penjagal | https://i.ytimg.com/vi_webp/JSzrWzcakqY/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=JSzrWzcakqY
+shorts8 | Penjaga Rahasia Sang Putri | https://i.ytimg.com/vi_webp/a_RrL91HzrE/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=a_RrL91HzrE
+shorts9 | Wanita Rendahan Jadi Jendral | https://i.ytimg.com/vi_webp/rabA4faOQ64/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=rabA4faOQ64
+shorts10 | Gadis Muda Berjiwa Penguasa | https://i.ytimg.com/vi_webp/s8zngI1A2Jw/mqdefault.webp | SHORTS | https://m.youtube.com/watch?v=s8zngI1A2Jw
 
 [FILM]
 film1 | Dear Imamku | https://pict.sindonews.com/dyn/850/pena/news/2021/05/01/701/414948/bertemu-di-film-dear-imamku-dul-dan-tissa-biani-berbagi-kisah-cinta-di-hari-lebaran-2021-edz.jpg | HD FILM | https://youtu.be/aOQbDixQvtQ
@@ -191,7 +202,7 @@ Trailer | https://youtu.be/Zn232BJzXeE
 9 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
 10 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
 
-a-knight-of-the-seven-kingdom | A Knight Of The Seven Kingdom | https://s4.ezgif.com/tmp/ezgif-40f44731657bc2bb.webp | SERIES
+a-knight-of-the-seven-kingdom | A Knight Of The Seven Kingdom | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTin4qTMejGE8XA3fRP4tWaQXs-SV0rW3RIZz136v41eR8qcwoC2NoroOHW&s=10 | SERIES
 Trailer | https://youtu.be/sItUCKJQLTU
 1 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
 2 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
@@ -232,8 +243,10 @@ onepiece | One Piece | https://wallpapercg.com/media/ts_2x/31243.webp | ANIME
 28 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=QkpIMVFLempINDZMVVB6Z3dia3U4QT09
 29 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=cjY0NWFFMHVpVlNuNThsQVpNaWx2Zz09
 30 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=WHhHWFBFRGxNdHVrQWE2TFNrMXhJdz09
+31 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=VGJ0c1Fyb0RySDltNDV1aW1lYURCdz09
+32 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=NEpPUXBIcnJhNmhDd0oybnNuZnZRdz09
 
-bleach | Bleach | https://s6.ezgif.com/tmp/ezgif-6e598c1294605758.webp | ANIME
+bleach | Bleach | https://wallpapercave.com/wp/wp11333332.jpg | ANIME
 1 | https://mp4upload.com/embed-qd9a2xt9c7ad.html
 2 | https://mp4upload.com/embed-5p41x2gpsxt9.html
 3 | https://mp4upload.com/embed-hcvyldtui6yu.html
@@ -245,7 +258,7 @@ bleach | Bleach | https://s6.ezgif.com/tmp/ezgif-6e598c1294605758.webp | ANIME
 9 | https://mp4upload.com/embed-xyf9578isdte.html
 10 | https://mp4upload.com/embed-l9bg36orolq2.html
 
-bleach-skh | Bleach : Sennen Kessen Hen | https://s4.ezgif.com/tmp/ezgif-49c879275fd6b8d1.webp | ANIME
+bleach-skh | Bleach : Sennen Kessen Hen | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUWtL9Uft7mRp1Xo6tUdWG6quxM96LTF30qgcK31vYkjwY_cdCGB9i_Hs&s=10 | ANIME
 SKH 1 | https://mega.nz/embed/KYdBAbbI#VX1irztxO66OnpjxHaUzzQxoebHjptZF3144OX19zb4
 SKH 2 | https://mega.nz/embed/eNNQEaYb#MC1QkDcW1xGZf8GkqT69_DvLA160qI_rTv04AOErEJw
 SKH 3 | https://mega.nz/embed/bF8XWbSR#l1dfclflICFTuQpg5LxUbGR3Llp8u1AZhAFe-1IPwdI
@@ -287,12 +300,12 @@ SKH3 12 | https://mega.nz/embed/7F52DbyD#OD2bSl8YpFtPIPrZ7_PSo0pm151i76mOMCRhvUK
 SKH3 13 | https://mega.nz/embed/DAYRgR4b#OxIL2EMOOf6IkkL9J2v6XNEthFncUmafepgtwRxXA-0
 SKH3 14 | https://mega.nz/embed/GRYi1IwR#XyP5eYP_t1AAhm-gytvX-kzbuC7vzox7djl7ScIOIww
 
-naruto | Naruto Shippuden | https://s5.ezgif.com/tmp/ezgif-51ab073aaccfcb86.webp | ANIME
+naruto | Naruto Shippuden | https://cdn.wallpapersafari.com/83/7/qBho2b.jpg | ANIME
 1 | https://mp4upload.com/embed-anusv63omtdi.html
 2 | https://mp4upload.com/embed-c4allrv13exf.html
 3 | https://mp4upload.com/embed-di6miwf4u0d7.html
 
-clover | Black Clover | https://s4.ezgif.com/tmp/ezgif-47490d03433201c7.webp | ANIME
+clover | Black Clover | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNmyO21xa9HNnXYMAdiTDZn0H8Stx-Y1ysa5BCdYNcFvKkbZfO2Rk02kA&s=10 | ANIME
 1 | https://mega.nz/embed/#!JVoFjKIb!e26rxnUvkFUYEesweITyicYJAfZnJu6ipwJnqp5ZQyk
 2 | https://mega.nz/embed/#!NZgXSSrK!N8uUEOJfEI-wzij-Fq0pXIAHtHpuPUeixPtUIHe8HLQ
 3 | https://mega.nz/embed/#!ZI5Dja4a!kdCGZjIrtSP4KakRaqM6upuPn_HSXsBcC7Si3Ll0n_U
@@ -323,8 +336,18 @@ clover | Black Clover | https://s4.ezgif.com/tmp/ezgif-47490d03433201c7.webp | A
 28 | https://mega.nz/embed/#!cQpTAaYa!292RD9iRWk_cGKayoL99moOpjCTbRgqWO5XGgQmSku8
 29 | https://mega.nz/embed/#!wIxxDCpL!Um3iCMEhAJkYKDSVYwlwuPb28-FIKb9709oWirviOpE
 30 | https://mega.nz/embed/#!tM4zhADa!uyRSlr4ow7mI1ZaxX_M6ARohTIrGQ-LjSAxLiE7nNuQ
+31 | https://mega.nz/embed/#!BEhhWIKQ!igKgdGR_NpAoURFSqdgMXGNHOJ8LRvksbfXNWb7rPrE
+32 | https://mega.nz/embed/#!FNxxUaST!BSeouDfexi9V_Jsog28FeaD4uNJRSDxCdfa7-vKglfs
+33 | https://mega.nz/embed/#!oJh3gQRR!yGS7jvMum4KtXYfHIpr9Lcrfh3ZQzyW_6kcGMpu081M
+34 | https://mega.nz/embed/#!cchhWKhB!gAQ4l9nAzu7tOG5e9_xLn2ufAmrGiP4oC4hFkbSSFKM
+35 | https://mega.nz/embed/#!IF512YwL!7w1MHvwOQJIdZhT3B9HnNklf80BsnzkizRwlrOWoTpk
+36 | https://mega.nz/embed/#!IUoXjAYR!ByUYRXLQQOD-53eGmZR9fUwZsp7WwSuRSZrMdw7QfSs
+37 | https://mega.nz/embed/#!QJhDlQya!aIEvq_VmIlo9qm8ObW8r3ZVdgFLtTJyqEcXHF3d8I4I
+38 | https://mega.nz/embed/#!BAollQIA!zvWBEumczEAwt8akRt099NwDXUEyczFya4Mmgrunp-U
+39 | https://mega.nz/embed/#!cBxTRY6Y!_19Nj9xHZ6Sit1h47sHvc1LngYkYmy12YE3sJahNbnE
+40 | https://mega.nz/embed/#!EAhziKSb!xZJEG6Fn3265XBauRhzngigCHDo5bAukAEUMHKQxOBg
 
-dxd | High School DxD | https://s5.ezgif.com/tmp/ezgif-51377bc7765d5e70.webp | ANIME
+dxd | High School DxD | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTASbUtbyA2_gkfHAH-5TfO78AuFxuTxvu0JpsMb0QR8fK4CgjOm5eXJhet&s=10 | ANIME
 1 | https://mega.nz/embed/d8lxRSIb#L0xCoVX_embaa0E4mm7M3LHNVFzrdMkBNExBriLfCfQ
 2 | https://mega.nz/embed/ZgsDxQiY#2oTGB4w-nIVMn0Ma8KSQYv1MBqGXlCCfUz2MNc2n4xo
 3 | https://mega.nz/embed/c89FmASD#pYHWNkpaJxtZUwnbVl6gLqq63QXZ5Gcl3HfAWSfx_Do
@@ -338,7 +361,7 @@ dxd | High School DxD | https://s5.ezgif.com/tmp/ezgif-51377bc7765d5e70.webp | A
 11 | https://mega.nz/embed/pp1jlSpJ#NoL_Y2poIKohWiYxooc4J3dTiperSQzLAeVuMheF6uQ
 12 | https://mega.nz/embed/gxsXyQbZ#YC6FduWgT8WjXH7Pdvlb_eqyGXoyBibS0uqQ3LlX8Xg
 
-onepunchman | One Punch Man | https://s3.ezgif.com/tmp/ezgif-3b116ee6a68f8881.webp | ANIME
+onepunchman | One Punch Man | https://images.alphacoders.com/741/thumb-1920-741091.jpg | ANIME
 S1 Full | https://m.youtube.com/watch?v=DcIzkzYyD3Y
 S2 Full | https://m.youtube.com/watch?v=lBrcvEmVOwk
 s3e1 | https://m.youtube.com/watch?v=YXMPqxqo7i8

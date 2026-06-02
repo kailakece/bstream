@@ -1,17 +1,5 @@
 const GITHUB_PLAYLIST_URL = "https://raw.githubusercontent.com/kailakece/bstream/refs/heads/main/playlist.txt";
 
-const FALLBACK_LINKS = [
-  "https://donasi.showcdnx.com/stopjudi/2.mp4",
-  "https://donasi.showcdnx.com/stopjudi/3.mp4",
-  "https://donasi.showcdnx.com/stopjudi/4.mp4",
-  "https://donasi.showcdnx.com/stopjudi/5.mp4"
-];
-
-function getRandomFallbackLink() {
-  const randomIndex = Math.floor(Math.random() * FALLBACK_LINKS.length);
-  return FALLBACK_LINKS[randomIndex];
-}
-
 export default {
   async fetch(request, env, ctx) {
     if (request.method === "OPTIONS") {
@@ -46,7 +34,6 @@ export default {
       requestHeaders.set("Referer", referer);
       requestHeaders.set("User-Agent", userAgent);
 
-      // Teruskan header Range jika ada (sangat penting untuk streaming MP4 agar bisa di-seek/fast-forward)
       if (request.headers.has("Range")) {
         requestHeaders.set("Range", request.headers.get("Range"));
       }
@@ -56,7 +43,6 @@ export default {
         const httpCode = response.status;
         const contentType = response.headers.get("Content-Type") || "";
         
-        // Pengecekan khusus untuk HLS (.m3u8) yang membutuhkan rewrite internal chunk url
         if (httpCode === 200 && (targetUrl.includes(".m3u8") || contentType.includes("mpegurl") || contentType.includes("apple"))) {
           let text = await response.text();
           const lines = text.split("\n");
@@ -82,13 +68,10 @@ export default {
           });
         }
 
-        // UNTUK MP4 & FORMAT LAINNYA:
-        // Langsung return body dari asal, namun request ke asalnya sudah membawa Referer dan UA yang kita inject di atas.
         const responseHeaders = new Headers();
         responseHeaders.set("Access-Control-Allow-Origin", "*");
         responseHeaders.set("Content-Type", contentType || "video/mp4");
         
-        // Teruskan header Content-Range dan Accept-Ranges agar player video lancar saat loading timeline video mp4
         if (response.headers.has("Content-Range")) responseHeaders.set("Content-Range", response.headers.get("Content-Range"));
         if (response.headers.has("Accept-Ranges")) responseHeaders.set("Accept-Ranges", response.headers.get("Accept-Ranges"));
         if (response.headers.has("Content-Length")) responseHeaders.set("Content-Length", response.headers.get("Content-Length"));
@@ -145,7 +128,7 @@ export default {
 
         const parts = line.split('|').map(p => p.trim());
 
-        if (typeParam === "live" || typeParam === "film" || typeParam === "semi") {
+        if (typeParam === "live" || typeParam === "film" || typeParam === "semi" || typeParam === "shorts") {
           if (parts[0] === videoId) {
             targetUrl = parts[4] || "";
             referer = parts[5] || "";
@@ -178,14 +161,16 @@ export default {
         }
       }
 
-      if (!targetUrl) targetUrl = getRandomFallbackLink();
+      if (!targetUrl) {
+        return new Response("Video tidak ditemukan di database.", { status: 404 });
+      }
 
       const isRawMode = urlObj.searchParams.get("raw") === "true";
       if (isRawMode) {
         return Response.redirect(targetUrl, 302);
       }
 
-      const playerHtml = generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType, drmLicense);
+      const playerHtml = generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType, drmLicense, typeParam);
       return new Response(playerHtml, {
         headers: {
           "Content-Type": "text/html; charset=utf-8",
@@ -200,7 +185,7 @@ export default {
   },
 };
 
-function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "", drmLicense = "") {
+function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "", drmLicense = "", typeParam = "live") {
   function getYouTubeId(url) {
     if (!url) return null;
     if (url.length === 11 && !url.includes("/") && !url.includes(".")) return url;
@@ -209,10 +194,27 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
     return (match && match[2].length === 11) ? match[2] : null;
   }
 
-  const fallbackArrayJson = JSON.stringify(FALLBACK_LINKS);
   const ytId = getYouTubeId(targetUrl);
 
-  // 1. YOUTUBE
+  const orientationScript = `
+    function handleLockOrientation(videoEl) {
+        if (!document.fullscreenElement || !screen.orientation || !screen.orientation.lock) return;
+        if ("${typeParam}" === "shorts") {
+            screen.orientation.lock('portrait').catch(e => {});
+            return;
+        }
+        if (videoEl) {
+            if (videoEl.videoHeight > videoEl.videoWidth) {
+                screen.orientation.lock('portrait').catch(e => {});
+            } else {
+                screen.orientation.lock('landscape').catch(e => {});
+            }
+        } else {
+            screen.orientation.lock('landscape').catch(e => {});
+        }
+    }
+  `;
+
   if (ytId) {
     return `<!DOCTYPE html>
     <html lang="id">
@@ -232,15 +234,25 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
                     playerVars: { 'autoplay': 1, 'mute': 1, 'controls': 1, 'rel': 0, 'playsinline': 1 },
                     events: { 
                         'onReady': function(e) { e.target.playVideo(); setTimeout(function() { try { player.unMute(); player.setVolume(100); } catch(err) {} }, 100); },
-                        'onStateChange': function(e) { if (e.data === 1) { try { player.unMute(); player.setVolume(100); } catch(err) {} } },
-                        'onError': function(e) { window.location.href = window.location.origin + window.location.pathname + "?proxy=true&url=" + encodeURIComponent(${fallbackArrayJson}[0]); }
+                        'onStateChange': function(e) { if (e.data === 1) { try { player.unMute(); player.setVolume(100); } catch(err) {} } }
                     }
                 });
             }
             function forceUnmute() { if (player && typeof player.unMute === 'function') { try { player.unMute(); player.setVolume(100); player.playVideo(); } catch(e) {} } }
             window.addEventListener('click', forceUnmute, { once: true });
             window.addEventListener('touchstart', forceUnmute, { once: true });
-            document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
+            
+            ${orientationScript}
+
+            document.addEventListener("fullscreenchange", function() {
+                if (document.fullscreenElement && screen.orientation && screen.orientation.lock) {
+                    if ("${typeParam}" === "shorts") {
+                        screen.orientation.lock('portrait').catch(e => {});
+                    } else {
+                        screen.orientation.lock('landscape').catch(e => {});
+                    }
+                }
+            });
             document.addEventListener('contextmenu', e => e.preventDefault());
         </script>
     </body>
@@ -250,7 +262,6 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
   const lowUrl = targetUrl.toLowerCase();
   const isVideoFile = lowUrl.includes(".m3u8") || lowUrl.includes(".mp4") || lowUrl.includes(".mpd") || lowUrl.includes(".webm") || lowUrl.includes("googleapis") || lowUrl.includes("drive.google") || lowUrl.includes("mime=video");
 
-  // 2. EXTERNAL EMBED / WEB IFRAME
   if (lowUrl.includes(".html") || lowUrl.includes(".php") || lowUrl.includes("embed") || !isVideoFile) {
     let modifiedTargetUrl = targetUrl;
     try {
@@ -269,14 +280,22 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
     <body>
         <iframe id="embed-frame" src="${modifiedTargetUrl}" allowfullscreen allow="autoplay *; encrypted-media *; fullscreen *;"></iframe>
         <script>
-            document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
+            ${orientationScript}
+            document.addEventListener("fullscreenchange", function() { 
+                if (document.fullscreenElement) {
+                    if ("${typeParam}" === "shorts") {
+                        screen.orientation.lock('portrait').catch(e => {});
+                    } else {
+                        screen.orientation.lock('landscape').catch(e => {});
+                    }
+                } 
+            });
             document.addEventListener('contextmenu', e => e.preventDefault());
         </script>
     </body>
     </html>`;
   }
 
-  // 3. FORMAT MPD (DASH) ATAU MEMILIKI DRM -> GUNAKAN SHAKA PLAYER
   if (lowUrl.includes(".mpd") || drmType !== "") {
     return `<!DOCTYPE html>
     <html lang="id">
@@ -302,28 +321,14 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
 
         <script>
             const video = document.getElementById('video-player');
-            const fallbacks = ${fallbackArrayJson};
             let player = null;
 
-            async function playFallback() {
-                if (player) {
-                    try {
-                        await player.unload();
-                        await player.destroy();
-                    } catch(e) {}
-                    player = null;
-                }
-                video.removeAttribute('src');
-                video.src = fallbacks[Math.floor(Math.random() * fallbacks.length)];
-                video.load();
-                video.muted = false;
-                video.play().catch(e => { video.muted = true; video.play(); });
-            }
+            ${orientationScript}
 
             async function initShaka() {
                 shaka.polyfill.installAll();
                 if (!shaka.Player.isBrowserSupported()) {
-                    playFallback();
+                    console.error("Browser tidak mendukung Shaka Player");
                     return;
                 }
 
@@ -372,20 +377,17 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
                     video.play().catch(() => { video.muted = true; video.play(); });
                 } catch (error) {
                     console.error("Shaka Error:", error);
-                    playFallback();
                 }
             }
 
-            video.addEventListener('ended', playFallback);
             document.addEventListener('DOMContentLoaded', initShaka);
-            document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
+            document.addEventListener("fullscreenchange", function() { handleLockOrientation(video); });
             document.addEventListener('contextmenu', e => e.preventDefault());
         </script>
     </body>
     </html>`;
   }
 
-  // 4. FORMAT HLS (.M3U8) ATAU NATIVE MP4 STANDAR (TANPA DRM)
   let finalStreamUrl = `${urlObj.origin}${urlObj.pathname}?proxy=true&url=${encodeURIComponent(targetUrl)}&referer=${encodeURIComponent(referer)}&ua=${encodeURIComponent(userAgent)}`;
   let playerType = lowUrl.includes(".m3u8") ? "hls" : "native";
 
@@ -402,22 +404,9 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
       <video id="video-player" controls playsinline></video>
       <script>
           const video = document.getElementById('video-player');
-          const fallbacks = ${fallbackArrayJson};
           let hlsInstance = null;
 
-          function playRandomFallback() {
-              if (hlsInstance) {
-                  hlsInstance.destroy();
-                  hlsInstance = null;
-              }
-              video.src = fallbacks[Math.floor(Math.random() * fallbacks.length)];
-              video.load();
-              video.muted = false;
-              video.play().catch(e => { video.muted = true; video.play(); });
-          }
-
-          video.addEventListener('error', playRandomFallback);
-          video.addEventListener('ended', playRandomFallback);
+          ${orientationScript}
 
           if ("${playerType}" === "hls" && typeof Hls !== 'undefined' && Hls.isSupported()) {
               hlsInstance = new Hls({ 
@@ -429,12 +418,11 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
               hlsInstance.loadSource("${finalStreamUrl}"); 
               hlsInstance.attachMedia(video);
               hlsInstance.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(() => { video.muted = true; video.play(); }); });
-              hlsInstance.on(Hls.Events.ERROR, function(e, d) { if (d.fatal) playRandomFallback(); });
           } else {
               video.src = "${finalStreamUrl}"; video.load();
               video.addEventListener('canplay', function() { video.play().catch(() => { video.muted = true; video.play(); }); });
           }
-          document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
+          document.addEventListener("fullscreenchange", function() { handleLockOrientation(video); });
           document.addEventListener('contextmenu', e => e.preventDefault());
       </script>
   </body>

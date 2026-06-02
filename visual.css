@@ -96,12 +96,24 @@ nav.top-nav { display: flex; gap: 5px; }
 }
 .player-section iframe { width: 100%; height: 100%; border: none; }
 
+.player-section.shorts-active:not(.pip-mode) {
+    max-width: 480px;
+    margin: 0 auto;
+    aspect-ratio: 9 / 16;
+}
+
 .player-section.pip-mode {
     display: block !important; position: fixed; bottom: 80px; right: 15px;
     width: 340px; height: 190px; border-radius: 12px; overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.8); z-index: 999;
     cursor: move;
     touch-action: none;
+}
+
+/* Membalik resolusi menjadi Portrait (9:16) saat Video Shorts masuk mode PIP di HP */
+.player-section.pip-mode.shorts-active {
+    width: 135px !important;
+    height: 240px !important;
 }
 
 .close-pip-btn {
@@ -166,6 +178,7 @@ nav.top-nav { display: flex; gap: 5px; }
     header { height: 45px; }
     .app-layout { margin-top: 45px; }
     .player-section { top: 45px !important; }
+    .player-section.shorts-active:not(.pip-mode) { aspect-ratio: 9 / 16 !important; width: 100%; max-width: 100%; }
     .episode-box { top: calc(45px + 56.25vw) !important; }
     nav.top-nav { display: none; }
     header { justify-content: space-between; }
@@ -200,6 +213,13 @@ nav.top-nav { display: flex; gap: 5px; }
         z-index: 9999 !important;
     }
 
+    /* PIP Shorts terbalik di layar Mobile saat berorientasi portrait */
+    .player-section.pip-mode.shorts-active {
+        width: 150px !important;
+        aspect-ratio: 9 / 16 !important;
+        height: auto !important;
+    }
+
     .player-section.pip-mode .close-pip-btn {
         width: 22px;
         height: 22px;
@@ -217,12 +237,15 @@ nav.top-nav { display: flex; gap: 5px; }
     .search-container { display: block; flex-grow: 1; margin: 0 20px; max-width: 300px; } 
     .header-actions { gap: 10px; } 
     .player-section.pip-mode { bottom: 20px; right: 20px; width: 340px; height: 190px; }
+    .player-section.pip-mode.shorts-active { width: 140px !important; height: 250px !important; aspect-ratio: unset !important; }
 }
 
 @media (orientation: landscape) or (min-width: 1024px) {
     .app-layout.playing { display: flex; flex-direction: row; height: calc(100vh - 60px); }
     
     .app-layout.playing .player-section:not(.pip-mode) { position: relative; top: 0; flex: 0 0 65%; height: 100%; max-height: calc(100vh - 60px); }
+    .app-layout.playing .player-section.shorts-active:not(.pip-mode) { flex: 0 0 35% !important; aspect-ratio: 9/16 !important; margin: 0 auto; }
+    
     .app-layout.playing .content-section { flex: 0 0 35%; height: 100%; overflow-y: auto; padding: 5px 15px 15px 15px; border-left: 1px solid rgba(255,255,255,0.05); }
     .app-layout.playing .video-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 10px; }
     .app-layout.playing .episode-box { top: 0px; margin-top: -5px; margin-bottom: 12px; }
@@ -242,6 +265,12 @@ nav.top-nav { display: flex; gap: 5px; }
         box-shadow: 0 10px 30px rgba(0,0,0,0.8) !important; 
         flex: none !important; 
         z-index: 9999 !important; 
+    }
+
+    .app-layout.playing .player-section.pip-mode.shorts-active {
+        width: 140px !important;
+        height: 250px !important;
+        aspect-ratio: unset !important;
     }
     
     .app-layout.playing.import-pip-grid .content-section { 
@@ -263,7 +292,7 @@ nav.top-nav { display: flex; gap: 5px; }
 }
 
 @media (min-width: 1025px) {
-    .app-layout:not(.playing) .video-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+    .video-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
     .app-layout.playing.import-pip-grid .video-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important; gap: 16px; }
 }
 
@@ -322,11 +351,20 @@ nav.top-nav { display: flex; gap: 5px; }
         overflow: hidden !important;
     }
 
+    .app-layout.playing .player-section.pip-mode.shorts-active {
+        width: 140px !important;
+        height: 300px !important;
+    }
+
     .app-layout.playing .player-section.pip-mode iframe {
         width: 100% !important;
         aspect-ratio: 16 / 9 !important;
         height: auto !important;
         display: block !important;
+    }
+
+    .app-layout.playing .player-section.pip-mode.shorts-active iframe {
+        aspect-ratio: 9 / 16 !important;
     }
 
     .app-layout.playing .player-section.pip-mode .pip-info-box {

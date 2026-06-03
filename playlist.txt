@@ -1,5 +1,5 @@
 [LIVE]
-rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780515442~hmac=1e4656227265da2b0c36e420e5913e3d26aa88f6975efc9038ecdda13e9fdae2 | https://www.rctiplus.com/
+rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://embed.rctiplus.com/live/rcti/okezone | https://www.rctiplus.com/
 mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780515476~hmac=e011f202503b6ff06be039da36b0febda4c3543142fb339a4e6c1caa27e0857c | https://www.rctiplus.com/
 gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780515514~hmac=44abbc045984b5cab852eb4845e152254ec76ef894a8678747f406f9514ed595 | https://www.rctiplus.com/
 inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780515562~hmac=ca9ad67e371bfee72943d13f39c08eba774c4f427baa0456f94667e194fa2ea0 | https://www.rctiplus.com/

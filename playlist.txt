@@ -1,8 +1,8 @@
 [LIVE]
-rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://embed.rctiplus.com/live/rcti/okezone | https://www.rctiplus.com/
-mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780515476~hmac=e011f202503b6ff06be039da36b0febda4c3543142fb339a4e6c1caa27e0857c | https://www.rctiplus.com/
-gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780515514~hmac=44abbc045984b5cab852eb4845e152254ec76ef894a8678747f406f9514ed595 | https://www.rctiplus.com/
-inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780515562~hmac=ca9ad67e371bfee72943d13f39c08eba774c4f427baa0456f94667e194fa2ea0 | https://www.rctiplus.com/
+rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780539722~hmac=bb555b1268c92e0d2b1d9fdccf8a167acfda3e35bdcf5efff50358ad7cdcf053 | https://www.rctiplus.com/
+mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780540019~hmac=f6a03236dfb499dc9a902366645730aaf4ef9d87528f6ce63d7cd2ede199cc0e | https://www.rctiplus.com/
+gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780540039~hmac=a89e172aa9a06453e275f63ec05782b474454fee2db9f1af20e00556938908cf | https://www.rctiplus.com/
+inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780540093~hmac=e126f208b005c7b3486db3aff9b24a8982d1028e7784940da24853d405c2050e | https://www.rctiplus.com/
 trans7 | Trans 7 | https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/Trans7-Landscape-qv7ajymhde067cu25w8jn75iul15nlwfn46jbtyham.jpg | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv | Trans TV | https://thumbor.prod.vidiocdn.com/rw3YANrLDodOrAxrxUPomDVHjjI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/733/trans-tv-3836a5.jpg | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv | SCTV | https://thumbor.prod.vidiocdn.com/Xr8AAOVjClvDNr9P3fkGaB9Zn20=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/204/sctv-5ef966.jpg | LIVE | 
@@ -164,24 +164,6 @@ sol-yanim | Sol Yanim | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS
 11 | https://youtu.be/-k2bIn6vN8E
 12 | https://youtu.be/012xUpOzcGc
 
-back-for-you | Back For You | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc01fKaw-kxs6mudohrnW50OH6uiES9J454g&s | SERIES
-1 | https://m.youtube.com/watch?v=oIGMkBsifsI
-2 | https://m.youtube.com/watch?v=9_QwNkVvwIc
-3 | https://m.youtube.com/watch?v=EhQYaTHOvts
-4 | https://m.youtube.com/watch?v=8DeWUyO81zU
-5 | https://m.youtube.com/watch?v=Mo2EHcWH5ow
-6 | https://m.youtube.com/watch?v=miAZcnR0FUE
-7 | https://m.youtube.com/watch?v=96lXEBhdVfU
-8 | https://m.youtube.com/watch?v=pEl3lZfTYMk
-9 | https://m.youtube.com/watch?v=A6K_Tu-cwis
-10 | https://m.youtube.com/watch?v=8VXNdSJOGfk
-11 | https://m.youtube.com/watch?v=crw7PfuDVEw
-12 | https://m.youtube.com/watch?v=9msYwsemTBM
-13 | https://m.youtube.com/watch?v=bmK7iTx8ZLU
-14 | https://m.youtube.com/watch?v=YPBZeVnoRoY
-15 | https://m.youtube.com/watch?v=E9hldK6iUsA
-16 | https://m.youtube.com/watch?v=e-maB7EEfcs
-
 battle-of-fates | Battle Of Fates | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfvqs-IhpiiMRJ6X8IEzmUVVUO2k9EIc0Rs8ZNqKhUsCUI8IVtkpAe-fk1&s=10 | SERIES
 Trailer | https://youtu.be/tsdJzmRFcJE
 1 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
@@ -253,16 +235,16 @@ onepiece | One Piece | https://wallpapercg.com/media/ts_2x/31243.webp | ANIME
 32 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=NEpPUXBIcnJhNmhDd0oybnNuZnZRdz09
 
 bleach | Bleach | https://wallpapercave.com/wp/wp11333332.jpg | ANIME
-1 | https://mp4upload.com/embed-qd9a2xt9c7ad.html
-2 | https://mp4upload.com/embed-5p41x2gpsxt9.html
-3 | https://mp4upload.com/embed-hcvyldtui6yu.html
-4 | https://mp4upload.com/embed-rps7n706aylr.html
-5 | https://mp4upload.com/embed-c2xq56fo7drm.html
-6 | https://mp4upload.com/embed-m4m9m4ovkqjo.html
-7 | https://mp4upload.com/embed-5hfhsbwsnmv1.html
-8 | https://mp4upload.com/embed-yf8eutzt1gvl.html
-9 | https://mp4upload.com/embed-xyf9578isdte.html
-10 | https://mp4upload.com/embed-l9bg36orolq2.html
+1 | https://m.youtube.com/watch?v=OgyORlzV0uw
+2 | https://m.youtube.com/watch?v=7AR4YYJIiVY
+3 | https://m.youtube.com/watch?v=mFTQ4NYTxbs
+4 | https://m.youtube.com/watch?v=KalZH5_adEg
+5 | https://m.youtube.com/watch?v=dwcJ0fUgzSE
+6 | https://m.youtube.com/watch?v=TFVPrfLv6hM
+7 | https://m.youtube.com/watch?v=bTygP4Wd9So
+8 | https://m.youtube.com/watch?v=MOjm-s3s9-A
+9 | https://m.youtube.com/watch?v=5y2xwJ_C7uA
+10 | https://m.youtube.com/watch?v=EcNNZSo5ZZU
 
 bleach-skh | Bleach : Sennen Kessen Hen | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUWtL9Uft7mRp1Xo6tUdWG6quxM96LTF30qgcK31vYkjwY_cdCGB9i_Hs&s=10 | ANIME
 SKH 1 | https://mega.nz/embed/KYdBAbbI#VX1irztxO66OnpjxHaUzzQxoebHjptZF3144OX19zb4

@@ -1,4 +1,5 @@
 [LIVE]
+test | TEST | | LIVE | https://api.vidio.com/videos/7483857/common_tokenized_playlist.m3u8 | https://api.vidio.com/ | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 rcti | RCTI | | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780608954~hmac=457823ad2284a7c82c758f1d1b497a22499862157ddd583617a530953b5b2fdc | https://www.rctiplus.com/
 mnctv | MNCTV | | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780608992~hmac=5484d2a786432428671dc8cdd9925c28af0a84d9de9b99fe82b691ce239c1738 | https://www.rctiplus.com/
 gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780609019~hmac=22d4ac5a99941a6fe2ff1424b036ba639da8db81587e3bec1eac3873247aba9e | https://www.rctiplus.com/
@@ -233,8 +234,8 @@ sol-yanim | Sol Yanim | | SERIES
 12 | https://youtu.be/012xUpOzcGc
 
 stop-miss-hua | Stop! Miss Hua | | SERIES
-1 | https://api.vidio.com/videos/7483857/common_tokenized_playlist.m3u8 | https://api.vidio.com/ | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-2 | https://api.vidio.com/videos/7483858/common_tokenized_playlist.m3u8 | https://api.vidio.com/
+1 | https://api.vidio.com/videos/7483857/common_tokenized_playlist.m3u8
+2 | https://api.vidio.com/videos/7483858/common_tokenized_playlist.m3u8
 3 | https://api.vidio.com/videos/7483859/common_tokenized_playlist.m3u8
 4 | https://api.vidio.com/videos/7483860/common_tokenized_playlist.m3u8
 5 | https://api.vidio.com/videos/7483861/common_tokenized_playlist.m3u8

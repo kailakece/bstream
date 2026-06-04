@@ -34,6 +34,7 @@
                 <div class="nav-item" onclick="switchCategory('anime', this)">ANIME</div>
             </nav>
             <button class="icon-btn search-btn-mobile" onclick="toggleMobileSearch(true)"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="icon-btn theme-btn" id="theme-toggle-btn" onclick="toggleTheme()"><i class="fa-solid fa-moon"></i></button>
             <button class="icon-btn gift-btn" onclick="toggleQrisPopup(true)"><i class="fa-solid fa-gift"></i></button>
         </div>
     </header>
@@ -49,7 +50,7 @@
     <div class="qris-popup-overlay" id="qrisPopup" onclick="toggleQrisPopup(false)">
         <div class="qris-card" onclick="event.stopPropagation()">
             <div class="qris-qr-frame">
-                <img src="media/qris.webp" alt="QRIS Code">
+                <img src="qris.webp" alt="QRIS Code">
             </div>
         </div>
     </div>

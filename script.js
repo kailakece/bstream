@@ -228,6 +228,22 @@ function playVideo(idKv, category, eps = null) {
     const playerContainer = document.getElementById("player-container");
     const iframe = document.getElementById("stream-frame");
 
+    iframe.style.opacity = "0";
+    iframe.style.transition = "opacity 0.3s ease";
+
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    if (currentTheme === 'light') {
+        playerContainer.style.backgroundColor = '#ffffff';
+        iframe.style.backgroundColor = '#ffffff';
+    } else {
+        playerContainer.style.backgroundColor = '#161a22';
+        iframe.style.backgroundColor = '#161a22';
+    }
+
+    iframe.onload = function() {
+        iframe.style.opacity = "1";
+    };
+
     let finalUrl = `${WORKER_BASE_URL}?v=${idKv}`;
     if (category !== "live") finalUrl += `&type=${category}`;
     if (eps) finalUrl += `&eps=${eps}`;
@@ -457,3 +473,31 @@ window.onload = () => {
     document.addEventListener('contextmenu', e => e.preventDefault());
     window.addEventListener('resize', handleOrientationChange);
 };
+
+function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const targetTheme = currentTheme === 'light' ? 'dark' : 'light';
+    
+    setTheme(targetTheme);
+}
+
+function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    
+    const themeBtnIcon = document.querySelector('#theme-toggle-btn i');
+    if (!themeBtnIcon) return;
+
+    if (theme === 'light') {
+        themeBtnIcon.className = 'fa-solid fa-sun';
+        themeBtnIcon.style.color = '#ff9100';
+    } else {
+        themeBtnIcon.className = 'fa-solid fa-moon';
+        themeBtnIcon.style.color = '#ffb300';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    setTheme(savedTheme);
+});

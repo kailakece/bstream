@@ -186,18 +186,41 @@ export default {
 };
 
 function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "", drmLicense = "") {
-  function getYouTubeId(url) {
+  // Fungsi ekstraksi ID Video atau ID Playlist YouTube
+  function getYouTubeData(url) {
     if (!url) return null;
-    if (url.length === 11 && !url.includes("/") && !url.includes(".")) return url;
+    try {
+      const parsedUrl = new URL(url);
+      const listId = parsedUrl.searchParams.get("list");
+      
+      // Jika ada parameter playlist (?list=PL...)
+      if (listId) {
+        return { type: "playlist", id: listId };
+      }
+    } catch (e) {}
+
+    // Ekstraksi ID Video standar jika bukan playlist
+    if (url.length === 11 && !url.includes("/") && !url.includes(".")) return { type: "video", id: url };
     const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=|shorts\/|live\/)([^#\&\?]*).*/;
     const match = url.match(regExp);
-    return (match && match[2].length === 11) ? match[2] : null;
+    if (match && match[2].length === 11) {
+      return { type: "video", id: match[2] };
+    }
+    return null;
   }
 
-  const ytId = getYouTubeId(targetUrl);
+  const ytData = getYouTubeData(targetUrl);
 
-  // 1. YOUTUBE
-  if (ytId) {
+  // 1. YOUTUBE (VIDEO ATAU PLAYLIST)
+  if (ytData) {
+    let playerVarsConfig = { 'autoplay': 1, 'mute': 1, 'controls': 1, 'rel': 0, 'playsinline': 1 };
+    
+    // Sesuaikan konfigurasi parameter berdasarkan tipe data YouTube
+    if (ytData.type === "playlist") {
+      playerVarsConfig.listType = "playlist";
+      playerVarsConfig.list = ytData.id;
+    }
+
     return `<!DOCTYPE html>
     <html lang="id">
     <head>
@@ -212,8 +235,8 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
             var player;
             function onYouTubeIframeAPIReady() {
                 player = new YT.Player('yt-player', {
-                    videoId: '${ytId}',
-                    playerVars: { 'autoplay': 1, 'mute': 1, 'controls': 1, 'rel': 0, 'playsinline': 1 },
+                    ${ytData.type === "video" ? `videoId: '${ytData.id}',` : ''}
+                    playerVars: ${JSON.stringify(playerVarsConfig)},
                     events: { 
                         'onReady': function(e) { e.target.playVideo(); setTimeout(function() { try { player.unMute(); player.setVolume(100); } catch(err) {} }, 100); },
                         'onStateChange': function(e) { if (e.data === 1) { try { player.unMute(); player.setVolume(100); } catch(err) {} } }

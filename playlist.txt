@@ -233,7 +233,7 @@ sol-yanim | Sol Yanim | | SERIES
 12 | https://youtu.be/012xUpOzcGc
 
 stop-miss-hua | Stop! Miss Hua | | SERIES
-1 | https://api.vidio.com/videos/7483857/common_tokenized_playlist.m3u8 | https://www.vidio.com/ | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+1 | https://api.vidio.com/videos/7483857/common_tokenized_playlist.m3u8
 2 | https://api.vidio.com/videos/7483858/common_tokenized_playlist.m3u8
 3 | https://api.vidio.com/videos/7483859/common_tokenized_playlist.m3u8
 4 | https://api.vidio.com/videos/7483860/common_tokenized_playlist.m3u8

@@ -166,6 +166,13 @@ film90 | Sebelum Dijemput Nenek | | HD FILM | https://www.dailymotion.com/embed/
 film91 | Bad Boy In Love | | HD FILM | https://www.dailymotion.com/embed/video/xa9u3cs
 film92 | Amplop Kondangan | | HD FILM | https://www.dailymotion.com/embed/video/xa9u2xi
 film93 | Nia | | HD FILM | https://www.dailymotion.com/embed/video/xa572q4
+film94 | Mertua Ngeei Kali | | HD FILM | https://www.dailymotion.com/embed/video/xa5nl7g
+film95 | Sampai Titik Terakhirmu | | HD FILM | https://www.dailymotion.com/embed/video/xa3gkjc
+film96 | Si Paling Aktor | | HD FILM | https://www.dailymotion.com/embed/video/xa1x4k6
+film97 | Pengin Hijrah | | HD FILM | https://www.dailymotion.com/embed/video/xa1ij66
+film98 | Tabayyun | | HD FILM | https://www.dailymotion.com/embed/video/xa157ss
+film99 | Shutter | | HD FILM | https://www.dailymotion.com/embed/video/xa14hbk
+film100 | Jangan Panggil Mama Kafir | | HD FILM | https://www.dailymotion.com/embed/video/xa128k8
 
 [SEMI]
 semi1 | Crush Kong Curly | | 18+ | https://edo.p2pstream.vip/hls/ORKXYobuH_jXZZtH3kbr5A/3vi/zbxp1xs3/huyh5n/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
@@ -182,6 +189,8 @@ semi11 | Scissors | | 18+ | https://playdulu.xyz/embed/ttpHo6FSpP5dpkx
 semi12 | Sawsawan | | 18+ | https://editdulu.xyz/embed/amPIShmzwjZdAg3
 semi13 | Maid's Obsession | | 18+ | https://playdulu.xyz/embed/VUMYtpF6gcNGTJp
 semi14 | Warat | | 18+ | https://editdulu.xyz/embed/eE7zeranap9I5SA
+semi15 | Love In Bali | | 18+ | https://www.dailymotion.com/embed/video/x9qumai
+semi16 | Guilty Of Romance | | 18+ | https://www.dailymotion.com/embed/video/x9wcj88
 
 [SERIES]
 game-of-thrones | Game Of Thrones | | SERIES
@@ -222,6 +231,32 @@ sol-yanim | Sol Yanim | | SERIES
 10 | https://youtu.be/r1J2x0naRQI
 11 | https://youtu.be/-k2bIn6vN8E
 12 | https://youtu.be/012xUpOzcGc
+
+stop-miss-hua | Stop! Miss Hua | | SERIES
+1 | https://api.vidio.com/videos/7483857/common_tokenized_playlist.m3u8
+2 | https://api.vidio.com/videos/7483858/common_tokenized_playlist.m3u8
+3 | https://api.vidio.com/videos/7483859/common_tokenized_playlist.m3u8
+4 | https://api.vidio.com/videos/7483860/common_tokenized_playlist.m3u8
+5 | https://api.vidio.com/videos/7483861/common_tokenized_playlist.m3u8
+6 | https://api.vidio.com/videos/7483862/common_tokenized_playlist.m3u8
+7 | https://api.vidio.com/videos/7483863/common_tokenized_playlist.m3u8
+8 | https://api.vidio.com/videos/7483864/common_tokenized_playlist.m3u8
+9 | https://api.vidio.com/videos/7483865/common_tokenized_playlist.m3u8
+10 | https://api.vidio.com/videos/7483866/common_tokenized_playlist.m3u8
+11 | https://api.vidio.com/videos/7483872/common_tokenized_playlist.m3u8
+12 | https://api.vidio.com/videos/7483873/common_tokenized_playlist.m3u8
+13 | https://api.vidio.com/videos/7483874/common_tokenized_playlist.m3u8
+14 | https://api.vidio.com/videos/7483875/common_tokenized_playlist.m3u8
+15 | https://api.vidio.com/videos/7483876/common_tokenized_playlist.m3u8
+16 | https://api.vidio.com/videos/7483877/common_tokenized_playlist.m3u8
+17 | https://api.vidio.com/videos/7483878/common_tokenized_playlist.m3u8
+18 | https://api.vidio.com/videos/7483879/common_tokenized_playlist.m3u8
+19 | https://api.vidio.com/videos/7483880/common_tokenized_playlist.m3u8
+20 | https://api.vidio.com/videos/7483881/common_tokenized_playlist.m3u8
+21 | https://api.vidio.com/videos/7483882/common_tokenized_playlist.m3u8
+22 | https://api.vidio.com/videos/7483883/common_tokenized_playlist.m3u8
+23 | https://api.vidio.com/videos/7483884/common_tokenized_playlist.m3u8
+24 | https://api.vidio.com/videos/7483885/common_tokenized_playlist.m3u8
 
 battle-of-fates | Battle Of Fates | | SERIES
 Trailer | https://youtu.be/tsdJzmRFcJE

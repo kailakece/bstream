@@ -1,8 +1,8 @@
 [LIVE]
-rcti | RCTI | | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780590167~hmac=ef91b4b413e3348a80a79c4bd38eb726b9c1e50c651134d96c1bba948a1cc1ae | https://www.rctiplus.com/
-mnctv | MNCTV | | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780590195~hmac=496b75314a68fe76378ace64f3409f1ae4cb9e2fa1ae252f81e100aaf07ac181 | https://www.rctiplus.com/
-gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780590224~hmac=3e74d29f9c9598420420b4166c482d6b4f0c9675c94131fb4896f0460a86a215 | https://www.rctiplus.com/
-inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780590249~hmac=fc062249022995e2fc1c107950e705a294487f64360d3956b5c18d84335a57f6 | https://www.rctiplus.com/
+rcti | RCTI | | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780539722~hmac=bb555b1268c92e0d2b1d9fdccf8a167acfda3e35bdcf5efff50358ad7cdcf053 | https://www.rctiplus.com/
+mnctv | MNCTV | | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780540019~hmac=f6a03236dfb499dc9a902366645730aaf4ef9d87528f6ce63d7cd2ede199cc0e | https://www.rctiplus.com/
+gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780540039~hmac=a89e172aa9a06453e275f63ec05782b474454fee2db9f1af20e00556938908cf | https://www.rctiplus.com/
+inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780540093~hmac=e126f208b005c7b3486db3aff9b24a8982d1028e7784940da24853d405c2050e | https://www.rctiplus.com/
 trans7 | Trans 7 | | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv | Trans TV | | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv | SCTV | | LIVE | 
@@ -23,14 +23,23 @@ bein1 | Bein Sport 1 | | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b06
 bein2 | Bein Sport 2 | | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd | | | clearkey | {"3d756d566ca94e6499518ffb1474d5d0":"dbe4ad6803e74739b8f954d23cc58e7b"}
 bein3 | Bein Sport 3 | | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd | | | clearkey | {"344d320ca45641a88cf002db351ed9a4":"246cc6ee7ab235cb824ed3b904b7040b"}
 redbulltv | Redbull TV | | LIVE | https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8 | | ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+motorvision | Motorvision | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h09/01.m3u8
 cnn | CNN Indonesia | | LIVE | https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 cnbc | CNBC Indonesia | | LIVE | https://live.cnbcindonesia.com/livecnbc/smil:cnbcindonesia.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 aljazeera | Al Jazeera | | LIVE | https://www.youtube.com/live/gCNeDWCI0vo
 awani | Astro Awani | | LIVE | https://www.youtube.com/live/mkVyNaGee8A
-cna | CNA | | LIVE | https://www.youtube.com/live/XWq5kBlakcQ
+cna | CNA | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h29/01.m3u8
 arirang | Arirang | | LIVE | https://amdlive-ch04-ctnd-com.akamaized.net/arirang_4ch/smil:arirang_4ch.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+nhk | NHK World Japan | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h23/01.m3u8
+trtworld | TRT World | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h156/S4/mnf.m3u8
+wion | WION | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h91/S4/mnf.m3u8
+france24 | France24 | | LIVE | https://op-group1-swiftservesd-1.dens.tv/s/s22/01.m3u8
+dvtv | DWTV | | LIVE | https://op-group2-swiftservesd-1.dens.tv/s/s11/S4/mnf.m3u8
+tv5monde | TV5 Monde | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h312/01.m3u8
+cgtn-documentary | CGTN Documentary | | LIVE | https://op-group1-swiftservesd-1.dens.tv/s/s20/01.m3u8
 larva | Larva | | LIVE | https://www.youtube.com/live/dK5ZCBzUf7Y
 breakbeat | Breakbeat | | LIVE | https://www.youtube.com/live/58tvRl9DP0k
+dancetv | Dance TV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h250/02.m3u8
 muse | Muse Indonesia | | LIVE | https://www.youtube.com/live/3WfRhhYY00Q 
 daaitv | DAAI TV | | LIVE | https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
 mekkah | Mekkah TV | | LIVE | https://www.youtube.com/live/m9-Umj3aL1I
@@ -40,7 +49,18 @@ mqtv | MQTV | | LIVE | https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m
 garudatv | Garuda TV | | LIVE | https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 magnatv | Magna TV | | LIVE | https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 nusantaratv | Nusantara TV | | LIVE | https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-channeljowo | Channel Jowo | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
+btv | BTV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h210/02.m3u8
+beritasatu | Beritasatu | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h209/02.m3u8
+dfc | Dens Food Channel | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h221/02.m3u8
+dsb | Dens Show Biz | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h244/02.m3u8
+dk | Dens Knowledge | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
+dls | Dens Life & Style | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h222/02.m3u8
+crematv | Crema TV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h202/02.m3u8
+mce | My Cinema Europe | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8
+stingray-classica | Stingray Classica | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h229/S4/mnf.m3u8
+qwesttv | Qwest TV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h153/S4/mnf.m3u8
+elshintatv | Elshinta TV | | LIVE | https://op-group2-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8
+jowo | Channel Jowo | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
 staratv | Stara TV | | LIVE | https://jakarta.staratv.id/hls/0/stream.m3u8
 saktitv | Sakti TV | | LIVE | https://saktitv.siar.us/saktitv/live/playlist.m3u8
 jogjatv | Jogja TV | | LIVE | https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
@@ -121,6 +141,13 @@ film64 | Rudy Habibie | | HD FILM | https://youtu.be/jfd4Ft8y0IE
 film65 | Bukan Cinderella | | HD FILM | https://youtu.be/7BDaigF3yyE
 film66 | Pesugihan Sate Gagak | | HD FILM | https://youtu.be/6q75cs5AHuE
 film67 | Modual Nekad | | HD FILM | https://youtu.be/i0fprR_Ig14
+film68 | A Marry Friggin Christmas | | HD FILM | https://op-svod.dens.tv/04/MVMFY00019/index5.m3u8
+film69 | Before The Fall | | HD FILM | https://op-svod.dens.tv/04/MVMCE00101/index5.m3u8
+film70 | A Woman In Berlin | | HD FILM | https://op-svod.dens.tv/04/MVMCE00001/index5.m3u8
+film71 | Welcome To Sarajevo | | HD FILM | https://op-svod.dens.tv/04/MVMCE00014/index5.m3u8
+film72 | Love And Honor | | HD FILM | https://op-svod.dens.tv/01/MVCMB00016/index1.m3u8
+film73 | Hotel Lux | | HD FILM | https://op-svod.dens.tv/04/MVMCE00105/index5.m3u8
+film74 | Heribert | | HD FILM | https://op-svod.dens.tv/04/MVMCE00104a/index5.m3u8
 
 [SEMI]
 semi1 | Crush Kong Curly | | 18+ | https://edo.p2pstream.vip/hls/ORKXYobuH_jXZZtH3kbr5A/3vi/zbxp1xs3/huyh5n/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36

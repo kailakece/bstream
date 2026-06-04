@@ -1,8 +1,8 @@
 [LIVE]
-rcti | RCTI | | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780539722~hmac=bb555b1268c92e0d2b1d9fdccf8a167acfda3e35bdcf5efff50358ad7cdcf053 | https://www.rctiplus.com/
-mnctv | MNCTV | | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780540019~hmac=f6a03236dfb499dc9a902366645730aaf4ef9d87528f6ce63d7cd2ede199cc0e | https://www.rctiplus.com/
-gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780540039~hmac=a89e172aa9a06453e275f63ec05782b474454fee2db9f1af20e00556938908cf | https://www.rctiplus.com/
-inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780540093~hmac=e126f208b005c7b3486db3aff9b24a8982d1028e7784940da24853d405c2050e | https://www.rctiplus.com/
+rcti | RCTI | | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780608954~hmac=457823ad2284a7c82c758f1d1b497a22499862157ddd583617a530953b5b2fdc | https://www.rctiplus.com/
+mnctv | MNCTV | | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780608992~hmac=5484d2a786432428671dc8cdd9925c28af0a84d9de9b99fe82b691ce239c1738 | https://www.rctiplus.com/
+gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780609019~hmac=22d4ac5a99941a6fe2ff1424b036ba639da8db81587e3bec1eac3873247aba9e | https://www.rctiplus.com/
+inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780609043~hmac=2139d9588b494b8c964f686e2825e8f8aabef7030d3c33a2a4986c7f37c839e5 | https://www.rctiplus.com/
 trans7 | Trans 7 | | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv | Trans TV | | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv | SCTV | | LIVE | 
@@ -148,6 +148,20 @@ film71 | Welcome To Sarajevo | | HD FILM | https://op-svod.dens.tv/04/MVMCE00014
 film72 | Love And Honor | | HD FILM | https://op-svod.dens.tv/01/MVCMB00016/index1.m3u8
 film73 | Hotel Lux | | HD FILM | https://op-svod.dens.tv/04/MVMCE00105/index5.m3u8
 film74 | Heribert | | HD FILM | https://op-svod.dens.tv/04/MVMCE00104a/index5.m3u8
+film75 | Total Chaos | | HD FILM | https://youtu.be/sgeKNNn2Raw
+film76 | Melodylan | | HD FILM | https://youtu.be/MgXSfAQmTr0
+film78 | Dear Nathan | | HD FILM | https://youtu.be/9QXK-qost28
+film79 | Dear Nathan : Hello Salma | | HD FILM | https://youtu.be/smS0wAFiaIA
+film80 | Dear Nathan: Thank You Salma | | HD FILM | https://youtu.be/aBtvUGv_ez8
+film81 | Kalam Kalam Langit | | HD FILM | https://youtu.be/RDV5BNPPkzc
+film82 | Melbourne Rewind | | HD FILM | https://youtu.be/551qyz9EKq8
+film83 | Noktah Merah Perkawinan | | HD FILM | https://youtu.be/2OEv3xqCsho
+film84 | Harim Di Tanah Haram | | HD FILM | https://youtu.be/nTO-6p1Dq-o
+film85 | Jilbab Traveler : Love Sparks In Korea | | HD FILM | https://youtu.be/YtUlE2v8pY0
+film86 | Hangout | | HD FILM | https://youtu.be/qLrClBoAT6M
+film87 | Modus | | HD FILM | https://youtu.be/T5syjpLRnek
+film88 | Sesuai Aplikasi | | HD FILM | https://youtu.be/2AeQyTyAYuw
+film89 | Dear Stranger | | HD FILM | https://youtu.be/zOxlaST25pc
 
 [SEMI]
 semi1 | Crush Kong Curly | | 18+ | https://edo.p2pstream.vip/hls/ORKXYobuH_jXZZtH3kbr5A/3vi/zbxp1xs3/huyh5n/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36

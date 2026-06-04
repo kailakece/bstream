@@ -1,133 +1,145 @@
 [LIVE]
-rcti | RCTI | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780539722~hmac=bb555b1268c92e0d2b1d9fdccf8a167acfda3e35bdcf5efff50358ad7cdcf053 | https://www.rctiplus.com/
-mnctv | MNCTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780540019~hmac=f6a03236dfb499dc9a902366645730aaf4ef9d87528f6ce63d7cd2ede199cc0e | https://www.rctiplus.com/
-gtv | GTV | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780540039~hmac=a89e172aa9a06453e275f63ec05782b474454fee2db9f1af20e00556938908cf | https://www.rctiplus.com/
-inews | iNews | https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780540093~hmac=e126f208b005c7b3486db3aff9b24a8982d1028e7784940da24853d405c2050e | https://www.rctiplus.com/
-trans7 | Trans 7 | https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/Trans7-Landscape-qv7ajymhde067cu25w8jn75iul15nlwfn46jbtyham.jpg | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-transtv | Trans TV | https://thumbor.prod.vidiocdn.com/rw3YANrLDodOrAxrxUPomDVHjjI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/733/trans-tv-3836a5.jpg | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-sctv | SCTV | https://thumbor.prod.vidiocdn.com/Xr8AAOVjClvDNr9P3fkGaB9Zn20=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/204/sctv-5ef966.jpg | LIVE | 
-indosiar | Indosiar | https://thumbor.prod.vidiocdn.com/gxy8QH6sCBLPn-U8t43dA0neRkE=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/205/indosiar-d9a3d0.jpg | LIVE | 
-moji | Moji | https://thumbor.prod.vidiocdn.com/k-sY_yuIcw_2WlMiaRGVZf_ctXI=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg | LIVE | http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
-mentaritv | Mentari TV | https://thumbor.prod.vidiocdn.com/ptdO45dn29cHF_rlraD3h583EuQ=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/8237/mentari-tv-01d2b0.jpg | LIVE | 
-antv | ANTV | https://thumbor.prod.vidiocdn.com/37vsjyydfCTeW-MKqdZ0NmKuqDg=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-de8530.jpg | LIVE | 
-rtv | RTV | https://thumbor.prod.vidiocdn.com/IReT-5y6B0A3t-dMZBdvamR74ww=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/1561/rtv-48c719.jpg | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
-mdtv | MDTV | https://thumbor.prod.vidiocdn.com/po6DDg81oPro90ij_7UVOqiMZ98=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/875/mdtv-ff5756.jpg | LIVE | http://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
-kompastv | Kompas TV | https://thumbor.prod.vidiocdn.com/hEIoJ7adV7Pjb8EgAO5Kkrvni8s=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/874/kompas-tv-98863c.jpg | LIVE | https://www.youtube.com/live/DOOrIxw5xOw
-metrotv | Metro TV | https://thumbor.prod.vidiocdn.com/GRiO5cAOau_WcE1lzhFq51j1eAY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/777/metro-tv-2eba56.jpg | LIVE | http://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
-tvone | TVOne | https://www.vidio.com/blog/wp-content/uploads/sites/2/elementor/thumbs/tvone-e53f94-quyksxy2vpz49pha527n4ygqteqpz8gj1yopbb70ge.jpeg | LIVE | https://www.youtube.com/live/yNKvkPJl-tg
-tvri | TVRI Nasional | https://thumbor.prod.vidiocdn.com/q2tpT2-AjDqonv5M-q5SxihUuDw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6441/tvri-tv-stream-f6cbb3.jpg | LIVE | https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
-tvrisport | TVRI Sport | https://thumbor.prod.vidiocdn.com/q2tpT2-AjDqonv5M-q5SxihUuDw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6441/tvri-tv-stream-f6cbb3.jpg | LIVE | https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-spotv | SPOTV | https://thumbor.prod.vidiocdn.com/1cUTXlCSzstGfFXuRkOqCajuaV8=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17139/spotv-c18c69.jpg | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd |  |  | clearkey | {"ec7ee27d83764e4b845c48cca31c8eef":"9c0e4191203fccb0fde34ee29999129e"}
-spotv2 | SPOTV2 | https://thumbor.prod.vidiocdn.com/DDucwJyoKvfCLglPujyq3EPGcjc=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17140/spotv-2-c8e8ac.jpg | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd |  |  | clearkey | {"7eea72d6075245a99ee3255603d58853":"6848ef60575579bf4d415db1032153ed"}
-bein1 | Bein Sport 1 | https://images.seeklogo.com/logo-png/48/1/bein-sports-1-logo-png_seeklogo-481583.png | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 | clearkey | {"3ae6a430c1b8420ea280e317143d8d3a":"142473ee925db0db0083c74a178c8298"}
-bein2 | Bein Sport 2 | https://images.seeklogo.com/logo-png/48/1/bein-sports-2-logo-png_seeklogo-481584.png | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 | clearkey | {"3d756d566ca94e6499518ffb1474d5d0":"dbe4ad6803e74739b8f954d23cc58e7b"}
-bein3 | Bein Sport 3 | https://images.seeklogo.com/logo-png/48/1/bein-sports-3-logo-png_seeklogo-481585.png | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 | clearkey | {"344d320ca45641a88cf002db351ed9a4":"246cc6ee7ab235cb824ed3b904b7040b"}
-redbulltv | Redbull TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToSSiAKHBsXDruUSi1BnNORYqaqboS12lZzUF3ya5Hf-_kKrJuvB7t0A8K&s=10 | LIVE | https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8 |  | ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-cnn | CNN Indonesia | https://sinpo.id/storage/2024/08/karyawan-cnn-indonesia-resmi-dirikan-spci-30082024-085023.jpg | LIVE | https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-cnbc | CNBC Indonesia | https://www.transtv.co.id/layout/new/src/images/logo/01-cnbc.png | LIVE | https://live.cnbcindonesia.com/livecnbc/smil:cnbcindonesia.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-aljazeera | Al Jazeera | https://thumbor.prod.vidiocdn.com/nNXh7qb2ZgetCPk7CN7hyyoKqLo=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6410/aljazeera-f65dea.jpg | LIVE | https://www.youtube.com/live/gCNeDWCI0vo
-awani | Astro Awani | https://upload.wikimedia.org/wikipedia/commons/2/21/Astro_Awani_%282025%29.png | LIVE | https://www.youtube.com/live/mkVyNaGee8A
-cna | CNA | https://thumbor.prod.vidiocdn.com/nBRneLipjed0tzgVoHIft83fOYk=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6411/news-asia-31d4e8.jpg | LIVE | https://www.youtube.com/live/XWq5kBlakcQ
-arirang | Arirang | https://thumbor.prod.vidiocdn.com/nkgtwd5f9lgiHwuLSBTFfZ2Usj4=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6784/arirang-12980d.jpg | LIVE | https://amdlive-ch04-ctnd-com.akamaized.net/arirang_4ch/smil:arirang_4ch.smil/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-larva | Larva | https://i.ytimg.com/vi/TAPKoHMbaO4/maxresdefault.jpg | LIVE | https://www.youtube.com/live/dK5ZCBzUf7Y
-breakbeat | Breakbeat | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHj2FKAQfwU_dQq8icf0q2Thh2LwW1Sir9Q-hEA9VX_9LxkF1h_5hGBbQ&s=10 | LIVE | https://www.youtube.com/live/58tvRl9DP0k
-muse | Muse Indonesia | https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHbt74pU3vjWbxwNXiXkSMWjgBeUDplL__018u2qyYtrMN32FeNUfoejVl8ljrpeM9YZOx-4kPfwCEk-6MKnm6lGrth4trXp38hO69McAy0jEFYeWanT_Xs6cvth294aJSbyuoEPbkDBfr/s800-rw/durasi-muse.jpg | LIVE | https://www.youtube.com/live/3WfRhhYY00Q 
-daaitv | DAAI TV | https://thumbor.prod.vidiocdn.com/QZT3Rz43nCZH_USTXiwmuK3rcZw=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6482/daai-tv-83240c.jpg | LIVE | https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
-mekkah | Mekkah TV | https://thumbor.prod.vidiocdn.com/uyQ4DSnHtTWmJQD9OTs5liQDeBs=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6852/al-quran-al-kareem-tv-62095c.jpg | LIVE | https://www.youtube.com/live/m9-Umj3aL1I
-madinah | Madinah TV | https://i.ytimg.com/vi/W5DENYqHgf0/maxresdefault.jpg | LIVE | https://win.holol.com/live/sunnah/chunklist_w1511531636.m3u8
-rodjatv | Rodja TV | https://images.maxstream.tv/sites/default/files/entry/0_9km1pl2v/landscape_carousel_hdpi.webp | LIVE | https://rodjatv.com/rodjatv/live.m3u8
-mqtv | MQTV | https://images.maxstream.tv/sites/default/files/entry/0_voqn75wc/landscape_carousel_hdpi.webp | LIVE | https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
-garudatv | Garuda TV | https://thumbor.prod.vidiocdn.com/5HMNjpeS6Q0Y2Ao9oSDAaW3IHaY=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/18162/garuda-tv-b27da3.jpg | LIVE | https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
-magnatv | Magna TV | https://thumbor.prod.vidiocdn.com/js-wGeyru_2IwlapPABOq8fi2sA=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7230/magna-tv-8f461a.jpg | LIVE | https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-nusantaratv | Nusantara TV | https://thumbor.prod.vidiocdn.com/I0RnDq0LuQmzX-3UNATgRJ4ftxQ=/640x360/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/7432/nusantara-tv-b373d0.jpg | LIVE | https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-channeljowo | Channel Jowo | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSio4l6in9ugELSPAjCvgZSKOptnHP0vSosndsJLb74bRDmdXpE4sjT0Tw6&s=10 | LIVE | http://khano.nng.cloudns.us/live/m3u8/id/1de333734b1b7e0.m3u8 | https://www.dens.tv/ | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-staratv | Stara TV | https://i.ytimg.com/vi/epDCZ7pvdCg/maxresdefault.jpg | LIVE | https://jakarta.staratv.id/hls/0/stream.m3u8
-saktitv | Sakti TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV3K2pQomZceVH5pO_a042EkFhsgcxZ8-HZoaXMcRd7Q&s=10 | LIVE | https://saktitv.siar.us/saktitv/live/playlist.m3u8
-jogjatv | Jogja TV | https://jogjatv.tv/wp-content/uploads/2015/08/LOGO-JOGJA-TV-NEW-pii-new.png | LIVE | https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-dhohotv | Dhoho TV | https://i.ytimg.com/vi/C_CS797FA0s/maxresdefault.jpg | LIVE | https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
-tatv | TATV | https://solotrust.com/data/foto-berita/30279-18478-15162-28275-TATV.jpg | LIVE | https://tatv.siar.us/tatv/live.sdp/playlist.m3u8
-bmstv | BMSTV | https://i.ytimg.com/vi/RmINv8hjFjc/maxresdefault.jpg | LIVE | https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
-dutatv | Duta TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5-2QeBCiiNZGkbqGNgxenEisIO5t3l3OtocJhI6QLdwwquvOY5_r5cMt&s=10 | LIVE | https://dutatv.siar.us/dutatv/live/playlist.m3u8
-dhammatv | Dhamma TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTct4Grfp1iGL1NyKsH5VMSsVQs4FATivxrMMkm19zFZDZnVdKeXoSfSaU&s=10 | LIVE | https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
-bungotv | Bungo TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Fjoh5tdC1ESrrAbJ9fDAoIF5xdnsr0EL5hYyNY2nv2s7KX_KTc5wmsV7&s=10 | LIVE | https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-rctv | RCTV | https://play-lh.googleusercontent.com/2IbcLcLYOu2NvgYc98F15YcMQQfcUeH98fgpDfuThqihzOQomqy6VHRzlUefIO50rpY | LIVE | https://v10.siar.us/rctv/live/playlist.m3u8
-lingkartv | Lingkar TV | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFiBIGmgtw4x_0OIOrVclTSjkJom6jMbDl_KVgh13Epsd2K-MxlgPxjPy&s=10 | LIVE | https://lingkartv.my.id/hls/lingkartv.m3u8
+rcti | RCTI | | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780590167~hmac=ef91b4b413e3348a80a79c4bd38eb726b9c1e50c651134d96c1bba948a1cc1ae | https://www.rctiplus.com/
+mnctv | MNCTV | | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780590195~hmac=496b75314a68fe76378ace64f3409f1ae4cb9e2fa1ae252f81e100aaf07ac181 | https://www.rctiplus.com/
+gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780590224~hmac=3e74d29f9c9598420420b4166c482d6b4f0c9675c94131fb4896f0460a86a215 | https://www.rctiplus.com/
+inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780590249~hmac=fc062249022995e2fc1c107950e705a294487f64360d3956b5c18d84335a57f6 | https://www.rctiplus.com/
+trans7 | Trans 7 | | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+transtv | Trans TV | | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+sctv | SCTV | | LIVE | 
+indosiar | Indosiar | | LIVE | 
+moji | Moji | | LIVE | http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
+mentaritv | Mentari TV | | LIVE | 
+antv | ANTV | | LIVE | 
+rtv | RTV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
+mdtv | MDTV | | LIVE | http://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
+kompastv | Kompas TV | | LIVE | https://www.youtube.com/live/DOOrIxw5xOw
+metrotv | Metro TV | | LIVE | http://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
+tvone | TVOne | | LIVE | https://www.youtube.com/live/yNKvkPJl-tg
+tvri | TVRI Nasional | | LIVE | https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+tvrisport | TVRI Sport | | LIVE | https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+spotv | SPOTV | | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd | | | clearkey | {"ec7ee27d83764e4b845c48cca31c8eef":"9c0e4191203fccb0fde34ee29999129e"}
+spotv2 | SPOTV2 | | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd | | | clearkey | {"7eea72d6075245a99ee3255603d58853":"6848ef60575579bf4d415db1032153ed"}
+bein1 | Bein Sport 1 | | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd | | | clearkey | {"3ae6a430c1b8420ea280e317143d8d3a":"142473ee925db0db0083c74a178c8298"}
+bein2 | Bein Sport 2 | | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd | | | clearkey | {"3d756d566ca94e6499518ffb1474d5d0":"dbe4ad6803e74739b8f954d23cc58e7b"}
+bein3 | Bein Sport 3 | | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd | | | clearkey | {"344d320ca45641a88cf002db351ed9a4":"246cc6ee7ab235cb824ed3b904b7040b"}
+redbulltv | Redbull TV | | LIVE | https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8 | | ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+cnn | CNN Indonesia | | LIVE | https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+cnbc | CNBC Indonesia | | LIVE | https://live.cnbcindonesia.com/livecnbc/smil:cnbcindonesia.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+aljazeera | Al Jazeera | | LIVE | https://www.youtube.com/live/gCNeDWCI0vo
+awani | Astro Awani | | LIVE | https://www.youtube.com/live/mkVyNaGee8A
+cna | CNA | | LIVE | https://www.youtube.com/live/XWq5kBlakcQ
+arirang | Arirang | | LIVE | https://amdlive-ch04-ctnd-com.akamaized.net/arirang_4ch/smil:arirang_4ch.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+larva | Larva | | LIVE | https://www.youtube.com/live/dK5ZCBzUf7Y
+breakbeat | Breakbeat | | LIVE | https://www.youtube.com/live/58tvRl9DP0k
+muse | Muse Indonesia | | LIVE | https://www.youtube.com/live/3WfRhhYY00Q 
+daaitv | DAAI TV | | LIVE | https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+mekkah | Mekkah TV | | LIVE | https://www.youtube.com/live/m9-Umj3aL1I
+madinah | Madinah TV | | LIVE | https://win.holol.com/live/sunnah/chunklist_w1511531636.m3u8
+rodjatv | Rodja TV | | LIVE | https://rodjatv.com/rodjatv/live.m3u8
+mqtv | MQTV | | LIVE | https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
+garudatv | Garuda TV | | LIVE | https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
+magnatv | Magna TV | | LIVE | https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
+nusantaratv | Nusantara TV | | LIVE | https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+channeljowo | Channel Jowo | | LIVE | http://khano.nng.cloudns.us/live/m3u8/id/1de333734b1b7e0.m3u8 | https://www.dens.tv/ | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+staratv | Stara TV | | LIVE | https://jakarta.staratv.id/hls/0/stream.m3u8
+saktitv | Sakti TV | | LIVE | https://saktitv.siar.us/saktitv/live/playlist.m3u8
+jogjatv | Jogja TV | | LIVE | https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+dhohotv | Dhoho TV | | LIVE | https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
+tatv | TATV | | LIVE | https://tatv.siar.us/tatv/live.sdp/playlist.m3u8
+bmstv | BMSTV | | LIVE | https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
+dutatv | Duta TV | | LIVE | https://dutatv.siar.us/dutatv/live/playlist.m3u8
+dhammatv | Dhamma TV | | LIVE | https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
+bungotv | Bungo TV | | LIVE | https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+rctv | RCTV | | LIVE | https://v10.siar.us/rctv/live/playlist.m3u8
+lingkartv | Lingkar TV | | LIVE | https://lingkartv.my.id/hls/lingkartv.m3u8
 
 [FILM]
-film1 | Dear Imamku | https://pict.sindonews.com/dyn/850/pena/news/2021/05/01/701/414948/bertemu-di-film-dear-imamku-dul-dan-tissa-biani-berbagi-kisah-cinta-di-hari-lebaran-2021-edz.jpg | HD FILM | https://youtu.be/aOQbDixQvtQ
-film2 | Ada Dewa Disisiku | https://img.okezone.com/content/2020/10/05/598/2288781/ada-dewa-di-sisiku-serial-rcti-rasa-drama-korea-QKcVTtWeF4.jpg | HD FILM | https://youtu.be/jq101F1NXGQ
-film3 | Ajari Aku Islam | https://asset.kompas.com/crops/mxiKoNV_rnBn4O9n0KdaWPpL1zs=/0x176:768x688/1200x800/data/photo/2020/08/20/5f3dd9fe25d1b.jpg | HD FILM | https://youtu.be/gWRAdciRQxI
-film4 | 4 Mantan | https://vcover-hz-pic.wetvinfo.com/vcover_hz_pic/0/s9a8alcec1im7ps1730718274741_j_LxBOE-/0 | HD FILM | https://youtu.be/LPGjcAaszgM
-film5 | Rumput Tetangga | https://image.idn.media/post/20190323/cover-e0fe320dfbf88af8a3048fd27e6ff2f1-83acec8d3599ea07be9fc727b9af4c7d.jpg | HD FILM | https://youtu.be/pDvD8g1sYBo
-film6 | Kingkong vs Giant Serpent : Battle Of Snakes | https://pic1.iqiyipic.com/image/20250912/44/bd/v_174462370_m_601_en_m1_1080_608.jpg | HD FILM | https://youtu.be/Bia2m1Dt6wc
-film7 | Dimsum Martabak | https://thumbor.prod.vidiocdn.com/Rqdg2cRFSv_i6qu4Croo2aF39Bs=/1920x1080/filters:quality(70)/vidio-media-production/uploads/image/source/21433/c7e3b6.jpg | HD FILM | https://youtu.be/BDUFYURYN8M
-film8 | 13 The Haunted | https://vcover-hz-pic.wetvinfo.com/vcover_hz_pic/0/cui4isslddla6cb1730718267863_37Kq6Hk3/0 | HD FILM | https://youtu.be/Q7XPjWHC29o
-film9 | Kesempatan Keduda | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAk0anjG5l9UrDeFNuM8X1I7xwQM7RuwAlOxfdKOywvugajDFGDCLQkMUw&s=10 | HD FILM | https://youtu.be/iR5rvVjRe6E
-film10 | Sunyi | https://tigapuluhlimaadegan.wordpress.com/wp-content/uploads/2019/04/adaptasi-horor-korea-sunyi-berikan-kehe-62ff21.jpg | HD FILM | https://youtu.be/AgEUWTXCT_E
-film11 | Kembalinya Anak Iblis | https://mmc.tirto.id/image/otf/398x0/2022/06/13/film-kembalinya-anak-iblis_ratio-16x9.jpg | HD FILM | https://youtu.be/CEFbKkWQ8hQ
-film12 | Roh Fasik | https://vcover-hz-pic.wetvinfo.com/vcover_hz_pic/0/8g8vhob9qiyjeov1730718268696_zY2sOUGl/0 | HD FILM | https://youtu.be/KHOmLudd5JQ
-film13 | Mendadak Kaya | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpx84cj3Ubq5rjl3zdwiAR0qdE71krje-G1rFOb0SnqA&s=10 | HD FILM | https://youtu.be/OFc4EshM81w
-film14 | Arwah Tumbal Nyai | https://vcover-hz-pic.wetvinfo.com/vcover_hz_pic/0/v0b0m56xdqyc5va1730717684757_Xt2q6lqp/0 | HD FILM | https://youtu.be/905IOY9nQqQ
-film15 | #66 | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhKTZnhFdkZgm7lkGFQBTDyrBasko9WYSlbKD47KzsDBJJumF5uaBoguB&s=10 | HD FILM | https://youtu.be/tiZHgIuAUzk
-film16 | After Meet You | https://vcover-hz-pic.wetvinfo.com/vcover_hz_pic/0/ocnewl7segws8bu1730718271660_Eyg9GeG7/0 | HD FILM | https://youtu.be/gox5keAGDmo
-film17 | Narik Sukmo | https://aadtoday.com/assets/berita/original/94232992931-screenshot_2025-07-09-20-29-55-471_com.jpg | HD FILM | https://bun.p2pplay.pro/hls/pbyQCxRBZ03Ly8l8jRi4Bg/is9/b6iux89s/t6tuxe/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film18 | Mummy Resurgance | https://images.sr.roku.com/idType/roku/context/global/id/fa080276a51d568f9bda73a535b9af35/images/gracenote/assets/p19447604_v_v12_ab.jpg/magic/396x0/filters:quality(70) | HD FILM | https://gdriveplayer.to/embed2.php?link=W8MFl2g%252F9IrdY3C4ZJ6%252BLQzQbIpIHbQ%252B485oj12loZ%252FNkOb08RQTCNBIELNVY5rGbdp7QE53qdUlGbc1hsxEuaZ5Rvx3dSZxRnAwYGrC%252BeF40WeK%252FJd3%252BFeyweybVh82ZC7Y6sVJdMt0UMnWkzkDJOhGTg6hSw01UXJwo50ROL4%252B%252BEEzGyNdKWEcoe%252FB9FQEBzvOjZteW1R1YuwpnBTBhynfQBC2u5WPL4LmxhMDDg6rS5jjXP3A4jriv6Y3TZK0g%253D
-film19 | Cinta Subuh | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/05/yvVu4yjMQ0GIcblYUonT678bDQW.jpg | HD FILM | https://bun.p2pplay.pro/hls/Mi7h-BMM6o4httuOmdFvOQ/x68/r8c1nhnn/mrrmw6/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film20 | Jodoh 3 Bujang | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2025/08/qbNftqwPN5i0ZZK1hgyeqjvJ8g0.jpg | HD FILM | https://bun.p2pplay.pro/hls/nluyOrUWL1bzlGEm0QqeYw/x68/fmg9yocq/mdbxka/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film21 | Transformers : The Last Knight | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/02/s5HQf2Gb3lIO2cRcFwNL9sn1o1o.jpg | HD FILM | https://ewa.playerp2p.live/hls/F2usuAA5Xr0hr-uDUgc0-g/luy/v1feaent/69onp5/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film22 | Transformers : Age Of Extinction | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/02/jyzrfx2WaeY60kYZpPYepSjGz4S.jpg | HD FILM | https://ewa.playerp2p.live/hls/11118rjca0-H_fjcAnf5xA/5w3/1xmlfe6p/nakn3b/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film23 | Transformers : Dark Of The Moon | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/02/28YlCLrFhONteYSs9hKjD1Km0Cj.jpg | HD FILM | https://ewa.playerp2p.live/hls/QmKz0GzGSBNwLPgUw-goVw/qu/zbxp18sj/gkfgje/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film24 | Transformers : Revenge Of The Fallen | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/01/pLBb0whOzVDtJvyD4DPeQyQNOqp.jpg | HD FILM | https://ewa.playerp2p.live/hls/Ut1vKPokRo2YFHJKLoSNOw/x6b/krnvuhuto/blveze/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film25 | Transformers One | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2025/11/iRCgqpdVE4wyLQvGYU3ZP7pAtUc.jpg | HD FILM | https://playdulu.xyz/embed/tHQiH7pb1Hgb74u
-film26 | Transformers | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/01/4N4sipl8T72tNE4earcctQa2Kw2.jpg | HD FILM | https://ewa.playerp2p.live/hls/sJD5n4d5pk8ZlByi5zdqGg/xq/b6iuxv95/m91m6j/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film27 | Avatar : Fire And Ash | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg | HD FILM | https://ewa.playerp2p.live/hls/TvTNmeBEYYsIg9MZ5kMZsQ/tab/ipljeq8a/oapop9/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film28 | Rise Of The Conqueror | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg | HD FILM | https://ewa.playerp2p.live/hls/YFX7UQ3jpHqBHCl4slz62Q/3vi/unjaocjn/md1crh/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film29 | Master Of The Universe | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/05/nm2ianYVp7OXElUZVeeAbNTqBLr.jpg | HD FILM | https://ewa.playerp2p.live/hls/0v9gtK1fVGpk5Tv1-09VuA/9a/h9k8sigm/hcheo3/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film30 | Immortal Combat | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/05/mhRAgvQ04DTE4zQN3OSyc9Lonj3.jpg | HD FILM | https://ewa.playerp2p.live/hls/Bz7kQIuc5tmMXvPsLiXMcA/ty/ipljeb8y/xdpbft/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film31 | Sukma | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/03/qL2mNWO116SSL9x40szobFsXlsS.jpg | HD FILM | https://bun.p2pplay.pro/hls/k4pUPZpT2eqwH-jYH1RhQg/8q/b6iuxv95/idfux5/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film32 | Labinak : Mereka Ada Disini | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/03/xIEDbEwWAeV7OpeYlJKmR1aPtwk.jpg | HD FILM | https://bun.p2pplay.pro/hls/F83PeMtKlUZUeV7g2bio5g/6hf/1xmlfn69/pqzsgt/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film33 | Sosok Ketiga : Lintrik | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/03/oVCHHviQsspqEu4FyT4nFbtvWNH.jpg | HD FILM | https://bun.p2pplay.pro/hls/JUT6S4UjKC4dRXyZ8e5EdQ/sc/yg6kbbwm/l33ysh/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film34 | The Verdict | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/03/l2d2mFW6tFwdqtoI4iEOjT5ffAz.jpg | HD FILM | https://bun.p2pplay.pro/hls/tlScZ8W4Z6P95BMKbpS_JQ/s93/afyhwv5e/uvxwtk/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film35 | Cursed | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/6bVtZLZ7Yd7OSbgcOjgWCYJonOL.jpg | HD FILM | https://bun.p2pplay.pro/hls/LSqXPsiCRGEUod3MCplqxw/hl1/fmg9y9ce/lqcfaz/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film36 | Dopamin | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/aQfK1AuKEYnOsGnnBujk42y5aGg.jpg | HD FILM | https://bun.p2pplay.pro/hls/HOox2UElaK56CdOVRjbi2g/s93/1xmlfz6s/6rbqkn/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film37 | Suzzanna : Buried Alive | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/6I7oy8S9gwSGMuXdY6YJMcWV6o.jpg | HD FILM | https://bun.p2pplay.pro/hls/DdaDT9Wg50muHHh2a_XhPw/s93/r8c1npnq/oaoxfj/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film38 | Kitab Sijjin & Illiyin | https://westtisburyfreepubliclibrary.org/wp-content/uploads/2026/04/5c8iXGH5Vol8HfpdwXK5ptHKQ6R.jpg | HD FILM | https://bun.p2pplay.pro/hls/kXUeNzc7oPuZ6xLCwEmYBA/miy/xieomesg/vx3hq1/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film39 | Gelap Mata | https://montasefilm.com/wp-content/uploads/2025/12/1709264258.jpg | HD FILM | https://bun.p2pplay.pro/hls/PerVp3BtnV-rAF8bjYYKkQ/mik/ghsr6sxo/3g6voa/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film40 | Legenda Kelam Malin Kundang | https://assetd.kompas.id/5GIuLPRIv9Ip8PdF6ZK3gSkd9c8=/480x480/smart/filters:format(webp):quality(80)/https://cdn-dam.kompas.id/images/2025/11/19/1188e4313e088935bcd2b38d8303940f-1.JPG | HD FILM | https://bun.p2pplay.pro/hls/ccQP7DwYFAfTxTdRGq_NvQ/mik/ghsr6sxo/vehzuo/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film41 | Getih Ireng | https://filmonizirani.net/wp-content/uploads/2025/08/Getih-Ireng.webp | HD FILM | https://bun.p2pplay.pro/hls/W63SpHftFNYVIJRk1dMvsg/hz/b6iuxu9x/nfxmnw/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film42 | Panggonan Wingit | https://media.suara.com/pictures/653x366/2023/12/02/52423-film-panggonan-wingit.jpg | HD FILM | https://bun.p2pplay.pro/hls/N2Q6ZxjzhFpW-Q1mfH_itA/djx/krnvuxuq/6n5fnm/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film43 | Kaa : The Forest | https://cdn.district.in/movies-assets/images/cinema/_Kaa---The-Forest-cover-5ce70fc0-0026-11f1-b315-894f7b34e36a.jpg | HD FILM | https://ewa.playerp2p.live/hls/wgFS462JusrPjSWSzOoOJw/ox/mehdg3pz/3gqf1q/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film44 | Pengantin Iblis | https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3198970/dd8f4b7f88b92367b5b53766c5c34413aadfdefa/capsule_616x353_indonesian.jpg | HD FILM | https://bun.p2pplay.pro/hls/ez-bW8irHk7EH-cp-95Sbw/hz/dq8zrle8/tijeab/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film45 | Sorop | https://static.promediateknologi.id/crop/0x0:0x0/1200x0/webp/photo/p1/592/2024/12/14/Sorop-1714624646.jpg | HD FILM | https://bun.p2pplay.pro/hls/5bkqlO42pv3_BoDHcYpiow/gee/xieomdsh/s3b8j1/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film46 | Kutukan Calon Arang | https://material.asset.catchplay.com/LGK-ID-001-A1000/artworks/posters/LGK-ID-001-A1000-P1200.webp?hash=1743389822063 | HD FILM | https://bun.p2pplay.pro/hls/hWRgeBuewCm22Lh51Ny6vw/sc/xieomdsh/xdvud9/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film47 | Vina : Sebelum 7 Hari | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvpHFA8eFkNClMYoh5xXhf6YSXfMsaTnB8JCOPp5VNAwhlnP0mi1rAG509&s=10 | HD FILM | https://bun.p2pplay.pro/hls/BnbLFRpZq3vstJc2jIzOTw/bgm/puo3lvkf/jbiv9y/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film48 | Gowok : Kamasutra Jawa | https://statik.tempo.co/data/2025/05/08/id_1397392/1397392_720.jpg | HD FILM | https://bun.p2pplay.pro/hls/ZuvLaMzPnAOVdCoWS8SEkw/js/r8c1nhnn/hcchad/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film49 | Pembantaian Dukun Santet | https://mimbarrakyatnews.com/wp-content/uploads/2025/05/Poster-Trailer-Resmi-PEMBANTAIAN-DUKUN-SANTET-oleh-Pichouse-Films.jpg | HD FILM | https://bun.p2pplay.pro/hls/WixVNhITjm6P1FxKhcnCzA/pq/r8c1nhnn/tiit9q/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film50 | Timur | https://cityonfire.com/wp-content/uploads/2025/11/Top-4-Timur.jpg | HD FILM | https://bun.p2pplay.pro/hls/MjBa8LwNJEMCPYz7pH5RNA/gee/mehdgqps/s336oy/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film51 | Janur Ireng | https://images.justwatch.com/backdrop/336997172/s640/janur-ireng.jpg | HD FILM | https://bun.p2pplay.pro/hls/9wMmbooTP1Z5ZOSnVFbmMw/luy/mehdgqps/ozzlck/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film52 | Penjagal Iblis : Dosa Turunan | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeh7uOUwtlNQAp7khxYVlgUNm5FFrER3F7Xnu_2cEerTVfJHsl3KfjAg&s=10 | HD FILM | https://bun.p2pplay.pro/hls/47RpCbaz9efsblMvtNGVBQ/mik/yg6kbmw6/scsf9c/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film53 | Rego Nyowo | https://pic.bstarstatic.com/ugc/4bcc7a970afa3a50cc3383b831974cae.jpg | HD FILM | https://bun.p2pplay.pro/hls/UcXclHUcNJTBcaTfoIPgLg/vz1/b6iux89s/kvl9xy/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film54 | Ozora : Penganiayaan Brutal Penguasa Jaksel | https://cms.disway.id/uploads/1581d6d04fdd5ddf9ed265dc455fcc60.jpeg | HD FILM | https://bun.p2pplay.pro/hls/3pW1eHd29YtYphCM3PpiYQ/n8l/1xmlfz6h/ijvyjd/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film55 | Kampung Jabang Mayit : Ritual Maut | https://cnc-magazine.oramiland.com/parenting/images/Kampung_Jabang_Mayit_Ritual_Maut_.width-800.format-webp.webp | HD FILM | https://bun.p2pplay.pro/hls/xWW3Cmv16QpYr8P6L18Xvw/5c/fmg9yocq/t6c3mz/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film1 | Dear Imamku | | HD FILM | https://youtu.be/aOQbDixQvtQ
+film2 | Ada Dewa Disisiku | | HD FILM | https://youtu.be/jq101F1NXGQ
+film3 | Ajari Aku Islam | | HD FILM | https://youtu.be/gWRAdciRQxI
+film4 | 4 Mantan | | HD FILM | https://youtu.be/LPGjcAaszgM
+film5 | Rumput Tetangga | | HD FILM | https://youtu.be/pDvD8g1sYBo
+film6 | Kingkong vs Giant Serpent : Battle Of Snakes | | HD FILM | https://youtu.be/Bia2m1Dt6wc
+film7 | Dimsum Martabak | | HD FILM | https://youtu.be/BDUFYURYN8M
+film8 | 13 The Haunted | | HD FILM | https://youtu.be/Q7XPjWHC29o
+film9 | Kesempatan Keduda | | HD FILM | https://youtu.be/iR5rvVjRe6E
+film10 | Sunyi | | HD FILM | https://youtu.be/AgEUWTXCT_E
+film11 | Kembalinya Anak Iblis | | HD FILM | https://youtu.be/CEFbKkWQ8hQ
+film12 | Roh Fasik | | HD FILM | https://youtu.be/KHOmLudd5JQ
+film13 | Mendadak Kaya | | HD FILM | https://youtu.be/OFc4EshM81w
+film14 | Arwah Tumbal Nyai | | HD FILM | https://youtu.be/905IOY9nQqQ
+film15 | #66 | | HD FILM | https://youtu.be/tiZHgIuAUzk
+film16 | After Meet You | | HD FILM | https://youtu.be/gox5keAGDmo
+film17 | Narik Sukmo | | HD FILM | https://bun.p2pplay.pro/hls/pbyQCxRBZ03Ly8l8jRi4Bg/is9/b6iux89s/t6tuxe/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film18 | Mummy Resurgance | | HD FILM | https://gdriveplayer.to/embed2.php?link=W8MFl2g%252F9IrdY3C4ZJ6%252BLQzQbIpIHbQ%252B485oj12loZ%252FNkOb08RQTCNBIELNVY5rGbdp7QE53qdUlGbc1hsxEuaZ5Rvx3dSZxRnAwYGrC%252BeF40WeK%252FJd3%252BFeyweybVh82ZC7Y6sVJdMt0UMnWkzkDJOhGTg6hSw01UXJwo50ROL4%252B%252BEEzGyNdKWEcoe%252FB9FQEBzvOjZteW1R1YuwpnBTBhynfQBC2u5WPL4LmxhMDDg6rS5jjXP3A4jriv6Y3TZK0g%253D
+film19 | Cinta Subuh | | HD FILM | https://bun.p2pplay.pro/hls/Mi7h-BMM6o4httuOmdFvOQ/x68/r8c1nhnn/mrrmw6/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film20 | Jodoh 3 Bujang | | HD FILM | https://bun.p2pplay.pro/hls/nluyOrUWL1bzlGEm0QqeYw/x68/fmg9yocq/mdbxka/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film21 | Transformers : The Last Knight | | HD FILM | https://ewa.playerp2p.live/hls/F2usuAA5Xr0hr-uDUgc0-g/luy/v1feaent/69onp5/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film22 | Transformers : Age Of Extinction | | HD FILM | https://ewa.playerp2p.live/hls/11118rjca0-H_fjcAnf5xA/5w3/1xmlfe6p/nakn3b/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film23 | Transformers : Dark Of The Moon | | HD FILM | https://ewa.playerp2p.live/hls/QmKz0GzGSBNwLPgUw-goVw/qu/zbxp18sj/gkfgje/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film24 | Transformers : Revenge Of The Fallen | | HD FILM | https://ewa.playerp2p.live/hls/Ut1vKPokRo2YFHJKLoSNOw/x6b/krnvuhuto/blveze/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film25 | Transformers One | | HD FILM | https://playdulu.xyz/embed/tHQiH7pb1Hgb74u
+film26 | Transformers | | HD FILM | https://ewa.playerp2p.live/hls/sJD5n4d5pk8ZlByi5zdqGg/xq/b6iuxv95/m91m6j/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film27 | Avatar : Fire And Ash | | HD FILM | https://ewa.playerp2p.live/hls/TvTNmeBEYYsIg9MZ5kMZsQ/tab/ipljeq8a/oapop9/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film28 | Rise Of The Conqueror | | HD FILM | https://ewa.playerp2p.live/hls/YFX7UQ3jpHqBHCl4slz62Q/3vi/unjaocjn/md1crh/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film29 | Master Of The Universe | | HD FILM | https://ewa.playerp2p.live/hls/0v9gtK1fVGpk5Tv1-09VuA/9a/h9k8sigm/hcheo3/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film30 | Immortal Combat | | HD FILM | https://ewa.playerp2p.live/hls/Bz7kQIuc5tmMXvPsLiXMcA/ty/ipljeb8y/xdpbft/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film31 | Sukma | | HD FILM | https://bun.p2pplay.pro/hls/k4pUPZpT2eqwH-jYH1RhQg/8q/b6iuxv95/idfux5/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film32 | Labinak : Mereka Ada Disini | | HD FILM | https://bun.p2pplay.pro/hls/F83PeMtKlUZUeV7g2bio5g/6hf/1xmlfn69/pqzsgt/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film33 | Sosok Ketiga : Lintrik | | HD FILM | https://bun.p2pplay.pro/hls/JUT6S4UjKC4dRXyZ8e5EdQ/sc/yg6kbbwm/l33ysh/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film34 | The Verdict | | HD FILM | https://bun.p2pplay.pro/hls/tlScZ8W4Z6P95BMKbpS_JQ/s93/afyhwv5e/uvxwtk/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film35 | Cursed | | HD FILM | https://bun.p2pplay.pro/hls/LSqXPsiCRGEUod3MCplqxw/hl1/fmg9y9ce/lqcfaz/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film36 | Dopamin | | HD FILM | https://bun.p2pplay.pro/hls/HOox2UElaK56CdOVRjbi2g/s93/1xmlfz6s/6rbqkn/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film37 | Suzzanna : Buried Alive | | HD FILM | https://bun.p2pplay.pro/hls/DdaDT9Wg50muHHh2a_XhPw/s93/r8c1npnq/oaoxfj/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film38 | Kitab Sijjin & Illiyin | | HD FILM | https://bun.p2pplay.pro/hls/kXUeNzc7oPuZ6xLCwEmYBA/miy/xieomesg/vx3hq1/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film39 | Gelap Mata | | HD FILM | https://bun.p2pplay.pro/hls/PerVp3BtnV-rAF8bjYYKkQ/mik/ghsr6sxo/3g6voa/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film40 | Legenda Kelam Malin Kundang | | HD FILM | https://bun.p2pplay.pro/hls/ccQP7DwYFAfTxTdRGq_NvQ/mik/ghsr6sxo/vehzuo/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film41 | Getih Ireng | | HD FILM | https://bun.p2pplay.pro/hls/W63SpHftFNYVIJRk1dMvsg/hz/b6iuxu9x/nfxmnw/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film42 | Panggonan Wingit | | HD FILM | https://bun.p2pplay.pro/hls/N2Q6ZxjzhFpW-Q1mfH_itA/djx/krnvuxuq/6n5fnm/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film43 | Kaa : The Forest | | HD FILM | https://ewa.playerp2p.live/hls/wgFS462JusrPjSWSzOoOJw/ox/mehdg3pz/3gqf1q/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film44 | Pengantin Iblis | | HD FILM | https://bun.p2pplay.pro/hls/ez-bW8irHk7EH-cp-95Sbw/hz/dq8zrle8/tijeab/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film45 | Sorop | | HD FILM | https://bun.p2pplay.pro/hls/5bkqlO42pv3_BoDHcYpiow/gee/xieomdsh/s3b8j1/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film46 | Kutukan Calon Arang | | HD FILM | https://bun.p2pplay.pro/hls/hWRgeBuewCm22Lh51Ny6vw/sc/xieomdsh/xdvud9/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film47 | Vina : Sebelum 7 Hari | | HD FILM | https://bun.p2pplay.pro/hls/BnbLFRpZq3vstJc2jIzOTw/bgm/puo3lvkf/jbiv9y/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film48 | Gowok : Kamasutra Jawa | | HD FILM | https://bun.p2pplay.pro/hls/ZuvLaMzPnAOVdCoWS8SEkw/js/r8c1nhnn/hcchad/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film49 | Pembantaian Dukun Santet | | HD FILM | https://bun.p2pplay.pro/hls/WixVNhITjm6P1FxKhcnCzA/pq/r8c1nhnn/tiit9q/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film50 | Timur | | HD FILM | https://bun.p2pplay.pro/hls/MjBa8LwNJEMCPYz7pH5RNA/gee/mehdgqps/s336oy/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film51 | Janur Ireng | | HD FILM | https://bun.p2pplay.pro/hls/9wMmbooTP1Z5ZOSnVFbmMw/luy/mehdgqps/ozzlck/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film52 | Penjagal Iblis : Dosa Turunan | | HD FILM | https://bun.p2pplay.pro/hls/47RpCbaz9efsblMvtNGVBQ/mik/yg6kbmw6/scsf9c/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film53 | Rego Nyowo | | HD FILM | https://bun.p2pplay.pro/hls/UcXclHUcNJTBcaTfoIPgLg/vz1/b6iux89s/kvl9xy/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film54 | Ozora : Penganiayaan Brutal Penguasa Jaksel | | HD FILM | https://bun.p2pplay.pro/hls/3pW1eHd29YtYphCM3PpiYQ/n8l/1xmlfz6h/ijvyjd/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film55 | Kampung Jabang Mayit : Ritual Maut | | HD FILM | https://bun.p2pplay.pro/hls/xWW3Cmv16QpYr8P6L18Xvw/5c/fmg9yocq/t6c3mz/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film56 | Perempuan Merah Jambu | | HD FILM | https://youtu.be/9XEcRmlZjA0
+film57 | Hi Ustadz Agam | | HD FILM | https://youtu.be/ubKt7lKqwhE
+film58 | Sabiya | | HD FILM | https://youtu.be/156Gn2LVAQU
+film59 | Suka Duka Tawa | | SD FILM | https://youtu.be/JunJ0iQ_w7s
+film60 | Wasiat Warisan | | SD FILM | https://youtu.be/xUvI4hWU7e8
+film61 | Sang Kyai | | HD FILM | https://youtu.be/NWvppjzM7uY
+film62 | Serigala Terakhir | | HD FILM | https://youtu.be/TyIgZ1oWZfs
+film63 | Sang Pencerah | | HD FILM | https://youtu.be/iVy5JEbJkDw
+film64 | Rudy Habibie | | HD FILM | https://youtu.be/jfd4Ft8y0IE
+film65 | Bukan Cinderella | | HD FILM | https://youtu.be/7BDaigF3yyE
+film66 | Pesugihan Sate Gagak | | HD FILM | https://youtu.be/6q75cs5AHuE
+film67 | Modual Nekad | | HD FILM | https://youtu.be/i0fprR_Ig14
 
 [SEMI]
-semi1 | Crush Kong Curly |  | 18+ | https://edo.p2pstream.vip/hls/ORKXYobuH_jXZZtH3kbr5A/3vi/zbxp1xs3/huyh5n/tt/master.m3u8 |  | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-semi2 | My Wife's Mom |  | 18+ | https://editdulu.xyz/embed/gMr1yoLDLOK3LjU
-semi3 | My Wife's Mom 2 |  | 18+ | https://editdulu.xyz/embed/3KuYdZu37ye9x1K
-semi4 | My Wife's Mom 3 |  | 18+ | https://playdulu.xyz/embed/UlhdidT3jc6LwKs
-semi5 | Home Shopping Host |  | 18+ | https://editdulu.xyz/embed/TJw2SfFUnovs1mk
-semi6 | Flight To Paradise |  | 18+ | https://playdulu.xyz/embed/ygLezEQsRhsP9J7
-semi7 | Halina Ni Aliya |  | 18+ | https://playdulu.xyz/embed/i0LmIaHZiRKTWSS
-semi8 | Bosomy Younger Sister |  | 18+ | https://playdulu.xyz/embed/BByVDvysl5aLYLm
-semi9 | Stepdaddy |  | 18+ | https://playdulu.xyz/embed/mB08wlWEC445D3x
-semi10 | Ligo |  | 18+ | https://editdulu.xyz/embed/GpzB1rbM9GB3m5c
-semi11 | Scissors |  | 18+ | https://playdulu.xyz/embed/ttpHo6FSpP5dpkx
-semi12 | Sawsawan |  | 18+ | https://editdulu.xyz/embed/amPIShmzwjZdAg3
-semi13 | Maid's Obsession |  | 18+ | https://playdulu.xyz/embed/VUMYtpF6gcNGTJp
-semi14 | Warat |  | 18+ | https://editdulu.xyz/embed/eE7zeranap9I5SA
+semi1 | Crush Kong Curly | | 18+ | https://edo.p2pstream.vip/hls/ORKXYobuH_jXZZtH3kbr5A/3vi/zbxp1xs3/huyh5n/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+semi2 | My Wife's Mom | | 18+ | https://editdulu.xyz/embed/gMr1yoLDLOK3LjU
+semi3 | My Wife's Mom 2 | | 18+ | https://editdulu.xyz/embed/3KuYdZu37ye9x1K
+semi4 | My Wife's Mom 3 | | 18+ | https://playdulu.xyz/embed/UlhdidT3jc6LwKs
+semi5 | Home Shopping Host | | 18+ | https://editdulu.xyz/embed/TJw2SfFUnovs1mk
+semi6 | Flight To Paradise | | 18+ | https://playdulu.xyz/embed/ygLezEQsRhsP9J7
+semi7 | Halina Ni Aliya | | 18+ | https://playdulu.xyz/embed/i0LmIaHZiRKTWSS
+semi8 | Bosomy Younger Sister | | 18+ | https://playdulu.xyz/embed/BByVDvysl5aLYLm
+semi9 | Stepdaddy | | 18+ | https://playdulu.xyz/embed/mB08wlWEC445D3x
+semi10 | Ligo | | 18+ | https://editdulu.xyz/embed/GpzB1rbM9GB3m5c
+semi11 | Scissors | | 18+ | https://playdulu.xyz/embed/ttpHo6FSpP5dpkx
+semi12 | Sawsawan | | 18+ | https://editdulu.xyz/embed/amPIShmzwjZdAg3
+semi13 | Maid's Obsession | | 18+ | https://playdulu.xyz/embed/VUMYtpF6gcNGTJp
+semi14 | Warat | | 18+ | https://editdulu.xyz/embed/eE7zeranap9I5SA
 
 [SERIES]
-game-of-thrones | Game Of Thrones | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJGnrdQr9hfrNxyFGtBynUhz0xekyQAwiW7DRvvMhzA&s=10 | SERIES
+game-of-thrones | Game Of Thrones | | SERIES
 s1e1 | https://www.googleapis.com/drive/v3/files/1kGaOnkcCqNCooyXfFRHp6_PgUICa5AMy?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
 s1e2 | https://www.googleapis.com/drive/v3/files/1cE2awKTSqtWUN7VIFxne625zoZp_QTBC?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
 s1e3 | https://www.googleapis.com/drive/v3/files/1s09dxgy_6f4O-tiAab22JFIa8z4KYN82?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
@@ -139,7 +151,7 @@ s1e8 | https://www.googleapis.com/drive/v3/files/1soSqoW5NbfrU0Nzcm6iHWLWmENH8w9
 s1e9 | https://www.googleapis.com/drive/v3/files/1wLDgRNFcKY1RS9CAiTun8fmH8Laxgpm0?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
 s1e10 | https://www.googleapis.com/drive/v3/files/1Ha6uxSDCxze3zVEq3sMN1WaHon67up0-?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
 
-boyfriend-on-demand | Boyfriend On Demand | https://www.layar.id/wp-content/uploads/2026/02/Sinopsis-Boyfriend-on-Demand.jpg | SERIES
+boyfriend-on-demand | Boyfriend On Demand | | SERIES
 Trailer | https://youtu.be/54zE7jBAyho
 1 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
 2 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
@@ -152,7 +164,7 @@ Trailer | https://youtu.be/54zE7jBAyho
 9 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
 10 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
 
-sol-yanim | Sol Yanim | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSzgFUH4I7CaF8ZgKI5GSURuNyCEVvP5FAqMqrtS8k6Ny2qBq8FWvs3KI&s=10 | SERIES
+sol-yanim | Sol Yanim | | SERIES
 1 | https://youtu.be/KVour-3NQbg
 2 | https://youtu.be/701iG1NWafI
 3 | https://youtu.be/TcbxnnIlcHQ
@@ -166,7 +178,7 @@ sol-yanim | Sol Yanim | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS
 11 | https://youtu.be/-k2bIn6vN8E
 12 | https://youtu.be/012xUpOzcGc
 
-battle-of-fates | Battle Of Fates | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfvqs-IhpiiMRJ6X8IEzmUVVUO2k9EIc0Rs8ZNqKhUsCUI8IVtkpAe-fk1&s=10 | SERIES
+battle-of-fates | Battle Of Fates | | SERIES
 Trailer | https://youtu.be/tsdJzmRFcJE
 1 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
 2 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
@@ -179,7 +191,7 @@ Trailer | https://youtu.be/tsdJzmRFcJE
 9 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
 10 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
 
-bake-your-dream | Bake Your Dream | https://prod-images.viu.com/2263489996/69af85d7c2987e9b30e03302e0564e07482db70c | SERIES
+bake-your-dream | Bake Your Dream | | SERIES
 Trailer | https://youtu.be/Zn232BJzXeE
 1 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
 2 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
@@ -192,7 +204,7 @@ Trailer | https://youtu.be/Zn232BJzXeE
 9 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
 10 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
 
-a-knight-of-the-seven-kingdom | A Knight Of The Seven Kingdom | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTin4qTMejGE8XA3fRP4tWaQXs-SV0rW3RIZz136v41eR8qcwoC2NoroOHW&s=10 | SERIES
+a-knight-of-the-seven-kingdom | A Knight Of The Seven Kingdom | | SERIES
 Trailer | https://youtu.be/sItUCKJQLTU
 1 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
 2 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
@@ -202,7 +214,7 @@ Trailer | https://youtu.be/sItUCKJQLTU
 6 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
 
 [ANIME]
-onepiece | One Piece | https://wallpapercg.com/media/ts_2x/31243.webp | ANIME
+onepiece | One Piece | | ANIME
 1 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=OFJYdGNoZmEwaG1MUkRtK2t6NHJXdz09
 2 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=K09EQkpsSHNpbjZTdDM4SEgyRERMdz09
 3 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=S0s1RVV1dSsyVVc4cUJuRnlnYXd0dz09
@@ -236,7 +248,7 @@ onepiece | One Piece | https://wallpapercg.com/media/ts_2x/31243.webp | ANIME
 31 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=VGJ0c1Fyb0RySDltNDV1aW1lYURCdz09
 32 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=NEpPUXBIcnJhNmhDd0oybnNuZnZRdz09
 
-bleach | Bleach | https://wallpapercave.com/wp/wp11333332.jpg | ANIME
+bleach | Bleach | | ANIME
 Full | https://youtube.com/playlist?list=PLxSscENEp7JjESRYoluizbfS2sZGm_1Bi
 1 | https://youtu.be/ogqCgkLnw5Y
 2 | https://youtu.be/8Fh1hxGxRzk
@@ -264,7 +276,7 @@ Full | https://youtube.com/playlist?list=PLxSscENEp7JjESRYoluizbfS2sZGm_1Bi
 24 | https://youtu.be/U2T5MwII5Fs
 25 | https://youtu.be/21-l2-713uo
 
-bleach-skh | Bleach : Sennen Kessen Hen | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUWtL9Uft7mRp1Xo6tUdWG6quxM96LTF30qgcK31vYkjwY_cdCGB9i_Hs&s=10 | ANIME
+bleach-skh | Bleach : Sennen Kessen Hen | | ANIME
 SKH 1 | https://mega.nz/embed/KYdBAbbI#VX1irztxO66OnpjxHaUzzQxoebHjptZF3144OX19zb4
 SKH 2 | https://mega.nz/embed/eNNQEaYb#MC1QkDcW1xGZf8GkqT69_DvLA160qI_rTv04AOErEJw
 SKH 3 | https://mega.nz/embed/bF8XWbSR#l1dfclflICFTuQpg5LxUbGR3Llp8u1AZhAFe-1IPwdI
@@ -306,12 +318,12 @@ SKH3 12 | https://mega.nz/embed/7F52DbyD#OD2bSl8YpFtPIPrZ7_PSo0pm151i76mOMCRhvUK
 SKH3 13 | https://mega.nz/embed/DAYRgR4b#OxIL2EMOOf6IkkL9J2v6XNEthFncUmafepgtwRxXA-0
 SKH3 14 | https://mega.nz/embed/GRYi1IwR#XyP5eYP_t1AAhm-gytvX-kzbuC7vzox7djl7ScIOIww
 
-naruto | Naruto Shippuden | https://cdn.wallpapersafari.com/83/7/qBho2b.jpg | ANIME
+naruto | Naruto Shippuden | | ANIME
 1 | https://mp4upload.com/embed-anusv63omtdi.html
 2 | https://mp4upload.com/embed-c4allrv13exf.html
 3 | https://mp4upload.com/embed-di6miwf4u0d7.html
 
-clover | Black Clover | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNmyO21xa9HNnXYMAdiTDZn0H8Stx-Y1ysa5BCdYNcFvKkbZfO2Rk02kA&s=10 | ANIME
+clover | Black Clover | | ANIME
 1 | https://mega.nz/embed/#!JVoFjKIb!e26rxnUvkFUYEesweITyicYJAfZnJu6ipwJnqp5ZQyk
 2 | https://mega.nz/embed/#!NZgXSSrK!N8uUEOJfEI-wzij-Fq0pXIAHtHpuPUeixPtUIHe8HLQ
 3 | https://mega.nz/embed/#!ZI5Dja4a!kdCGZjIrtSP4KakRaqM6upuPn_HSXsBcC7Si3Ll0n_U
@@ -353,7 +365,7 @@ clover | Black Clover | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN
 39 | https://mega.nz/embed/#!cBxTRY6Y!_19Nj9xHZ6Sit1h47sHvc1LngYkYmy12YE3sJahNbnE
 40 | https://mega.nz/embed/#!EAhziKSb!xZJEG6Fn3265XBauRhzngigCHDo5bAukAEUMHKQxOBg
 
-dxd | High School DxD | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTASbUtbyA2_gkfHAH-5TfO78AuFxuTxvu0JpsMb0QR8fK4CgjOm5eXJhet&s=10 | ANIME
+dxd | High School DxD | | ANIME
 1 | https://mega.nz/embed/d8lxRSIb#L0xCoVX_embaa0E4mm7M3LHNVFzrdMkBNExBriLfCfQ
 2 | https://mega.nz/embed/ZgsDxQiY#2oTGB4w-nIVMn0Ma8KSQYv1MBqGXlCCfUz2MNc2n4xo
 3 | https://mega.nz/embed/c89FmASD#pYHWNkpaJxtZUwnbVl6gLqq63QXZ5Gcl3HfAWSfx_Do
@@ -367,7 +379,7 @@ dxd | High School DxD | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA
 11 | https://mega.nz/embed/pp1jlSpJ#NoL_Y2poIKohWiYxooc4J3dTiperSQzLAeVuMheF6uQ
 12 | https://mega.nz/embed/gxsXyQbZ#YC6FduWgT8WjXH7Pdvlb_eqyGXoyBibS0uqQ3LlX8Xg
 
-onepunchman | One Punch Man | https://images.alphacoders.com/741/thumb-1920-741091.jpg | ANIME
+onepunchman | One Punch Man | | ANIME
 S1 Full | https://m.youtube.com/watch?v=DcIzkzYyD3Y
 S2 Full | https://m.youtube.com/watch?v=lBrcvEmVOwk
 s3e1 | https://m.youtube.com/watch?v=YXMPqxqo7i8
@@ -382,5 +394,3 @@ s3e9 | https://m.youtube.com/watch?v=uzU0TwAdY70
 s3e10 | https://m.youtube.com/watch?v=fNHFSjZxgdY
 s3e11 | https://m.youtube.com/watch?v=iogtqcyrNuA
 s3e12 | https://m.youtube.com/watch?v=aPm37qy0Z6M
-
-

@@ -1,4 +1,4 @@
-const WORKER_BASE_URL = "https://bstream.kailapirdaaulia.workers.dev/";
+const WORKER_BASE_URL = "https://play.kailapirdaaulia.workers.dev/";
 const TEXT_PLAYLIST_URL = "./playlist.txt"; 
 
 let databaseVideo = {}; 

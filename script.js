@@ -174,7 +174,7 @@ function buildEpisodeList(item, category, parsedEpisodes) {
     containerList.id = "episode-container-list";
     containerList.className = "episode-list";
 
-    document.getElementById("episode-group-title").innerText = `Daftar Playlist: ${item.title}`;
+    document.getElementById("episode-group-title").innerText = `${item.title}`;
     wrapper.style.display = "block";
 
     parsedEpisodes.forEach((eps, index) => {

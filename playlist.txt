@@ -5,11 +5,11 @@ gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=17806
 inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780676175~hmac=c904744181cc144b5b81bb5c6198608cea7f918a7e526b52a2dfb21f552c0333 | https://www.rctiplus.com/
 trans7 | Trans 7 | | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv | Trans TV | | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-sctv | SCTV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/204/res=720p/file/stream.mpd?hdntl=exp=1780633323~acl=%2fstream%2f204%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f204%2ffile%2f*%2faac%2f*!%2fstream%2f204%2ffile%2f*%2f*-720p%2f*!%2fstream%2f204%2ffile%2f*%2f*-480p%2f*!%2fstream%2f204%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=0fa34030e826193c9d402546bb849040bee808cb71cd9aeac2fe240932f4578c
-indosiar | Indosiar | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/205/res=720p/file/stream.mpd?hdntl=exp=1780633376~acl=%2fstream%2f205%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f205%2ffile%2f*%2faac%2f*!%2fstream%2f205%2ffile%2f*%2f*-720p%2f*!%2fstream%2f205%2ffile%2f*%2f*-480p%2f*!%2fstream%2f205%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=a8a9ca98311220874e453f4652228d55129dedde99e3f09f1cdfadedb8a7ad33
+sctv | SCTV | | LIVE |
+indosiar | Indosiar | | LIVE |
 moji | Moji | | LIVE | http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
-mentaritv | Mentari TV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/8237/res=720p/file/stream.mpd?hdntl=exp=1780633498~acl=%2fstream%2f8237%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f8237%2ffile%2f*%2faac%2f*!%2fstream%2f8237%2ffile%2f*%2f*-720p%2f*!%2fstream%2f8237%2ffile%2f*%2f*-480p%2f*!%2fstream%2f8237%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=63abf28305cc005b08ebe0a0ef3b670885279dec9667307e5fbe7342b01ff644
-antv | ANTV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/782/res=720p/file/stream.mpd?hdntl=exp=1780633562~acl=%2fstream%2f782%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f782%2ffile%2f*%2faac%2f*!%2fstream%2f782%2ffile%2f*%2f*-720p%2f*!%2fstream%2f782%2ffile%2f*%2f*-480p%2f*!%2fstream%2f782%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=ee8e29dec30f8809e2b695b0fa48343c890c3cc4b02a69e20b4fa63e397534cc
+mentaritv | Mentari TV | | LIVE |
+antv | ANTV | | LIVE |
 rtv | RTV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
 mdtv | MDTV | | LIVE | http://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
 kompastv | Kompas TV | | LIVE | https://www.youtube.com/live/DOOrIxw5xOw

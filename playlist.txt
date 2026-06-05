@@ -5,11 +5,11 @@ gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=17806
 inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780676175~hmac=c904744181cc144b5b81bb5c6198608cea7f918a7e526b52a2dfb21f552c0333 | https://www.rctiplus.com/
 trans7 | Trans 7 | | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv | Trans TV | | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-sctv | SCTV | | LIVE |
-indosiar | Indosiar | | LIVE |
+sctv | SCTV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/204/res=720p/file/stream.mpd?hdntl=exp=1780633323~acl=%2fstream%2f204%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f204%2ffile%2f*%2faac%2f*!%2fstream%2f204%2ffile%2f*%2f*-720p%2f*!%2fstream%2f204%2ffile%2f*%2f*-480p%2f*!%2fstream%2f204%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=0fa34030e826193c9d402546bb849040bee808cb71cd9aeac2fe240932f4578c
+indosiar | Indosiar | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/205/res=720p/file/stream.mpd?hdntl=exp=1780633376~acl=%2fstream%2f205%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f205%2ffile%2f*%2faac%2f*!%2fstream%2f205%2ffile%2f*%2f*-720p%2f*!%2fstream%2f205%2ffile%2f*%2f*-480p%2f*!%2fstream%2f205%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=a8a9ca98311220874e453f4652228d55129dedde99e3f09f1cdfadedb8a7ad33
 moji | Moji | | LIVE | http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
-mentaritv | Mentari TV | | LIVE |
-antv | ANTV | | LIVE |
+mentaritv | Mentari TV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/8237/res=720p/file/stream.mpd?hdntl=exp=1780633498~acl=%2fstream%2f8237%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f8237%2ffile%2f*%2faac%2f*!%2fstream%2f8237%2ffile%2f*%2f*-720p%2f*!%2fstream%2f8237%2ffile%2f*%2f*-480p%2f*!%2fstream%2f8237%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=63abf28305cc005b08ebe0a0ef3b670885279dec9667307e5fbe7342b01ff644
+antv | ANTV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/782/res=720p/file/stream.mpd?hdntl=exp=1780633562~acl=%2fstream%2f782%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f782%2ffile%2f*%2faac%2f*!%2fstream%2f782%2ffile%2f*%2f*-720p%2f*!%2fstream%2f782%2ffile%2f*%2f*-480p%2f*!%2fstream%2f782%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=ee8e29dec30f8809e2b695b0fa48343c890c3cc4b02a69e20b4fa63e397534cc
 rtv | RTV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
 mdtv | MDTV | | LIVE | http://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
 kompastv | Kompas TV | | LIVE | https://www.youtube.com/live/DOOrIxw5xOw
@@ -328,6 +328,9 @@ onepiece | One Piece | | ANIME
 30 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=WHhHWFBFRGxNdHVrQWE2TFNrMXhJdz09
 31 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=VGJ0c1Fyb0RySDltNDV1aW1lYURCdz09
 32 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=NEpPUXBIcnJhNmhDd0oybnNuZnZRdz09
+1162 | https://odvidhide.com/stream/CLTKQLWWrEeaGuvUlA2WiQ/hjkrhuihghfvu/1780679066/41048654/master.m3u8
+1163 | https://desustream.info/dstream/ondesu/new/hd/index.php?id=RHcveFA3bk9DTVdLRW40NTJvejlUOXVPMWYrSjZEeUN3QVloNjdWbjdqOD0=
+1164 | https://desustream.info/dstream/ondesu/new/hd/index.php?id=Y25xRnZRRzJZWUR2V3p0Sjd5TG91N1BPL0dLeWJZWUY5Mjk2VXM0ZjZOdz0=
 
 bleach | Bleach | | ANIME
 Full | https://youtube.com/playlist?list=PLxSscENEp7JjESRYoluizbfS2sZGm_1Bi
@@ -403,6 +406,18 @@ naruto | Naruto Shippuden | | ANIME
 1 | https://mp4upload.com/embed-anusv63omtdi.html
 2 | https://mp4upload.com/embed-c4allrv13exf.html
 3 | https://mp4upload.com/embed-di6miwf4u0d7.html
+
+boruto | Boruto : Naruto Next Generations | | ANIME
+1 | https://desustream.info/dstream/otakustream/new/index.php?id=L2xWaEYzQ1BjZlhFdW1kYVZJT3VOZz09
+2 | https://desustream.info/dstream/otakustream/new/index.php?id=Sk9pQkNoS1hsY3RNcXpxMVA4VStqZz09
+3 | https://desustream.info/dstream/otakustream/new/index.php?id=TXZMRVBqdHlEU2lpbnpvWm42NU84UT09
+4 | https://desustream.info/dstream/otakustream/new/index.php?id=Y0N6MGwvQWlqMGdBOCtyTXFWL1Y5dz09
+5 | https://desustream.info/dstream/otakustream/new/index.php?id=bXF5SVZkM2pnMzNmYUE2TUsvNjRvZz09
+6 | https://desustream.info/dstream/otakustream/new/index.php?id=bnlUSmR3VWRkdmZzblBVVHNtSzBodz09
+7 | https://desustream.info/dstream/otakustream/new/index.php?id=R2dYcWVXV3RvMGlqbS9LNDE1ckdUQT09
+8 | https://desustream.info/dstream/otakustream/new/index.php?id=djFMMFNlTC9GSTJuTUFzTk50aXRMUT09
+9 | https://desustream.info/dstream/otakustream/new/index.php?id=aHJIaFFlRG0yeDF0ZTc2N2JQcGRPZz09
+10 | https://desustream.info/dstream/otakustream/new/index.php?id=MUY3bUZpUmpSb3JlTUdwRFFJS1R5dmU1MW5lZStiVXZaaitlWFRGM3B1RT0=
 
 clover | Black Clover | | ANIME
 1 | https://mega.nz/embed/#!JVoFjKIb!e26rxnUvkFUYEesweITyicYJAfZnJu6ipwJnqp5ZQyk

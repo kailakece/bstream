@@ -1,8 +1,8 @@
 [LIVE]
-rcti | RCTI | | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780676111~hmac=cae4ee08be4c4ad16793b1ef37a41d64c93fe1d3033fa890043fb63ac72c4cb6 | https://www.rctiplus.com/
-mnctv | MNCTV | | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780676133~hmac=3290c144cc2edca6b2ee4b5114d3e5d3c4f94130849986ab80333efd5ff5cc56 | https://www.rctiplus.com/
-gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780676154~hmac=e03f2c7b44d895b387639dc7faa730a0416d882d3b2e4cf32aacda172811e29a | https://www.rctiplus.com/
-inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780676175~hmac=c904744181cc144b5b81bb5c6198608cea7f918a7e526b52a2dfb21f552c0333 | https://www.rctiplus.com/
+rcti | RCTI | | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780721710~hmac=db8d5d7d16197941a17b7bca66ec78f8bd25ccd2c079e44c71202caa938d2798 | https://www.rctiplus.com/
+mnctv | MNCTV | | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780721800~hmac=03c09626a064becdf106744b0678502514214185c2dc1d9cfc7fc73ac6947a70 | https://www.rctiplus.com/
+gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780721825~hmac=afa2a298ef58ff0a2ef116e23237a0f534acbdad11d948c8742519d706e12176 | https://www.rctiplus.com/
+inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780721848~hmac=6929051e7772067c2f7c10e566666c4a78431da7a139238baecd3894d183a718 | https://www.rctiplus.com/
 trans7 | Trans 7 | | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv | Trans TV | | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv | SCTV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/204/res=720p/file/stream.mpd?hdntl=exp=1780633323~acl=%2fstream%2f204%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f204%2ffile%2f*%2faac%2f*!%2fstream%2f204%2ffile%2f*%2f*-720p%2f*!%2fstream%2f204%2ffile%2f*%2f*-480p%2f*!%2fstream%2f204%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=0fa34030e826193c9d402546bb849040bee808cb71cd9aeac2fe240932f4578c
@@ -344,20 +344,20 @@ onepiece | One Piece | | ANIME
 1143 | 
 1144 | 
 1145 | 
-1146 | https://pixeldrain.com/api/file/jtJqEui2
-1147 | http://s1.otakufiles.net:8080/d/c2ewiyadi2ren4hvxkrh7dcnmxjmra6j73vo5545enjjscevgxgv5fbwojhffope5w7dfxqg/Otakudesu.io_OP--1147_720p.mp4
-1148 | http://s1.otakufiles.net:8080/d/c2etsxydi2ren4hvxkrhja2rmyd2j5u4n5nfm7khlaslwvbnqfobpqgr6i4girmbb6qirzew/Otakudesu.io_OP--1148_720p.mp4
-1149 | http://s1.otakufiles.net:8080/d/c2e6yxqdi2ren4hvxkrcvccgficf55slap5t6kfvvkishjuyggpej5mv65gnkwdkxvjylag2/Otakudesu.io_OP--1149_720p.mp4
-1150 | http://s1.otakufiles.net:8080/d/c2e5mxidi2ren4hvxkrh7bs4eqkw7s5iyoxktfv6sp54dfz3xwatvoh7rsnciznczhb65zmx/Otakudesu.io_OP--1150_720p.mp4
+1146 | 
+1147 | 
+148 | 
+1149 | 
+1150 | https://pixeldrain.com/api/file/5eiBBZjb | https://pixeldrain.com/ | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 1151 | https://mega.nz/embed/3wwHRLLA#kKwkI_06dDN1OndQkXeT70ij76xwXnW0EjFi373El-8
-1152 | http://s1.otakufiles.net:8080/d/c2ewowadi2ren4hvxkrgfbismqjvpbp5jobs6zt37owdwsnj6e4nd4avgapqmugka3odrhbl/Otakudesu.io_OP--1152_720p.mp4
-1153 | http://s1.otakufiles.net:8080/d/c2evevydi2ren4hvxkrhraarnk6ax2qpk3t5dcq5i6wutirvp3g6dv5j3aiuqmp57yvobefp/Otakudesu.io_OP--1153_720p.mp4
-1154 | http://s1.otakufiles.net:8080/d/c2e5ovqdi2ren4hvxkrchditoarb47xhddyu55cafspi4y55xff2pkhu353c2dgmnmcuvp4l/Otakudesu.io_OP--1154_720p.mp4
+1152 | https://krakenfiles.com/embed-video/iDchS1tblc
+1153 | https://krakenfiles.com/embed-video/80rby2cIdW
+1154 | https://krakenfiles.com/embed-video/uZ2ClGiJVC
 1155 | https://mega.nz/embed/uUsXnQDK#Srtg0lgONrEgA3VRPHbzufDdQuDgmyKGWFxxygqR7xc
 1156 | https://desustream.info/dstream/ondesu/new/hd/index.php?id=Q1N2L0N6L2tXNzhsNTlRL213dWVkcllJbTRYMFJuUUR2Mms4RjJ2L244cz0=
 1157 | https://mega.nz/embed/lmNW1ASC#jr1d-sOb6hf9dnuSXItRTcCKZf2B1qHF2uu3KGd6dRA
 1158 | https://mega.nz/embed/gu92zQLb#FEf9covpZIixdOJnOcWgFhVgVQgHxmpmT80N87UatB8
-1159 | http://s1.otakufiles.net:8080/d/c2e7zpyci2ren4hvxsrcreqto2xqw6x656uvvuoykncc23eewevno2y36dkdkxu56oxdwkyw/Otakudesu.io_OP--1159_720p.mp4
+1159 | https://krakenfiles.com/embed-video/F0r3T8X4zV
 1160 | https://mega.nz/embed/6SgkjDyJ#rZq6ledNZmxs8Ncx7I8ZwPD8muL7x3_pp4PYSFZfksM
 1161 | https://mega.nz/embed/i3I0iYJI#9o4Js5k0qSINoHKdmEokcloPyyKgFyqJ_sbdakb9ynk
 1162 | https://mega.nz/embed/tiI0nDZa#K9Jq4_O-WRh_zULG6HQ2IUwUEgtX_ezpxpGXkZtex4w

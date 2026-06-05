@@ -344,7 +344,7 @@ onepiece | One Piece | | ANIME
 1143 | 
 1144 | 
 1145 | 
-1146 | https://pixeldrain.com/api/file/jtJqEui2 | https://pixeldrain.com/ | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+1146 | https://pixeldrain.com/api/file/jtJqEui2
 1147 | http://s1.otakufiles.net:8080/d/c2ewiyadi2ren4hvxkrh7dcnmxjmra6j73vo5545enjjscevgxgv5fbwojhffope5w7dfxqg/Otakudesu.io_OP--1147_720p.mp4
 1148 | http://s1.otakufiles.net:8080/d/c2etsxydi2ren4hvxkrhja2rmyd2j5u4n5nfm7khlaslwvbnqfobpqgr6i4girmbb6qirzew/Otakudesu.io_OP--1148_720p.mp4
 1149 | http://s1.otakufiles.net:8080/d/c2e6yxqdi2ren4hvxkrcvccgficf55slap5t6kfvvkishjuyggpej5mv65gnkwdkxvjylag2/Otakudesu.io_OP--1149_720p.mp4

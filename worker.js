@@ -23,8 +23,12 @@ export default {
       let userAgent = urlObj.searchParams.get("ua") || "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36";
 
       if (!referer.trim()) {
-        const parsedTarget = new URL(targetUrl);
-        referer = parsedTarget.origin + "/";
+        try {
+          const parsedTarget = new URL(targetUrl);
+          referer = parsedTarget.origin + "/";
+        } catch (e) {
+          referer = "";
+        }
       }
 
       const parsedUrl = new URL(targetUrl);
@@ -93,7 +97,7 @@ export default {
     }
 
     if (!videoId || videoId === "embed" || videoId === "") {
-      return new Response("Masukkan ID Video. Contoh: ?v=video123", { status: 400 });
+      return new Response("Masukkan ID Video. Contoh: ?v=tvri", { status: 400 });
     }
 
     try {
@@ -192,14 +196,11 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
     try {
       const parsedUrl = new URL(url);
       const listId = parsedUrl.searchParams.get("list");
-      
-      // Jika ada parameter playlist (?list=PL...)
       if (listId) {
         return { type: "playlist", id: listId };
       }
     } catch (e) {}
 
-    // Ekstraksi ID Video standar jika bukan playlist
     if (url.length === 11 && !url.includes("/") && !url.includes(".")) return { type: "video", id: url };
     const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=|shorts\/|live\/)([^#\&\?]*).*/;
     const match = url.match(regExp);
@@ -214,8 +215,6 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
   // 1. YOUTUBE (VIDEO ATAU PLAYLIST)
   if (ytData) {
     let playerVarsConfig = { 'autoplay': 1, 'mute': 1, 'controls': 1, 'rel': 0, 'playsinline': 1 };
-    
-    // Sesuaikan konfigurasi parameter berdasarkan tipe data YouTube
     if (ytData.type === "playlist") {
       playerVarsConfig.listType = "playlist";
       playerVarsConfig.list = ytData.id;
@@ -254,7 +253,18 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
   } 
 
   const lowUrl = targetUrl.toLowerCase();
-  const isVideoFile = lowUrl.includes(".m3u8") || lowUrl.includes(".mp4") || lowUrl.includes(".mpd") || lowUrl.includes(".webm") || lowUrl.includes("googleapis") || lowUrl.includes("drive.google") || lowUrl.includes("mime=video");
+  
+  // LOGIC FIX: Menentukan apakah URL terdeteksi sebagai media/file video langsung (Direct Video)
+  // Termasuk ekstensi m3u8, mp4, mkv, webm, mpd, pola regex /api/ (pixeldrain), googleapis, google drive, atau mime=video
+  const isVideoFile = lowUrl.includes(".m3u8") || 
+                      lowUrl.includes(".mp4") || 
+                      lowUrl.includes(".mkv") || 
+                      lowUrl.includes(".webm") || 
+                      lowUrl.includes(".mpd") || 
+                      lowUrl.includes("googleapis") || 
+                      lowUrl.includes("drive.google") || 
+                      lowUrl.includes("mime=video") ||
+                      /\/api\//i.test(lowUrl); // Regex untuk mencocokkan pola /api/ seperti Pixeldrain tanpa ekstensi
 
   // 2. EXTERNAL EMBED / WEB IFRAME
   if (lowUrl.includes(".html") || lowUrl.includes(".php") || lowUrl.includes("embed") || !isVideoFile) {
@@ -273,7 +283,7 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
         <style>html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; overflow: hidden; } iframe { width: 100%; height: 100%; border: none; }</style>
     </head>
     <body>
-        <iframe id="embed-frame" src="${modifiedTargetUrl}" allowfullscreen allow="autoplay *; encrypted-media *; fullscreen *;"></iframe>
+        <iframe id="embed-frame" src="${modifiedTargetUrl}" allowfullscreen allow="autoplay *; encrypted-media *; fullscreen *;" sandbox="allow-scripts allow-same-origin allow-forms allow-presentation"></iframe>
         <script>
             document.addEventListener("fullscreenchange", function() { if (document.fullscreenElement && screen.orientation && screen.orientation.lock) { screen.orientation.lock('landscape').catch(e => {}); } });
             document.addEventListener('contextmenu', e => e.preventDefault());
@@ -281,6 +291,16 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
     </body>
     </html>`;
   }
+
+  // LOGIC FIX: Menentukan kapan harus menggunakan Reverse Proxy vs Native Browser
+  // Aturan: Gunakan proxy jika formatnya HLS (.m3u8), ATAU jika link tersebut memiliki data referer/ua di database (untuk bypass protection)
+  const hasHeaders = (referer && referer.trim() !== "") || (userAgent && userAgent.trim() !== "");
+  const useProxy = lowUrl.includes(".m3u8") || hasHeaders;
+
+  // Set URL Stream akhir: Jika useProxy aktif, arahkan lewat Worker. Jika tidak, pakai targetUrl langsung (Native Browser)
+  let finalStreamUrl = useProxy 
+    ? `${urlObj.origin}${urlObj.pathname}?proxy=true&url=${encodeURIComponent(targetUrl)}&referer=${encodeURIComponent(referer)}&ua=${encodeURIComponent(userAgent)}`
+    : targetUrl;
 
   // 3. FORMAT MPD (DASH) ATAU MEMILIKI DRM -> GUNAKAN SHAKA PLAYER
   if (lowUrl.includes(".mpd") || drmType !== "") {
@@ -357,7 +377,7 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
                 player.configure(config);
 
                 try {
-                    await player.load("${targetUrl}");
+                    await player.load("${finalStreamUrl}");
                     video.muted = false;
                     video.play().catch(() => { video.muted = true; video.play(); });
                 } catch (error) {
@@ -374,9 +394,7 @@ function generatePlayerHtml(targetUrl, referer, userAgent, urlObj, drmType = "",
   }
 
   // 4. FORMAT HLS (.M3U8) ATAU NATIVE MP4 STANDAR (TANPA DRM)
-  let finalStreamUrl = `${urlObj.origin}${urlObj.pathname}?proxy=true&url=${encodeURIComponent(targetUrl)}&referer=${encodeURIComponent(referer)}&ua=${encodeURIComponent(userAgent)}`;
   let playerType = lowUrl.includes(".m3u8") ? "hls" : "native";
-
   let hlsScript = playerType === 'hls' ? '<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.7/dist/hls.min.js"></script>' : '';
 
   return `<!DOCTYPE html>

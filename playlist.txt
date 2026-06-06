@@ -1,565 +1,588 @@
 [LIVE]
-rcti | RCTI | | LIVE | https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780721710~hmac=db8d5d7d16197941a17b7bca66ec78f8bd25ccd2c079e44c71202caa938d2798 | https://www.rctiplus.com/
-mnctv | MNCTV | | LIVE | https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780721800~hmac=03c09626a064becdf106744b0678502514214185c2dc1d9cfc7fc73ac6947a70 | https://www.rctiplus.com/
-gtv | GTV | | LIVE | https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780721825~hmac=afa2a298ef58ff0a2ef116e23237a0f534acbdad11d948c8742519d706e12176 | https://www.rctiplus.com/
-inews | iNews | | LIVE | https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780721848~hmac=6929051e7772067c2f7c10e566666c4a78431da7a139238baecd3894d183a718 | https://www.rctiplus.com/
-trans7 | Trans 7 | | LIVE | https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-transtv | Trans TV | | LIVE | https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-sctv | SCTV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/204/res=720p/file/stream.mpd?hdntl=exp=1780633323~acl=%2fstream%2f204%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f204%2ffile%2f*%2faac%2f*!%2fstream%2f204%2ffile%2f*%2f*-720p%2f*!%2fstream%2f204%2ffile%2f*%2f*-480p%2f*!%2fstream%2f204%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=0fa34030e826193c9d402546bb849040bee808cb71cd9aeac2fe240932f4578c
-indosiar | Indosiar | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/205/res=720p/file/stream.mpd?hdntl=exp=1780633376~acl=%2fstream%2f205%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f205%2ffile%2f*%2faac%2f*!%2fstream%2f205%2ffile%2f*%2f*-720p%2f*!%2fstream%2f205%2ffile%2f*%2f*-480p%2f*!%2fstream%2f205%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=a8a9ca98311220874e453f4652228d55129dedde99e3f09f1cdfadedb8a7ad33
-moji | Moji | | LIVE | http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
-mentaritv | Mentari TV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/8237/res=720p/file/stream.mpd?hdntl=exp=1780633498~acl=%2fstream%2f8237%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f8237%2ffile%2f*%2faac%2f*!%2fstream%2f8237%2ffile%2f*%2f*-720p%2f*!%2fstream%2f8237%2ffile%2f*%2f*-480p%2f*!%2fstream%2f8237%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=63abf28305cc005b08ebe0a0ef3b670885279dec9667307e5fbe7342b01ff644
-antv | ANTV | | LIVE | https://etslive-v3-vidio-com-preview-tokenized.akamaized.net/stream/782/res=720p/file/stream.mpd?hdntl=exp=1780633562~acl=%2fstream%2f782%2fres%3d720p%2ffile%2fstream.mpd!%2fstream%2f782%2ffile%2f*%2faac%2f*!%2fstream%2f782%2ffile%2f*%2f*-720p%2f*!%2fstream%2f782%2ffile%2f*%2f*-480p%2f*!%2fstream%2f782%2ffile%2f*%2f*-360p%2f*~id=allUsers~data=hdntl~hmac=ee8e29dec30f8809e2b695b0fa48343c890c3cc4b02a69e20b4fa63e397534cc
-rtv | RTV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
-mdtv | MDTV | | LIVE | http://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
-kompastv | Kompas TV | | LIVE | https://www.youtube.com/live/DOOrIxw5xOw
-metrotv | Metro TV | | LIVE | http://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
-tvone | TVOne | | LIVE | https://www.youtube.com/live/yNKvkPJl-tg
-tvri | TVRI Nasional | | LIVE | https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
-tvrisport | TVRI Sport | | LIVE | https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-spotv | SPOTV | | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd | | | clearkey | {"ec7ee27d83764e4b845c48cca31c8eef":"9c0e4191203fccb0fde34ee29999129e"}
-spotv2 | SPOTV2 | | LIVE | https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd | | | clearkey | {"7eea72d6075245a99ee3255603d58853":"6848ef60575579bf4d415db1032153ed"}
-bein1 | Bein Sport 1 | | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd | | | clearkey | {"3ae6a430c1b8420ea280e317143d8d3a":"142473ee925db0db0083c74a178c8298"}
-bein2 | Bein Sport 2 | | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd | | | clearkey | {"3d756d566ca94e6499518ffb1474d5d0":"dbe4ad6803e74739b8f954d23cc58e7b"}
-bein3 | Bein Sport 3 | | LIVE | https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd | | | clearkey | {"344d320ca45641a88cf002db351ed9a4":"246cc6ee7ab235cb824ed3b904b7040b"}
-redbulltv | Redbull TV | | LIVE | https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8 | | ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-motorvision | Motorvision | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h09/01.m3u8
-cnn | CNN Indonesia | | LIVE | https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-cnbc | CNBC Indonesia | | LIVE | https://live.cnbcindonesia.com/livecnbc/smil:cnbcindonesia.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-aljazeera | Al Jazeera | | LIVE | https://www.youtube.com/live/gCNeDWCI0vo
-awani | Astro Awani | | LIVE | https://www.youtube.com/live/mkVyNaGee8A
-cna | CNA | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h29/01.m3u8
-arirang | Arirang | | LIVE | https://amdlive-ch04-ctnd-com.akamaized.net/arirang_4ch/smil:arirang_4ch.smil/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-nhk | NHK World Japan | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h23/01.m3u8
-trtworld | TRT World | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h156/S4/mnf.m3u8
-wion | WION | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h91/S4/mnf.m3u8
-france24 | France24 | | LIVE | https://op-group1-swiftservesd-1.dens.tv/s/s22/01.m3u8
-dvtv | DWTV | | LIVE | https://op-group2-swiftservesd-1.dens.tv/s/s11/S4/mnf.m3u8
-tv5monde | TV5 Monde | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h312/01.m3u8
-cgtn-documentary | CGTN Documentary | | LIVE | https://op-group1-swiftservesd-1.dens.tv/s/s20/01.m3u8
-larva | Larva | | LIVE | https://www.youtube.com/live/dK5ZCBzUf7Y
-breakbeat | Breakbeat | | LIVE | https://www.youtube.com/live/58tvRl9DP0k
-dancetv | Dance TV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h250/02.m3u8
-muse | Muse Indonesia | | LIVE | https://www.youtube.com/live/3WfRhhYY00Q 
-daaitv | DAAI TV | | LIVE | https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
-mekkah | Mekkah TV | | LIVE | https://www.youtube.com/live/m9-Umj3aL1I
-madinah | Madinah TV | | LIVE | https://win.holol.com/live/sunnah/chunklist_w1511531636.m3u8
-rodjatv | Rodja TV | | LIVE | https://rodjatv.com/rodjatv/live.m3u8
-mqtv | MQTV | | LIVE | https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
-garudatv | Garuda TV | | LIVE | https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
-magnatv | Magna TV | | LIVE | https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-nusantaratv | Nusantara TV | | LIVE | https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-btv | BTV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h210/02.m3u8
-beritasatu | Beritasatu | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h209/02.m3u8
-dfc | Dens Food Channel | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h221/02.m3u8
-dsb | Dens Show Biz | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h244/02.m3u8
-dk | Dens Knowledge | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
-dls | Dens Life & Style | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h222/02.m3u8
-crematv | Crema TV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h202/02.m3u8
-mce | My Cinema Europe | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8
-stingray-classica | Stingray Classica | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h229/S4/mnf.m3u8
-qwesttv | Qwest TV | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h153/S4/mnf.m3u8
-elshintatv | Elshinta TV | | LIVE | https://op-group2-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8
-jowo | Channel Jowo | | LIVE | https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
-staratv | Stara TV | | LIVE | https://jakarta.staratv.id/hls/0/stream.m3u8
-saktitv | Sakti TV | | LIVE | https://saktitv.siar.us/saktitv/live/playlist.m3u8
-jogjatv | Jogja TV | | LIVE | https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-dhohotv | Dhoho TV | | LIVE | https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
-tatv | TATV | | LIVE | https://tatv.siar.us/tatv/live.sdp/playlist.m3u8
-bmstv | BMSTV | | LIVE | https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
-dutatv | Duta TV | | LIVE | https://dutatv.siar.us/dutatv/live/playlist.m3u8
-dhammatv | Dhamma TV | | LIVE | https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
-bungotv | Bungo TV | | LIVE | https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-rctv | RCTV | | LIVE | https://v10.siar.us/rctv/live/playlist.m3u8
-lingkartv | Lingkar TV | | LIVE | https://lingkartv.my.id/hls/lingkartv.m3u8
+rcti|RCTI||LIVE|https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780766833~hmac=63760948d2c08d32db59ac7b16c26a51a26b5f3f84f7a993ef88d3d329338a7e|https://www.rctiplus.com/
+mnctv|MNCTV||LIVE|https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780766858~hmac=b23345a07d76dede11b4761a5bf86f9a2aaf63d22aff9776e5a2dfad32028f89|https://www.rctiplus.com/
+gtv|GTV||LIVE|https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780766876~hmac=adad44063e5381cf41baf90a6df319b983623fb5f0c38b8d6d938d14681d4bdb|https://www.rctiplus.com/
+inews|iNews||LIVE|https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780766900~hmac=5a443c1ca5e449ff19ccb842b181f6881ebce7ba9d49dea25e6242e138780118|https://www.rctiplus.com/
+trans7|Trans 7||LIVE|https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+transtv|Trans TV||LIVE|https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+sctv|SCTV||LIVE|https://donasi.showcdnx.com/stopjudi/2.mp4
+indosiar|Indosiar||LIVE|https://donasi.showcdnx.com/stopjudi/3.mp4
+moji|Moji||LIVE|http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
+mentaritv|Mentari TV||LIVE|https://donasi.showcdnx.com/stopjudi/4.mp4
+antv|ANTV||LIVE|https://donasi.showcdnx.com/stopjudi/5.mp4
+rtv|RTV||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
+mdtv|MDTV||LIVE|http://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
+kompastv|Kompas TV||LIVE|https://www.youtube.com/live/DOOrIxw5xOw
+metrotv|Metro TV||LIVE|http://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
+tvone|TVOne||LIVE|https://www.youtube.com/live/yNKvkPJl-tg
+tvri|TVRI Nasional||LIVE|https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+tvrisport|TVRI Sport||LIVE|https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+spotv|SPOTV||LIVE|https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd|||clearkey|{"ec7ee27d83764e4b845c48cca31c8eef":"9c0e4191203fccb0fde34ee29999129e"}
+spotv2|SPOTV2||LIVE|https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd|||clearkey|{"7eea72d6075245a99ee3255603d58853":"6848ef60575579bf4d415db1032153ed"}
+bein1|Bein Sport 1||LIVE|https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd|||clearkey|{"3ae6a430c1b8420ea280e317143d8d3a":"142473ee925db0db0083c74a178c8298"}
+bein2|Bein Sport 2||LIVE|https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd|||clearkey|{"3d756d566ca94e6499518ffb1474d5d0":"dbe4ad6803e74739b8f954d23cc58e7b"}
+bein3|Bein Sport 3||LIVE|https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd|||clearkey|{"344d320ca45641a88cf002db351ed9a4":"246cc6ee7ab235cb824ed3b904b7040b"}
+redbulltv|Redbull TV||LIVE|https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8||ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+motorvision|Motorvision||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h09/01.m3u8
+cnn|CNN Indonesia||LIVE|https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+cnbc|CNBC Indonesia||LIVE|https://live.cnbcindonesia.com/livecnbc/smil:cnbcindonesia.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+aljazeera|Al Jazeera||LIVE|https://www.youtube.com/live/gCNeDWCI0vo
+awani|Astro Awani||LIVE|https://www.youtube.com/live/mkVyNaGee8A
+cna|CNA||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h29/01.m3u8
+arirang|Arirang||LIVE|https://amdlive-ch04-ctnd-com.akamaized.net/arirang_4ch/smil:arirang_4ch.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+nhk|NHK World Japan||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h23/01.m3u8
+trtworld|TRT World||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h156/S4/mnf.m3u8
+wion|WION||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h91/S4/mnf.m3u8
+france24|France24||LIVE|https://op-group1-swiftservesd-1.dens.tv/s/s22/01.m3u8
+dvtv|DWTV||LIVE|https://op-group2-swiftservesd-1.dens.tv/s/s11/S4/mnf.m3u8
+tv5monde|TV5 Monde||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h312/01.m3u8
+cgtn-documentary|CGTN Documentary||LIVE|https://op-group1-swiftservesd-1.dens.tv/s/s20/01.m3u8
+larva|Larva||LIVE|https://www.youtube.com/live/dK5ZCBzUf7Y
+breakbeat|Breakbeat||LIVE|https://www.youtube.com/live/58tvRl9DP0k
+dancetv|Dance TV||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h250/02.m3u8
+muse|Muse Indonesia||LIVE|https://www.youtube.com/live/3WfRhhYY00Q 
+daaitv|DAAI TV||LIVE|https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+mekkah|Mekkah TV||LIVE|https://www.youtube.com/live/m9-Umj3aL1I
+madinah|Madinah TV||LIVE|https://win.holol.com/live/sunnah/chunklist_w1511531636.m3u8
+rodjatv|Rodja TV||LIVE|https://rodjatv.com/rodjatv/live.m3u8
+mqtv|MQTV||LIVE|https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
+garudatv|Garuda TV||LIVE|https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
+magnatv|Magna TV||LIVE|https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
+nusantaratv|Nusantara TV||LIVE|https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+btv|BTV||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h210/02.m3u8
+beritasatu|Beritasatu||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h209/02.m3u8
+dfc|Dens Food Channel||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h221/02.m3u8
+dsb|Dens Show Biz||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h244/02.m3u8
+dk|Dens Knowledge||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
+dls|Dens Life & Style||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h222/02.m3u8
+crematv|Crema TV||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h202/02.m3u8
+mce|My Cinema Europe||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h18/01.m3u8
+stingray-classica|Stingray Classica||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h229/S4/mnf.m3u8
+qwesttv|Qwest TV||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h153/S4/mnf.m3u8
+elshintatv|Elshinta TV||LIVE|https://op-group2-swiftservesd-1.dens.tv/s/s12/S4/mnf.m3u8
+jowo|Channel Jowo||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
+staratv|Stara TV||LIVE|https://jakarta.staratv.id/hls/0/stream.m3u8
+saktitv|Sakti TV||LIVE|https://saktitv.siar.us/saktitv/live/playlist.m3u8
+jogjatv|Jogja TV||LIVE|https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+dhohotv|Dhoho TV||LIVE|https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
+tatv|TATV||LIVE|https://tatv.siar.us/tatv/live.sdp/playlist.m3u8
+bmstv|BMSTV||LIVE|https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
+dutatv|Duta TV||LIVE|https://dutatv.siar.us/dutatv/live/playlist.m3u8
+dhammatv|Dhamma TV||LIVE|https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
+bungotv|Bungo TV||LIVE|https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+rctv|RCTV||LIVE|https://v10.siar.us/rctv/live/playlist.m3u8
+lingkartv|Lingkar TV||LIVE|https://lingkartv.my.id/hls/lingkartv.m3u8
 
 [FILM]
-film1 | Cinta Tak Pernah Tepat Waktu | | HD FILM | https://youtu.be/tmsWpHlR3dc
-film2 | Ada Dewa Disisiku | | HD FILM | https://youtu.be/jq101F1NXGQ
-film3 | Ajari Aku Islam | | HD FILM | https://youtu.be/gWRAdciRQxI
-film4 | 4 Mantan | | HD FILM | https://youtu.be/LPGjcAaszgM
-film5 | Rumput Tetangga | | HD FILM | https://youtu.be/pDvD8g1sYBo
-film6 | Kingkong vs Giant Serpent : Battle Of Snakes | | HD FILM | https://youtu.be/Bia2m1Dt6wc
-film7 | Dimsum Martabak | | HD FILM | https://youtu.be/BDUFYURYN8M
-film8 | 13 The Haunted | | HD FILM | https://youtu.be/Q7XPjWHC29o
-film9 | Kesempatan Keduda | | HD FILM | https://youtu.be/iR5rvVjRe6E
-film10 | Sunyi | | HD FILM | https://youtu.be/AgEUWTXCT_E
-film11 | Kembalinya Anak Iblis | | HD FILM | https://youtu.be/CEFbKkWQ8hQ
-film12 | Roh Fasik | | HD FILM | https://youtu.be/KHOmLudd5JQ
-film13 | Mendadak Kaya | | HD FILM | https://youtu.be/OFc4EshM81w
-film14 | Arwah Tumbal Nyai | | HD FILM | https://youtu.be/905IOY9nQqQ
-film15 | #66 | | HD FILM | https://youtu.be/tiZHgIuAUzk
-film16 | After Meet You | | HD FILM | https://youtu.be/gox5keAGDmo
-film17 | Narik Sukmo | | HD FILM | https://bun.p2pplay.pro/hls/pbyQCxRBZ03Ly8l8jRi4Bg/is9/b6iux89s/t6tuxe/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film18 | Mummy Resurgance | | HD FILM | https://gdriveplayer.to/embed2.php?link=W8MFl2g%252F9IrdY3C4ZJ6%252BLQzQbIpIHbQ%252B485oj12loZ%252FNkOb08RQTCNBIELNVY5rGbdp7QE53qdUlGbc1hsxEuaZ5Rvx3dSZxRnAwYGrC%252BeF40WeK%252FJd3%252BFeyweybVh82ZC7Y6sVJdMt0UMnWkzkDJOhGTg6hSw01UXJwo50ROL4%252B%252BEEzGyNdKWEcoe%252FB9FQEBzvOjZteW1R1YuwpnBTBhynfQBC2u5WPL4LmxhMDDg6rS5jjXP3A4jriv6Y3TZK0g%253D
-film19 | Cinta Subuh | | HD FILM | https://bun.p2pplay.pro/hls/Mi7h-BMM6o4httuOmdFvOQ/x68/r8c1nhnn/mrrmw6/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film20 | Jodoh 3 Bujang | | HD FILM | https://bun.p2pplay.pro/hls/nluyOrUWL1bzlGEm0QqeYw/x68/fmg9yocq/mdbxka/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film21 | Transformers : The Last Knight | | HD FILM | https://ewa.playerp2p.live/hls/F2usuAA5Xr0hr-uDUgc0-g/luy/v1feaent/69onp5/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film22 | Transformers : Age Of Extinction | | HD FILM | https://ewa.playerp2p.live/hls/11118rjca0-H_fjcAnf5xA/5w3/1xmlfe6p/nakn3b/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film23 | Transformers : Dark Of The Moon | | HD FILM | https://ewa.playerp2p.live/hls/QmKz0GzGSBNwLPgUw-goVw/qu/zbxp18sj/gkfgje/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film24 | Transformers : Revenge Of The Fallen | | HD FILM | https://ewa.playerp2p.live/hls/Ut1vKPokRo2YFHJKLoSNOw/x6b/krnvuhuto/blveze/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film25 | Transformers One | | HD FILM | https://playdulu.xyz/embed/tHQiH7pb1Hgb74u
-film26 | Transformers | | HD FILM | https://ewa.playerp2p.live/hls/sJD5n4d5pk8ZlByi5zdqGg/xq/b6iuxv95/m91m6j/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film27 | Avatar : Fire And Ash | | HD FILM | https://ewa.playerp2p.live/hls/TvTNmeBEYYsIg9MZ5kMZsQ/tab/ipljeq8a/oapop9/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film28 | Rise Of The Conqueror | | HD FILM | https://ewa.playerp2p.live/hls/YFX7UQ3jpHqBHCl4slz62Q/3vi/unjaocjn/md1crh/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film29 | Master Of The Universe | | HD FILM | https://ewa.playerp2p.live/hls/0v9gtK1fVGpk5Tv1-09VuA/9a/h9k8sigm/hcheo3/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film30 | Immortal Combat | | HD FILM | https://ewa.playerp2p.live/hls/Bz7kQIuc5tmMXvPsLiXMcA/ty/ipljeb8y/xdpbft/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film31 | Sukma | | HD FILM | https://bun.p2pplay.pro/hls/k4pUPZpT2eqwH-jYH1RhQg/8q/b6iuxv95/idfux5/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film32 | Labinak : Mereka Ada Disini | | HD FILM | https://bun.p2pplay.pro/hls/F83PeMtKlUZUeV7g2bio5g/6hf/1xmlfn69/pqzsgt/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film33 | Sosok Ketiga : Lintrik | | HD FILM | https://bun.p2pplay.pro/hls/JUT6S4UjKC4dRXyZ8e5EdQ/sc/yg6kbbwm/l33ysh/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film34 | The Verdict | | HD FILM | https://bun.p2pplay.pro/hls/tlScZ8W4Z6P95BMKbpS_JQ/s93/afyhwv5e/uvxwtk/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film35 | Cursed | | HD FILM | https://bun.p2pplay.pro/hls/LSqXPsiCRGEUod3MCplqxw/hl1/fmg9y9ce/lqcfaz/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film36 | Dopamin | | HD FILM | https://bun.p2pplay.pro/hls/HOox2UElaK56CdOVRjbi2g/s93/1xmlfz6s/6rbqkn/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film37 | Suzzanna : Buried Alive | | HD FILM | https://bun.p2pplay.pro/hls/DdaDT9Wg50muHHh2a_XhPw/s93/r8c1npnq/oaoxfj/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film38 | Kitab Sijjin & Illiyin | | HD FILM | https://bun.p2pplay.pro/hls/kXUeNzc7oPuZ6xLCwEmYBA/miy/xieomesg/vx3hq1/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film39 | Gelap Mata | | HD FILM | https://bun.p2pplay.pro/hls/PerVp3BtnV-rAF8bjYYKkQ/mik/ghsr6sxo/3g6voa/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film40 | Legenda Kelam Malin Kundang | | HD FILM | https://bun.p2pplay.pro/hls/ccQP7DwYFAfTxTdRGq_NvQ/mik/ghsr6sxo/vehzuo/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film41 | Getih Ireng | | HD FILM | https://bun.p2pplay.pro/hls/W63SpHftFNYVIJRk1dMvsg/hz/b6iuxu9x/nfxmnw/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film42 | Panggonan Wingit | | HD FILM | https://bun.p2pplay.pro/hls/N2Q6ZxjzhFpW-Q1mfH_itA/djx/krnvuxuq/6n5fnm/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film43 | Kaa : The Forest | | HD FILM | https://ewa.playerp2p.live/hls/wgFS462JusrPjSWSzOoOJw/ox/mehdg3pz/3gqf1q/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film44 | Pengantin Iblis | | HD FILM | https://bun.p2pplay.pro/hls/ez-bW8irHk7EH-cp-95Sbw/hz/dq8zrle8/tijeab/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film45 | Sorop | | HD FILM | https://bun.p2pplay.pro/hls/5bkqlO42pv3_BoDHcYpiow/gee/xieomdsh/s3b8j1/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film46 | Kutukan Calon Arang | | HD FILM | https://bun.p2pplay.pro/hls/hWRgeBuewCm22Lh51Ny6vw/sc/xieomdsh/xdvud9/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film47 | Vina : Sebelum 7 Hari | | HD FILM | https://bun.p2pplay.pro/hls/BnbLFRpZq3vstJc2jIzOTw/bgm/puo3lvkf/jbiv9y/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film48 | Gowok : Kamasutra Jawa | | HD FILM | https://bun.p2pplay.pro/hls/ZuvLaMzPnAOVdCoWS8SEkw/js/r8c1nhnn/hcchad/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film49 | Pembantaian Dukun Santet | | HD FILM | https://bun.p2pplay.pro/hls/WixVNhITjm6P1FxKhcnCzA/pq/r8c1nhnn/tiit9q/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film50 | Timur | | HD FILM | https://bun.p2pplay.pro/hls/MjBa8LwNJEMCPYz7pH5RNA/gee/mehdgqps/s336oy/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film51 | Janur Ireng | | HD FILM | https://bun.p2pplay.pro/hls/9wMmbooTP1Z5ZOSnVFbmMw/luy/mehdgqps/ozzlck/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film52 | Penjagal Iblis : Dosa Turunan | | HD FILM | https://bun.p2pplay.pro/hls/47RpCbaz9efsblMvtNGVBQ/mik/yg6kbmw6/scsf9c/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film53 | Rego Nyowo | | HD FILM | https://bun.p2pplay.pro/hls/UcXclHUcNJTBcaTfoIPgLg/vz1/b6iux89s/kvl9xy/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film54 | Ozora : Penganiayaan Brutal Penguasa Jaksel | | HD FILM | https://bun.p2pplay.pro/hls/3pW1eHd29YtYphCM3PpiYQ/n8l/1xmlfz6h/ijvyjd/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film55 | Kampung Jabang Mayit : Ritual Maut | | HD FILM | https://bun.p2pplay.pro/hls/xWW3Cmv16QpYr8P6L18Xvw/5c/fmg9yocq/t6c3mz/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-film56 | Perempuan Merah Jambu | | HD FILM | https://youtu.be/9XEcRmlZjA0
-film57 | Hi Ustadz Agam | | HD FILM | https://youtu.be/ubKt7lKqwhE
-film58 | Sabiya | | HD FILM | https://youtu.be/156Gn2LVAQU
-film59 | Suka Duka Tawa | | SD FILM | https://youtu.be/JunJ0iQ_w7s
-film60 | Wasiat Warisan | | SD FILM | https://youtu.be/xUvI4hWU7e8
-film61 | Sang Kyai | | HD FILM | https://youtu.be/NWvppjzM7uY
-film62 | Serigala Terakhir | | HD FILM | https://youtu.be/TyIgZ1oWZfs
-film63 | Sang Pencerah | | HD FILM | https://youtu.be/iVy5JEbJkDw
-film64 | Rudy Habibie | | HD FILM | https://youtu.be/jfd4Ft8y0IE
-film65 | Bukan Cinderella | | HD FILM | https://youtu.be/7BDaigF3yyE
-film66 | Pesugihan Sate Gagak | | HD FILM | https://youtu.be/6q75cs5AHuE
-film67 | Modual Nekad | | HD FILM | https://youtu.be/i0fprR_Ig14
-film68 | A Marry Friggin Christmas | | HD FILM | https://op-svod.dens.tv/04/MVMFY00019/index5.m3u8
-film69 | Before The Fall | | HD FILM | https://op-svod.dens.tv/04/MVMCE00101/index5.m3u8
-film70 | A Woman In Berlin | | HD FILM | https://op-svod.dens.tv/04/MVMCE00001/index5.m3u8
-film71 | Welcome To Sarajevo | | HD FILM | https://op-svod.dens.tv/04/MVMCE00014/index5.m3u8
-film72 | Love And Honor | | HD FILM | https://op-svod.dens.tv/01/MVCMB00016/index1.m3u8
-film73 | Hotel Lux | | HD FILM | https://op-svod.dens.tv/04/MVMCE00105/index5.m3u8
-film74 | Heribert | | HD FILM | https://op-svod.dens.tv/04/MVMCE00104a/index5.m3u8
-film75 | Total Chaos | | HD FILM | https://youtu.be/sgeKNNn2Raw
-film76 | Melodylan | | HD FILM | https://youtu.be/MgXSfAQmTr0
-film78 | Dear Nathan | | HD FILM | https://youtu.be/9QXK-qost28
-film79 | Dear Nathan : Hello Salma | | HD FILM | https://youtu.be/smS0wAFiaIA
-film80 | Dear Nathan: Thank You Salma | | HD FILM | https://youtu.be/aBtvUGv_ez8
-film81 | Kalam Kalam Langit | | HD FILM | https://youtu.be/RDV5BNPPkzc
-film82 | Melbourne Rewind | | HD FILM | https://youtu.be/551qyz9EKq8
-film83 | Noktah Merah Perkawinan | | HD FILM | https://youtu.be/2OEv3xqCsho
-film84 | Harim Di Tanah Haram | | HD FILM | https://youtu.be/nTO-6p1Dq-o
-film85 | Jilbab Traveler : Love Sparks In Korea | | HD FILM | https://youtu.be/YtUlE2v8pY0
-film86 | Hangout | | HD FILM | https://youtu.be/qLrClBoAT6M
-film87 | Modus | | HD FILM | https://youtu.be/T5syjpLRnek
-film88 | Sesuai Aplikasi | | HD FILM | https://youtu.be/2AeQyTyAYuw
-film89 | Dear Stranger | | HD FILM | https://youtu.be/zOxlaST25pc
-film90 | Sebelum Dijemput Nenek | | HD FILM | https://www.dailymotion.com/embed/video/xabh76g
-film91 | Bad Boy In Love | | HD FILM | https://www.dailymotion.com/embed/video/xa9u3cs
-film92 | Amplop Kondangan | | HD FILM | https://www.dailymotion.com/embed/video/xa9u2xi
-film93 | Nia | | HD FILM | https://www.dailymotion.com/embed/video/xa572q4
-film94 | Mertua Ngeei Kali | | HD FILM | https://www.dailymotion.com/embed/video/xa5nl7g
-film95 | Sampai Titik Terakhirmu | | HD FILM | https://www.dailymotion.com/embed/video/xa3gkjc
-film96 | Si Paling Aktor | | HD FILM | https://www.dailymotion.com/embed/video/xa1x4k6
-film97 | Pengin Hijrah | | HD FILM | https://www.dailymotion.com/embed/video/xa1ij66
-film98 | Tabayyun | | HD FILM | https://www.dailymotion.com/embed/video/xa157ss
-film99 | Shutter | | HD FILM | https://www.dailymotion.com/embed/video/xa14hbk
-film100 | Jangan Panggil Mama Kafir | | HD FILM | https://www.dailymotion.com/embed/video/xa128k8
-film101 | Dear Imamku | | HD FILM | https://youtu.be/aOQbDixQvtQ
+film1|Cinta Tak Pernah Tepat Waktu||HD FILM|https://youtu.be/tmsWpHlR3dc
+film2|Ada Dewa Disisiku||HD FILM|https://youtu.be/jq101F1NXGQ
+film3|Ajari Aku Islam||HD FILM|https://youtu.be/gWRAdciRQxI
+film4|4 Mantan||HD FILM|https://youtu.be/LPGjcAaszgM
+film5|Rumput Tetangga||HD FILM|https://youtu.be/pDvD8g1sYBo
+film6|Kingkong vs Giant Serpent : Battle Of Snakes||HD FILM|https://youtu.be/Bia2m1Dt6wc
+film7|Dimsum Martabak||HD FILM|https://youtu.be/BDUFYURYN8M
+film8|13 The Haunted||HD FILM|https://youtu.be/Q7XPjWHC29o
+film9|Kesempatan Keduda||HD FILM|https://youtu.be/iR5rvVjRe6E
+film10|Sunyi||HD FILM|https://youtu.be/AgEUWTXCT_E
+film11|Kembalinya Anak Iblis||HD FILM|https://youtu.be/CEFbKkWQ8hQ
+film12|Roh Fasik||HD FILM|https://youtu.be/KHOmLudd5JQ
+film13|Mendadak Kaya||HD FILM|https://youtu.be/OFc4EshM81w
+film14|Arwah Tumbal Nyai||HD FILM|https://youtu.be/905IOY9nQqQ
+film15|#66||HD FILM|https://youtu.be/tiZHgIuAUzk
+film16|After Meet You||HD FILM|https://youtu.be/gox5keAGDmo
+film17|Narik Sukmo||HD FILM|https://bun.p2pplay.pro/hls/pbyQCxRBZ03Ly8l8jRi4Bg/is9/b6iux89s/t6tuxe/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film18|Mummy Resurgance||HD FILM|https://gdriveplayer.to/embed2.php?link=W8MFl2g%252F9IrdY3C4ZJ6%252BLQzQbIpIHbQ%252B485oj12loZ%252FNkOb08RQTCNBIELNVY5rGbdp7QE53qdUlGbc1hsxEuaZ5Rvx3dSZxRnAwYGrC%252BeF40WeK%252FJd3%252BFeyweybVh82ZC7Y6sVJdMt0UMnWkzkDJOhGTg6hSw01UXJwo50ROL4%252B%252BEEzGyNdKWEcoe%252FB9FQEBzvOjZteW1R1YuwpnBTBhynfQBC2u5WPL4LmxhMDDg6rS5jjXP3A4jriv6Y3TZK0g%253D
+film19|Cinta Subuh||HD FILM|https://bun.p2pplay.pro/hls/Mi7h-BMM6o4httuOmdFvOQ/x68/r8c1nhnn/mrrmw6/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film20|Jodoh 3 Bujang||HD FILM|https://bun.p2pplay.pro/hls/nluyOrUWL1bzlGEm0QqeYw/x68/fmg9yocq/mdbxka/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film21|Transformers : The Last Knight||HD FILM|https://ewa.playerp2p.live/hls/F2usuAA5Xr0hr-uDUgc0-g/luy/v1feaent/69onp5/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film22|Transformers : Age Of Extinction||HD FILM|https://ewa.playerp2p.live/hls/11118rjca0-H_fjcAnf5xA/5w3/1xmlfe6p/nakn3b/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film23|Transformers : Dark Of The Moon||HD FILM|https://ewa.playerp2p.live/hls/QmKz0GzGSBNwLPgUw-goVw/qu/zbxp18sj/gkfgje/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film24|Transformers : Revenge Of The Fallen||HD FILM|https://ewa.playerp2p.live/hls/Ut1vKPokRo2YFHJKLoSNOw/x6b/krnvuhuto/blveze/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film25|Transformers One||HD FILM|https://playdulu.xyz/embed/tHQiH7pb1Hgb74u
+film26|Transformers||HD FILM|https://ewa.playerp2p.live/hls/sJD5n4d5pk8ZlByi5zdqGg/xq/b6iuxv95/m91m6j/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film27|Avatar : Fire And Ash||HD FILM|https://ewa.playerp2p.live/hls/TvTNmeBEYYsIg9MZ5kMZsQ/tab/ipljeq8a/oapop9/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film28|Rise Of The Conqueror||HD FILM|https://ewa.playerp2p.live/hls/YFX7UQ3jpHqBHCl4slz62Q/3vi/unjaocjn/md1crh/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film29|Master Of The Universe||HD FILM|https://ewa.playerp2p.live/hls/0v9gtK1fVGpk5Tv1-09VuA/9a/h9k8sigm/hcheo3/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film30|Immortal Combat||HD FILM|https://ewa.playerp2p.live/hls/Bz7kQIuc5tmMXvPsLiXMcA/ty/ipljeb8y/xdpbft/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film31|Sukma||HD FILM|https://bun.p2pplay.pro/hls/k4pUPZpT2eqwH-jYH1RhQg/8q/b6iuxv95/idfux5/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film32|Labinak : Mereka Ada Disini||HD FILM|https://bun.p2pplay.pro/hls/F83PeMtKlUZUeV7g2bio5g/6hf/1xmlfn69/pqzsgt/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film33|Sosok Ketiga : Lintrik||HD FILM|https://bun.p2pplay.pro/hls/JUT6S4UjKC4dRXyZ8e5EdQ/sc/yg6kbbwm/l33ysh/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film34|The Verdict||HD FILM|https://bun.p2pplay.pro/hls/tlScZ8W4Z6P95BMKbpS_JQ/s93/afyhwv5e/uvxwtk/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film35|Cursed||HD FILM|https://bun.p2pplay.pro/hls/LSqXPsiCRGEUod3MCplqxw/hl1/fmg9y9ce/lqcfaz/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film36|Dopamin||HD FILM|https://bun.p2pplay.pro/hls/HOox2UElaK56CdOVRjbi2g/s93/1xmlfz6s/6rbqkn/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film37|Suzzanna : Buried Alive||HD FILM|https://bun.p2pplay.pro/hls/DdaDT9Wg50muHHh2a_XhPw/s93/r8c1npnq/oaoxfj/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film38|Kitab Sijjin & Illiyin||HD FILM|https://bun.p2pplay.pro/hls/kXUeNzc7oPuZ6xLCwEmYBA/miy/xieomesg/vx3hq1/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film39|Gelap Mata||HD FILM|https://bun.p2pplay.pro/hls/PerVp3BtnV-rAF8bjYYKkQ/mik/ghsr6sxo/3g6voa/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film40|Legenda Kelam Malin Kundang||HD FILM|https://bun.p2pplay.pro/hls/ccQP7DwYFAfTxTdRGq_NvQ/mik/ghsr6sxo/vehzuo/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film41|Getih Ireng||HD FILM|https://bun.p2pplay.pro/hls/W63SpHftFNYVIJRk1dMvsg/hz/b6iuxu9x/nfxmnw/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film42|Panggonan Wingit||HD FILM|https://bun.p2pplay.pro/hls/N2Q6ZxjzhFpW-Q1mfH_itA/djx/krnvuxuq/6n5fnm/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film43|Kaa : The Forest||HD FILM|https://ewa.playerp2p.live/hls/wgFS462JusrPjSWSzOoOJw/ox/mehdg3pz/3gqf1q/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film44|Pengantin Iblis||HD FILM|https://bun.p2pplay.pro/hls/ez-bW8irHk7EH-cp-95Sbw/hz/dq8zrle8/tijeab/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film45|Sorop||HD FILM|https://bun.p2pplay.pro/hls/5bkqlO42pv3_BoDHcYpiow/gee/xieomdsh/s3b8j1/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film46|Kutukan Calon Arang||HD FILM|https://bun.p2pplay.pro/hls/hWRgeBuewCm22Lh51Ny6vw/sc/xieomdsh/xdvud9/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film47|Vina : Sebelum 7 Hari||HD FILM|https://bun.p2pplay.pro/hls/BnbLFRpZq3vstJc2jIzOTw/bgm/puo3lvkf/jbiv9y/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film48|Gowok : Kamasutra Jawa||HD FILM|https://bun.p2pplay.pro/hls/ZuvLaMzPnAOVdCoWS8SEkw/js/r8c1nhnn/hcchad/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film49|Pembantaian Dukun Santet||HD FILM|https://bun.p2pplay.pro/hls/WixVNhITjm6P1FxKhcnCzA/pq/r8c1nhnn/tiit9q/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film50|Timur||HD FILM|https://bun.p2pplay.pro/hls/MjBa8LwNJEMCPYz7pH5RNA/gee/mehdgqps/s336oy/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film51|Janur Ireng||HD FILM|https://bun.p2pplay.pro/hls/9wMmbooTP1Z5ZOSnVFbmMw/luy/mehdgqps/ozzlck/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film52|Penjagal Iblis : Dosa Turunan||HD FILM|https://bun.p2pplay.pro/hls/47RpCbaz9efsblMvtNGVBQ/mik/yg6kbmw6/scsf9c/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film53|Rego Nyowo||HD FILM|https://bun.p2pplay.pro/hls/UcXclHUcNJTBcaTfoIPgLg/vz1/b6iux89s/kvl9xy/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film54|Ozora : Penganiayaan Brutal Penguasa Jaksel||HD FILM|https://bun.p2pplay.pro/hls/3pW1eHd29YtYphCM3PpiYQ/n8l/1xmlfz6h/ijvyjd/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film55|Kampung Jabang Mayit : Ritual Maut||HD FILM|https://bun.p2pplay.pro/hls/xWW3Cmv16QpYr8P6L18Xvw/5c/fmg9yocq/t6c3mz/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+film56|Perempuan Merah Jambu||HD FILM|https://youtu.be/9XEcRmlZjA0
+film57|Hi Ustadz Agam||HD FILM|https://youtu.be/ubKt7lKqwhE
+film58|Sabiya||HD FILM|https://youtu.be/156Gn2LVAQU
+film59|Suka Duka Tawa||SD FILM|https://youtu.be/JunJ0iQ_w7s
+film60|Wasiat Warisan||SD FILM|https://youtu.be/xUvI4hWU7e8
+film61|Sang Kyai||HD FILM|https://youtu.be/NWvppjzM7uY
+film62|Serigala Terakhir||HD FILM|https://youtu.be/TyIgZ1oWZfs
+film63|Sang Pencerah||HD FILM|https://youtu.be/iVy5JEbJkDw
+film64|Rudy Habibie||HD FILM|https://youtu.be/jfd4Ft8y0IE
+film65|Bukan Cinderella||HD FILM|https://youtu.be/7BDaigF3yyE
+film66|Pesugihan Sate Gagak||HD FILM|https://youtu.be/6q75cs5AHuE
+film67|Modual Nekad||HD FILM|https://youtu.be/i0fprR_Ig14
+film68|A Marry Friggin Christmas||HD FILM|https://op-svod.dens.tv/04/MVMFY00019/index5.m3u8
+film69|Before The Fall||HD FILM|https://op-svod.dens.tv/04/MVMCE00101/index5.m3u8
+film70|A Woman In Berlin||HD FILM|https://op-svod.dens.tv/04/MVMCE00001/index5.m3u8
+film71|Welcome To Sarajevo||HD FILM|https://op-svod.dens.tv/04/MVMCE00014/index5.m3u8
+film72|Love And Honor||HD FILM|https://op-svod.dens.tv/01/MVCMB00016/index1.m3u8
+film73|Hotel Lux||HD FILM|https://op-svod.dens.tv/04/MVMCE00105/index5.m3u8
+film74|Heribert||HD FILM|https://op-svod.dens.tv/04/MVMCE00104a/index5.m3u8
+film75|Total Chaos||HD FILM|https://youtu.be/sgeKNNn2Raw
+film76|Melodylan||HD FILM|https://youtu.be/MgXSfAQmTr0
+film78|Dear Nathan||HD FILM|https://youtu.be/9QXK-qost28
+film79|Dear Nathan : Hello Salma||HD FILM|https://youtu.be/smS0wAFiaIA
+film80|Dear Nathan: Thank You Salma||HD FILM|https://youtu.be/aBtvUGv_ez8
+film81|Kalam Kalam Langit||HD FILM|https://youtu.be/RDV5BNPPkzc
+film82|Melbourne Rewind||HD FILM|https://youtu.be/551qyz9EKq8
+film83|Noktah Merah Perkawinan||HD FILM|https://youtu.be/2OEv3xqCsho
+film84|Harim Di Tanah Haram||HD FILM|https://youtu.be/nTO-6p1Dq-o
+film85|Jilbab Traveler : Love Sparks In Korea||HD FILM|https://youtu.be/YtUlE2v8pY0
+film86|Hangout||HD FILM|https://youtu.be/qLrClBoAT6M
+film87|Modus||HD FILM|https://youtu.be/T5syjpLRnek
+film88|Sesuai Aplikasi||HD FILM|https://youtu.be/2AeQyTyAYuw
+film89|Dear Stranger||HD FILM|https://youtu.be/zOxlaST25pc
+film90|Sebelum Dijemput Nenek||HD FILM|https://www.dailymotion.com/embed/video/xabh76g
+film91|Bad Boy In Love||HD FILM|https://www.dailymotion.com/embed/video/xa9u3cs
+film92|Amplop Kondangan||HD FILM|https://www.dailymotion.com/embed/video/xa9u2xi
+film93|Nia||HD FILM|https://www.dailymotion.com/embed/video/xa572q4
+film94|Mertua Ngeei Kali||HD FILM|https://www.dailymotion.com/embed/video/xa5nl7g
+film95|Sampai Titik Terakhirmu||HD FILM|https://www.dailymotion.com/embed/video/xa3gkjc
+film96|Si Paling Aktor||HD FILM|https://www.dailymotion.com/embed/video/xa1x4k6
+film97|Pengin Hijrah||HD FILM|https://www.dailymotion.com/embed/video/xa1ij66
+film98|Tabayyun||HD FILM|https://www.dailymotion.com/embed/video/xa157ss
+film99|Shutter||HD FILM|https://www.dailymotion.com/embed/video/xa14hbk
+film100|Jangan Panggil Mama Kafir||HD FILM|https://www.dailymotion.com/embed/video/xa128k8
+film101|Dear Imamku||HD FILM|https://youtu.be/aOQbDixQvtQ
 
 [SEMI]
-semi1 | Crush Kong Curly | | 18+ | https://edo.p2pstream.vip/hls/ORKXYobuH_jXZZtH3kbr5A/3vi/zbxp1xs3/huyh5n/tt/master.m3u8 | | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-semi2 | My Wife's Mom | | 18+ | https://editdulu.xyz/embed/gMr1yoLDLOK3LjU
-semi3 | My Wife's Mom 2 | | 18+ | https://editdulu.xyz/embed/3KuYdZu37ye9x1K
-semi4 | My Wife's Mom 3 | | 18+ | https://playdulu.xyz/embed/UlhdidT3jc6LwKs
-semi5 | Home Shopping Host | | 18+ | https://editdulu.xyz/embed/TJw2SfFUnovs1mk
-semi6 | Flight To Paradise | | 18+ | https://playdulu.xyz/embed/ygLezEQsRhsP9J7
-semi7 | Halina Ni Aliya | | 18+ | https://playdulu.xyz/embed/i0LmIaHZiRKTWSS
-semi8 | Bosomy Younger Sister | | 18+ | https://playdulu.xyz/embed/BByVDvysl5aLYLm
-semi9 | Stepdaddy | | 18+ | https://playdulu.xyz/embed/mB08wlWEC445D3x
-semi10 | Ligo | | 18+ | https://editdulu.xyz/embed/GpzB1rbM9GB3m5c
-semi11 | Scissors | | 18+ | https://playdulu.xyz/embed/ttpHo6FSpP5dpkx
-semi12 | Sawsawan | | 18+ | https://editdulu.xyz/embed/amPIShmzwjZdAg3
-semi13 | Maid's Obsession | | 18+ | https://playdulu.xyz/embed/VUMYtpF6gcNGTJp
-semi14 | Warat | | 18+ | https://editdulu.xyz/embed/eE7zeranap9I5SA
-semi15 | Love In Bali | | 18+ | https://www.dailymotion.com/embed/video/x9qumai
-semi16 | Guilty Of Romance | | 18+ | https://www.dailymotion.com/embed/video/x9wcj88
+semi1|Crush Kong Curly||18+|https://edo.p2pstream.vip/hls/ORKXYobuH_jXZZtH3kbr5A/3vi/zbxp1xs3/huyh5n/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+semi2|My Wife's Mom||18+|https://editdulu.xyz/embed/gMr1yoLDLOK3LjU
+semi3|My Wife's Mom 2||18+|https://editdulu.xyz/embed/3KuYdZu37ye9x1K
+semi4|My Wife's Mom 3||18+|https://playdulu.xyz/embed/UlhdidT3jc6LwKs
+semi5|Home Shopping Host||18+|https://editdulu.xyz/embed/TJw2SfFUnovs1mk
+semi6|Flight To Paradise||18+|https://playdulu.xyz/embed/ygLezEQsRhsP9J7
+semi7|Halina Ni Aliya||18+|https://playdulu.xyz/embed/i0LmIaHZiRKTWSS
+semi8|Bosomy Younger Sister||18+|https://playdulu.xyz/embed/BByVDvysl5aLYLm
+semi9|Stepdaddy||18+|https://playdulu.xyz/embed/mB08wlWEC445D3x
+semi10|Ligo||18+|https://editdulu.xyz/embed/GpzB1rbM9GB3m5c
+semi11|Scissors||18+|https://playdulu.xyz/embed/ttpHo6FSpP5dpkx
+semi12|Sawsawan||18+|https://editdulu.xyz/embed/amPIShmzwjZdAg3
+semi13|Maid's Obsession||18+|https://playdulu.xyz/embed/VUMYtpF6gcNGTJp
+semi14|Warat||18+|https://editdulu.xyz/embed/eE7zeranap9I5SA
+semi15|Love In Bali||18+|https://www.dailymotion.com/embed/video/x9qumai
+semi16|Guilty Of Romance||18+|https://www.dailymotion.com/embed/video/x9wcj88
 
 [SERIES]
-game-of-thrones | Game Of Thrones | | SERIES
-s1e1 | https://www.googleapis.com/drive/v3/files/1kGaOnkcCqNCooyXfFRHp6_PgUICa5AMy?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
-s1e2 | https://www.googleapis.com/drive/v3/files/1cE2awKTSqtWUN7VIFxne625zoZp_QTBC?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
-s1e3 | https://www.googleapis.com/drive/v3/files/1s09dxgy_6f4O-tiAab22JFIa8z4KYN82?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
-s1e4 | https://www.googleapis.com/drive/v3/files/1ET3HpQrAhr7_8NTeS6erlh1EvC3nVIbH?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
-s1e5 | https://www.googleapis.com/drive/v3/files/1bFukTS6LBvpMzQjV643lnI65Kj5QmFo-?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
-s1e6 | https://www.googleapis.com/drive/v3/files/1AqFjyIq2_2YDR4eDvotL9iKtDicdXscq?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
-s1e7 | https://www.googleapis.com/drive/v3/files/1u1B_gwFJyPGEjhMkMAII0O78K4lhEyQJ?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
-s1e8 | https://www.googleapis.com/drive/v3/files/1soSqoW5NbfrU0Nzcm6iHWLWmENH8w9y4?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
-s1e9 | https://www.googleapis.com/drive/v3/files/1wLDgRNFcKY1RS9CAiTun8fmH8Laxgpm0?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
-s1e10 | https://www.googleapis.com/drive/v3/files/1Ha6uxSDCxze3zVEq3sMN1WaHon67up0-?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+game-of-thrones|Game Of Thrones||SERIES
+s1e1|https://www.googleapis.com/drive/v3/files/1kGaOnkcCqNCooyXfFRHp6_PgUICa5AMy?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e2|https://www.googleapis.com/drive/v3/files/1cE2awKTSqtWUN7VIFxne625zoZp_QTBC?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e3|https://www.googleapis.com/drive/v3/files/1s09dxgy_6f4O-tiAab22JFIa8z4KYN82?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e4|https://www.googleapis.com/drive/v3/files/1ET3HpQrAhr7_8NTeS6erlh1EvC3nVIbH?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e5|https://www.googleapis.com/drive/v3/files/1bFukTS6LBvpMzQjV643lnI65Kj5QmFo-?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e6|https://www.googleapis.com/drive/v3/files/1AqFjyIq2_2YDR4eDvotL9iKtDicdXscq?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e7|https://www.googleapis.com/drive/v3/files/1u1B_gwFJyPGEjhMkMAII0O78K4lhEyQJ?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e8|https://www.googleapis.com/drive/v3/files/1soSqoW5NbfrU0Nzcm6iHWLWmENH8w9y4?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e9|https://www.googleapis.com/drive/v3/files/1wLDgRNFcKY1RS9CAiTun8fmH8Laxgpm0?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
+s1e10|https://www.googleapis.com/drive/v3/files/1Ha6uxSDCxze3zVEq3sMN1WaHon67up0-?alt=media&key=AIzaSyDxyCnl3P4kthyIHquTewtwRgvvYMu7Umk
 
-boyfriend-on-demand | Boyfriend On Demand | | SERIES
-Trailer | https://youtu.be/54zE7jBAyho
-1 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
-2 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
-3 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
-4 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
-5 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
-6 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
-7 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%207%20(2026)-1080p.mp4
-8 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%208%20(2026)-1080p.mp4
-9 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
-10 | https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
+boyfriend-on-demand|Boyfriend On Demand||SERIES
+Trailer|https://youtu.be/54zE7jBAyho
+1|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
+2|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
+3|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
+4|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
+5|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
+6|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
+7|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%207%20(2026)-1080p.mp4
+8|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%208%20(2026)-1080p.mp4
+9|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
+10|https://m3n8x1q7z.online/SERIES/Boyfriend%20on%20Demand%20(2026)/REBAHIN%20-%20Boyfriend%20on%20Demand%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
 
-sol-yanim | Sol Yanim | | SERIES
-1 | https://youtu.be/KVour-3NQbg
-2 | https://youtu.be/701iG1NWafI
-3 | https://youtu.be/TcbxnnIlcHQ
-4 | https://youtu.be/ml69FVIAduA
-5 | https://youtu.be/V6-0iSKL854
-6 | https://youtu.be/BTxheQ9Lq7E
-7 | https://youtu.be/UUFXQRQs7_o
-8 | https://youtu.be/5I2yDYKxahs
-9 | https://youtu.be/CAfmJOFZ8Qk
-10 | https://youtu.be/r1J2x0naRQI
-11 | https://youtu.be/-k2bIn6vN8E
-12 | https://youtu.be/012xUpOzcGc
+sol-yanim|Sol Yanim||SERIES
+1|https://youtu.be/KVour-3NQbg
+2|https://youtu.be/701iG1NWafI
+3|https://youtu.be/TcbxnnIlcHQ
+4|https://youtu.be/ml69FVIAduA
+5|https://youtu.be/V6-0iSKL854
+6|https://youtu.be/BTxheQ9Lq7E
+7|https://youtu.be/UUFXQRQs7_o
+8|https://youtu.be/5I2yDYKxahs
+9|https://youtu.be/CAfmJOFZ8Qk
+10|https://youtu.be/r1J2x0naRQI
+11|https://youtu.be/-k2bIn6vN8E
+12|https://youtu.be/012xUpOzcGc
 
-stop-miss-hua | Stop! Miss Hua | | SERIES
-1 | https://api.vidio.com/videos/7483857/common_tokenized_playlist.m3u8
-2 | https://api.vidio.com/videos/7483858/common_tokenized_playlist.m3u8
-3 | https://api.vidio.com/videos/7483859/common_tokenized_playlist.m3u8
-4 | https://api.vidio.com/videos/7483860/common_tokenized_playlist.m3u8
-5 | https://api.vidio.com/videos/7483861/common_tokenized_playlist.m3u8
-6 | https://api.vidio.com/videos/7483862/common_tokenized_playlist.m3u8
-7 | https://api.vidio.com/videos/7483863/common_tokenized_playlist.m3u8
-8 | https://api.vidio.com/videos/7483864/common_tokenized_playlist.m3u8
-9 | https://api.vidio.com/videos/7483865/common_tokenized_playlist.m3u8
-10 | https://api.vidio.com/videos/7483866/common_tokenized_playlist.m3u8
-11 | https://api.vidio.com/videos/7483872/common_tokenized_playlist.m3u8
-12 | https://api.vidio.com/videos/7483873/common_tokenized_playlist.m3u8
-13 | https://api.vidio.com/videos/7483874/common_tokenized_playlist.m3u8
-14 | https://api.vidio.com/videos/7483875/common_tokenized_playlist.m3u8
-15 | https://api.vidio.com/videos/7483876/common_tokenized_playlist.m3u8
-16 | https://api.vidio.com/videos/7483877/common_tokenized_playlist.m3u8
-17 | https://api.vidio.com/videos/7483878/common_tokenized_playlist.m3u8
-18 | https://api.vidio.com/videos/7483879/common_tokenized_playlist.m3u8
-19 | https://api.vidio.com/videos/7483880/common_tokenized_playlist.m3u8
-20 | https://api.vidio.com/videos/7483881/common_tokenized_playlist.m3u8
-21 | https://api.vidio.com/videos/7483882/common_tokenized_playlist.m3u8
-22 | https://api.vidio.com/videos/7483883/common_tokenized_playlist.m3u8
-23 | https://api.vidio.com/videos/7483884/common_tokenized_playlist.m3u8
-24 | https://api.vidio.com/videos/7483885/common_tokenized_playlist.m3u8
+stop-miss-hua|Stop! Miss Hua||SERIES
+1|https://api.vidio.com/videos/7483857/common_tokenized_playlist.m3u8
+2|https://api.vidio.com/videos/7483858/common_tokenized_playlist.m3u8
+3|https://api.vidio.com/videos/7483859/common_tokenized_playlist.m3u8
+4|https://api.vidio.com/videos/7483860/common_tokenized_playlist.m3u8
+5|https://api.vidio.com/videos/7483861/common_tokenized_playlist.m3u8
+6|https://api.vidio.com/videos/7483862/common_tokenized_playlist.m3u8
+7|https://api.vidio.com/videos/7483863/common_tokenized_playlist.m3u8
+8|https://api.vidio.com/videos/7483864/common_tokenized_playlist.m3u8
+9|https://api.vidio.com/videos/7483865/common_tokenized_playlist.m3u8
+10|https://api.vidio.com/videos/7483866/common_tokenized_playlist.m3u8
+11|https://api.vidio.com/videos/7483872/common_tokenized_playlist.m3u8
+12|https://api.vidio.com/videos/7483873/common_tokenized_playlist.m3u8
+13|https://api.vidio.com/videos/7483874/common_tokenized_playlist.m3u8
+14|https://api.vidio.com/videos/7483875/common_tokenized_playlist.m3u8
+15|https://api.vidio.com/videos/7483876/common_tokenized_playlist.m3u8
+16|https://api.vidio.com/videos/7483877/common_tokenized_playlist.m3u8
+17|https://api.vidio.com/videos/7483878/common_tokenized_playlist.m3u8
+18|https://api.vidio.com/videos/7483879/common_tokenized_playlist.m3u8
+19|https://api.vidio.com/videos/7483880/common_tokenized_playlist.m3u8
+20|https://api.vidio.com/videos/7483881/common_tokenized_playlist.m3u8
+21|https://api.vidio.com/videos/7483882/common_tokenized_playlist.m3u8
+22|https://api.vidio.com/videos/7483883/common_tokenized_playlist.m3u8
+23|https://api.vidio.com/videos/7483884/common_tokenized_playlist.m3u8
+24|https://api.vidio.com/videos/7483885/common_tokenized_playlist.m3u8
 
-battle-of-fates | Battle Of Fates | | SERIES
-Trailer | https://youtu.be/tsdJzmRFcJE
-1 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
-2 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
-3 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
-4 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
-5 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
-6 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
-7 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%207%20(2026)-1080p.mp4
-8 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%208%20(2026)-1080p.mp4
-9 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
-10 | https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
+battle-of-fates|Battle Of Fates||SERIES
+Trailer|https://youtu.be/tsdJzmRFcJE
+1|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
+2|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
+3|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
+4|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
+5|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
+6|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
+7|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%207%20(2026)-1080p.mp4
+8|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%208%20(2026)-1080p.mp4
+9|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
+10|https://m3n8x1q7z.online/SERIES/Battle%20of%20Fates%20(2026)/REBAHIN%20-%20Battle%20of%20Fates%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
 
-bake-your-dream | Bake Your Dream | | SERIES
-Trailer | https://youtu.be/Zn232BJzXeE
-1 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
-2 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
-3 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
-4 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
-5 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
-6 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
-7 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%207%20(2026)-1080p.mp4
-8 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%208%20(2026)-1080p.mp4
-9 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
-10 | https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
+bake-your-dream|Bake Your Dream||SERIES
+Trailer|https://youtu.be/Zn232BJzXeE
+1|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
+2|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
+3|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
+4|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
+5|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
+6|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
+7|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%207%20(2026)-1080p.mp4
+8|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%208%20(2026)-1080p.mp4
+9|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%209%20(2026)-1080p.mp4
+10|https://m3n8x1q7z.online/SERIES/Bake%20Your%20Dream%20(2026)/REBAHIN%20-%20Bake%20Your%20Dream%20-%20Season%201%20Episode%2010%20(2026)-1080p.mp4
 
-a-knight-of-the-seven-kingdom | A Knight Of The Seven Kingdom | | SERIES
-Trailer | https://youtu.be/sItUCKJQLTU
-1 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
-2 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
-3 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
-4 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
-5 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
-6 | https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
+a-knight-of-the-seven-kingdom|A Knight Of The Seven Kingdom||SERIES
+Trailer|https://youtu.be/sItUCKJQLTU
+1|https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%201%20(2026)-1080p.mp4
+2|https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%202%20(2026)-1080p.mp4
+3|https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%203%20(2026)-1080p.mp4
+4|https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%204%20(2026)-1080p.mp4
+5|https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%205%20(2026)-1080p.mp4
+6|https://m3n8x1q7z.online/SERIES/A%20Knight%20of%20the%20Seven%20Kingdoms%20(2026)/REBAHIN%20-%20A%20Knight%20of%20the%20Seven%20Kingdoms%20-%20Season%201%20Episode%206%20(2026)-1080p.mp4
 
 [ANIME]
-onepiece | One Piece | | ANIME
-1 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=OFJYdGNoZmEwaG1MUkRtK2t6NHJXdz09
-2 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=K09EQkpsSHNpbjZTdDM4SEgyRERMdz09
-3 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=S0s1RVV1dSsyVVc4cUJuRnlnYXd0dz09
-4 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=TkJ5S3ZKenZydnI1bFp0ZjJESGloZz09
-5 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=cUl5bHk1M3JLdDg3Uk9GMXdXMUhVUT09
-6 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=Vk50eFdZcmhKNFlLQU5USDdjRXlodz09
-7 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=cUtuQlQ5eFZOSk9neXJLRkxWZmRsdz09
-8 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=YTJMZHoxdWJnTHl6RVZ0VkJVMmYwZz09
-9 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=LzUzQXdMdHFqOXNZRmw5TTVrbko1dz09
-10 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=TnRibVBoRXpPSFVuZGQ4N1pLaVg1QT09
-11 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=ZmtNWmh4Q0RkOVJBbGc2UVZ4b3kvZz09
-12 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=Um1QNWJsOGMvdVcvR1J5eFhNZDltZz09
-13 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=ZTJneXppUC9aR1NTYnhMVzRBeGhtQT09
-14 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=c1JBSllQMzVCM3lDOGUrQVdjMitzQT09
-15 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=dzNqSFEyVEVkUGtLTDd3enJSeDJQZz09
-16 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=SzRYTkFDZmhOYWZoamdrRUVjdHg0UT09
-17 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=alpZYnE5dzBQamorK1I0U3JRTzFJZz09
-18 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=MlNUNWZDczVlNGpxUGxWSnQwaHpkdz09
-19 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=czhoQTJFTXRmQU5wUDBBLytnMUdDQT09
-20 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=ejc5SFNMOWlEMXhkeXAyQ2JCcmJoQT09
-21 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=SlNoMFhXay85enJYdWdoanEveFVDZz09
-22 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=dUs1aGJ3T0lIeXRpTmkwWXRRMEpEdz09
-23 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=TmlnR2dReWZ2ZGlPQmZIYTl6T2t5QT09
-24 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=bmczV0pUS3hHc0hBdTY5SmVEZGVsQT09
-25 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=MWVLODlBM2VNaE85VHpWdmxESW5pQT09
-26 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=elF1WVUxYWRPK1NwbUJnd21BV3V5UT09
-27 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=OG1Fa2ZtM3VSbE03alVKMnZBSDk5dz09
-28 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=QkpIMVFLempINDZMVVB6Z3dia3U4QT09
-29 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=cjY0NWFFMHVpVlNuNThsQVpNaWx2Zz09
-30 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=WHhHWFBFRGxNdHVrQWE2TFNrMXhJdz09
-31 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=VGJ0c1Fyb0RySDltNDV1aW1lYURCdz09
-32 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=NEpPUXBIcnJhNmhDd0oybnNuZnZRdz09
-33 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=emZqMkQ1VHB3TS9VY1puWDdxUmJxUT09
-34 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=Wmpzcjc5WkRZMjdpRklJZ3dYRzdoQT09
-35 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=K0VIOHl4eFhyMkw0NTUvRHdhZkZqUT09
-36 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=K3JxQ1JqUVhyVjNCWnBXTXhhbEpqZz09
-37 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=WXhBbndOTDFHcnNzTHNNTEk3dkV4QT09
-38 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=N3RLS2ZNUGtEZTlPN3g4ZHllV3VUQT09
-39 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=SGp0NmpyK2xtQ0t5aDNKcURPT256QT09
-40 | https://desustream.info/dstream/moedesu/new/hd/index.php?id=RGRSbkMzL0dEb05KNzNrd240R3JYQT09
-1000 | https://mega.nz/embed/xwtAzbhJ#AYtENxrNkvR182FxBMq_tmjikw_SFVEHS4SXNSEsiTY
-1101 | https://s0.wibufile.com/video01/OP-1101-MP4HD-SAMEHADAKU.CARE.mp4
-1102 | https://s0.wibufile.com/video01/OP-1102-MP4HD-SAMEHADAKU.CARE.mp4
-1103 | https://s0.wibufile.com/video01/OP-1103-MP4HD-SAMEHADAKU.CARE.mp4
-1104 | https://s0.wibufile.com/video01/OP-1104-MP4HD-SAMEHADAKU.CARE.mp4
-1105 | https://desustream.info/dstream/ondesu/new/hd/index.php?id=UTRsSXFzU0FVVHVJZi9IYTNPOGZIblZ4dEM3ekhLWGlyWEpSVFRZcG13Yz0=
-1106 | https://s0.wibufile.com/video01/OP-1106-MP4HD-SAMEHADAKU.CARE.mp4
-1107 | https://s0.wibufile.com/video01/OP-1107-MP4HD-SAMEHADAKU.CARE.mp4
-1108 | https://s0.wibufile.com/video01/OP-1108-MP4HD-SAMEHADAKU.CARE.mp4
-1109 | https://s0.wibufile.com/video01/OP-1109-MP4HD-SAMEHADAKU.CARE.mp4
-1110 | https://s0.wibufile.com/video01/OP-1110-MP4HD-SAMEHADAKU.CARE.mp4
-1111 | https://s0.wibufile.com/video01/OP-1111-MP4HD-SAMEHADAKU.CARE.mp4
-1112 | https://s0.wibufile.com/video01/OP-1112-MP4HD-SAMEHADAKU.CARE.mp4
-1113 | https://s0.wibufile.com/video01/OP-1113-MP4HD-SAMEHADAKU.CARE.mp4
-1114 | https://s0.wibufile.com/video01/OP-1114-MP4HD-SAMEHADAKU.CARE.mp4
-1115 | https://s0.wibufile.com/video01/OP-1115-MP4HD-SAMEHADAKU.CARE.mp4
-1116 | https://s0.wibufile.com/video01/OP-1116-MP4HD-SAMEHADAKU.CARE.mp4
-1117 | https://s0.wibufile.com/video01/OP-1117-MP4HD-SAMEHADAKU.CARE.mp4
-1118 | https://ia801702.us.archive.org/32/items/odwwawan1119ras/odwwawan/Otakudesu.io_OP--1118_720p.mp4
-1119 | https://s0.wibufile.com/video01/OP-1119-MP4HD-SAMEHADAKU.CARE.mp4
-1120 | https://s0.wibufile.com/video01/OP-1120-MP4HD-SAMEHADAKU.CARE.mp4
-1121 | https://s0.wibufile.com/video01/OP-1121-MP4HD-SAMEHADAKU.CARE.mp4
-1122 | https://s0.wibufile.com/video01/OP-1122-MP4HD-SAMEHADAKU.CARE.mp4
-1123 | https://www.googleapis.com/drive/v3/files/1-4Lha_g_LEVsGhQzhz31wmjbNOdR4mRE?alt=media&key=AIzaSyA6Qclh9kP0TTshee9S2bT90vjgnzxn8QM
-1124 | https://www.googleapis.com/drive/v3/files/1NqWYxLT-nYRUV1c36ZYhREHINEIflO_t?alt=media&key=AIzaSyBkK04Xe0ZzIRSx1TcZyHvkkTGEtkPgugw
-1125 | https://www.googleapis.com/drive/v3/files/125V3kXoa1nWVccRQ4Us7wELP2y3IsNBj?alt=media&key=AIzaSyA6Qclh9kP0TTshee9S2bT90vjgnzxn8QM
-1126 | https://s0.wibufile.com/video01/OP-1126-MP4HD-SAMEHADAKU.CARE.mp4
-1127 | https://s0.wibufile.com/video01/OP-1127-MP4HD-SAMEHADAKU.CARE.mp4
-1128 | https://s0.wibufile.com/video01/OP-1128-MP4HD-SAMEHADAKU.CARE.mp4
-1129 | https://s0.wibufile.com/video01/OP-1129-MP4HD-SAMEHADAKU.CARE.mp4
-1130 | https://s0.wibufile.com/video01/OP-1130-MP4HD-SAMEHADAKU.CARE.mp4
-1131 | https://s0.wibufile.com/video01/OP-1131-MP4HD-SAMEHADAKU.CARE.mp4
-1132 | https://s0.wibufile.com/video01/OP-1132-MP4HD-SAMEHADAKU.CARE.mp4
-1133 | https://s0.wibufile.com/video01/OP-1133-MP4HD-SAMEHADAKU.CARE.mp4
-1134 | https://dn711402.ca.archive.org/0/items/odwwawanE32DWA/odwwawan/Otakudesu.io_OP--1134_720p.mp4
-1135 | https://s0.wibufile.com/video01/OP-1135-MP4HD-SAMEHADAKU.CARE.mp4
-1136 | https://s0.wibufile.com/video01/OP-1136-MP4HD-SAMEHADAKU.CARE.mp4
-1137 | https://s0.wibufile.com/video01/OP-1137-MP4HD-SAMEHADAKU.CARE.mp4
-1138 | https://s0.wibufile.com/video01/OP-1138-MP4HD-SAMEHADAKU.CARE.mp4
-1139 | https://s0.wibufile.com/video01/OP-1139-MP4HD-SAMEHADAKU.CARE.mp4
-1140 | https://s0.wibufile.com/video01/OP-1140-MP4HD-SAMEHADAKU.CARE.mp4
-1141 | https://s0.wibufile.com/video01/OP-1141-MP4HD-SAMEHADAKU.CARE.mp4
-1142 | https://s0.wibufile.com/video01/OP-1142-MP4HD-SAMEHADAKU.CARE.mp4
-1143 | https://s0.wibufile.com/video01/OP-1143-MP4HD-SAMEHADAKU.CARE.mp4
-1144 | https://s0.wibufile.com/video01/OP-1144-MP4HD-SAMEHADAKU.CARE.mp4
-1145 | https://s0.wibufile.com/video01/OP-1145-MP4HD-SAMEHADAKU.CARE.mp4
-1146 | https://s0.wibufile.com/video01/OP-1146-MP4HD-SAMEHADAKU.CARE.mp4
-1147 | https://s0.wibufile.com/video01/OP-1147-MP4HD-SAMEHADAKU.CARE.mp4
-1148 | https://s0.wibufile.com/video01/OP-1148-MP4HD-SAMEHADAKU.CARE.mp4
-1149 | https://s0.wibufile.com/video01/OP-1149-MP4HD-SAMEHADAKU.CARE.mp4
-1150 | https://s0.wibufile.com/video01/OP-1150-MP4HD-SAMEHADAKU.CARE.mp4
-1151 | https://s0.wibufile.com/video01/OP-1151-MP4HD-SAMEHADAKU.CARE.mp4
-1152 | https://s0.wibufile.com/video01/OP-1152-MP4HD-SAMEHADAKU.CARE.mp4
-1153 | https://s0.wibufile.com/video01/OP-1153-MP4HD-SAMEHADAKU.CARE.mp4
-1154 | https://s0.wibufile.com/video01/OP-1154-MP4HD-SAMEHADAKU.CARE.mp4
-1155 | https://s0.wibufile.com/video01/OP-1155-MP4HD-SAMEHADAKU.CARE.mp4
-1156 | https://s0.wibufile.com/video01/OP-1156-MP4HD-SAMEHADAKU.CARE.mp4
-1157 | https://s0.wibufile.com/video01/OP-1157-MP4HD-SAMEHADAKU.CARE.mp4
-1158 | https://s0.wibufile.com/video01/OP-1158-MP4HD-SAMEHADAKU.CARE.mp4
-1159 | https://s0.wibufile.com/video01/OP-1159-MP4HD-SAMEHADAKU.CARE.mp4
-1160 | https://s0.wibufile.com/video01/OP-1160-MP4HD-SAMEHADAKU.CARE.mp4
-1161 | https://s0.wibufile.com/video01/OP-1161-MP4HD-SAMEHADAKU.CARE.mp4
-1162 | https://s0.wibufile.com/video01/OP-1162-MP4HD-SAMEHADAKU.CARE.mp4
-1163 | https://s0.wibufile.com/video01/OP-1163-MP4HD-SAMEHADAKU.CARE.mp4
-1164 | https://s0.wibufile.com/video01/OP-1164-MP4HD-SAMEHADAKU.CARE.mp4
+onepiece|One Piece||ANIME
+1|https://desustream.info/dstream/moedesu/new/hd/index.php?id=OFJYdGNoZmEwaG1MUkRtK2t6NHJXdz09
+2|https://desustream.info/dstream/moedesu/new/hd/index.php?id=K09EQkpsSHNpbjZTdDM4SEgyRERMdz09
+3|https://desustream.info/dstream/moedesu/new/hd/index.php?id=S0s1RVV1dSsyVVc4cUJuRnlnYXd0dz09
+4|https://desustream.info/dstream/moedesu/new/hd/index.php?id=TkJ5S3ZKenZydnI1bFp0ZjJESGloZz09
+5|https://desustream.info/dstream/moedesu/new/hd/index.php?id=cUl5bHk1M3JLdDg3Uk9GMXdXMUhVUT09
+6|https://desustream.info/dstream/moedesu/new/hd/index.php?id=Vk50eFdZcmhKNFlLQU5USDdjRXlodz09
+7|https://desustream.info/dstream/moedesu/new/hd/index.php?id=cUtuQlQ5eFZOSk9neXJLRkxWZmRsdz09
+8|https://desustream.info/dstream/moedesu/new/hd/index.php?id=YTJMZHoxdWJnTHl6RVZ0VkJVMmYwZz09
+9|https://desustream.info/dstream/moedesu/new/hd/index.php?id=LzUzQXdMdHFqOXNZRmw5TTVrbko1dz09
+10|https://desustream.info/dstream/moedesu/new/hd/index.php?id=TnRibVBoRXpPSFVuZGQ4N1pLaVg1QT09
+11|https://desustream.info/dstream/moedesu/new/hd/index.php?id=ZmtNWmh4Q0RkOVJBbGc2UVZ4b3kvZz09
+12|https://desustream.info/dstream/moedesu/new/hd/index.php?id=Um1QNWJsOGMvdVcvR1J5eFhNZDltZz09
+13|https://desustream.info/dstream/moedesu/new/hd/index.php?id=ZTJneXppUC9aR1NTYnhMVzRBeGhtQT09
+14|https://desustream.info/dstream/moedesu/new/hd/index.php?id=c1JBSllQMzVCM3lDOGUrQVdjMitzQT09
+15|https://desustream.info/dstream/moedesu/new/hd/index.php?id=dzNqSFEyVEVkUGtLTDd3enJSeDJQZz09
+16|https://desustream.info/dstream/moedesu/new/hd/index.php?id=SzRYTkFDZmhOYWZoamdrRUVjdHg0UT09
+17|https://desustream.info/dstream/moedesu/new/hd/index.php?id=alpZYnE5dzBQamorK1I0U3JRTzFJZz09
+18|https://desustream.info/dstream/moedesu/new/hd/index.php?id=MlNUNWZDczVlNGpxUGxWSnQwaHpkdz09
+19|https://desustream.info/dstream/moedesu/new/hd/index.php?id=czhoQTJFTXRmQU5wUDBBLytnMUdDQT09
+20|https://desustream.info/dstream/moedesu/new/hd/index.php?id=ejc5SFNMOWlEMXhkeXAyQ2JCcmJoQT09
+21|https://desustream.info/dstream/moedesu/new/hd/index.php?id=SlNoMFhXay85enJYdWdoanEveFVDZz09
+22|https://desustream.info/dstream/moedesu/new/hd/index.php?id=dUs1aGJ3T0lIeXRpTmkwWXRRMEpEdz09
+23|https://desustream.info/dstream/moedesu/new/hd/index.php?id=TmlnR2dReWZ2ZGlPQmZIYTl6T2t5QT09
+24|https://desustream.info/dstream/moedesu/new/hd/index.php?id=bmczV0pUS3hHc0hBdTY5SmVEZGVsQT09
+25|https://desustream.info/dstream/moedesu/new/hd/index.php?id=MWVLODlBM2VNaE85VHpWdmxESW5pQT09
+26|https://desustream.info/dstream/moedesu/new/hd/index.php?id=elF1WVUxYWRPK1NwbUJnd21BV3V5UT09
+27|https://desustream.info/dstream/moedesu/new/hd/index.php?id=OG1Fa2ZtM3VSbE03alVKMnZBSDk5dz09
+28|https://desustream.info/dstream/moedesu/new/hd/index.php?id=QkpIMVFLempINDZMVVB6Z3dia3U4QT09
+29|https://desustream.info/dstream/moedesu/new/hd/index.php?id=cjY0NWFFMHVpVlNuNThsQVpNaWx2Zz09
+30|https://desustream.info/dstream/moedesu/new/hd/index.php?id=WHhHWFBFRGxNdHVrQWE2TFNrMXhJdz09
+31|https://desustream.info/dstream/moedesu/new/hd/index.php?id=VGJ0c1Fyb0RySDltNDV1aW1lYURCdz09
+32|https://desustream.info/dstream/moedesu/new/hd/index.php?id=NEpPUXBIcnJhNmhDd0oybnNuZnZRdz09
+33|https://desustream.info/dstream/moedesu/new/hd/index.php?id=emZqMkQ1VHB3TS9VY1puWDdxUmJxUT09
+34|https://desustream.info/dstream/moedesu/new/hd/index.php?id=Wmpzcjc5WkRZMjdpRklJZ3dYRzdoQT09
+35|https://desustream.info/dstream/moedesu/new/hd/index.php?id=K0VIOHl4eFhyMkw0NTUvRHdhZkZqUT09
+36|https://desustream.info/dstream/moedesu/new/hd/index.php?id=K3JxQ1JqUVhyVjNCWnBXTXhhbEpqZz09
+37|https://desustream.info/dstream/moedesu/new/hd/index.php?id=WXhBbndOTDFHcnNzTHNNTEk3dkV4QT09
+38|https://desustream.info/dstream/moedesu/new/hd/index.php?id=N3RLS2ZNUGtEZTlPN3g4ZHllV3VUQT09
+39|https://desustream.info/dstream/moedesu/new/hd/index.php?id=SGp0NmpyK2xtQ0t5aDNKcURPT256QT09
+40|https://desustream.info/dstream/moedesu/new/hd/index.php?id=RGRSbkMzL0dEb05KNzNrd240R3JYQT09
+1000|https://mega.nz/embed/xwtAzbhJ#AYtENxrNkvR182FxBMq_tmjikw_SFVEHS4SXNSEsiTY
+1001|https://www.googleapis.com/drive/v3/files/15vsg1m7I2nPBeqKwtlNgnkhD6Evav55t?alt=media&key=AIzaSyBkK04Xe0ZzIRSx1TcZyHvkkTGEtkPgugw
+1002|https://www.googleapis.com/drive/v3/files/1QP6wiW5izujdxwExMtwx3tbhd6bNuV2_?alt=media&key=AIzaSyDDCC8bru6M3f-tKoGp-0DHNgXG4nSTeqM
+1003|https://www.googleapis.com/drive/v3/files/1pHLipuRQp7wDUZDlU4ax8_vi1T9Fpwos?alt=media&key=AIzaSyD4G9veeusKNZqG4WkteGWsiFRS0EsQ1tk
+1004|https://www.googleapis.com/drive/v3/files/1CikRAB4NHuliUL3Cg_5DmK_-vO8KaRYQ?alt=media&key=AIzaSyDDCC8bru6M3f-tKoGp-0DHNgXG4nSTeqM
+1005|https://www.googleapis.com/drive/v3/files/1URkP6i-02jkQk2dd48KIwj4avLrVjPvn?alt=media&key=AIzaSyA6Qclh9kP0TTshee9S2bT90vjgnzxn8QM
+1101|https://s0.wibufile.com/video01/OP-1101-MP4HD-SAMEHADAKU.CARE.mp4
+1102|https://s0.wibufile.com/video01/OP-1102-MP4HD-SAMEHADAKU.CARE.mp4
+1103|https://s0.wibufile.com/video01/OP-1103-MP4HD-SAMEHADAKU.CARE.mp4
+1104|https://s0.wibufile.com/video01/OP-1104-MP4HD-SAMEHADAKU.CARE.mp4
+1105|https://desustream.info/dstream/ondesu/new/hd/index.php?id=UTRsSXFzU0FVVHVJZi9IYTNPOGZIblZ4dEM3ekhLWGlyWEpSVFRZcG13Yz0=
+1106|https://s0.wibufile.com/video01/OP-1106-MP4HD-SAMEHADAKU.CARE.mp4
+1107|https://s0.wibufile.com/video01/OP-1107-MP4HD-SAMEHADAKU.CARE.mp4
+1108|https://s0.wibufile.com/video01/OP-1108-MP4HD-SAMEHADAKU.CARE.mp4
+1109|https://s0.wibufile.com/video01/OP-1109-MP4HD-SAMEHADAKU.CARE.mp4
+1110|https://s0.wibufile.com/video01/OP-1110-MP4HD-SAMEHADAKU.CARE.mp4
+1111|https://s0.wibufile.com/video01/OP-1111-MP4HD-SAMEHADAKU.CARE.mp4
+1112|https://s0.wibufile.com/video01/OP-1112-MP4HD-SAMEHADAKU.CARE.mp4
+1113|https://s0.wibufile.com/video01/OP-1113-MP4HD-SAMEHADAKU.CARE.mp4
+1114|https://s0.wibufile.com/video01/OP-1114-MP4HD-SAMEHADAKU.CARE.mp4
+1115|https://s0.wibufile.com/video01/OP-1115-MP4HD-SAMEHADAKU.CARE.mp4
+1116|https://s0.wibufile.com/video01/OP-1116-MP4HD-SAMEHADAKU.CARE.mp4
+1117|https://s0.wibufile.com/video01/OP-1117-MP4HD-SAMEHADAKU.CARE.mp4
+1118|https://ia801702.us.archive.org/32/items/odwwawan1119ras/odwwawan/Otakudesu.io_OP--1118_720p.mp4
+1119|https://s0.wibufile.com/video01/OP-1119-MP4HD-SAMEHADAKU.CARE.mp4
+1120|https://s0.wibufile.com/video01/OP-1120-MP4HD-SAMEHADAKU.CARE.mp4
+1121|https://s0.wibufile.com/video01/OP-1121-MP4HD-SAMEHADAKU.CARE.mp4
+1122|https://s0.wibufile.com/video01/OP-1122-MP4HD-SAMEHADAKU.CARE.mp4
+1123|https://www.googleapis.com/drive/v3/files/1-4Lha_g_LEVsGhQzhz31wmjbNOdR4mRE?alt=media&key=AIzaSyA6Qclh9kP0TTshee9S2bT90vjgnzxn8QM
+1124|https://www.googleapis.com/drive/v3/files/1NqWYxLT-nYRUV1c36ZYhREHINEIflO_t?alt=media&key=AIzaSyBkK04Xe0ZzIRSx1TcZyHvkkTGEtkPgugw
+1125|https://www.googleapis.com/drive/v3/files/125V3kXoa1nWVccRQ4Us7wELP2y3IsNBj?alt=media&key=AIzaSyA6Qclh9kP0TTshee9S2bT90vjgnzxn8QM
+1126|https://s0.wibufile.com/video01/OP-1126-MP4HD-SAMEHADAKU.CARE.mp4
+1127|https://s0.wibufile.com/video01/OP-1127-MP4HD-SAMEHADAKU.CARE.mp4
+1128|https://s0.wibufile.com/video01/OP-1128-MP4HD-SAMEHADAKU.CARE.mp4
+1129|https://s0.wibufile.com/video01/OP-1129-MP4HD-SAMEHADAKU.CARE.mp4
+1130|https://s0.wibufile.com/video01/OP-1130-MP4HD-SAMEHADAKU.CARE.mp4
+1131|https://s0.wibufile.com/video01/OP-1131-MP4HD-SAMEHADAKU.CARE.mp4
+1132|https://s0.wibufile.com/video01/OP-1132-MP4HD-SAMEHADAKU.CARE.mp4
+1133|https://s0.wibufile.com/video01/OP-1133-MP4HD-SAMEHADAKU.CARE.mp4
+1134|https://dn711402.ca.archive.org/0/items/odwwawanE32DWA/odwwawan/Otakudesu.io_OP--1134_720p.mp4
+1135|https://s0.wibufile.com/video01/OP-1135-MP4HD-SAMEHADAKU.CARE.mp4
+1136|https://s0.wibufile.com/video01/OP-1136-MP4HD-SAMEHADAKU.CARE.mp4
+1137|https://s0.wibufile.com/video01/OP-1137-MP4HD-SAMEHADAKU.CARE.mp4
+1138|https://s0.wibufile.com/video01/OP-1138-MP4HD-SAMEHADAKU.CARE.mp4
+1139|https://s0.wibufile.com/video01/OP-1139-MP4HD-SAMEHADAKU.CARE.mp4
+1140|https://s0.wibufile.com/video01/OP-1140-MP4HD-SAMEHADAKU.CARE.mp4
+1141|https://s0.wibufile.com/video01/OP-1141-MP4HD-SAMEHADAKU.CARE.mp4
+1142|https://s0.wibufile.com/video01/OP-1142-MP4HD-SAMEHADAKU.CARE.mp4
+1143|https://s0.wibufile.com/video01/OP-1143-MP4HD-SAMEHADAKU.CARE.mp4
+1144|https://s0.wibufile.com/video01/OP-1144-MP4HD-SAMEHADAKU.CARE.mp4
+1145|https://s0.wibufile.com/video01/OP-1145-MP4HD-SAMEHADAKU.CARE.mp4
+1146|https://s0.wibufile.com/video01/OP-1146-MP4HD-SAMEHADAKU.CARE.mp4
+1147|https://s0.wibufile.com/video01/OP-1147-MP4HD-SAMEHADAKU.CARE.mp4
+1148|https://s0.wibufile.com/video01/OP-1148-MP4HD-SAMEHADAKU.CARE.mp4
+1149|https://s0.wibufile.com/video01/OP-1149-MP4HD-SAMEHADAKU.CARE.mp4
+1150|https://s0.wibufile.com/video01/OP-1150-MP4HD-SAMEHADAKU.CARE.mp4
+1151|https://s0.wibufile.com/video01/OP-1151-MP4HD-SAMEHADAKU.CARE.mp4
+1152|https://s0.wibufile.com/video01/OP-1152-MP4HD-SAMEHADAKU.CARE.mp4
+1153|https://s0.wibufile.com/video01/OP-1153-MP4HD-SAMEHADAKU.CARE.mp4
+1154|https://s0.wibufile.com/video01/OP-1154-MP4HD-SAMEHADAKU.CARE.mp4
+1155|https://s0.wibufile.com/video01/OP-1155-MP4HD-SAMEHADAKU.CARE.mp4
+1156|https://s0.wibufile.com/video01/OP-1156-MP4HD-SAMEHADAKU.CARE.mp4
+1157|https://s0.wibufile.com/video01/OP-1157-MP4HD-SAMEHADAKU.CARE.mp4
+1158|https://s0.wibufile.com/video01/OP-1158-MP4HD-SAMEHADAKU.CARE.mp4
+1159|https://s0.wibufile.com/video01/OP-1159-MP4HD-SAMEHADAKU.CARE.mp4
+1160|https://s0.wibufile.com/video01/OP-1160-MP4HD-SAMEHADAKU.CARE.mp4
+1161|https://s0.wibufile.com/video01/OP-1161-MP4HD-SAMEHADAKU.CARE.mp4
+1162|https://s0.wibufile.com/video01/OP-1162-MP4HD-SAMEHADAKU.CARE.mp4
+1163|https://s0.wibufile.com/video01/OP-1163-MP4HD-SAMEHADAKU.CARE.mp4
+1164|https://s0.wibufile.com/video01/OP-1164-MP4HD-SAMEHADAKU.CARE.mp4
 
-bleach | Bleach | | ANIME
-Full | https://youtube.com/playlist?list=PLxSscENEp7JjESRYoluizbfS2sZGm_1Bi
-1 | https://youtu.be/ogqCgkLnw5Y
-2 | https://youtu.be/8Fh1hxGxRzk
-3 | https://youtu.be/HmKm-7SAwkM
-4 | https://youtu.be/mx9RdXJSMz4
-5 | https://youtu.be/Zdmh5NQfNUs
-6 | https://youtu.be/lrC3wD5s32A
-7 | https://youtu.be/8gyxpMX_yEU
-8 | https://youtu.be/fF3ydlKRBrM
-9 | https://youtu.be/arYMaqyAJMw
-10 | https://youtu.be/0MfV2_Ki-U4
-11 | https://youtu.be/hI1NEzxS-fc
-12 | https://youtu.be/akdeO4Cbuww
-13 | https://youtu.be/GAh0Omb_1aQ
-14 | https://youtu.be/rv8NL2KBJYY
-15 | https://youtu.be/nn4zZjWveAA
-16 | https://youtu.be/wcX8N1QnGKI
-17 | https://youtu.be/WsRfiYRoFIE
-18 | https://youtu.be/psx63WscJ64
-19 | https://youtu.be/Sr7DKaNB9Rs
-20 | https://youtu.be/WMQTGuQNfhM
-21 | https://youtu.be/2OklUay3LpA
-22 | https://youtu.be/ClLEPqavGC4
-23 | https://youtu.be/ION7sVzJ0gI
-24 | https://youtu.be/U2T5MwII5Fs
-25 | https://youtu.be/21-l2-713uo
+bleach|Bleach||ANIME
+Full|https://youtube.com/playlist?list=PLxSscENEp7JjESRYoluizbfS2sZGm_1Bi
+1|https://youtu.be/ogqCgkLnw5Y
+2|https://youtu.be/8Fh1hxGxRzk
+3|https://youtu.be/HmKm-7SAwkM
+4|https://youtu.be/mx9RdXJSMz4
+5|https://youtu.be/Zdmh5NQfNUs
+6|https://youtu.be/lrC3wD5s32A
+7|https://youtu.be/8gyxpMX_yEU
+8|https://youtu.be/fF3ydlKRBrM
+9|https://youtu.be/arYMaqyAJMw
+10|https://youtu.be/0MfV2_Ki-U4
+11|https://youtu.be/hI1NEzxS-fc
+12|https://youtu.be/akdeO4Cbuww
+13|https://youtu.be/GAh0Omb_1aQ
+14|https://youtu.be/rv8NL2KBJYY
+15|https://youtu.be/nn4zZjWveAA
+16|https://youtu.be/wcX8N1QnGKI
+17|https://youtu.be/WsRfiYRoFIE
+18|https://youtu.be/psx63WscJ64
+19|https://youtu.be/Sr7DKaNB9Rs
+20|https://youtu.be/WMQTGuQNfhM
+21|https://youtu.be/2OklUay3LpA
+22|https://youtu.be/ClLEPqavGC4
+23|https://youtu.be/ION7sVzJ0gI
+24|https://youtu.be/U2T5MwII5Fs
+25|https://youtu.be/21-l2-713uo
 
-bleach-skh | Bleach : Sennen Kessen Hen | | ANIME
-SKH 1 | https://mega.nz/embed/KYdBAbbI#VX1irztxO66OnpjxHaUzzQxoebHjptZF3144OX19zb4
-SKH 2 | https://mega.nz/embed/eNNQEaYb#MC1QkDcW1xGZf8GkqT69_DvLA160qI_rTv04AOErEJw
-SKH 3 | https://mega.nz/embed/bF8XWbSR#l1dfclflICFTuQpg5LxUbGR3Llp8u1AZhAFe-1IPwdI
-SKH 4 | https://mega.nz/embed/DYUmGRAI#74m59FEw_75N7NOzzMFT69LmgJycCs8mn_3K_esLPfY
-SKH 5 | https://mega.nz/embed/yd9CGDqS#Ahd7oC_YSwXQG8GWNugu4tRr0uCFvWDrdscwn2HgzzE
-SKH 6 | https://mega.nz/embed/CJVkQYpK#RB8zDHhxlAULBu4RL2Y1HKKjJSV27ftC00-GwpJC58M
-SKH 7 | https://mega.nz/embed/ec0jxbBQ#undegJDfTFFNYCKkR2MXdyPqz6kJaHnK9Q-J2ru7skw
-SKH 8 | https://mega.nz/embed/fYMiVCIT#H-Bmsl7JfqRjUsYEcv2pKf9Efq9WuqA4NMviqKQ3aYk
-SKH 9 | https://mega.nz/embed/HdshFTAY#Iuzs3dTx5LohBZUm8S83qsk7hQc5WS31MQCljOQVt6M
-SKH 10 | https://mega.nz/embed/nE0kmJSZ#l3-okkH9i-s17o0ULktnbjtVdhG-P7SGDi2z1PV0asY
-SKH 11 | https://mega.nz/embed/3B1nATTb#tuAhdL6AoNLhShekAGns_sheGb4HR6UyAS48vpqSYHQ
-SKH 12 | https://mega.nz/embed/DIECWbaY#jte2KfcGLIWv_ETI7SFIFBFFDT_rH6EdYxgHl9qio4c
-SKH 13 | https://mega.nz/embed/GId0hQIR#H7CInZBqWfM6L-w_crNaoVur_3nrPehLf_qaiqrwPc0
-SKH2 1 | https://mega.nz/embed/6VBjyDjS#A9DE2-XvPM2a1Bc9qIMDSBFa3hLQsmIf5vPB9LJxy0s
-SKH2 2 | https://mega.nz/embed/Tdh3GTyb#w-QcvkI5cQoPDts6eH2i6YgThp5w0Pkm7xbb7Qenmzg
-SKH2 3 | https://mega.nz/embed/uJ5kXApT#jKFSO46zH-6UBmF9ADkKy1vyA_zonyTZI7yCR5FyZes
-SKH2 4 | https://mega.nz/embed/WRgXiJbS#U4IM1L1Eei0SwzSdss01ngYQXgnA9FBfE7Rt0jKHlzo
-SKH2 5 | https://mega.nz/embed/eZh0UQyb#UOeIb-Tl7CX6KPhgGRBhpuvN7LIIqe_VDoliVckJk_A
-SKH2 6 | https://mega.nz/embed/aAoDwLqS#fO9tad2hClsZbSrfE6e1rNspwqHgPZLFsXdVmmBl58I
-SKH2 7 | https://mega.nz/embed/XZpDxBLI#l5Qd5bB-Y0H4Cg-oGBmjpUzIgLGNrjTGgfdAYFPrU-g
-SKH2 8 | https://mega.nz/embed/2QQUBApY#6UXbpew2mJwlo-eu4WX2fCuA7YV2qzn1iJ-qhqiqn0s
-SKH2 9 | https://mega.nz/embed/vcZTjJzI#f7UkBcxXKWeK6dHoSbdvgZVetjGkyx9ozAhr6k3KTW0
-SKH2 10 | https://mega.nz/embed/DRw2FADT#3_V5b3Qf72i9Qd0Gu3xBG_o9arebw1U1WOe8AIMwVTc
-SKH2 11 | https://mega.nz/embed/nAYyFBiD#Z2izANJUv29DP_qxDK_hx42AIYlYyH2j55ksnZsTO7Q
-SKH2 12 | https://mega.nz/embed/fFhEHKCa#ocFkiqHYeX9GoU6ukZna-4hkC08MpvIA3ITnADhOr4Q
-SKH2 13 | https://mega.nz/embed/mY52xJDa#fHoagErlEVoLsHR2x0HxngRv8VCtArMhvXKi400wl3s
-SKH3 1 | https://mega.nz/embed/7Zo0TK6b#wYMHkCpVeWgoI7Zv6SbvTly8WHqRMNHA0FBir9TtVis
-SKH3 2 | https://mega.nz/embed/zV5kFb4T#xf2yK_JoLgu6OITEyxjQ4mEUDUndEesqRJUQSdciTqU
-SKH3 3 | https://mega.nz/embed/qRwQ0Lia#VumylSwbL5kLx-2ljAWb6TPsimT9ir1csvoRIr24o3U
-SKH3 4 | https://mega.nz/embed/HBIRmSAQ#yPebA94aUDfybx6iTsrcneLV6ZbdIc4aUD03DjWGjDU
-SKH3 5 | https://mega.nz/embed/GZ5y0ZiJ#jdQJ_h7Qth9FImMxDrpOnbbPxepfFULQ0s_fiH9el5U
-SKH3 6 | https://mega.nz/embed/yc5EjIzB#ID2l-0H3cBY21qB_0Aes0KVHw2qJYsU8vtq7R3XW_2Y
-SKH3 7 | https://mega.nz/embed/LFxnnBpK#nyWH2Vo_sbQicIrFp8TDO115Yi8NxqcPxAumu4uJwtM
-SKH3 8 | https://mega.nz/embed/qVhXkKwJ#y8CCz2380TT7oRt5TZ5-uGxyge7ILZCGgFws-fmzF9g
-SKH3 9 | https://mega.nz/embed/DZYVDAxZ#IgRBJxYqMPDPn730S9RqjkgPNlNhoS1re16Oy2aV-aU
-SKH3 10 | https://mega.nz/embed/qIgUWLSI#5zp37htgsn4kvC-W5zbqBM69VJZGX5fgeIlq4HIOKBE
-SKH3 11 | https://mega.nz/embed/nAgGERyb#kyCdchBMbrnjeGcLt8uysrWf8aau5JPDoSOgu1Ezzig
-SKH3 12 | https://mega.nz/embed/7F52DbyD#OD2bSl8YpFtPIPrZ7_PSo0pm151i76mOMCRhvUK4W5E
-SKH3 13 | https://mega.nz/embed/DAYRgR4b#OxIL2EMOOf6IkkL9J2v6XNEthFncUmafepgtwRxXA-0
-SKH3 14 | https://mega.nz/embed/GRYi1IwR#XyP5eYP_t1AAhm-gytvX-kzbuC7vzox7djl7ScIOIww
+bleach-skh|Bleach : Sennen Kessen Hen||ANIME
+SKH 1|https://mega.nz/embed/KYdBAbbI#VX1irztxO66OnpjxHaUzzQxoebHjptZF3144OX19zb4
+SKH 2|https://mega.nz/embed/eNNQEaYb#MC1QkDcW1xGZf8GkqT69_DvLA160qI_rTv04AOErEJw
+SKH 3|https://mega.nz/embed/bF8XWbSR#l1dfclflICFTuQpg5LxUbGR3Llp8u1AZhAFe-1IPwdI
+SKH 4|https://mega.nz/embed/DYUmGRAI#74m59FEw_75N7NOzzMFT69LmgJycCs8mn_3K_esLPfY
+SKH 5|https://mega.nz/embed/yd9CGDqS#Ahd7oC_YSwXQG8GWNugu4tRr0uCFvWDrdscwn2HgzzE
+SKH 6|https://mega.nz/embed/CJVkQYpK#RB8zDHhxlAULBu4RL2Y1HKKjJSV27ftC00-GwpJC58M
+SKH 7|https://mega.nz/embed/ec0jxbBQ#undegJDfTFFNYCKkR2MXdyPqz6kJaHnK9Q-J2ru7skw
+SKH 8|https://mega.nz/embed/fYMiVCIT#H-Bmsl7JfqRjUsYEcv2pKf9Efq9WuqA4NMviqKQ3aYk
+SKH 9|https://mega.nz/embed/HdshFTAY#Iuzs3dTx5LohBZUm8S83qsk7hQc5WS31MQCljOQVt6M
+SKH 10|https://mega.nz/embed/nE0kmJSZ#l3-okkH9i-s17o0ULktnbjtVdhG-P7SGDi2z1PV0asY
+SKH 11|https://mega.nz/embed/3B1nATTb#tuAhdL6AoNLhShekAGns_sheGb4HR6UyAS48vpqSYHQ
+SKH 12|https://mega.nz/embed/DIECWbaY#jte2KfcGLIWv_ETI7SFIFBFFDT_rH6EdYxgHl9qio4c
+SKH 13|https://mega.nz/embed/GId0hQIR#H7CInZBqWfM6L-w_crNaoVur_3nrPehLf_qaiqrwPc0
+SKH2 1|https://mega.nz/embed/6VBjyDjS#A9DE2-XvPM2a1Bc9qIMDSBFa3hLQsmIf5vPB9LJxy0s
+SKH2 2|https://mega.nz/embed/Tdh3GTyb#w-QcvkI5cQoPDts6eH2i6YgThp5w0Pkm7xbb7Qenmzg
+SKH2 3|https://mega.nz/embed/uJ5kXApT#jKFSO46zH-6UBmF9ADkKy1vyA_zonyTZI7yCR5FyZes
+SKH2 4|https://mega.nz/embed/WRgXiJbS#U4IM1L1Eei0SwzSdss01ngYQXgnA9FBfE7Rt0jKHlzo
+SKH2 5|https://mega.nz/embed/eZh0UQyb#UOeIb-Tl7CX6KPhgGRBhpuvN7LIIqe_VDoliVckJk_A
+SKH2 6|https://mega.nz/embed/aAoDwLqS#fO9tad2hClsZbSrfE6e1rNspwqHgPZLFsXdVmmBl58I
+SKH2 7|https://mega.nz/embed/XZpDxBLI#l5Qd5bB-Y0H4Cg-oGBmjpUzIgLGNrjTGgfdAYFPrU-g
+SKH2 8|https://mega.nz/embed/2QQUBApY#6UXbpew2mJwlo-eu4WX2fCuA7YV2qzn1iJ-qhqiqn0s
+SKH2 9|https://mega.nz/embed/vcZTjJzI#f7UkBcxXKWeK6dHoSbdvgZVetjGkyx9ozAhr6k3KTW0
+SKH2 10|https://mega.nz/embed/DRw2FADT#3_V5b3Qf72i9Qd0Gu3xBG_o9arebw1U1WOe8AIMwVTc
+SKH2 11|https://mega.nz/embed/nAYyFBiD#Z2izANJUv29DP_qxDK_hx42AIYlYyH2j55ksnZsTO7Q
+SKH2 12|https://mega.nz/embed/fFhEHKCa#ocFkiqHYeX9GoU6ukZna-4hkC08MpvIA3ITnADhOr4Q
+SKH2 13|https://mega.nz/embed/mY52xJDa#fHoagErlEVoLsHR2x0HxngRv8VCtArMhvXKi400wl3s
+SKH3 1|https://mega.nz/embed/7Zo0TK6b#wYMHkCpVeWgoI7Zv6SbvTly8WHqRMNHA0FBir9TtVis
+SKH3 2|https://mega.nz/embed/zV5kFb4T#xf2yK_JoLgu6OITEyxjQ4mEUDUndEesqRJUQSdciTqU
+SKH3 3|https://mega.nz/embed/qRwQ0Lia#VumylSwbL5kLx-2ljAWb6TPsimT9ir1csvoRIr24o3U
+SKH3 4|https://mega.nz/embed/HBIRmSAQ#yPebA94aUDfybx6iTsrcneLV6ZbdIc4aUD03DjWGjDU
+SKH3 5|https://mega.nz/embed/GZ5y0ZiJ#jdQJ_h7Qth9FImMxDrpOnbbPxepfFULQ0s_fiH9el5U
+SKH3 6|https://mega.nz/embed/yc5EjIzB#ID2l-0H3cBY21qB_0Aes0KVHw2qJYsU8vtq7R3XW_2Y
+SKH3 7|https://mega.nz/embed/LFxnnBpK#nyWH2Vo_sbQicIrFp8TDO115Yi8NxqcPxAumu4uJwtM
+SKH3 8|https://mega.nz/embed/qVhXkKwJ#y8CCz2380TT7oRt5TZ5-uGxyge7ILZCGgFws-fmzF9g
+SKH3 9|https://mega.nz/embed/DZYVDAxZ#IgRBJxYqMPDPn730S9RqjkgPNlNhoS1re16Oy2aV-aU
+SKH3 10|https://mega.nz/embed/qIgUWLSI#5zp37htgsn4kvC-W5zbqBM69VJZGX5fgeIlq4HIOKBE
+SKH3 11|https://mega.nz/embed/nAgGERyb#kyCdchBMbrnjeGcLt8uysrWf8aau5JPDoSOgu1Ezzig
+SKH3 12|https://mega.nz/embed/7F52DbyD#OD2bSl8YpFtPIPrZ7_PSo0pm151i76mOMCRhvUK4W5E
+SKH3 13|https://mega.nz/embed/DAYRgR4b#OxIL2EMOOf6IkkL9J2v6XNEthFncUmafepgtwRxXA-0
+SKH3 14|https://mega.nz/embed/GRYi1IwR#XyP5eYP_t1AAhm-gytvX-kzbuC7vzox7djl7ScIOIww
 
-naruto | Naruto Shippuden | | ANIME
-1 | https://mp4upload.com/embed-anusv63omtdi.html
-2 | https://mp4upload.com/embed-c4allrv13exf.html
-3 | https://mp4upload.com/embed-di6miwf4u0d7.html
+naruto|Naruto Shippuden||ANIME
+1|https://mp4upload.com/embed-anusv63omtdi.html
+2|https://mp4upload.com/embed-c4allrv13exf.html
+3|https://mp4upload.com/embed-di6miwf4u0d7.html
 
-boruto | Boruto : Naruto Next Generations | | ANIME
-1 | https://desustream.info/dstream/otakustream/new/index.php?id=L2xWaEYzQ1BjZlhFdW1kYVZJT3VOZz09
-2 | https://desustream.info/dstream/otakustream/new/index.php?id=Sk9pQkNoS1hsY3RNcXpxMVA4VStqZz09
-3 | https://desustream.info/dstream/otakustream/new/index.php?id=TXZMRVBqdHlEU2lpbnpvWm42NU84UT09
-4 | https://desustream.info/dstream/otakustream/new/index.php?id=Y0N6MGwvQWlqMGdBOCtyTXFWL1Y5dz09
-5 | https://desustream.info/dstream/otakustream/new/index.php?id=bXF5SVZkM2pnMzNmYUE2TUsvNjRvZz09
-6 | https://desustream.info/dstream/otakustream/new/index.php?id=bnlUSmR3VWRkdmZzblBVVHNtSzBodz09
-7 | https://desustream.info/dstream/otakustream/new/index.php?id=R2dYcWVXV3RvMGlqbS9LNDE1ckdUQT09
-8 | https://desustream.info/dstream/otakustream/new/index.php?id=djFMMFNlTC9GSTJuTUFzTk50aXRMUT09
-9 | https://desustream.info/dstream/otakustream/new/index.php?id=aHJIaFFlRG0yeDF0ZTc2N2JQcGRPZz09
-10 | https://desustream.info/dstream/otakustream/new/index.php?id=MUY3bUZpUmpSb3JlTUdwRFFJS1R5dmU1MW5lZStiVXZaaitlWFRGM3B1RT0=
+boruto|Boruto : Naruto Next Generations||ANIME
+1|https://desustream.info/dstream/otakustream/new/index.php?id=L2xWaEYzQ1BjZlhFdW1kYVZJT3VOZz09
+2|https://desustream.info/dstream/otakustream/new/index.php?id=Sk9pQkNoS1hsY3RNcXpxMVA4VStqZz09
+3|https://desustream.info/dstream/otakustream/new/index.php?id=TXZMRVBqdHlEU2lpbnpvWm42NU84UT09
+4|https://desustream.info/dstream/otakustream/new/index.php?id=Y0N6MGwvQWlqMGdBOCtyTXFWL1Y5dz09
+5|https://desustream.info/dstream/otakustream/new/index.php?id=bXF5SVZkM2pnMzNmYUE2TUsvNjRvZz09
+6|https://desustream.info/dstream/otakustream/new/index.php?id=bnlUSmR3VWRkdmZzblBVVHNtSzBodz09
+7|https://desustream.info/dstream/otakustream/new/index.php?id=R2dYcWVXV3RvMGlqbS9LNDE1ckdUQT09
+8|https://desustream.info/dstream/otakustream/new/index.php?id=djFMMFNlTC9GSTJuTUFzTk50aXRMUT09
+9|https://desustream.info/dstream/otakustream/new/index.php?id=aHJIaFFlRG0yeDF0ZTc2N2JQcGRPZz09
+10|https://desustream.info/dstream/otakustream/new/index.php?id=MUY3bUZpUmpSb3JlTUdwRFFJS1R5dmU1MW5lZStiVXZaaitlWFRGM3B1RT0=
 
-clover | Black Clover | | ANIME
-1 | https://mega.nz/embed/#!JVoFjKIb!e26rxnUvkFUYEesweITyicYJAfZnJu6ipwJnqp5ZQyk
-2 | https://mega.nz/embed/#!NZgXSSrK!N8uUEOJfEI-wzij-Fq0pXIAHtHpuPUeixPtUIHe8HLQ
-3 | https://mega.nz/embed/#!ZI5Dja4a!kdCGZjIrtSP4KakRaqM6upuPn_HSXsBcC7Si3Ll0n_U
-4 | https://mega.nz/embed/#!5d4jmYJC!ndKW1bcElywlISbCWnYAip7InCR3HR9NDfCRD93GMgA
-5 | https://mega.nz/embed/#!NFwzzQ5Z!aMcjKicCH-YQh-3VgmqkT2gRpj7GsnjNClVJpC3SFyo
-6 | https://mega.nz/embed/#!0UpXgCTZ!AyAOyudn42IaLwIYtyIJKa2_BjxVXBngZg3LlQ8S4V0
-7 | https://mega.nz/embed/#!sUwHzQzA!6KSO4BOz4ZllrQrhnhXoyumm-zRRspKkKPYlKons9oo
-8 | https://mega.nz/embed/#!UYxBDY6Q!qTN9AEFsGl-E_eBTV2RI4pmE4zhjof9-49bPTpdEmcY
-9 | https://mega.nz/embed/#!hIoH3aZB!7mFcRB5o4wP4NvrRj4zxbovi58657OkN4gE_1H5cH5o
-10 | https://mega.nz/embed/#!Edx3TKYL!6e5ffzGNNUkpSadv__thDbyoEIoQ0dp9ej1mdItQNOg
-11 | https://mega.nz/embed/#!IEwBxCiL!gLt9chGaOXufbJNTF3VpDTEdtaTvXEwv0hn5IU-axJQ
-12 | https://mega.nz/embed/#!MNhTQKSb!AOzF0a8ASrLlduMN_sXV-3D8EdNeKatERWGCMUxt5QI
-13 | https://mega.nz/embed/#!UdhxRCqC!xxFtEmbXb5Xtt87cdAbjQh-Cm4g3zYNgxf7m_dr6NNA
-14 | https://mega.nz/embed/#!xN5xnYZB!Kq-BFIIvqXRRanExguWUnKF1in2JOqVn03U1L_MdU2Q
-15 | https://mega.nz/embed/#!4coByS6D!5VHTVXVT895ULMqJwspC94HwtuMCuwwqxjVXWn81kxI
-16 | https://mega.nz/embed/#!hEhBWAyY!ut1IQk7DS94d6oS4it_4r-PDRxpTSMsOEndiLScJYFw
-17 | https://mega.nz/embed/#!lQwDFApT!zhg_0ODLmO9g22AMZuz7fTxvxWsUe-_L1Tef9KR_fyg
-18 | https://mega.nz/embed/#!JQ4jRIxa!gnulpJPMQ6DNPXriCktnUuZYFSwnA85yu9F1Deyr23M
-19 | https://mega.nz/embed/#!ZZ4VxALa!obVE44PpUiM35dBbRzjKcMsPCwl7c7jwQ0TXkugpO7U
-20 | https://mega.nz/embed/#!IBpRHQYY!5IZ8IDjG3ureoKavFawROWKtdZM76JQDPInQPcJwGyg
-21 | https://mega.nz/embed/#!EIgVDCRB!R24nlSTRhDlwaMda7Ix_TvNfHgyG9XFsGwdfnLQsVm4
-22 | https://mega.nz/embed/#!IVw3UaTa!EkfSAZymewppK3OOAbdp6CSMnySvJTbxphx6H-YTd3Q
-23 | https://mega.nz/embed/#!4UgThCCZ!4O9DGFlih47Dq5j-MnUI6t1H8LiMoGwnKMGpI0k5F9Q
-24 | https://mega.nz/embed/#!MIhjlKCL!VVaSe_Pz1VzrEcYefM93IamE2u3rS2jVW-K16uhdhLE
-25 | https://mega.nz/embed/#!INonnChS!Vstc45Z_7RLvQi4iofSX-yKNii2A5M3iurKlk-fR74Y
-26 | https://mega.nz/embed/#!9BhH3CoZ!YgL6WzLUSYTtucnjiGn2_j1nEpI_nFjsL8Yn8fFLY0Q
-27 | https://mega.nz/embed/#!cZh1yIwb!Mm4fz1qo7eKwpjmnniZrC4PTYdr5SlLyseT8gwDRzoc
-28 | https://mega.nz/embed/#!cQpTAaYa!292RD9iRWk_cGKayoL99moOpjCTbRgqWO5XGgQmSku8
-29 | https://mega.nz/embed/#!wIxxDCpL!Um3iCMEhAJkYKDSVYwlwuPb28-FIKb9709oWirviOpE
-30 | https://mega.nz/embed/#!tM4zhADa!uyRSlr4ow7mI1ZaxX_M6ARohTIrGQ-LjSAxLiE7nNuQ
-31 | https://mega.nz/embed/#!BEhhWIKQ!igKgdGR_NpAoURFSqdgMXGNHOJ8LRvksbfXNWb7rPrE
-32 | https://mega.nz/embed/#!FNxxUaST!BSeouDfexi9V_Jsog28FeaD4uNJRSDxCdfa7-vKglfs
-33 | https://mega.nz/embed/#!oJh3gQRR!yGS7jvMum4KtXYfHIpr9Lcrfh3ZQzyW_6kcGMpu081M
-34 | https://mega.nz/embed/#!cchhWKhB!gAQ4l9nAzu7tOG5e9_xLn2ufAmrGiP4oC4hFkbSSFKM
-35 | https://mega.nz/embed/#!IF512YwL!7w1MHvwOQJIdZhT3B9HnNklf80BsnzkizRwlrOWoTpk
-36 | https://mega.nz/embed/#!IUoXjAYR!ByUYRXLQQOD-53eGmZR9fUwZsp7WwSuRSZrMdw7QfSs
-37 | https://mega.nz/embed/#!QJhDlQya!aIEvq_VmIlo9qm8ObW8r3ZVdgFLtTJyqEcXHF3d8I4I
-38 | https://mega.nz/embed/#!BAollQIA!zvWBEumczEAwt8akRt099NwDXUEyczFya4Mmgrunp-U
-39 | https://mega.nz/embed/#!cBxTRY6Y!_19Nj9xHZ6Sit1h47sHvc1LngYkYmy12YE3sJahNbnE
-40 | https://mega.nz/embed/#!EAhziKSb!xZJEG6Fn3265XBauRhzngigCHDo5bAukAEUMHKQxOBg
-41 | https://mega.nz/embed/#!IQhDhSzA!oJrVYgnsE9U2kGNAeJ1nRYf89ZzkuU3EYFJNZCbiNyA
-42 | https://mega.nz/embed/#!RQoRXQRY!9zb6ah0MoguVt1oMyh6VpH6hjzjojfpkEfSFNgj0UL0
-43 | https://mega.nz/embed/#!1ZhnSaxR!_L0tmwo6Ica8YgbTOLLBP2awxfCH_c3pYWPBWX3b-pA
+clover|Black Clover||ANIME
+1|https://mega.nz/embed/#!JVoFjKIb!e26rxnUvkFUYEesweITyicYJAfZnJu6ipwJnqp5ZQyk
+2|https://mega.nz/embed/#!NZgXSSrK!N8uUEOJfEI-wzij-Fq0pXIAHtHpuPUeixPtUIHe8HLQ
+3|https://mega.nz/embed/#!ZI5Dja4a!kdCGZjIrtSP4KakRaqM6upuPn_HSXsBcC7Si3Ll0n_U
+4|https://mega.nz/embed/#!5d4jmYJC!ndKW1bcElywlISbCWnYAip7InCR3HR9NDfCRD93GMgA
+5|https://mega.nz/embed/#!NFwzzQ5Z!aMcjKicCH-YQh-3VgmqkT2gRpj7GsnjNClVJpC3SFyo
+6|https://mega.nz/embed/#!0UpXgCTZ!AyAOyudn42IaLwIYtyIJKa2_BjxVXBngZg3LlQ8S4V0
+7|https://mega.nz/embed/#!sUwHzQzA!6KSO4BOz4ZllrQrhnhXoyumm-zRRspKkKPYlKons9oo
+8|https://mega.nz/embed/#!UYxBDY6Q!qTN9AEFsGl-E_eBTV2RI4pmE4zhjof9-49bPTpdEmcY
+9|https://mega.nz/embed/#!hIoH3aZB!7mFcRB5o4wP4NvrRj4zxbovi58657OkN4gE_1H5cH5o
+10|https://mega.nz/embed/#!Edx3TKYL!6e5ffzGNNUkpSadv__thDbyoEIoQ0dp9ej1mdItQNOg
+11|https://mega.nz/embed/#!IEwBxCiL!gLt9chGaOXufbJNTF3VpDTEdtaTvXEwv0hn5IU-axJQ
+12|https://mega.nz/embed/#!MNhTQKSb!AOzF0a8ASrLlduMN_sXV-3D8EdNeKatERWGCMUxt5QI
+13|https://mega.nz/embed/#!UdhxRCqC!xxFtEmbXb5Xtt87cdAbjQh-Cm4g3zYNgxf7m_dr6NNA
+14|https://mega.nz/embed/#!xN5xnYZB!Kq-BFIIvqXRRanExguWUnKF1in2JOqVn03U1L_MdU2Q
+15|https://mega.nz/embed/#!4coByS6D!5VHTVXVT895ULMqJwspC94HwtuMCuwwqxjVXWn81kxI
+16|https://mega.nz/embed/#!hEhBWAyY!ut1IQk7DS94d6oS4it_4r-PDRxpTSMsOEndiLScJYFw
+17|https://mega.nz/embed/#!lQwDFApT!zhg_0ODLmO9g22AMZuz7fTxvxWsUe-_L1Tef9KR_fyg
+18|https://mega.nz/embed/#!JQ4jRIxa!gnulpJPMQ6DNPXriCktnUuZYFSwnA85yu9F1Deyr23M
+19|https://mega.nz/embed/#!ZZ4VxALa!obVE44PpUiM35dBbRzjKcMsPCwl7c7jwQ0TXkugpO7U
+20|https://mega.nz/embed/#!IBpRHQYY!5IZ8IDjG3ureoKavFawROWKtdZM76JQDPInQPcJwGyg
+21|https://mega.nz/embed/#!EIgVDCRB!R24nlSTRhDlwaMda7Ix_TvNfHgyG9XFsGwdfnLQsVm4
+22|https://mega.nz/embed/#!IVw3UaTa!EkfSAZymewppK3OOAbdp6CSMnySvJTbxphx6H-YTd3Q
+23|https://mega.nz/embed/#!4UgThCCZ!4O9DGFlih47Dq5j-MnUI6t1H8LiMoGwnKMGpI0k5F9Q
+24|https://mega.nz/embed/#!MIhjlKCL!VVaSe_Pz1VzrEcYefM93IamE2u3rS2jVW-K16uhdhLE
+25|https://mega.nz/embed/#!INonnChS!Vstc45Z_7RLvQi4iofSX-yKNii2A5M3iurKlk-fR74Y
+26|https://mega.nz/embed/#!9BhH3CoZ!YgL6WzLUSYTtucnjiGn2_j1nEpI_nFjsL8Yn8fFLY0Q
+27|https://mega.nz/embed/#!cZh1yIwb!Mm4fz1qo7eKwpjmnniZrC4PTYdr5SlLyseT8gwDRzoc
+28|https://mega.nz/embed/#!cQpTAaYa!292RD9iRWk_cGKayoL99moOpjCTbRgqWO5XGgQmSku8
+29|https://mega.nz/embed/#!wIxxDCpL!Um3iCMEhAJkYKDSVYwlwuPb28-FIKb9709oWirviOpE
+30|https://mega.nz/embed/#!tM4zhADa!uyRSlr4ow7mI1ZaxX_M6ARohTIrGQ-LjSAxLiE7nNuQ
+31|https://mega.nz/embed/#!BEhhWIKQ!igKgdGR_NpAoURFSqdgMXGNHOJ8LRvksbfXNWb7rPrE
+32|https://mega.nz/embed/#!FNxxUaST!BSeouDfexi9V_Jsog28FeaD4uNJRSDxCdfa7-vKglfs
+33|https://mega.nz/embed/#!oJh3gQRR!yGS7jvMum4KtXYfHIpr9Lcrfh3ZQzyW_6kcGMpu081M
+34|https://mega.nz/embed/#!cchhWKhB!gAQ4l9nAzu7tOG5e9_xLn2ufAmrGiP4oC4hFkbSSFKM
+35|https://mega.nz/embed/#!IF512YwL!7w1MHvwOQJIdZhT3B9HnNklf80BsnzkizRwlrOWoTpk
+36|https://mega.nz/embed/#!IUoXjAYR!ByUYRXLQQOD-53eGmZR9fUwZsp7WwSuRSZrMdw7QfSs
+37|https://mega.nz/embed/#!QJhDlQya!aIEvq_VmIlo9qm8ObW8r3ZVdgFLtTJyqEcXHF3d8I4I
+38|https://mega.nz/embed/#!BAollQIA!zvWBEumczEAwt8akRt099NwDXUEyczFya4Mmgrunp-U
+39|https://mega.nz/embed/#!cBxTRY6Y!_19Nj9xHZ6Sit1h47sHvc1LngYkYmy12YE3sJahNbnE
+40|https://mega.nz/embed/#!EAhziKSb!xZJEG6Fn3265XBauRhzngigCHDo5bAukAEUMHKQxOBg
+41|https://mega.nz/embed/#!IQhDhSzA!oJrVYgnsE9U2kGNAeJ1nRYf89ZzkuU3EYFJNZCbiNyA
+42|https://mega.nz/embed/#!RQoRXQRY!9zb6ah0MoguVt1oMyh6VpH6hjzjojfpkEfSFNgj0UL0
+43|https://mega.nz/embed/#!1ZhnSaxR!_L0tmwo6Ica8YgbTOLLBP2awxfCH_c3pYWPBWX3b-pA
+44|https://mega.nz/embed/#!FYpDwSBQ!hB7HZCRIYFaf8mGFXCbCTCtzHbsqM646nnyvpWzAyUo
+45|https://mega.nz/embed/#!5EpHiAbK!x0B6amp04Y5VoGus7UtS_ZENfurrCBmXYW0Gz33sYJ8
+46|https://mega.nz/embed/#!RMgBUS7Y!tIrmeTTPDQeHgG1dPdXWig6nwvj7zkRo_Vs9zn7Ikrs
+47|https://mega.nz/embed/#!0dhVxSjB!VYSt-TLKma3p6sAyDUJCUUPNrLVqTQ0i0u2AamVq8Dk
+48|https://mega.nz/embed/#!wQoD3Qoa!oQ2sDp7McJEEyNdTc1rJLRJmrQY0XcN6rbdu3XdS6g8
+49|https://mega.nz/embed/#!pUghxYDL!0jmlX3cWVapxFyCnwyNySYV1FI9o4ijxRyC9BPeIT9Y
+50|https://mega.nz/embed/#!EUgTnSTS!qAfOOU-96uN04X-3bLdQhbHHQN6uj8HJd5IOwB9meLM
+160|https://mega.nz/embed/19xhlSyQ#aBr7itLNUKDYf4AmJ2nNxcRoBOP_X5OlYeXnfNj9hnI
+161|https://mega.nz/embed/x9gDTCYZ#JRcxMrIydoTeXRisGq4Jj6Su9kXlCs__9d6RR8m-LHI
+162|https://mega.nz/embed/ExphSKpb#eTEW0NwBwt3fdW3Uayz6D2gD6D_slSIhhYpYL0gvHHE
+163|https://mega.nz/embed/pk4lSCza#umnYKuo5WylF5BBqHgDVFyntfmSI6dNFIhrh8LVj0BM
+164|https://mega.nz/embed/Zo4h2Q7A#JnjB3iHFb_9N7Xm2RjCCoLEYYTFF6Fu75Xiwict7NZE
+165|https://mega.nz/embed/ZggTUaQI#V9cigORpJBcpJck4PbQmn6BjBD95pEsMZKJFj8q5Rss
+166|https://mega.nz/embed/c85hzapS#nY8Z253vaAlUPmXmg7RdVswhygnWtKtgPxqpJO-eKyo
+167|https://mega.nz/embed/9swhWC6R#z7H158ehyJGXeRU_M3zzMU2PHG_kFqsDu2Ga72HS8UI
+168|https://mega.nz/embed/khozVQpT#l1__Z52fcAWiBWEd5yH7hSYLiWKPO-_fXJMG3xdDqbU
+169|https://mega.nz/embed/w5wlSA4K#8AaWeYGVP8x04rG-vQdqZe2I3t9xNotV_Qj7KY-2PSQ
+170|https://mega.nz/embed/gx5RVSAA#3zYVhq6QaysJ42HriORHe5ZNPe8ZqdRLxcy6D7oVo08
 
-dxd | High School DxD | | ANIME
-1 | https://mega.nz/embed/d8lxRSIb#L0xCoVX_embaa0E4mm7M3LHNVFzrdMkBNExBriLfCfQ
-2 | https://mega.nz/embed/ZgsDxQiY#2oTGB4w-nIVMn0Ma8KSQYv1MBqGXlCCfUz2MNc2n4xo
-3 | https://mega.nz/embed/c89FmASD#pYHWNkpaJxtZUwnbVl6gLqq63QXZ5Gcl3HfAWSfx_Do
-4 | https://mega.nz/embed/h911GSCD#z_d4PgxyHXyIUVmKeQU_k0xT7OtlBJ3tTxoLNWbVLTo
-5 | https://mega.nz/embed/A51FAQ6B#0LJDUmASZl38NJwAZMvurKF--R1EdQlooJeFukmSWvk
-6 | https://mega.nz/embed/hptVUa5L#Zn5aPvmnUwTYok-PQoxRifsTuhgoeM4X2bTzTnoOnV8
-7 | https://mega.nz/embed/Bk9hlCiK#kdRhOjYHgRXZJd9fstb6skO5Hlealz8QK4f2YtpkJlw
-8 | https://mega.nz/embed/x9shBQgL#8cqw1DFCJ9aWi1uYrO0ASU6SCD9eEqIz0CAfpnLvnN4
-9 | https://mega.nz/embed/4wthSI6Z#G0wZuBBddOlLHaVpJauF0CZYzNo5YDdlFQ5CXGq5oF8
-10 | https://mega.nz/embed/h91RjAzD#Y13JESoPOZxCnP357V4GzOrroMjCkjGBMfPtNgpKZeQ
-11 | https://mega.nz/embed/pp1jlSpJ#NoL_Y2poIKohWiYxooc4J3dTiperSQzLAeVuMheF6uQ
-12 | https://mega.nz/embed/gxsXyQbZ#YC6FduWgT8WjXH7Pdvlb_eqyGXoyBibS0uqQ3LlX8Xg
+dxd|High School DxD||ANIME
+1|https://mega.nz/embed/d8lxRSIb#L0xCoVX_embaa0E4mm7M3LHNVFzrdMkBNExBriLfCfQ
+2|https://mega.nz/embed/ZgsDxQiY#2oTGB4w-nIVMn0Ma8KSQYv1MBqGXlCCfUz2MNc2n4xo
+3|https://mega.nz/embed/c89FmASD#pYHWNkpaJxtZUwnbVl6gLqq63QXZ5Gcl3HfAWSfx_Do
+4|https://mega.nz/embed/h911GSCD#z_d4PgxyHXyIUVmKeQU_k0xT7OtlBJ3tTxoLNWbVLTo
+5|https://mega.nz/embed/A51FAQ6B#0LJDUmASZl38NJwAZMvurKF--R1EdQlooJeFukmSWvk
+6|https://mega.nz/embed/hptVUa5L#Zn5aPvmnUwTYok-PQoxRifsTuhgoeM4X2bTzTnoOnV8
+7|https://mega.nz/embed/Bk9hlCiK#kdRhOjYHgRXZJd9fstb6skO5Hlealz8QK4f2YtpkJlw
+8|https://mega.nz/embed/x9shBQgL#8cqw1DFCJ9aWi1uYrO0ASU6SCD9eEqIz0CAfpnLvnN4
+9|https://mega.nz/embed/4wthSI6Z#G0wZuBBddOlLHaVpJauF0CZYzNo5YDdlFQ5CXGq5oF8
+10|https://mega.nz/embed/h91RjAzD#Y13JESoPOZxCnP357V4GzOrroMjCkjGBMfPtNgpKZeQ
+11|https://mega.nz/embed/pp1jlSpJ#NoL_Y2poIKohWiYxooc4J3dTiperSQzLAeVuMheF6uQ
+12|https://mega.nz/embed/gxsXyQbZ#YC6FduWgT8WjXH7Pdvlb_eqyGXoyBibS0uqQ3LlX8Xg
 
-onepunchman | One Punch Man | | ANIME
-S1 Full | https://m.youtube.com/watch?v=DcIzkzYyD3Y
-S2 Full | https://m.youtube.com/watch?v=lBrcvEmVOwk
-s3e1 | https://m.youtube.com/watch?v=YXMPqxqo7i8
-s3e2 | https://m.youtube.com/watch?v=tpGNYaow2bs
-s3e3 | https://m.youtube.com/watch?v=se0An-5b3mE
-s3e4 | https://m.youtube.com/watch?v=B-CCaJBNexs
-s3e5 | https://m.youtube.com/watch?v=qAnLM9wal0s
-s3e6 | https://m.youtube.com/watch?v=Fm2UUL47k_o
-s3e7 | https://m.youtube.com/watch?v=kgEDdvxNY3I
-s3e8 | https://m.youtube.com/watch?v=5FAV-nLECkI
-s3e9 | https://m.youtube.com/watch?v=uzU0TwAdY70
-s3e10 | https://m.youtube.com/watch?v=fNHFSjZxgdY
-s3e11 | https://m.youtube.com/watch?v=iogtqcyrNuA
-s3e12 | https://m.youtube.com/watch?v=aPm37qy0Z6M
+onepunchman|One Punch Man||ANIME
+S1 Full|https://m.youtube.com/watch?v=DcIzkzYyD3Y
+S2 Full|https://m.youtube.com/watch?v=lBrcvEmVOwk
+s3e1|https://m.youtube.com/watch?v=YXMPqxqo7i8
+s3e2|https://m.youtube.com/watch?v=tpGNYaow2bs
+s3e3|https://m.youtube.com/watch?v=se0An-5b3mE
+s3e4|https://m.youtube.com/watch?v=B-CCaJBNexs
+s3e5|https://m.youtube.com/watch?v=qAnLM9wal0s
+s3e6|https://m.youtube.com/watch?v=Fm2UUL47k_o
+s3e7|https://m.youtube.com/watch?v=kgEDdvxNY3I
+s3e8|https://m.youtube.com/watch?v=5FAV-nLECkI
+s3e9|https://m.youtube.com/watch?v=uzU0TwAdY70
+s3e10|https://m.youtube.com/watch?v=fNHFSjZxgdY
+s3e11|https://m.youtube.com/watch?v=iogtqcyrNuA
+s3e12|https://m.youtube.com/watch?v=aPm37qy0Z6M

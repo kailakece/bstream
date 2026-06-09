@@ -1,8 +1,8 @@
 [LIVE]
-rcti|RCTI||LIVE|https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780766833~hmac=63760948d2c08d32db59ac7b16c26a51a26b5f3f84f7a993ef88d3d329338a7e|https://www.rctiplus.com/
-mnctv|MNCTV||LIVE|https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780766858~hmac=b23345a07d76dede11b4761a5bf86f9a2aaf63d22aff9776e5a2dfad32028f89|https://www.rctiplus.com/
-gtv|GTV||LIVE|https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780766876~hmac=adad44063e5381cf41baf90a6df319b983623fb5f0c38b8d6d938d14681d4bdb|https://www.rctiplus.com/
-inews|iNews||LIVE|https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780766900~hmac=5a443c1ca5e449ff19ccb842b181f6881ebce7ba9d49dea25e6242e138780118|https://www.rctiplus.com/
+rcti|RCTI||LIVE|https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1781037397~hmac=4852a692cd544e03ea47790f53a9eaeb15e97469af1ebe7b2f42b185ecf54838|https://www.rctiplus.com/
+mnctv|MNCTV||LIVE|https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1781037444~hmac=be88c118f7e367241fee21417aad816fe17d0a1302ddb6d38db721f1036b940d|https://www.rctiplus.com/
+gtv|GTV||LIVE|https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1781037473~hmac=ea9074e4ef4565eee1ef4afc941b549aa1373d5059b3077a0dd6568e623e8d25|https://www.rctiplus.com/
+inews|iNews||LIVE|https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1781037499~hmac=c3fb553653fe04b6479680eed7d825e76c137fe2941506ff866fbbbcb4eed6cb|https://www.rctiplus.com/
 trans7|Trans 7||LIVE|https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv|Trans TV||LIVE|https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv|SCTV||LIVE|https://donasi.showcdnx.com/stopjudi/2.mp4
@@ -174,6 +174,15 @@ film98|Tabayyun||HD FILM|https://www.dailymotion.com/embed/video/xa157ss
 film99|Shutter||HD FILM|https://www.dailymotion.com/embed/video/xa14hbk
 film100|Jangan Panggil Mama Kafir||HD FILM|https://www.dailymotion.com/embed/video/xa128k8
 film101|Dear Imamku||HD FILM|https://youtu.be/aOQbDixQvtQ
+film102|Galaxy||HD FILM|https://youtu.be/nDu_cVBQ2nA
+film103|Ateng Pendekar Aneh||HD FILM|https://youtu.be/fHX0Efv0df8
+film104|Ateng Sok Tau||HD FILM|https://youtu.be/xYVAAjtlGxY
+film105|Ateng The Godfather||HD FILM|https://youtu.be/1Vc9ALEX7Os
+film106|Pasukan Berani Mati||HD FILM|https://youtu.be/MZFBXTJpjw4
+film107|Lamaran||HD FILM|https://youtu.be/2RmME887Bto
+film108|Sundel Bolong||HD FILM|https://youtu.be/FYcDfUb6qiE
+film109|Mystics In Bali||HD FILM|https://youtu.be/YNfW1HFyBhA
+film110|Dilarang Menyanyi Di Kamar Mandi||HD FILM|https://youtu.be/TY6bEAXmZ18
 
 [SEMI]
 semi1|Crush Kong Curly||18+|https://edo.p2pstream.vip/hls/ORKXYobuH_jXZZtH3kbr5A/3vi/zbxp1xs3/huyh5n/tt/master.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
@@ -192,6 +201,11 @@ semi13|Maid's Obsession||18+|https://playdulu.xyz/embed/VUMYtpF6gcNGTJp
 semi14|Warat||18+|https://editdulu.xyz/embed/eE7zeranap9I5SA
 semi15|Love In Bali||18+|https://www.dailymotion.com/embed/video/x9qumai
 semi16|Guilty Of Romance||18+|https://www.dailymotion.com/embed/video/x9wcj88
+semi17|Trap||18+|https://www.dailymotion.com/embed/video/xa7rhwg
+semi18|Picture Of Spring||18+|https://www.dailymotion.com/embed/video/xa31g8m
+semi19|Saihate||18+|https://www.dailymotion.com/embed/video/xa129js
+semi20|Shiho||18+|https://www.dailymotion.com/embed/video/x9vpaym
+semi21|Jan Dara||18+|https://www.dailymotion.com/embed/video/x9och6c
 
 [SERIES]
 game-of-thrones|Game Of Thrones||SERIES
@@ -258,6 +272,30 @@ stop-miss-hua|Stop! Miss Hua||SERIES
 22|https://api.vidio.com/videos/7483883/common_tokenized_playlist.m3u8
 23|https://api.vidio.com/videos/7483884/common_tokenized_playlist.m3u8
 24|https://api.vidio.com/videos/7483885/common_tokenized_playlist.m3u8
+
+ipa-ips|IPA & IPS||SERIES
+Full|https://youtube.com/playlist?list=PLhAfufYDK0bcDtCaXp2BocxGVndPIzzN2
+
+karma-the-series|Karma The Series||SERIES
+Full|https://youtube.com/playlist?list=PLry9zDTCBfoaxAz0VqAQ28_jfjIgt_tQE
+
+ending-again|Ending Again||SERIES
+Full|https://youtu.be/jP_nI8ZX7U4
+
+growing-season|Growing Season||SERIES
+Full|https://youtu.be/NoiNzJZ5zGY
+
+a-tale-of-thousand-stars|A Tale Of Thousand Stars||SERIES
+Full|https://youtube.com/playlist?list=PLYYyUhZKiEj4JzeVKUL3ysJ5M1_qQQB9P
+
+i-hear-you|I Hear You||SERIES
+Full|https://youtube.com/playlist?list=PLhZcVb-LlILkxlpnZZVoyfmKbqNwQTn92
+
+jun-jiu-ling|Jun Jiu Ling||SERIES
+Full|https://youtube.com/playlist?list=PLhZcVb-LlILlwjDRqhWe1PFzYxm9jvoZF
+
+go-into-your-heart|Go Into Your Heart||SERIES
+Full|https://youtube.com/playlist?list=PLhZcVb-LlILm8lKimkFulp41tgP95DNpU
 
 battle-of-fates|Battle Of Fates||SERIES
 Trailer|https://youtu.be/tsdJzmRFcJE
@@ -336,12 +374,37 @@ onepiece|One Piece||ANIME
 38|https://desustream.info/dstream/moedesu/new/hd/index.php?id=N3RLS2ZNUGtEZTlPN3g4ZHllV3VUQT09
 39|https://desustream.info/dstream/moedesu/new/hd/index.php?id=SGp0NmpyK2xtQ0t5aDNKcURPT256QT09
 40|https://desustream.info/dstream/moedesu/new/hd/index.php?id=RGRSbkMzL0dEb05KNzNrd240R3JYQT09
+41|https://desustream.info/dstream/moedesu/new/hd/index.php?id=eUVpYjVSWElyU3kvQkIvT0FUeFNIUT09
+42|https://desustream.info/dstream/moedesu/new/hd/index.php?id=OVliSys2MnZtcnQvS0Vrbk9qdmN1Zz09
+43|https://desustream.info/dstream/moedesu/new/hd/index.php?id=anR0STM1a0J2V1Z5MVF4VCtHeXBjZz09
+44|https://desustream.info/dstream/moedesu/new/hd/index.php?id=M1JFUWE0ODc3ZmRCcG1MWVQ1MFJ6UT09
+45|https://desustream.info/dstream/moedesu/new/hd/index.php?id=VlVwYVUzMTlTN3IxMCs1TW9QdzhZZz09
+46|https://desustream.info/dstream/moedesu/new/hd/index.php?id=am1iYi9HSmtqaURvdnhldlhVNHdlUT09
+47|https://desustream.info/dstream/moedesu/new/hd/index.php?id=eVFNNmtMWVVsQkxOeCs2T0N3NHdQZz09
+48|https://desustream.info/dstream/moedesu/new/hd/index.php?id=L29TdmhTbkJ6bzRzR3FWOHdrbEZqZz09
+49|https://desustream.info/dstream/moedesu/new/hd/index.php?id=ejh5RG42dHI5WG5QY0J6c0h0N0NZQT09
+50|https://desustream.info/dstream/moedesu/new/hd/index.php?id=ejlhRm1EaDNOSlIyTnA5NHhmUDdWUT09
+100|https://desustream.info/dstream/moedesu/new/hd/index.php?id=MjFlbkdVK3hrakJFNVhzR1dKRDdvZz09
+150|https://desustream.info/dstream/moedesu/new/hd/index.php?id=aDlKTzFjeWZoOCtucVUwT1NkdEkwQT09
+200|https://desustream.info/dstream/moedesu/new/hd/index.php?id=bWZzYnNGMk5TZFBqeGh0WEduZGhJQT09
+901|https://desustream.info/dstream/moedesu/new/hd/index.php?id=NXp3NVRrYmtkT0c4SlZmVnJRdFdWUT09
+902|https://desustream.info/dstream/moedesu/new/hd/index.php?id=TU5jelVWV25vNEpBTTlFSXJCemxudz09
 1000|https://mega.nz/embed/xwtAzbhJ#AYtENxrNkvR182FxBMq_tmjikw_SFVEHS4SXNSEsiTY
 1001|https://www.googleapis.com/drive/v3/files/15vsg1m7I2nPBeqKwtlNgnkhD6Evav55t?alt=media&key=AIzaSyBkK04Xe0ZzIRSx1TcZyHvkkTGEtkPgugw
 1002|https://www.googleapis.com/drive/v3/files/1QP6wiW5izujdxwExMtwx3tbhd6bNuV2_?alt=media&key=AIzaSyDDCC8bru6M3f-tKoGp-0DHNgXG4nSTeqM
 1003|https://www.googleapis.com/drive/v3/files/1pHLipuRQp7wDUZDlU4ax8_vi1T9Fpwos?alt=media&key=AIzaSyD4G9veeusKNZqG4WkteGWsiFRS0EsQ1tk
 1004|https://www.googleapis.com/drive/v3/files/1CikRAB4NHuliUL3Cg_5DmK_-vO8KaRYQ?alt=media&key=AIzaSyDDCC8bru6M3f-tKoGp-0DHNgXG4nSTeqM
 1005|https://www.googleapis.com/drive/v3/files/1URkP6i-02jkQk2dd48KIwj4avLrVjPvn?alt=media&key=AIzaSyA6Qclh9kP0TTshee9S2bT90vjgnzxn8QM
+1006|https://www.googleapis.com/drive/v3/files/1y7DRxhmmzyVmfhP1tFPDh7fJ-5Ge5091?alt=media&key=AIzaSyD4G9veeusKNZqG4WkteGWsiFRS0EsQ1tk
+1007|https://www.googleapis.com/drive/v3/files/1YO_ep2XVjzuyVnKRXZGWEpR_QDumAH13?alt=media&key=AIzaSyBkK04Xe0ZzIRSx1TcZyHvkkTGEtkPgugw
+1008|https://www.googleapis.com/drive/v3/files/1CW6b6C0XzvVOnFmya4Ytaty3dYDrysp2?alt=media&key=AIzaSyD4G9veeusKNZqG4WkteGWsiFRS0EsQ1tk
+1009|https://mp4upload.com/embed-7k5m78rx5b6s.html
+1010|https://www.googleapis.com/drive/v3/files/1llcU7YFiA27YD_xLHK2snyLeFzJ0W8Do?alt=media&key=AIzaSyBkK04Xe0ZzIRSx1TcZyHvkkTGEtkPgugw
+1011|https://mp4upload.com/embed-tsvcwjvibqyb.html
+1012|https://mp4upload.com/embed-lhv4xr71t08t.html
+1013|https://mp4upload.com/embed-9cigb2scohp7.html
+1014|https://mp4upload.com/embed-t0kygqkks30g.html
+1015|https://mp4upload.com/embed-wt2izqdba3mj.html
 1101|https://s0.wibufile.com/video01/OP-1101-MP4HD-SAMEHADAKU.CARE.mp4
 1102|https://s0.wibufile.com/video01/OP-1102-MP4HD-SAMEHADAKU.CARE.mp4
 1103|https://s0.wibufile.com/video01/OP-1103-MP4HD-SAMEHADAKU.CARE.mp4
@@ -406,6 +469,7 @@ onepiece|One Piece||ANIME
 1162|https://s0.wibufile.com/video01/OP-1162-MP4HD-SAMEHADAKU.CARE.mp4
 1163|https://s0.wibufile.com/video01/OP-1163-MP4HD-SAMEHADAKU.CARE.mp4
 1164|https://s0.wibufile.com/video01/OP-1164-MP4HD-SAMEHADAKU.CARE.mp4
+1165|https://s0.wibufile.com/video01/OP-1165-MP4HD-SAMEHADAKU.CARE.mp4
 
 bleach|Bleach||ANIME
 Full|https://youtube.com/playlist?list=PLxSscENEp7JjESRYoluizbfS2sZGm_1Bi
@@ -478,9 +542,13 @@ SKH3 13|https://mega.nz/embed/DAYRgR4b#OxIL2EMOOf6IkkL9J2v6XNEthFncUmafepgtwRxXA
 SKH3 14|https://mega.nz/embed/GRYi1IwR#XyP5eYP_t1AAhm-gytvX-kzbuC7vzox7djl7ScIOIww
 
 naruto|Naruto Shippuden||ANIME
-1|https://mp4upload.com/embed-anusv63omtdi.html
-2|https://mp4upload.com/embed-c4allrv13exf.html
-3|https://mp4upload.com/embed-di6miwf4u0d7.html
+1|https://www.googleapis.com/drive/v3/files/15BnqYofUXHko_n-a0a3wb74_DFGavG1a?alt=media&key=AIzaSyA6Qclh9kP0TTshee9S2bT90vjgnzxn8QM
+2|https://www.googleapis.com/drive/v3/files/1fzZ8n96ZCyhU-feODG0ggkxoLNgDT7pn?alt=media&key=AIzaSyBkK04Xe0ZzIRSx1TcZyHvkkTGEtkPgugw
+3|https://www.googleapis.com/drive/v3/files/1ddIs6IVq3Ntc13YhUQtS90mwvX3EvhCh?alt=media&key=AIzaSyDDCC8bru6M3f-tKoGp-0DHNgXG4nSTeqM
+4|
+5|
+6|https://www.googleapis.com/drive/v3/files/1B853au4e0BCChniwM5sLOtOybLSfcvSU?alt=media&key=AIzaSyDDCC8bru6M3f-tKoGp-0DHNgXG4nSTeqM
+500|https://www.googleapis.com/drive/v3/files/1ASOV6RYbRlbNAM-FNq1fxV1uqNPJ5wvL?alt=media&key=AIzaSyDDCC8bru6M3f-tKoGp-0DHNgXG4nSTeqM
 
 boruto|Boruto : Naruto Next Generations||ANIME
 1|https://desustream.info/dstream/otakustream/new/index.php?id=L2xWaEYzQ1BjZlhFdW1kYVZJT3VOZz09

@@ -1,8 +1,8 @@
 [LIVE]
-rcti|RCTI||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-mnctv|MNCTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-gtv|GTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-inews|iNews||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+rcti|RCTI||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+mnctv|MNCTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
+gtv|GTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
+inews|iNews||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
 trans7|Trans 7||LIVE|https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8|https://video.detik.com|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv|Trans TV||LIVE|https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8|https://video.detik.com|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv|SCTV||LIVE|https://donasi.showcdnx.com/stopjudi/2.mp4

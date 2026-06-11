@@ -1,10 +1,10 @@
 [LIVE]
-rcti|RCTI||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti|https://www.rctiplus.com/
-mnctv|MNCTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv|https://www.rctiplus.com/
-gtv|GTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv|https://www.rctiplus.com/
-inews|iNews||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews|https://www.rctiplus.com/
-trans7|Trans 7||LIVE|https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-transtv|Trans TV||LIVE|https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+rcti|RCTI||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+mnctv|MNCTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+gtv|GTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+inews|iNews||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+trans7|Trans 7||LIVE|https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8|https://video.detik.com|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+transtv|Trans TV||LIVE|https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8|https://video.detik.com|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv|SCTV||LIVE|https://donasi.showcdnx.com/stopjudi/2.mp4
 indosiar|Indosiar||LIVE|https://donasi.showcdnx.com/stopjudi/3.mp4
 moji|Moji||LIVE|http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
@@ -24,8 +24,8 @@ bein2|Bein Sport 2||LIVE|https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f1
 bein3|Bein Sport 3||LIVE|https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd|||clearkey|{"344d320ca45641a88cf002db351ed9a4":"246cc6ee7ab235cb824ed3b904b7040b"}
 redbulltv|Redbull TV||LIVE|https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8||ExoPlayer/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 motorvision|Motorvision||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h09/01.m3u8
-cnn|CNN Indonesia||LIVE|https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-cnbc|CNBC Indonesia||LIVE|https://live.cnbcindonesia.com/livecnbc/smil:cnbcindonesia.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+cnn|CNN Indonesia||LIVE|https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8|https://video.detik.com|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+cnbc|CNBC Indonesia||LIVE|https://live.cnbcindonesia.com/livecnbc/smil:cnbcindonesia.smil/playlist.m3u8|https://video.detik.com|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 aljazeera|Al Jazeera||LIVE|https://www.youtube.com/live/gCNeDWCI0vo
 awani|Astro Awani||LIVE|https://www.youtube.com/live/mkVyNaGee8A
 cna|CNA||LIVE|https://op-group1-swiftservehd-1.dens.tv/h/h29/01.m3u8

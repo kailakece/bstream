@@ -1,8 +1,8 @@
 [LIVE]
-rcti|RCTI||LIVE|https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1781116143~hmac=beaffae092b590118a4590b9ef4973082c33b9833b5cdc3a69754fe85f41ff83|https://www.rctiplus.com/
-mnctv|MNCTV||LIVE|https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1781116204~hmac=13031ff284585a42a7f5903e7dd00ce204daf46636e146a162882f44c5405d28|https://www.rctiplus.com/
-gtv|GTV||LIVE|https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1781116233~hmac=c3b60f903ce2f59ccd0a463e2c97ad8b74ac2a33aff5eb4dc9a16b8b40662d0c|https://www.rctiplus.com/
-inews|iNews||LIVE|https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1781116256~hmac=096bee13c5cb1bacf6121a13965d709fa71455797428ec22942e09d8c5232df1|https://www.rctiplus.com/
+rcti|RCTI||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti|https://www.rctiplus.com/
+mnctv|MNCTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv|https://www.rctiplus.com/
+gtv|GTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv|https://www.rctiplus.com/
+inews|iNews||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews|https://www.rctiplus.com/
 trans7|Trans 7||LIVE|https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv|Trans TV||LIVE|https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8||Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv|SCTV||LIVE|https://donasi.showcdnx.com/stopjudi/2.mp4

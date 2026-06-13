@@ -1,8 +1,8 @@
 [LIVE]
-rcti|RCTI||LIVE|https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1781231135~hmac=6268ac2a6007a702ed13c9c444e85c9531c8328dc7cc1e2ab715d837c893c4f2|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-mnctv|MNCTV||LIVE|https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1781231228~hmac=c9b9e938a5add5a9cd6fe2018119158a7fc591162586c1ff1a3f626748698916|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-gtv|GTV||LIVE|https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1781231254~hmac=a6f7040494bd222dcef8b1270dbd19e10a1d946629155e6f2e7a60f522d18331|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
-inews|iNews||LIVE|https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1781231280~hmac=73a51e399d7eddb45767b1d4fe55aabf3b979741fc1f83f3a4373716a51ea894|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+rcti|RCTI||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+mnctv|MNCTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+gtv|GTV||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+inews|iNews||LIVE|https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews|https://www.rctiplus.com/|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 trans7|Trans 7||LIVE|https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8|https://video.detik.com|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 transtv|Trans TV||LIVE|https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8|https://video.detik.com|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 sctv|SCTV||LIVE|https://donasi.showcdnx.com/stopjudi/2.mp4
